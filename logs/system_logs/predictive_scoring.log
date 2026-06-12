@@ -1,0 +1,99 @@
+[94m2026-05-28 14:27:30,752 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:28:19,715 - core_modules.analytics_engine.predictive_scoring - ERROR - [ERROR] Gemini API connection error: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:28:19,716 - core_modules.analytics_engine.predictive_scoring - INFO - [INFO] AI sentiment scoring disabled. Using rule-based scoring only.[0m
+[94m2026-05-28 14:28:19,718 - core_modules.analytics_engine.predictive_scoring - INFO - Predictive Scoring Engine initialized successfully[0m
+[94m2026-05-28 14:28:19,720 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:28:19,940 - core_modules.closer_agent.sales_consultant - ERROR - Gemini API check failed: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:28:19,943 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[94m2026-05-28 14:30:34,587 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:31:09,487 - core_modules.analytics_engine.predictive_scoring - ERROR - [ERROR] Gemini API connection error: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:31:09,488 - core_modules.analytics_engine.predictive_scoring - INFO - [INFO] AI sentiment scoring disabled. Using rule-based scoring only.[0m
+[94m2026-05-28 14:31:09,488 - core_modules.analytics_engine.predictive_scoring - INFO - Predictive Scoring Engine initialized successfully[0m
+[94m2026-05-28 14:31:09,491 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:31:09,648 - core_modules.closer_agent.sales_consultant - ERROR - Gemini API check failed: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:31:09,651 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:31:09,654 - core_modules.db_manager - ERROR - Error executing query: no such column: lokasi[0m
+[94m2026-05-28 14:31:26,611 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:31:29,497 - core_modules.analytics_engine.predictive_scoring - ERROR - [ERROR] Gemini API connection error: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:31:29,498 - core_modules.analytics_engine.predictive_scoring - INFO - [INFO] AI sentiment scoring disabled. Using rule-based scoring only.[0m
+[94m2026-05-28 14:31:29,499 - core_modules.analytics_engine.predictive_scoring - INFO - Predictive Scoring Engine initialized successfully[0m
+[94m2026-05-28 14:31:29,500 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:31:29,636 - core_modules.closer_agent.sales_consultant - ERROR - Gemini API check failed: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:31:29,640 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[94m2026-05-28 14:31:42,950 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:31:45,640 - core_modules.analytics_engine.predictive_scoring - ERROR - [ERROR] Gemini API connection error: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:31:45,641 - core_modules.analytics_engine.predictive_scoring - INFO - [INFO] AI sentiment scoring disabled. Using rule-based scoring only.[0m
+[94m2026-05-28 14:31:45,641 - core_modules.analytics_engine.predictive_scoring - INFO - Predictive Scoring Engine initialized successfully[0m
+[94m2026-05-28 14:31:45,643 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[91m2026-05-28 14:31:45,790 - core_modules.closer_agent.sales_consultant - ERROR - Gemini API check failed: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+][0m
+[94m2026-05-28 14:31:45,793 - core_modules.db_manager - INFO - Database initialized: data/leads.db[0m
+[94m2026-05-28 14:31:45,796 - core_modules.closer_agent.sales_consultant - INFO - Generating follow-up message for lead: Budi Santoso, S.T. (Score: 85.5, Category: Hot)[0m
+[94m2026-05-28 14:31:45,797 - core_modules.closer_agent.sales_consultant - INFO - Follow-up message generated successfully for Budi Santoso, S.T.[0m
+[94m2026-05-28 14:31:47,801 - core_modules.closer_agent.sales_consultant - INFO - Generating follow-up message for lead: Sarah Putri (Score: 65.2, Category: Warm)[0m
+[94m2026-05-28 14:31:47,802 - core_modules.closer_agent.sales_consultant - INFO - Follow-up message generated successfully for Sarah Putri[0m
+[94m2026-05-28 14:31:49,807 - core_modules.closer_agent.sales_consultant - INFO - Generating follow-up message for lead: Rudi (Score: 25.0, Category: Cold)[0m
+[94m2026-05-28 14:31:49,808 - core_modules.closer_agent.sales_consultant - INFO - Follow-up message generated successfully for Rudi[0m

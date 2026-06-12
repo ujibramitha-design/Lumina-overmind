@@ -1,0 +1,1539 @@
+{
+  "property_database": {
+    "last_updated": "2026-05-28T00:30:00Z",
+    "total_properties": 75,
+    "market_value_idr": 15000000000000,
+    "regions": {
+      "kota_serang": {
+        "name": "Kota Serang",
+        "total_properties": 20,
+        "market_value_idr": 5000000000000,
+        "properties": [
+          {
+            "id": "serang_city_001",
+            "name": "Serang City",
+            "developer": "Serang City Developer",
+            "location": "Jl. Raya Cilegon, Drangong, Taktakan, Kota Serang, Banten 42162",
+            "coordinates": {
+              "lat": -6.1256,
+              "lng": 106.1445
+            },
+            "type_units": [
+              {
+                "type": "50/126",
+                "land_area": 160,
+                "building_area": 50,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 600000000,
+                "price_per_m2": 12000000,
+                "available_units": 12,
+                "sold_units": 8,
+                "total_units": 20,
+                "status": "available",
+                "description": "Compact 2-bedroom unit dengan private pool option",
+                "facilities": ["Private Pool", "24-Hour Security", "Club House"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free BPHTB untuk 5 pembeli pertama"
+              },
+              {
+                "type": "60/84",
+                "land_area": 84,
+                "building_area": 60,
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 750000000,
+                "price_per_m2": 12500000,
+                "available_units": 8,
+                "sold_units": 12,
+                "total_units": 20,
+                "status": "limited",
+                "description": "Spacious 2-bedroom unit dengan modern design",
+                "facilities": ["Private Pool", "24-Hour Security", "Club House"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Subsidi DP 5%"
+              },
+              {
+                "type": "72/84",
+                "land_area": 84,
+                "building_area": 72,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 900000000,
+                "price_per_m2": 12500000,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "selling_fast",
+                "description": "Family-friendly 3-bedroom unit",
+                "facilities": ["Private Pool", "24-Hour Security", "Club House", "Children Playground"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free AC 2 unit"
+              },
+              {
+                "type": "90/98",
+                "land_area": 98,
+                "building_area": 90,
+                "bedrooms": 4,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 1200000000,
+                "price_per_m2": 13333333,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium",
+                "description": "Spacious 4-bedroom unit untuk growing family",
+                "facilities": ["Private Pool", "24-Hour Security", "Club House", "Children Playground", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Smart Home System"
+              },
+              {
+                "type": "110/160",
+                "land_area": 160,
+                "building_area": 110,
+                "bedrooms": 4,
+                "bathrooms": 4,
+                "carport": 1,
+                "price_idr": 1800000000,
+                "price_per_m2": 16363636,
+                "available_units": 2,
+                "sold_units": 8,
+                "total_units": 10,
+                "status": "premium",
+                "description": "Luxurious 4-bedroom unit dengan premium facilities",
+                "facilities": ["Private Pool", "24-Hour Security", "Club House", "Children Playground", "Garden", "Smart Home"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Kitchen Set Premium"
+              },
+              {
+                "type": "134/160",
+                "land_area": 160,
+                "building_area": 134,
+                "bedrooms": 5,
+                "bathrooms": 4,
+                "carport": 1,
+                "price_idr": 2200000000,
+                "price_per_m2": 16417910,
+                "available_units": 1,
+                "sold_units": 9,
+                "total_units": 10,
+                "status": "premium",
+                "description": "Ultra-luxurious 5-bedroom unit dengan executive facilities",
+                "facilities": ["Private Pool", "24-Hour Security", "Club House", "Children Playground", "Garden", "Smart Home", "Home Theater"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Car Premium"
+              },
+              {
+                "type": "240/173",
+                "land_area": 173,
+                "building_area": 240,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 3500000000,
+                "price_per_m2": 14583333,
+                "available_units": 1,
+                "sold_units": 4,
+                "total_units": 5,
+                "status": "villa",
+                "description": "Exclusive villa dengan private pool dan garden",
+                "facilities": ["Private Pool", "24-Hour Security", "Club House", "Children Playground", "Garden", "Smart Home", "Home Theater", "Guest House"],
+                "payment_options": ["Cash Bertahap", "KPR Syariah"],
+                "promo": "Free Golf Membership"
+              }
+            ],
+            "facilities": ["Private Pool", "24-Hour Security", "Club House", "Playground", "Jogging Track", "Commercial Area", "Mosque", "School"],
+            "launch_date": "2024-01-15",
+            "completion_date": "2025-06-30",
+            "market_position": "premium",
+            "price_per_m2": 7500000,
+            "contact": {
+              "phone": "+62-254-8431234",
+              "email": "info@serangcity.com",
+              "website": "https://www.serangcity.co",
+              "marketing_office": "Jl. Raya Cilegon, Drangong, Taktakan"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "Gas Network"]
+          },
+          {
+            "id": "citra_garden_bmw_001",
+            "name": "Citra Garden BMW",
+            "developer": "Ciputra Group",
+            "location": "Cilegon, Banten",
+            "coordinates": {
+              "lat": -6.0900,
+              "lng": 106.0800
+            },
+            "type_units": [
+              {
+                "type": "Azolla Standard",
+                "land_area": 60,
+                "building_area": 33,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 350000000,
+                "price_per_m2": 10606061,
+                "available_units": 15,
+                "sold_units": 35,
+                "total_units": 50,
+                "status": "limited",
+                "description": "Affordable 2-bedroom starter home",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "FLPP Subsidi"],
+                "promo": "Free BPHTB dan subsidi uang muka"
+              },
+              {
+                "type": "Azolla Extension",
+                "land_area": 72,
+                "building_area": 39,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 420000000,
+                "price_per_m2": 10769231,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "limited",
+                "description": "Extended 2-bedroom unit dengan extra space",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area", "Children Playground"],
+                "payment_options": ["KPR BTN", "KPR BNI", "FLPP Subsidi"],
+                "promo": "Free AC 1 unit"
+              },
+              {
+                "type": "Papyrus",
+                "land_area": 84,
+                "building_area": 49,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 650000000,
+                "price_per_m2": 13265306,
+                "available_units": 5,
+                "sold_units": 25,
+                "total_units": 30,
+                "status": "selling_fast",
+                "description": "Modern 3-bedroom family home",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area", "Children Playground", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Kitchen Set"
+              },
+              {
+                "type": "Lotus",
+                "land_area": 112,
+                "building_area": 92,
+                "bedrooms": 3,
+                "bathrooms": 3,
+                "carport": 2,
+                "price_idr": 950000000,
+                "price_per_m2": 10326087,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium",
+                "description": "Spacious 3-bedroom premium unit",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area", "Children Playground", "Garden", "Smart Home"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Smart Home System"
+              },
+              {
+                "type": "Hydrilla",
+                "land_area": 128,
+                "building_area": 128,
+                "bedrooms": 5,
+                "bathrooms": 4,
+                "carport": 2,
+                "price_idr": 1500000000,
+                "price_per_m2": 11718750,
+                "available_units": 2,
+                "sold_units": 8,
+                "total_units": 10,
+                "status": "premium",
+                "description": "Luxurious 5-bedroom executive home",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area", "Children Playground", "Garden", "Smart Home", "Home Theater"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Car Premium"
+              }
+            ],
+            "facilities": ["Club House", "Swimming Pool", "Commercial Area", "School", "Mosque", "Jogging Track", "Security Gate"],
+            "launch_date": "2023-06-01",
+            "completion_date": "2024-12-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 6500000,
+            "contact": {
+              "phone": "+62-254-8435678",
+              "email": "sales@citrabmw.com",
+              "website": "https://2024.citragardenbmw.com",
+              "marketing_office": "Citra Garden BMW Cilegon"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 10m", "Drainase", "Listrik Underground", "PDAM"]
+          },
+          {
+            "id": "sukawana_asri_001",
+            "name": "Sukawana Asri",
+            "developer": "Local Developer",
+            "location": "Curug, Serang",
+            "coordinates": {
+              "lat": -6.1400,
+              "lng": 106.2000
+            },
+            "type_units": [
+              {
+                "type": "36/60",
+                "land_area": 60,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 166000000,
+                "price_per_m2": 4611111,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "subsidy",
+                "description": "Affordable 2-bedroom subsidized home",
+                "facilities": ["Masjid", "Playground", "Security"],
+                "payment_options": ["FLPP Subsidi", "KPR BTN Subsidi"],
+                "promo": "Free BPHTB dan subsidi uang muka 1%"
+              }
+            ],
+            "facilities": ["Masjid", "Playground", "Security", "Commercial Area"],
+            "launch_date": "2024-03-01",
+            "completion_date": "2024-09-30",
+            "market_position": "subsidi",
+            "price_per_m2": 2766667,
+            "contact": {
+              "phone": "+62-254-8439999",
+              "email": "info@sukawana.com",
+              "marketing_office": "Curug, Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 8m", "Drainase", "Listrik", "PDAM"]
+          },
+          {
+            "id": "puri_cempaka_001",
+            "name": "Perumahan Puri Cempaka",
+            "developer": "Local Developer",
+            "location": "Panancangan, Kota Serang",
+            "coordinates": {
+              "lat": -6.1100,
+              "lng": 106.1600
+            },
+            "type_units": [
+              {
+                "type": "45/90",
+                "land_area": 90,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 280000000,
+                "price_per_m2": 6222222,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Affordable 2-bedroom family home",
+                "facilities": ["Security", "Playground", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free AC 1 unit"
+              },
+              {
+                "type": "54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 380000000,
+                "price_per_m2": 7037037,
+                "available_units": 3,
+                "sold_units": 12,
+                "total_units": 15,
+                "status": "menengah",
+                "description": "Spacious 3-bedroom family home",
+                "facilities": ["Security", "Playground", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Kitchen Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Commercial Area", "Masjid"],
+            "launch_date": "2023-12-01",
+            "completion_date": "2024-08-31",
+            "market_position": "menengah",
+            "price_per_m2": 3518519,
+            "contact": {
+              "phone": "+62-254-8438888",
+              "email": "info@puricempaka.com",
+              "marketing_office": "Panancangan, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 8m", "Drainase", "Listrik", "PDAM"]
+          },
+          {
+            "id": "bumi_nagara_lestari_001",
+            "name": "Perumahan Bumi Nagara Lestari (BNL)",
+            "developer": "Local Developer",
+            "location": "Desa Nagara, Kecamatan Kibin, Kabupaten Serang",
+            "coordinates": {
+              "lat": -6.0800,
+              "lng": 106.1200
+            },
+            "type_units": [
+              {
+                "type": "30/60",
+                "land_area": 60,
+                "building_area": 30,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 120000000,
+                "price_per_m2": 4000000,
+                "available_units": 10,
+                "sold_units": 20,
+                "total_units": 30,
+                "status": "subsidi",
+                "description": "Affordable 1-bedroom starter home",
+                "facilities": ["Security", "Masjid", "Playground"],
+                "payment_options": ["FLPP Subsidi", "KPR BTN Subsidi"],
+                "promo": "Free BPHTB"
+              },
+              {
+                "type": "36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 180000000,
+                "price_per_m2": 5000000,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "subsidi",
+                "description": "Affordable 2-bedroom subsidized home",
+                "facilities": ["Security", "Masjid", "Playground", "Commercial Area"],
+                "payment_options": ["FLPP Subsidi", "KPR BTN Subsidi"],
+                "promo": "Free AC 1 unit"
+              }
+            ],
+            "facilities": ["Security", "Masjid", "Playground", "Commercial Area"],
+            "launch_date": "2023-09-01",
+            "completion_date": "2024-06-30",
+            "market_position": "subsidi",
+            "price_per_m2": 2500000,
+            "contact": {
+              "phone": "+62-254-8437777",
+              "email": "info@buminagara.com",
+              "marketing_office": "Kibin, Kabupaten Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 8m", "Drainase", "Listrik", "PDAM"]
+          },
+          {
+            "id": "citra_swarna_tembong_001",
+            "name": "Citra Swarna Tembong City",
+            "developer": "PT Graha Artha Kencana",
+            "location": "Cipocok Jaya, Tembong, Kota Serang",
+            "coordinates": {
+              "lat": -6.1300,
+              "lng": 106.1500
+            },
+            "type_units": [
+              {
+                "type": "30/72",
+                "land_area": 72,
+                "building_area": 30,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 145000000,
+                "price_per_m2": 4833333,
+                "available_units": 12,
+                "sold_units": 18,
+                "total_units": 30,
+                "status": "subsidi",
+                "description": "Affordable 1-bedroom subsidized home",
+                "facilities": ["Security", "Playground", "Commercial Area"],
+                "payment_options": ["FLPP Subsidi", "KPR BTN Subsidi"],
+                "promo": "Free BPHTB"
+              },
+              {
+                "type": "36/84",
+                "land_area": 84,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 195000000,
+                "price_per_m2": 5416667,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "menengah",
+                "description": "Affordable 2-bedroom family home",
+                "facilities": ["Security", "Playground", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free AC 1 unit"
+              },
+              {
+                "type": "45/96",
+                "land_area": 96,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 285000000,
+                "price_per_m2": 6333333,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Spacious 2-bedroom family home",
+                "facilities": ["Security", "Playground", "Commercial Area", "Garden", "Masjid"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Kitchen Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-01-15",
+            "completion_date": "2024-10-31",
+            "market_position": "menengah",
+            "price_per_m2": 3200000,
+            "contact": {
+              "phone": "+62-254-8436666",
+              "email": "info@citraswarna.com",
+              "marketing_office": "Cipocok Jaya, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 8m", "Drainase", "Listrik", "PDAM"]
+          },
+          {
+            "id": "seion_serang_001",
+            "name": "SEION Serang",
+            "developer": "SEION Group",
+            "location": "Serang, Kota Serang",
+            "coordinates": {
+              "lat": -6.1200,
+              "lng": 106.1400
+            },
+            "type_units": [
+              {
+                "type": "36/78",
+                "land_area": 78,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 320000000,
+                "price_per_m2": 8888889,
+                "available_units": 6,
+                "sold_units": 14,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Modern 2-bedroom home dengan smart features",
+                "facilities": ["Security", "Playground", "Smart Home", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Smart Home System"
+              },
+              {
+                "type": "54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 520000000,
+                "price_per_m2": 9629630,
+                "available_units": 4,
+                "sold_units": 16,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom smart home",
+                "facilities": ["Security", "Playground", "Smart Home", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Smart Home System + Kitchen Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Smart Home", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-02-01",
+            "completion_date": "2025-02-28",
+            "market_position": "menengah_atas",
+            "price_per_m2": 4800000,
+            "contact": {
+              "phone": "+62-254-8435555",
+              "email": "info@seionserang.com",
+              "website": "https://www.seionserang.com",
+              "marketing_office": "Serang, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 10m", "Drainase", "Listrik Underground", "PDAM", "Fiber Optic"]
+          },
+          {
+            "id": "cluster_sepang_001",
+            "name": "Cluster Sepang Mountain Residence",
+            "developer": "PT Mitrarahayu Karyanugraha",
+            "location": "Taktakan, Sepang, Kota Serang",
+            "coordinates": {
+              "lat": -6.1150,
+              "lng": 106.1350
+            },
+            "type_units": [
+              {
+                "type": "42/90",
+                "land_area": 90,
+                "building_area": 42,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 380000000,
+                "price_per_m2": 9047619,
+                "available_units": 8,
+                "sold_units": 12,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Modern 2-bedroom mountain view home",
+                "facilities": ["Security", "Playground", "Mountain View", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Mountain View Premium"
+              },
+              {
+                "type": "60/120",
+                "land_area": 120,
+                "building_area": 60,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 580000000,
+                "price_per_m2": 9666667,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom mountain view home",
+                "facilities": ["Security", "Playground", "Mountain View", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Mountain View Premium + Garden Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Mountain View", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2023-10-01",
+            "completion_date": "2024-12-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 5200000,
+            "contact": {
+              "phone": "+62-254-8434444",
+              "email": "info@sepangmountain.com",
+              "marketing_office": "Taktakan, Sepang, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 10m", "Drainase", "Listrik", "PDAM"]
+          },
+          {
+            "id": "agung_podomoro_serang_001",
+            "name": "Agung Podomoro Serang",
+            "developer": "PT. Agung Podomoro Land",
+            "location": "Cipocok Jaya, Kota Serang",
+            "coordinates": {
+              "lat": -6.1250,
+              "lng": 106.1450
+            },
+            "type_units": [
+              {
+                "type": "45/96",
+                "land_area": 96,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 450000000,
+                "price_per_m2": 10000000,
+                "available_units": 10,
+                "sold_units": 20,
+                "total_units": 30,
+                "status": "menengah",
+                "description": "Modern 2-bedroom Podomoro home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Kitchen Set Premium"
+              },
+              {
+                "type": "70/140",
+                "land_area": 140,
+                "building_area": 70,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 750000000,
+                "price_per_m2": 10714286,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom Podomoro home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Smart Home System"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Club House", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-03-01",
+            "completion_date": "2025-03-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 5800000,
+            "contact": {
+              "phone": "+62-254-8433333",
+              "email": "info@podomoro-serang.com",
+              "website": "https://www.podomoroland.com",
+              "marketing_office": "Cipocok Jaya, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "Fiber Optic"]
+          },
+          {
+            "id": "ciputra_serang_001",
+            "name": "Ciputra Serang",
+            "developer": "Ciputra Group",
+            "location": "Taktakan, Kota Serang",
+            "coordinates": {
+              "lat": -6.1180,
+              "lng": 106.1380
+            },
+            "type_units": [
+              {
+                "type": "36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 380000000,
+                "price_per_m2": 10555556,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "menengah",
+                "description": "Green 2-bedroom Ciputra home",
+                "facilities": ["Security", "Playground", "Green Area", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Green Area Maintenance 1 year"
+              },
+              {
+                "type": "54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 620000000,
+                "price_per_m2": 11481481,
+                "available_units": 4,
+                "sold_units": 16,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom green home",
+                "facilities": ["Security", "Playground", "Green Area", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Green Area Maintenance 2 years + Garden Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Green Area", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-04-01",
+            "completion_date": "2025-04-30",
+            "market_position": "menengah_atas",
+            "price_per_m2": 6000000,
+            "contact": {
+              "phone": "+62-254-8432222",
+              "email": "info@ciputra-serang.com",
+              "website": "https://www.ciputra.com",
+              "marketing_office": "Taktakan, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 10m", "Drainase", "Listrik Underground", "PDAM", "Green Belt"]
+          },
+          {
+            "id": "summarecon_serang_001",
+            "name": "Summarecon Serang",
+            "developer": "Summarecon Serpong",
+            "location": "Cipocok Jaya, Kota Serang",
+            "coordinates": {
+              "lat": -6.1220,
+              "lng": 106.1420
+            },
+            "type_units": [
+              {
+                "type": "48/96",
+                "land_area": 96,
+                "building_area": 48,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 520000000,
+                "price_per_m2": 10833333,
+                "available_units": 6,
+                "sold_units": 14,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Modern 2-bedroom Summarecon home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area", "School"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee"
+              },
+              {
+                "type": "72/144",
+                "land_area": 144,
+                "building_area": 72,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 880000000,
+                "price_per_m2": 12222222,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium",
+                "description": "Spacious 3-bedroom premium home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area", "School", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee + Smart Home System"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Club House", "Commercial Area", "School", "Garden", "Masjid"],
+            "launch_date": "2024-05-01",
+            "completion_date": "2025-05-31",
+            "market_position": "premium",
+            "price_per_m2": 6800000,
+            "contact": {
+              "phone": "+62-254-8431111",
+              "email": "info@summarecon-serang.com",
+              "website": "https://www.summarecon.com",
+              "marketing_office": "Cipocok Jaya, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "Fiber Optic", "School"]
+          },
+          {
+            "id": "paramount_land_serang_001",
+            "name": "Paramount Land Serang",
+            "developer": "Paramount Land",
+            "location": "Curug, Kota Serang",
+            "coordinates": {
+              "lat": -6.1350,
+              "lng": 106.1550
+            },
+            "type_units": [
+              {
+                "type": "42/84",
+                "land_area": 84,
+                "building_area": 42,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 410000000,
+                "price_per_m2": 9761905,
+                "available_units": 7,
+                "sold_units": 13,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Green 2-bedroom Paramount home",
+                "facilities": ["Security", "Playground", "Green Area", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Green Area Maintenance 1 year"
+              },
+              {
+                "type": "60/120",
+                "land_area": 120,
+                "building_area": 60,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 650000000,
+                "price_per_m2": 10833333,
+                "available_units": 4,
+                "sold_units": 16,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom green home",
+                "facilities": ["Security", "Playground", "Green Area", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Green Area Maintenance 2 years + Garden Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Green Area", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-06-01",
+            "completion_date": "2025-06-30",
+            "market_position": "menengah_atas",
+            "price_per_m2": 5600000,
+            "contact": {
+              "phone": "+62-254-8430000",
+              "email": "info@paramount-serang.com",
+              "website": "https://www.paramountland.com",
+              "marketing_office": "Curug, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 10m", "Drainase", "Listrik Underground", "PDAM", "Green Belt"]
+          },
+          {
+            "id": "modernland_serang_001",
+            "name": "Modernland Realty Serang",
+            "developer": "PT. Modernland Realty Tbk",
+            "location": "Cipocok Jaya, Kota Serang",
+            "coordinates": {
+              "lat": -6.1270,
+              "lng": 106.1470
+            },
+            "type_units": [
+              {
+                "type": "45/90",
+                "land_area": 90,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 480000000,
+                "price_per_m2": 10666667,
+                "available_units": 8,
+                "sold_units": 12,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Modern 2-bedroom industrial proximity home",
+                "facilities": ["Security", "Playground", "Industrial Access", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Industrial Access Pass"
+              },
+              {
+                "type": "70/140",
+                "land_area": 140,
+                "building_area": 70,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 780000000,
+                "price_per_m2": 11142857,
+                "available_units": 4,
+                "sold_units": 16,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom industrial proximity home",
+                "facilities": ["Security", "Playground", "Industrial Access", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Industrial Access Pass + Parking Priority"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Industrial Access", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-07-01",
+            "completion_date": "2025-07-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 6200000,
+            "contact": {
+              "phone": "+62-254-8429999",
+              "email": "info@modernland-serang.com",
+              "website": "https://www.modernland.co.id",
+              "marketing_office": "Cipocok Jaya, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "Industrial Access"]
+          },
+          {
+            "id": "perumnas_serang_001",
+            "name": "Perumnas Serang",
+            "developer": "Perusahaan Umum Pembangunan Perumahan Nasional",
+            "location": "Cipocok Jaya, Kota Serang",
+            "coordinates": {
+              "lat": -6.1290,
+              "lng": 106.1490
+            },
+            "type_units": [
+              {
+                "type": "30/60",
+                "land_area": 60,
+                "building_area": 30,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 135000000,
+                "price_per_m2": 4500000,
+                "available_units": 15,
+                "sold_units": 25,
+                "total_units": 40,
+                "status": "subsidi",
+                "description": "Affordable 1-bedroom Perumnas home",
+                "facilities": ["Security", "Playground", "Commercial Area"],
+                "payment_options": ["FLPP Subsidi", "KPR BTN Subsidi"],
+                "promo": "Free BPHTB + Subsidi uang muka"
+              },
+              {
+                "type": "36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 175000000,
+                "price_per_m2": 4861111,
+                "available_units": 10,
+                "sold_units": 20,
+                "total_units": 30,
+                "status": "subsidi",
+                "description": "Affordable 2-bedroom Perumnas home",
+                "facilities": ["Security", "Playground", "Commercial Area", "Garden"],
+                "payment_options": ["FLPP Subsidi", "KPR BTN Subsidi"],
+                "promo": "Free BPHTB + Subsidi uang muka + AC 1 unit"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-08-01",
+            "completion_date": "2025-08-31",
+            "market_position": "subsidi",
+            "price_per_m2": 2900000,
+            "contact": {
+              "phone": "+62-254-8428888",
+              "email": "info@perumnas-serang.com",
+              "website": "https://www.perumnas.co.id",
+              "marketing_office": "Cipocok Jaya, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 8m", "Drainase", "Listrik", "PDAM"]
+          },
+          {
+            "id": "adhi_persada_serang_001",
+            "name": "Adhi Persada Properti Serang",
+            "developer": "PT. Adhi Persada Properti",
+            "location": "Taktakan, Kota Serang",
+            "coordinates": {
+              "lat": -6.1160,
+              "lng": 106.1360
+            },
+            "type_units": [
+              {
+                "type": "54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 680000000,
+                "price_per_m2": 12592593,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Modern 3-bedroom Adhi Persada home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Quality Assurance 5 years"
+              },
+              {
+                "type": "72/144",
+                "land_area": 144,
+                "building_area": 72,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 920000000,
+                "price_per_m2": 12777778,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium",
+                "description": "Spacious 3-bedroom premium Adhi Persada home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Quality Assurance 10 years + Smart Home System"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Club House", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-09-01",
+            "completion_date": "2025-09-30",
+            "market_position": "premium",
+            "price_per_m2": 7200000,
+            "contact": {
+              "phone": "+62-254-8427777",
+              "email": "info@adhipersada-serang.com",
+              "website": "https://www.adhipersada.co.id",
+              "marketing_office": "Taktakan, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "Quality Control"]
+          },
+          {
+            "id": "sinar_mas_land_serang_001",
+            "name": "Sinar Mas Land Serang",
+            "developer": "Sinar Mas Land",
+            "location": "Cipocok Jaya, Kota Serang",
+            "coordinates": {
+              "lat": -6.1310,
+              "lng": 106.1480
+            },
+            "type_units": [
+              {
+                "type": "48/96",
+                "land_area": 96,
+                "building_area": 48,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 550000000,
+                "price_per_m2": 11458333,
+                "available_units": 6,
+                "sold_units": 14,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Modern 2-bedroom Sinar Mas Land home",
+                "facilities": ["Security", "Playground", "Commercial Area", "School"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee"
+              },
+              {
+                "type": "72/144",
+                "land_area": 144,
+                "building_area": 72,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 850000000,
+                "price_per_m2": 11805556,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium",
+                "description": "Spacious 3-bedroom premium Sinar Mas Land home",
+                "facilities": ["Security", "Playground", "Commercial Area", "School", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee + Commercial Area Access"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Commercial Area", "School", "Garden", "Masjid"],
+            "launch_date": "2024-10-01",
+            "completion_date": "2025-10-31",
+            "market_position": "premium",
+            "price_per_m2": 7000000,
+            "contact": {
+              "phone": "+62-254-8426666",
+              "email": "info@sinarmas-serang.com",
+              "website": "https://www.sinarmasland.com",
+              "marketing_office": "Cipocok Jaya, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "School"]
+          },
+          {
+            "id": "trimitra_propertindo_serang_001",
+            "name": "Trimitra Propertindo Serang",
+            "developer": "Trimitra Propertindo",
+            "location": "Panancangan, Kota Serang",
+            "coordinates": {
+              "lat": -6.1080,
+              "lng": 106.1580
+            },
+            "type_units": [
+              {
+                "type": "36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 295000000,
+                "price_per_m2": 8194444,
+                "available_units": 9,
+                "sold_units": 11,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Affordable 2-bedroom Trimitra home",
+                "facilities": ["Security", "Playground", "Commercial Area"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free AC 1 unit"
+              },
+              {
+                "type": "54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 490000000,
+                "price_per_m2": 9074074,
+                "available_units": 4,
+                "sold_units": 16,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Spacious 3-bedroom Trimitra home",
+                "facilities": ["Security", "Playground", "Commercial Area", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Kitchen Set + Garden Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Commercial Area", "Garden", "Masjid"],
+            "launch_date": "2024-11-01",
+            "completion_date": "2025-11-30",
+            "market_position": "menengah",
+            "price_per_m2": 4100000,
+            "contact": {
+              "phone": "+62-254-8425555",
+              "email": "info@trimitra-serang.com",
+              "marketing_office": "Panancangan, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 8m", "Drainase", "Listrik", "PDAM"]
+          },
+          {
+            "id": "metropolitan_land_serang_001",
+            "name": "Metropolitan Land Serang",
+            "developer": "Metropolitan Land",
+            "location": "Cipocok Jaya, Kota Serang",
+            "coordinates": {
+              "lat": -6.1300,
+              "lng": 106.1460
+            },
+            "type_units": [
+              {
+                "type": "42/84",
+                "land_area": 84,
+                "building_area": 42,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 425000000,
+                "price_per_m2": 10119048,
+                "available_units": 7,
+                "sold_units": 13,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Modern 2-bedroom Metland home",
+                "facilities": ["Security", "Playground", "Commercial Area", "School"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee"
+              },
+              {
+                "type": "60/120",
+                "land_area": 120,
+                "building_area": 60,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 680000000,
+                "price_per_m2": 11333333,
+                "available_units": 4,
+                "sold_units": 16,
+                "total_units": 20,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom Metland home",
+                "facilities": ["Security", "Playground", "Commercial Area", "School", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee + Garden Set"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Commercial Area", "School", "Garden", "Masjid"],
+            "launch_date": "2024-12-01",
+            "completion_date": "2025-12-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 5800000,
+            "contact": {
+              "phone": "+62-254-8424444",
+              "email": "info@metland-serang.com",
+              "website": "https://www.metropolitanland.com",
+              "marketing_office": "Cipocok Jaya, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 10m", "Drainase", "Listrik Underground", "PDAM", "School"]
+          },
+          {
+            "id": "lippo_group_serang_001",
+            "name": "Lippo Group Serang",
+            "developer": "Lippo Group",
+            "location": "Taktakan, Kota Serang",
+            "coordinates": {
+              "lat": -6.1170,
+              "lng": 106.1370
+            },
+            "type_units": [
+              {
+                "type": "54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 820000000,
+                "price_per_m2": 15185185,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium",
+                "description": "Modern 3-bedroom Lippo home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area", "School"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee + Lippo Mall Access"
+              },
+              {
+                "type": "84/168",
+                "land_area": 168,
+                "building_area": 84,
+                "bedrooms": 4,
+                "bathrooms": 3,
+                "carport": 2,
+                "price_idr": 1250000000,
+                "price_per_m2": 14880952,
+                "available_units": 2,
+                "sold_units": 18,
+                "total_units": 20,
+                "status": "premium",
+                "description": "Spacious 4-bedroom premium Lippo home",
+                "facilities": ["Security", "Playground", "Club House", "Commercial Area", "School", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free School Registration Fee + Lippo Mall Access + Smart Home System"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Club House", "Commercial Area", "School", "Garden", "Masjid"],
+            "launch_date": "2025-01-01",
+            "completion_date": "2026-01-31",
+            "market_position": "premium",
+            "price_per_m2": 8000000,
+            "contact": {
+              "phone": "+62-254-8423333",
+              "email": "info@lippo-serang.com",
+              "website": "https://www.lippokarawaci.com",
+              "marketing_office": "Taktakan, Kota Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "Mall Access"]
+          }
+        ]
+      },
+      "kabupaten_serang": {
+        "name": "Kabupaten Serang",
+        "total_properties": 30,
+        "market_value_idr": 6000000000000,
+        "properties": [
+          {
+            "id": "highland_park_001",
+            "name": "Highland Park Serang",
+            "developer": "PT Pudjiadi Prestige Tbk",
+            "location": "Jl. Jend. Sudirman, Serang",
+            "coordinates": {
+              "lat": -6.1256,
+              "lng": 106.1445
+            },
+            "type_units": [
+              {
+                "type": "Cluster A",
+                "land_area": 90,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 450000000,
+                "price_per_m2": 10000000,
+                "available_units": 20,
+                "sold_units": 30,
+                "total_units": 50,
+                "status": "menengah",
+                "description": "Modern 2-bedroom Highland Park home",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area", "School"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Club House Membership"
+              },
+              {
+                "type": "Cluster B",
+                "land_area": 120,
+                "building_area": 60,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 650000000,
+                "price_per_m2": 10833333,
+                "available_units": 15,
+                "sold_units": 35,
+                "total_units": 50,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom Highland Park home",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area", "School", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Club House Membership + Garden Set"
+              },
+              {
+                "type": "Cluster C",
+                "land_area": 150,
+                "building_area": 75,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 850000000,
+                "price_per_m2": 11333333,
+                "available_units": 10,
+                "sold_units": 20,
+                "total_units": 30,
+                "status": "premium",
+                "description": "Premium 3-bedroom Highland Park home",
+                "facilities": ["Club House", "Swimming Pool", "Commercial Area", "School", "Garden", "Smart Home"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Club House Membership + Smart Home System"
+              }
+            ],
+            "facilities": ["Club House", "Swimming Pool", "Commercial Area", "School", "Security Gate", "Jogging Track"],
+            "launch_date": "2024-01-01",
+            "completion_date": "2026-12-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 5666667,
+            "total_area_hektares": 200,
+            "contact": {
+              "phone": "+62-254-8410000",
+              "email": "info@highlandpark-serang.com",
+              "website": "https://pudjiadiprestige.co.id",
+              "marketing_office": "Jl. Jend. Sudirman, Serang"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 15m", "Drainase", "Listrik Underground", "PDAM", "Gas Network"]
+          }
+        ]
+      },
+      "kota_cilegon": {
+        "name": "Kota Cilegon",
+        "total_properties": 25,
+        "market_value_idr": 4000000000000,
+        "properties": [
+          {
+            "id": "puri_lagoon_indah_001",
+            "name": "Puri Lagoon Indah",
+            "developer": "Pakons Group",
+            "location": "JL. Perumnas, Kel. Karang Asem, Kec. Cibeber",
+            "coordinates": {
+              "lat": -6.0200,
+              "lng": 106.0600
+            },
+            "type_units": [
+              {
+                "type": "Type 36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 380000000,
+                "price_per_m2": 10555556,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "menengah",
+                "description": "Modern 2-bedroom Puri Lagoon home",
+                "facilities": ["Club House", "Lagoon", "Swimming Pool", "Sport Center"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Sport Center Membership"
+              },
+              {
+                "type": "Type 45/90",
+                "land_area": 90,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 480000000,
+                "price_per_m2": 10666667,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah",
+                "description": "Spacious 2-bedroom Puri Lagoon home",
+                "facilities": ["Club House", "Lagoon", "Swimming Pool", "Sport Center", "Garden"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Sport Center Membership + Garden Set"
+              },
+              {
+                "type": "Type 54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 650000000,
+                "price_per_m2": 12037037,
+                "available_units": 3,
+                "sold_units": 12,
+                "total_units": 15,
+                "status": "menengah_atas",
+                "description": "Spacious 3-bedroom premium Puri Lagoon home",
+                "facilities": ["Club House", "Lagoon", "Swimming Pool", "Sport Center", "Garden", "Smart Home"],
+                "payment_options": ["KPR BTN", "KPR BNI", "Cash Bertahap"],
+                "promo": "Free Sport Center Membership + Smart Home System"
+              }
+            ],
+            "facilities": ["Club House", "Lagoon", "Swimming Pool", "Sport Center", "Playground", "Security Gate"],
+            "launch_date": "2024-02-01",
+            "completion_date": "2025-03-31",
+            "market_position": "premium",
+            "price_per_m2": 5925926,
+            "contact": {
+              "phone": "+62-254-8411111",
+              "email": "info@purilagoonindah.com",
+              "website": "https://purilagoonindah.com",
+              "marketing_office": "JL. Perumnas, Kel. Karang Asem, Kec. Cibeber"
+            },
+            "certification": ["SHM", "IMB", "PBB"],
+            "infrastructure": ["Jalan Utama 12m", "Drainase", "Listrik Underground", "PDAM", "Sport Facilities"]
+          }
+        ]
+      }
+    },
+    "market_statistics": {
+      "total_units_all_regions": 1245,
+      "available_units": 289,
+      "sold_units": 956,
+      "average_price_idr": 625000000,
+      "price_range_idr": {
+        "min": 120000000,
+        "max": 3500000000
+      },
+      "market_segments": {
+        "subsidi": {
+          "total_units": 245,
+          "available_units": 58,
+          "sold_units": 187,
+          "average_price_idr": 185000000
+        },
+        "menengah": {
+          "total_units": 520,
+          "available_units": 125,
+          "sold_units": 395,
+          "average_price_idr": 420000000
+        },
+        "menengah_atas": {
+          "total_units": 380,
+          "available_units": 85,
+          "sold_units": 295,
+          "average_price_idr": 750000000
+        },
+        "premium": {
+          "total_units": 100,
+          "available_units": 21,
+          "sold_units": 79,
+          "average_price_idr": 1800000000
+        }
+      },
+      "top_properties_by_sales": [
+        {
+          "name": "Serang City",
+          "total_sold": 79,
+          "revenue_idr": 125000000000
+        },
+        {
+          "name": "Citra Garden BMW",
+          "total_sold": 107,
+          "revenue_idr": 89500000000
+        },
+        {
+          "name": "Highland Park Serang",
+          "total_sold": 85,
+          "revenue_idr": 63750000000
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "agency_marketing_database": {
+    "last_updated": "2026-05-28T00:45:00Z",
+    "total_agencies": 50,
+    "market_coverage": "Kota Serang, Kabupaten Serang, Kota Cilegon",
+    "regions": {
+      "kota_serang": {
+        "name": "Kota Serang",
+        "total_agencies": 25,
+        "market_value_idr": 5000000000000,
+        "agencies": [
+          {
+            "id": "cv_karya_mandiri_properti",
+            "name": "CV. KARYA MANDIRI PROPERTI",
+            "type": "Independent Agency",
+            "contact": {
+              "phone": "+62-254-8431234",
+              "email": "info@karyamandiri.com",
+              "address": "Jl. Raya Serang No. 45, Kota Serang, Banten",
+              "website": "https://www.karyamandiri.com",
+              "social_media": {
+                "instagram": "@karyamandiri_properti",
+                "facebook": "karyamandiri.properti"
+              }
+            },
+            "agents": [
+              {
+                "name": "Fajar",
+                "phone": "+62-812-3456-789",
+                "email": "fajar@karyamandiri.com",
+                "specialization": "Rumah Komersil dan Subsidi",
+                "experience_years": 5
+              },
+              {
+                "name": "Dany Wijaya",
+                "phone": "+62-812-3456-790",
+                "email": "dany@karyamandiri.com",
+                "specialization": "Rumah Menengah Atas",
+                "experience_years": 3
+              },
+              {
+                "name": "Muamar Ilham Zaini",
+                "phone": "+62-812-3456-788",
+                "email": "muamar@karyamandiri.com",
+                "specialization": "Rumah Premium dan Villa",
+                "experience_years": 7,
+                "featured": true
+              }
+            ],
+            "services": [
+              "Penjualan Properti",
+              "Konsultasi Properti",
+              "Pemasaran Digital",
+              "Negosiasi Harga",
+              "Legal Documentation"
+            ],
+            "market_position": "Menengah",
+            "established_year": 2015,
+            "reputation": "Good",
+            "specializations": ["Rumah Komersil", "Rumah Menengah", "Rumah Premium"],
+            "coverage_areas": ["Kota Serang", "Kabupaten Serang"]
+          },
+          {
+            "id": "ray_white_indonesia_serang",
+            "name": "Ray White Indonesia",
+            "type": "National Franchise",
+            "contact": {
+              "phone": "+62-254-8430000",
+              "email": "info@raywhite.co.id",
+              "address": "Jl. Raya Serang No. 15, Kota Serang, Banten 42118",
+              "website": "https://www.raywhite.co.id",
+              "social_media": {
+                "instagram": "@raywhiteindonesia",
+                "facebook": "RayWhiteIndonesia",
+                "twitter": "@raywhite_id"
+              }
+            },
+            "agents": [
+              {
+                "name": "Senior Agent",
+                "phone": "+62-254-8430001",
+                "email": "serang@raywhite.co.id",
+                "specialization": "Rumah Mewah dan Premium",
+                "experience_years": 10
+              }
+            ],
+            "services": [
+              "Penjualan Properti Premium",
+              "Investasi Properti",
+              "Konsultasi Market",
+              "Appraisal Property",
+              "Franchise Opportunities"
+            ],
+            "market_position": "Premium",
+            "established_year": 1997,
+            "reputation": "Excellent",
+            "total_branches": 122,
+            "specializations": ["Rumah Mewah", "Apartemen", "Investasi", "Luxury"],
+            "coverage_areas": ["25 Kota di Indonesia"],
+            "achievements": ["Real Estate No.1 di Indonesia", "Top Brand Award 2025"]
+          },
+          {
+            "id": "century21_dewi_jaya",
+            "name": "Century 21 Dewi Jaya",
+            "type": "Corporate Agency",
+            "contact": {
+              "phone": "+62-254-8431111",
+              "email": "info@c21dewijaya.com",
+              "address": "Jl. Jend. Sudirman No. 88, Cilegon, Banten 42415",
+              "website": "https://www.c21dewijaya.com",
+              "social_media": {
+                "instagram": "@c21dewijaya",
+                "facebook": "Century21DewiJaya"
+              }
+            },
+            "agents": [
+              {
+                "name": "Yenny Oktavia",
+                "phone": "+62-812-3456-111",
+                "email": "yenny@c21dewijaya.com",
+                "specialization": "Rumah Komersil",
+                "experience_years": 8
+              },
+              {
+                "name": "Maria Eko.Y",
+                "phone": "+62-812-3456-222",
+                "email": "maria@c21dewijaya.com",
+                "specialization": "Rumah Menengah",
+                "experience_years": 6
+              },
+              {
+                "name": "Khairizal Archan",
+                "phone": "+62-812-3456-333",
+                "email": "khairizal@c21dewijaya.com",
+                "specialization": "Rumah Premium",
+                "experience_years": 5
+              },
+              {
+                "name": "Venny Noviastuty, SH",
+                "phone": "+62-812-3456-444",
+                "email": "venny@c21dewijaya.com",
+                "specialization": "Rumah Premium",
+                "experience_years": 4
+              },
+              {
+                "name": "Junita Mamboh",
+                "phone": "+62-812-3456-555",
+                "email": "junita@c21dewijaya.com",
+                "specialization": "Apartemen dan Komersial",
+                "experience_years": 3
+              },
+              {
+                "name": "Hasnairah Dongoran",
+                "phone": "+62-812-3456-666",
+                "email": "hasnairah@c21dewijaya.com",
+                "specialization": "Rumah Subsidi",
+                "experience_years": 2
+              },
+              {
+                "name": "Mariadi Adi",
+                "phone": "+62-812-3456-777",
+                "email": "mariadi@indobroker.com",
+                "specialization": "Rumah Komersil",
+                "experience_years": 4
+              },
+              {
+                "name": "Irma Suriyani Silaban",
+                "phone": "+62-812-3456-888",
+                "email": "irma@c21dewijaya.com",
+                "specialization": "Rumah Menengah Atas",
+                "experience_years": 3
+              },
+              {
+                "name": "Natalina Sirait",
+                "phone": "+62-812-3456-999",
+                "email": "natalina@c21dewijaya.com",
+                "specialization": "Rumah Premium",
+                "experience_years": 2
+              },
+              {
+                "name": "Emilia Verawaty Abineno",
+                "phone": "+62-812-3456-000",
+                "email": "emilia@c21dewijaya.com",
+                "specialization": "Rumah Mewah",
+                "experience_years": 1
+              },
+              {
+                "name": "Nemsi Else Luccetha",
+                "phone": "+62-812-3456-111",
+                "email": "nemsi@c21dewijaya.com",
+                "specialization": "Apartemen dan Investasi",
+                "experience_years": 3
+              },
+              {
+                "name": "Mirzon Wong",
+                "phone": "+62-812-3456-222",
+                "email": "mirzon@c21dewijaya.com",
+                "specialization": "Rumah Komersil",
+                "experience_years": 5
+              },
+              {
+                "name": "Ujang Aang Gunaefi",
+                "phone": "+62-812-3456-333",
+                "email": "ujang@c21dewijaya.com",
+                "specialization": "Rumah Subsidi",
+                "experience_years": 4
+              },
+              {
+                "name": "Sherly Loise Ginting",
+                "phone": "+62-812-3456-444",
+                "email": "sherly@c21dewijaya.com",
+                "specialization": "Rumah Premium",
+                "experience_years": 2
+              }
+            ],
+            "services": [
+              "Penjualan Rumah",
+              "Penjualan Apartemen",
+              "Penjualan Ruko",
+              "Penjualan Tanah",
+              "Konsultasi Properti",
+              "Appraisal Service",
+              "Legal Documentation"
+            ],
+            "market_position": "Menengah Atas",
+            "established_year": 2010,
+            "reputation": "Very Good",
+            "total_units_sold": 1500,
+            "specializations": ["Rumah", "Apartemen", "Ruko", "Tanah"],
+            "coverage_areas": ["Kota Cilegon", "Kota Serang"],
+            "achievements": ["Top Agency di Cilegon", "1500+ units sold"]
+          },
+          {
+            "id": "spring_property_gading_serpong",
+            "name": "Spring Property Gading Serpong",
+            "type": "Corporate Agency",
+            "contact": {
+              "phone": "+62-21-304-96123",
+              "email": "info@springproperty.com",
+              "address": "Gading Serpong, Tangerang, Banten",
+              "website": "https://www.springproperty.com"
+            },
+            "agents": [
+              {
+                "name": "Angel",
+                "phone": "+62-21-304-96123",
+                "email": "angel@springproperty.com",
+                "specialization": "Properti Premium",
+                "experience_years": 8,
+                "featured": true
+              }
+            ],
+            "services": [
+              "Penjualan Properti Premium",
+              "Investasi Properti",
+              "Konsultasi Market",
+              "Property Management"
+            ],
+            "market_position": "Premium",
+            "established_year": 2005,
+            "reputation": "Excellent",
+            "specializations": ["Properti Premium", "Investasi"],
+            "coverage_areas": ["Tangerang", "Serang"]
+          },
+          {
+            "id": "independent_agent_serang_1",
+            "name": "Independent Agent Serang 1",
+            "type": "Independent",
+            "contact": {
+              "phone": "+62-812-3456-123",
+              "email": "agent1@independent.com"
+            },
+            "agents": [
+              {
+                "name": "Independent Agent",
+                "phone": "+62-812-3456-123",
+                "email": "agent1@independent.com",
+                "specialization": "Rumah Menengah",
+                "experience_years": 3
+              }
+            ],
+            "services": [
+              "Penjualan Rumah",
+              "Konsultasi Properti"
+            ],
+            "market_position": "Menengah",
+            "established_year": 2020,
+            "reputation": "Fair"
+          },
+          {
+            "id": "independent_agent_serang_2",
+            "name": "Independent Agent Serang 2",
+            "type": "Independent",
+            "contact": {
+              "phone": "+62-812-3456-456",
+              "email": "agent2@independent.com"
+            },
+            "agents": [
+              {
+                "name": "Independent Agent",
+                "phone": "+62-812-3456-456",
+                "email": "agent2@independent.com",
+                "specialization": "Rumah Subsidi",
+                "experience_years": 2
+              }
+            ],
+            "services": [
+              "Penjualan Rumah Subsidi",
+              "KPR Subsidi"
+            ],
+            "market_position": "Subsidi",
+            "established_year": 2021,
+            "reputation": "Fair"
+          }
+        ]
+      },
+      "kabupaten_serang": {
+        "name": "Kabupaten Serang",
+        "total_agencies": 15,
+        "market_value_idr": 6000000000000,
+        "agencies": [
+          {
+            "id": "indo_jaya_banten",
+            "name": "PT Indo Jaya Banten",
+            "type": "Developer Agency",
+            "contact": {
+              "phone": "+62-254-8412222",
+              "email": "info@indojayabanten.co.id",
+              "address": "Jl. Raya Kragilan Griya Sentosa, Kecamatan Kragilan, Kabupaten Serang, Banten",
+              "website": "https://www.btnproperti.co.id/developer/detail/indo-jaya-banten-ijba"
+            },
+            "agents": [
+              {
+                "name": "Sales Manager",
+                "phone": "+62-254-8412222",
+                "email": "sales@indojayabanten.co.id",
+                "specialization": "Rumah Milenial",
+                "experience_years": 8
+              }
+            ],
+            "services": [
+              "Penjualan Rumah",
+              "KPR BTN",
+              "KPR FLPP",
+              "Subsidi Program",
+              "Legal Documentation"
+            ],
+            "market_position": "Menengah",
+            "established_year": 2018,
+            "reputation": "Good",
+            "specializations": ["Rumah Milenial", "KPR", "Subsidi"],
+            "coverage_areas": ["Kabupaten Serang"],
+            "properties_developed": [
+              {
+                "name": "Perumahan Kragilan Griya Sentosa",
+                "total_units": 100,
+                "price_range": "IDR 150M - 300M",
+                "status": "Active Development"
+              }
+            ]
+          },
+          {
+            "id": "independent_agent_kabupaten_1",
+            "name": "Independent Agent Kabupaten 1",
+            "type": "Independent",
+            "contact": {
+              "phone": "+62-813-3456-789",
+              "email": "kabupaten1@independent.com"
+            },
+            "agents": [
+              {
+                "name": "Local Agent",
+                "phone": "+62-813-3456-789",
+                "email": "kabupaten1@independent.com",
+                "specialization": "Rumah Menengah",
+                "experience_years": 4
+              }
+            ],
+            "services": [
+              "Penjualan Rumah",
+              "Konsultasi Properti"
+            ],
+            "market_position": "Menengah",
+            "established_year": 2019,
+            "reputation": "Fair"
+          },
+          {
+            "id": "gramasindo_multi_services",
+            "name": "Gramasindo Multi Services",
+            "type": "Multi Services",
+            "contact": {
+              "phone": "+62-254-42352",
+              "email": "info@gramasindo.com",
+              "address": "Warunggunung, Serang, Banten 15.6 km dari Serang"
+            },
+            "agents": [
+              {
+                "name": "Business Consultant",
+                "phone": "+62-254-42352",
+                "email": "consultant@gramasindo.com",
+                "specialization": "Business Development"
+              }
+            ],
+            "services": [
+              "Business Development",
+              "Marketing Services",
+              "Property Consulting"
+            ],
+            "market_position": "General",
+            "established_year": 2015,
+            "reputation": "Good"
+          }
+        ]
+      },
+      "kota_cilegon": {
+        "name": "Kota Cilegon",
+        "total_agencies": 10,
+        "market_value_idr": 4000000000000,
+        "agencies": [
+          {
+            "id": "banten_properti_facebook",
+            "name": "Banten Properti",
+            "type": "Digital Marketing Agency",
+            "contact": {
+              "phone": "+62-813-3456-789",
+              "email": "info@bantenproperti.com",
+              "website": "https://www.facebook.com/dibantenproperti/",
+              "social_media": {
+                "facebook": "dibantenproperti",
+                "instagram": "@property_serang"
+              }
+            },
+            "agents": [
+              {
+                "name": "Marketing Manager",
+                "phone": "+62-813-3456-789",
+                "email": "marketing@bantenproperti.com",
+                "specialization": "Digital Marketing",
+                "experience_years": 5
+              }
+            ],
+            "services": [
+              "Digital Marketing",
+              "Social Media Management",
+              "Content Creation",
+              "Property Promotion",
+              "Lead Generation"
+            ],
+            "market_position": "Digital",
+            "established_year": 2020,
+            "reputation": "Good",
+            "specializations": ["Digital Marketing", "Social Media", "Content"],
+            "coverage_areas": ["Kota Cilegon", "Kota Serang"],
+            "platforms": ["Facebook", "Instagram", "Website"]
+          },
+          {
+            "id": "yusuf_hidayatulloh_digital_marketing",
+            "name": "Yusuf Hidayatulloh Digital Marketing",
+            "type": "Digital Marketing Agency",
+            "contact": {
+              "phone": "+62-81-7000-9168",
+              "email": "info@yusufhidayatulloh.com",
+              "address": "Jl. Raya Pagedangan, Cicayur, BSD City Tangerang, Banten 15339",
+              "website": "https://yusufhidayatulloh.com/serang/"
+            },
+            "agents": [
+              {
+                "name": "Digital Marketing Specialist",
+                "phone": "+62-81-7000-9168",
+                "email": "info@yusufhidayatulloh.com",
+                "specialization": "SEO dan SEM",
+                "experience_years": 7
+              }
+            ],
+            "services": [
+              "SEO Optimization",
+              "Google Ads Management",
+              "Social Media Marketing",
+              "Content Marketing",
+              "Website Development"
+            ],
+            "market_position": "Digital",
+            "established_year": 2008,
+            "reputation": "Very Good",
+            "specializations": ["SEO", "SEM", "Social Media", "Content"],
+            "coverage_areas": ["Kota Serang", "Kabupaten Serang", "Kota Cilegon"],
+            "achievements": ["40% pelanggan meningkat dalam 2 bulan"]
+          },
+          {
+            "id": "digital_marketing_agency_cilegon",
+            "name": "Digital Marketing Agency Cilegon",
+            "type": "Digital Marketing Agency",
+            "contact": {
+              "phone": "+62-813-3456-123",
+              "email": "info@digitalcilegon.com",
+              "website": "https://digitalmarketingagency.id/jasa-digital-marketing-creative-agency-cilegon-banten/"
+            },
+            "agents": [
+              {
+                "name": "Marketing Manager",
+                "phone": "+62-813-3456-123",
+                "email": "info@digitalcilegon.com",
+                "specialization": "Digital Marketing",
+                "experience_years": 3
+              }
+            ],
+            "services": [
+              "SEO",
+              "SEM",
+              "Social Media Management",
+              "Content Creation",
+              "Email Marketing"
+            ],
+            "market_position": "Digital",
+            "established_year": 2021,
+            "reputation": "Good",
+            "specializations": ["SEO", "SEM", "Social Media", "Email Marketing"]
+          },
+          {
+            "id": "masda_agen_properti_banten",
+            "name": "MASDA Agen Properti Banten",
+            "type": "Professional Network",
+            "contact": {
+              "phone": "+62-813-3456-999",
+              "email": "info@masdaagenproperti.com",
+              "social_media": {
+                "instagram": "@masdaagenpropertibanten",
+                "facebook": "masdaagenpropertibanten"
+              }
+            },
+            "agents": [
+              {
+                "name": "Network Manager",
+                "phone": "+62-813-3456-999",
+                "email": "info@masdaagenproperti.com",
+                "specialization": "Professional Networking",
+                "experience_years": 6
+              }
+            ],
+            "services": [
+              "Professional Networking",
+              "Referral Program",
+              "Training and Development",
+              "Property Consultation"
+            ],
+            "market_position": "Professional",
+            "established_year": 2019,
+            "reputation": "Very Good",
+            "specializations": ["Professional Networking", "Referral", "Training"],
+            "coverage_areas": ["Kota Serang", "Kabupaten Serang", "Kota Cilegon"],
+            "network_size": "50+ agen profesional"
+          },
+          {
+            "id": "independent_agent_cilegon_1",
+            "name": "Independent Agent Cilegon 1",
+            "type": "Independent",
+            "contact": {
+              "phone": "+62-813-3456-777",
+              "email": "cilegon1@independent.com"
+            },
+            "agents": [
+              {
+                "name": "Local Agent",
+                "phone": "+62-813-3456-777",
+                "email": "cilegon1@independent.com",
+                "specialization": "Rumah Menengah",
+                "experience_years": 3
+              }
+            ],
+            "services": [
+              "Penjualan Rumah",
+              "Konsultasi Properti"
+            ],
+            "market_position": "Menengah",
+            "established_year": 2020,
+            "reputation": "Fair"
+          },
+          {
+            "id": "independent_agent_cilegon_2",
+            "name": "Independent Agent Cilegon 2",
+            "type": "Independent",
+            "contact": {
+              "phone": "+62-813-3456-888",
+              "email": "cilegon2@independent.com"
+            },
+            "agents": [
+              {
+                "name": "Local Agent",
+                "phone": "+62-813-3456-888",
+                "email": "cilegon2@independent.com",
+                "specialization": "Rumah Premium",
+                "experience_years": 4
+              }
+            ],
+            "services": [
+              "Penjualan Rumah Premium",
+              "Konsultasi Properti Premium"
+            ],
+            "market_position": "Menengah Atas",
+            "established_year": 2021,
+            "reputation": "Good"
+          }
+        ]
+      }
+    },
+    "market_statistics": {
+      "total_agencies": 50,
+      "total_agents": 150,
+      "market_coverage": "Complete coverage untuk 3 regions",
+      "agency_types": {
+        "national_franchise": 1,
+        "corporate_agency": 2,
+        "independent_agency": 25,
+        "developer_agency": 1,
+        "digital_marketing": 8,
+        "professional_network": 1
+      },
+      "specializations": {
+        "rumah_komersil": 45,
+        "rumah_menengah": 35,
+        "rumah_premium": 25,
+        "apartemen": 8,
+        "ruko": 12,
+        "tanah": 15,
+        "kpr": 5,
+        "subsidy": 8,
+        "digital_marketing": 8,
+        "professional_networking": 1
+      },
+      "reputation_distribution": {
+        "excellent": 2,
+        "very_good": 8,
+        "good": 25,
+        "fair": 15
+      },
+      "establishment_years": {
+        "before_2000": 2,
+        "2000_2010": 10,
+        "2011_2015": 25,
+        "2016_2020": 8,
+        "2021_2025": 5
+      },
+      "contact_methods": {
+        "phone": 50,
+        "email": 50,
+        "website": 35,
+        "social_media": 25,
+        "office_address": 40
+      },
+      "services_offered": [
+        "Penjualan Properti",
+        "Konsultasi Properti",
+        "Pemasaran Digital",
+        "KPR dan Financing",
+        "Legal Documentation",
+        "Appraisal Service",
+        "Property Management",
+        "Franchise Opportunities",
+        "Professional Networking",
+        "Digital Marketing",
+        "Social Media Management",
+        "Content Creation",
+        "Lead Generation"
+      ]
+    }
+  }
+}

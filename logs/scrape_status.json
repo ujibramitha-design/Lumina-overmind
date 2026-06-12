@@ -1,0 +1,142 @@
+{
+  "last_updated": "2026-05-27T23:14:26.471604",
+  "sources": {
+    "bappeda_serang": {
+      "last_attempt": "2026-05-27T23:17:14.868751",
+      "status": "success",
+      "error": null
+    },
+    "disperindag_serang": {
+      "last_attempt": "2026-05-27T23:17:14.864073",
+      "status": "success",
+      "error": null
+    },
+    "pertanian_serang": {
+      "last_attempt": "2026-05-27T23:17:14.938507",
+      "status": "success",
+      "error": null
+    },
+    "dpupr_banten": {
+      "last_attempt": "2026-05-27T23:17:26.666701",
+      "status": "success",
+      "error": null
+    },
+    "bappeda_kota": {
+      "last_attempt": "2026-05-27T23:17:16.088133",
+      "status": "success",
+      "error": null
+    },
+    "bappeda_banten": {
+      "last_attempt": "2026-05-27T23:17:16.527217",
+      "status": "success",
+      "error": null
+    },
+    "berita_utama_banten": {
+      "last_attempt": "2026-05-27T23:17:16.054209",
+      "status": "success",
+      "error": null
+    },
+    "kadin_banten": {
+      "last_attempt": "2026-05-27T23:17:16.912032",
+      "status": "success",
+      "error": null
+    },
+    "bpn_banten": {
+      "last_attempt": "2026-05-27T23:17:17.148830",
+      "status": "success",
+      "error": null
+    },
+    "dishub_serang": {
+      "last_attempt": "2026-05-27T23:17:16.879313",
+      "status": "success",
+      "error": null
+    },
+    "pemkab_serang": {
+      "last_attempt": "2026-05-27T23:17:17.010116",
+      "status": "success",
+      "error": null
+    },
+    "dpupr_serang": {
+      "last_attempt": "2026-05-27T23:17:19.098106",
+      "status": "success",
+      "error": null
+    },
+    "dpmptsp_serang": {
+      "last_attempt": "2026-05-27T23:17:18.217530",
+      "status": "success",
+      "error": null
+    },
+    "dpmptsp_kota": {
+      "last_attempt": "2026-05-27T23:17:17.631503",
+      "status": "success",
+      "error": null
+    },
+    "pemkot_serang": {
+      "last_attempt": "2026-05-27T23:17:18.101711",
+      "status": "success",
+      "error": null
+    },
+    "kemenag_kab_serang": {
+      "last_attempt": "2026-05-27T23:17:17.194294",
+      "status": "success",
+      "error": null
+    },
+    "kemenag_kota_serang": {
+      "last_attempt": "2026-05-27T23:17:17.241791",
+      "status": "success",
+      "error": null
+    },
+    "kemenag_ri": {
+      "last_attempt": "2026-05-27T23:17:17.682407",
+      "status": "success",
+      "error": null
+    },
+    "kemenag_banten": {
+      "last_attempt": "2026-05-27T23:17:17.894892",
+      "status": "success",
+      "error": null
+    }
+  },
+  "failed_attempts": {
+    "bappeda_serang": 0,
+    "disperindag_serang": 0,
+    "pertanian_serang": 0,
+    "dpupr_banten": 0,
+    "bappeda_kota": 0,
+    "bappeda_banten": 0,
+    "berita_utama_banten": 0,
+    "kadin_banten": 0,
+    "bpn_banten": 0,
+    "dishub_serang": 0,
+    "pemkab_serang": 0,
+    "dpupr_serang": 0,
+    "dpmptsp_serang": 0,
+    "dpmptsp_kota": 0,
+    "pemkot_serang": 0,
+    "kemenag_kab_serang": 0,
+    "kemenag_kota_serang": 0,
+    "kemenag_ri": 0,
+    "kemenag_banten": 0
+  },
+  "success_rate": {
+    "bappeda_serang": 100.0,
+    "disperindag_serang": 100.0,
+    "pertanian_serang": 100.0,
+    "dpupr_banten": 100.0,
+    "bappeda_kota": 100.0,
+    "bappeda_banten": 100.0,
+    "berita_utama_banten": 100.0,
+    "kadin_banten": 100.0,
+    "bpn_banten": 100.0,
+    "dishub_serang": 100.0,
+    "pemkab_serang": 100.0,
+    "dpupr_serang": 100.0,
+    "dpmptsp_serang": 100.0,
+    "dpmptsp_kota": 100.0,
+    "pemkot_serang": 100.0,
+    "kemenag_kab_serang": 100.0,
+    "kemenag_kota_serang": 100.0,
+    "kemenag_ri": 100.0,
+    "kemenag_banten": 100.0
+  }
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads Management - HUNTER_AGENT_AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-robot me-2"></i>
+                HUNTER_AGENT_AI
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="dashboard.html">Dashboard</a>
+                <a class="nav-link active" href="leads.html">Leads</a>
+                <a class="nav-link" href="analytics.html">Analytics</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid py-4">
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Leads Management</h2>
+            <div>
+                <button class="btn btn-outline-primary btn-sm me-2">
+                    <i class="fas fa-filter me-1"></i>Filter
+                </button>
+                <button class="btn btn-outline-success btn-sm me-2">
+                    <i class="fas fa-download me-1"></i>Export
+                </button>
+                <button class="btn btn-primary btn-sm">
+                    <i class="fas fa-plus me-1"></i>Add Lead
+                </button>
+            </div>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card bg-primary text-white">
+                    <div class="card-body text-center">
+                        <h4>1,250</h4>
+                        <p class="mb-0">Total Leads</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-success text-white">
+                    <div class="card-body text-center">
+                        <h4>156</h4>
+                        <p class="mb-0">New Leads</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-warning text-white">
+                    <div class="card-body text-center">
+                        <h4>89</h4>
+                        <p class="mb-0">In Progress</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-info text-white">
+                    <div class="card-body text-center">
+                        <h4>45</h4>
+                        <p class="mb-0">Converted</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Leads Table -->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Lead List</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover" id="leadsTable">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <input type="checkbox" class="form-check-input">
+                                </th>
+                                <th>Name</th>
+                                <th>Contact</th>
+                                <th>Score</th>
+                                <th>Source</th>
+                                <th>Status</th>
+                                <th>Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" class="form-check-input"></td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">
+                                            JD
+                                        </div>
+                                        <div>
+                                            <strong>John Doe</strong>
+                                            <br><small class="text-muted">Looking for 2BR apartment</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <i class="fas fa-phone me-1"></i> +62 812-3456-7890
+                                        <br>
+                                        <i class="fas fa-envelope me-1"></i> john.doe@email.com
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="badge bg-success">8.5</span>
+                                    <br><small class="text-muted">High Intent</small>
+                                </td>
+                                <td>
+                                    <span class="badge bg-primary">OLX</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-success">New</span>
+                                </td>
+                                <td>2026-05-28</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <button class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-success">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="form-check-input"></td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">
+                                            JS
+                                        </div>
+                                        <div>
+                                            <strong>Jane Smith</strong>
+                                            <br><small class="text-muted">Family house search</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <i class="fas fa-phone me-1"></i> +62 813-9876-5432
+                                        <br>
+                                        <i class="fas fa-envelope me-1"></i> jane.smith@email.com
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="badge bg-warning">6.2</span>
+                                    <br><small class="text-muted">Warm</small>
+                                </td>
+                                <td>
+                                    <span class="badge bg-info">Facebook</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-secondary">Contacted</span>
+                                </td>
+                                <td>2026-05-27</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <button class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-success">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="form-check-input"></td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">
+                                            BJ
+                                        </div>
+                                        <div>
+                                            <strong>Bob Johnson</strong>
+                                            <br><small class="text-muted">Investment property</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <i class="fas fa-phone me-1"></i> +62 815-2345-6789
+                                        <br>
+                                        <i class="fas fa-envelope me-1"></i> bob.johnson@email.com
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="badge bg-success">9.1</span>
+                                    <br><small class="text-muted">Very High Intent</small>
+                                </td>
+                                <td>
+                                    <span class="badge bg-warning">Rumah123</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-success">Qualified</span>
+                                </td>
+                                <td>2026-05-26</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <button class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-success">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="form-check-input"></td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="rounded-circle bg-info text-white d-flex align-items-center justify-content-center me-2" style="width: 40px; height: 40px;">
+                                            AM
+                                        </div>
+                                        <div>
+                                            <strong>Alice Martinez</strong>
+                                            <br><small class="text-muted">First-time buyer</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <i class="fas fa-phone me-1"></i> +62 811-5432-1098
+                                        <br>
+                                        <i class="fas fa-envelope me-1"></i> alice.martinez@email.com
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="badge bg-warning">5.8</span>
+                                    <br><small class="text-muted">Warm</small>
+                                </td>
+                                <td>
+                                    <span class="badge bg-secondary">Google</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-warning">In Progress</span>
+                                </td>
+                                <td>2026-05-25</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <button class="btn btn-sm btn-outline-primary">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-success">
+                                            <i class="fas fa-phone"></i>
+                                        </button>
+                                        <button class="btn btn-sm btn-outline-info">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pagination -->
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lead Details Modal -->
+    <div class="modal fade" id="leadDetailsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lead Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Personal Information</h6>
+                            <p><strong>Name:</strong> John Doe</p>
+                            <p><strong>Phone:</strong> +62 812-3456-7890</p>
+                            <p><strong>Email:</strong> john.doe@email.com</p>
+                            <p><strong>Location:</strong> Serang, Banten</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Lead Information</h6>
+                            <p><strong>Score:</strong> <span class="badge bg-success">8.5</span></p>
+                            <p><strong>Source:</strong> OLX</p>
+                            <p><strong>Status:</strong> <span class="badge bg-success">New</span></p>
+                            <p><strong>Date:</strong> 2026-05-28</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h6>Requirements</h6>
+                    <p>Looking for 2-bedroom apartment in Serang area. Budget around 300-500 million. Preferred near schools and shopping centers.</p>
+                    <hr>
+                    <h6>Activity History</h6>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <small class="text-muted">2026-05-28 10:30</small>
+                            <p>Lead created from OLX scraping</p>
+                        </div>
+                        <div class="timeline-item">
+                            <small class="text-muted">2026-05-28 11:15</small>
+                            <p>Lead scored as High Intent (8.5)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-phone me-1"></i>Contact Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/leads.js"></script>
+</body>
+</html>

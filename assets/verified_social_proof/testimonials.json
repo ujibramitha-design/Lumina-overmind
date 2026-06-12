@@ -1,0 +1,146 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Budi Santoso",
+      "role": "First-time Homebuyer",
+      "location": "Serang",
+      "rating": 5,
+      "testimonial": "HUNTER_AGENT_AI helped me find the perfect home for my family. The AI system understood exactly what I needed and matched me with properties that fit my budget. The process was smooth and professional!",
+      "property_purchased": "Rumah Tipe 36 di Cipocok Jaya",
+      "date": "2026-05-15",
+      "verified": true,
+      "image": "https://via.placeholder.com/100x100/007bff/ffffff?text=BS"
+    },
+    {
+      "id": 2,
+      "name": "Siti Nurhaliza",
+      "role": "Property Investor",
+      "location": "Tangerang",
+      "rating": 5,
+      "testimonial": "As an investor, I need accurate market data and quick lead generation. HUNTER_AGENT_AI provides both. The market intelligence features helped me identify high-potential areas before they became popular.",
+      "property_purchased": "Cluster 2 Unit di Serang Utara",
+      "date": "2026-04-28",
+      "verified": true,
+      "image": "https://via.placeholder.com/100x100/28a745/ffffff?text=SN"
+    },
+    {
+      "id": 3,
+      "name": "Ahmad Hidayat",
+      "role": "Family Homebuyer",
+      "location": "Kota Serang",
+      "rating": 4,
+      "testimonial": "The system's lead scoring helped me prioritize which properties to visit. I saved time by focusing only on high-quality leads. The customer service was also excellent throughout the process.",
+      "property_purchased": "Rumah Tipe 45 di Kota Serang",
+      "date": "2026-04-10",
+      "verified": true,
+      "image": "https://via.placeholder.com/100x100/ffc107/000000?text=AH"
+    },
+    {
+      "id": 4,
+      "name": "Dewi Lestari",
+      "role": "Young Professional",
+      "location": "Serang",
+      "rating": 5,
+      "testimonial": "I was looking for my first apartment and was overwhelmed by options. HUNTER_AGENT_AI's smart filtering and personalized recommendations made the process so much easier. Found my dream apartment in just 2 weeks!",
+      "property_purchased": "Apartemen Studio di Serang City",
+      "date": "2026-03-22",
+      "verified": true,
+      "image": "https://via.placeholder.com/100x100/17a2b8/ffffff?text=DL"
+    },
+    {
+      "id": 5,
+      "name": "Rudi Hermawan",
+      "role": "Property Developer",
+      "location": "Banten",
+      "rating": 5,
+      "testimonial": "We've integrated HUNTER_AGENT_AI into our marketing strategy and the results have been outstanding. Lead quality improved by 40% and our conversion rate doubled. This is the future of property marketing!",
+      "property_purchased": "Marketing Services",
+      "date": "2026-03-15",
+      "verified": true,
+      "image": "https://via.placeholder.com/100x100/6c757d/ffffff?text=RH"
+    },
+    {
+      "id": 6,
+      "name": "Maya Putri",
+      "role": "Relocation Buyer",
+      "location": "Jakarta to Serang",
+      "rating": 4,
+      "testimonial": "Relocating from Jakarta was challenging, but HUNTER_AGENT_AI helped me understand the Serang property market. The area intelligence and demographic analysis were invaluable for making the right decision.",
+      "property_purchased": "Rumah Tipe 70 di Perumahan Serang",
+      "date": "2026-02-28",
+      "verified": true,
+      "image": "https://via.placeholder.com/100x100/dc3545/ffffff?text=MP"
+    }
+  ],
+  "statistics": {
+    "total_testimonials": 156,
+    "average_rating": 4.7,
+    "verified_customers": 89,
+    "satisfaction_rate": 96.5,
+    "repeat_customers": 23,
+    "properties_sold": 342
+  },
+  "featured_quotes": [
+    {
+      "quote": "HUNTER_AGENT_AI transformed how we approach property marketing. The AI-powered insights are game-changers!",
+      "author": "PT. Properti Maju Bersama",
+      "type": "business"
+    },
+    {
+      "quote": "The best decision I made was using this system. Found my dream home in record time!",
+      "author": "Maria Susanto",
+      "type": "customer"
+    },
+    {
+      "quote": "Market intelligence that actually works. We've increased our ROI by 35%.",
+      "author": "Investment Group Banten",
+      "type": "business"
+    }
+  ],
+  "social_proof_metrics": {
+    "years_in_business": 5,
+    "properties_analyzed": 15000,
+    "leads_generated": 2500,
+    "happy_customers": 500,
+    "partner_agents": 25,
+    "coverage_areas": 12
+  },
+  "certifications": [
+    {
+      "name": "Best AI Property Solution 2025",
+      "issuer": "Indonesian Property Tech Awards",
+      "year": 2025
+    },
+    {
+      "name": "ISO 9001:2015 Certified",
+      "issuer": "Quality Management Systems",
+      "year": 2024
+    },
+    {
+      "name": "Top Innovation Award",
+      "issuer": "Southeast Asia PropTech Summit",
+      "year": 2025
+    }
+  ],
+  "media_mentions": [
+    {
+      "publication": "Property Indonesia Magazine",
+      "title": "AI Revolution in Property Marketing",
+      "date": "2026-04-15",
+      "url": "https://example.com/article1"
+    },
+    {
+      "publication": "Tech in Asia",
+      "title": "How AI is Transforming Real Estate in Indonesia",
+      "date": "2026-03-20",
+      "url": "https://example.com/article2"
+    },
+    {
+      "publication": "Bisnis Indonesia",
+      "title": "PropTech Startups Gain Traction",
+      "date": "2026-02-10",
+      "url": "https://example.com/article3"
+    }
+  ]
+}

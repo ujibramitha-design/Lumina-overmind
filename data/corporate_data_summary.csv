@@ -1,0 +1,50 @@
+Category,Company,Employee Count,Job Openings,Data Points,Focus Areas,Locations
+Manufacturing & Industri,Astra International,250000,4,30,"production_workers, plant_workers, quality_control",6
+Manufacturing & Industri,Unilever Indonesia,15000,4,29,"production_workers, plant_workers, quality_control",5
+Manufacturing & Industri,Indofood,14472,4,27,"production_workers, plant_workers, quality_control",3
+Manufacturing & Industri,Garudafood,11063,4,27,"production_workers, plant_workers, quality_control",3
+Manufacturing & Industri,Wings Group,8543,4,27,"production_workers, plant_workers, quality_control",3
+Manufacturing & Industri,Kalbe Farma,22646,4,27,"production_workers, plant_workers, quality_control",3
+Manufacturing & Industri,Kimia Farma,12000,4,28,"production_workers, plant_workers, quality_control",4
+Manufacturing & Industri,Semen Indonesia,11186,4,27,"production_workers, plant_workers, quality_control",3
+Banking & Finance,Bank Central Asia (BCA),80000,4,30,"bank_staff, relationship_managers, credit_analysts",6
+Banking & Finance,Bank Mandiri,14620,4,27,"bank_staff, relationship_managers, credit_analysts",3
+Banking & Finance,Bank Rakyat Indonesia (BRI),13729,4,27,"bank_staff, relationship_managers, credit_analysts",3
+Banking & Finance,Bank Negara Indonesia (BNI),11161,4,27,"bank_staff, relationship_managers, credit_analysts",3
+Banking & Finance,CIMB Niaga,18180,4,27,"bank_staff, relationship_managers, credit_analysts",3
+Banking & Finance,Bank Danamon,23583,4,27,"bank_staff, relationship_managers, credit_analysts",3
+Banking & Finance,Permata Bank,7915,4,27,"bank_staff, relationship_managers, credit_analysts",3
+Banking & Finance,Bank Syariah Indonesia,6949,4,27,"bank_staff, relationship_managers, credit_analysts",3
+Technology & Digital,Telkom Indonesia,120000,4,30,"tech_developers, digital_marketers, product_managers",6
+Technology & Digital,Indosat Ooredoo,24720,4,27,"tech_developers, digital_marketers, product_managers",3
+Technology & Digital,XL Axiata,17743,4,27,"tech_developers, digital_marketers, product_managers",3
+Technology & Digital,Gojek,16515,4,27,"tech_developers, digital_marketers, product_managers",3
+Technology & Digital,Traveloka,13980,4,27,"tech_developers, digital_marketers, product_managers",3
+Technology & Digital,Tokopedia,19555,4,27,"tech_developers, digital_marketers, product_managers",3
+Technology & Digital,Bukalapak,22403,4,27,"tech_developers, digital_marketers, product_managers",3
+Technology & Digital,Shopee,23901,4,27,"tech_developers, digital_marketers, product_managers",3
+Retail & Consumer Goods,Matahari Department Store,21189,4,27,"retail_staff, sales_associates, store_managers",3
+Retail & Consumer Goods,Hypermart,9315,4,27,"retail_staff, sales_associates, store_managers",3
+Retail & Consumer Goods,Carrefour Indonesia,5550,4,27,"retail_staff, sales_associates, store_managers",3
+Retail & Consumer Goods,Lotte Shopping,24320,4,27,"retail_staff, sales_associates, store_managers",3
+Retail & Consumer Goods,Ace Hardware,7012,4,27,"retail_staff, sales_associates, store_managers",3
+Retail & Consumer Goods,Informa,8360,4,27,"retail_staff, sales_associates, store_managers",3
+Retail & Consumer Goods,IKEA Indonesia,16723,4,27,"retail_staff, sales_associates, store_managers",3
+Logistics & Expedisi,JNE Express,45000,4,29,"logistics_staff, warehouse_workers, delivery_drivers",5
+Logistics & Expedisi,J&T Express,13895,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,SiCepat Express,23084,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,TIKI,9840,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,Pos Indonesia,8851,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,Wahana Prestasi Logistik,10569,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,Rex Express,10653,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,DHL Express Indonesia,7686,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,FedEx Indonesia,20511,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Logistics & Expedisi,SAP Express,19393,4,27,"logistics_staff, warehouse_workers, delivery_drivers",3
+Healthcare & Pharmaceutical,Kimia Farma,12000,0,24,"medical_staff, pharmacists, healthcare_workers",4
+Healthcare & Pharmaceutical,Kalbe Farma,22646,0,23,"medical_staff, pharmacists, healthcare_workers",3
+Healthcare & Pharmaceutical,Indofarma,20793,0,23,"medical_staff, pharmacists, healthcare_workers",3
+Healthcare & Pharmaceutical,Siloam Hospitals,14880,0,23,"medical_staff, pharmacists, healthcare_workers",3
+Healthcare & Pharmaceutical,Mayapada Hospital,18100,0,23,"medical_staff, pharmacists, healthcare_workers",3
+Healthcare & Pharmaceutical,Rumah Sakit Premier,21793,0,23,"medical_staff, pharmacists, healthcare_workers",3
+Healthcare & Pharmaceutical,Hermina Hospital,11535,0,23,"medical_staff, pharmacists, healthcare_workers",3
+Healthcare & Pharmaceutical,Rumah Sakit Harapan Kita,23712,0,23,"medical_staff, pharmacists, healthcare_workers",3

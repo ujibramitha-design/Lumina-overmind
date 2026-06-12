@@ -1,0 +1,642 @@
+2026-05-27 20:18:21,029 - __main__ - INFO - Hunter Agent AI initialized successfully
+2026-05-27 20:18:21,030 - __main__ - INFO - Starting Scout Agent operations for Jakarta Selatan
+2026-05-27 20:18:21,030 - __main__ - INFO - Phase 1: Gathering Market Intelligence...
+2026-05-27 20:18:21,031 - agents.scout_agent.market_intelligence - INFO - Found 10 listings for Jakarta Selatan
+2026-05-27 20:18:21,031 - agents.scout_agent.market_intelligence - INFO - Market analysis completed for Jakarta Selatan
+2026-05-27 20:18:21,032 - agents.scout_agent.market_intelligence - INFO - Identified 2 opportunities in Jakarta Selatan
+2026-05-27 20:18:21,033 - agents.scout_agent.market_intelligence - INFO - Monitored 2 competitors in Jakarta Selatan
+2026-05-27 20:18:21,033 - agents.scout_agent.market_intelligence - INFO - Market report generated for Jakarta Selatan
+2026-05-27 20:18:21,035 - __main__ - INFO - Report saved: logs\market_report_Jakarta_Selatan.json
+2026-05-27 20:18:21,035 - __main__ - INFO - Phase 2: Hunting for Leads...
+2026-05-27 20:18:21,035 - agents.scout_agent.lead_hunter - INFO - Found 6 qualified opportunities
+2026-05-27 20:18:21,036 - agents.scout_agent.lead_hunter - INFO - Monitored 2 government announcements
+2026-05-27 20:18:21,036 - agents.scout_agent.lead_hunter - INFO - Analyzed 2 social media signals
+2026-05-27 20:18:21,036 - agents.scout_agent.lead_hunter - INFO - Tracked 2 competitor activities
+2026-05-27 20:18:21,037 - agents.scout_agent.lead_hunter - INFO - Daily lead report generated with 12 leads
+2026-05-27 20:18:21,052 - __main__ - INFO - Report saved: logs\lead_report_20260527.json
+2026-05-27 20:18:21,054 - __main__ - INFO - Report saved: logs\combined_intelligence_20260527.json
+2026-05-27 20:18:21,054 - __main__ - INFO - Scout Agent operations completed successfully
+2026-05-27 20:25:28,705 - __main__ - INFO - Scout Agent initialized successfully
+2026-05-27 20:25:31,278 - __main__ - INFO - Scout Agent initialized successfully
+2026-05-27 20:25:31,279 - __main__ - INFO - Running Market Intelligence only...
+2026-05-27 20:25:31,279 - agents.scout_agent.market_intelligence - INFO - Starting Cipocok Jaya market research...
+2026-05-27 20:25:31,279 - agents.scout_agent.market_intelligence - INFO - Searching for: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:25:34,110 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang 200
+2026-05-27 20:25:35,384 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang&first=11&FORM=PERE 200
+2026-05-27 20:25:36,624 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:25:37,855 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang&first=31&FORM=PERE2 200
+2026-05-27 20:25:39,081 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang&first=41&FORM=PERE3 200
+2026-05-27 20:25:39,145 - agents.scout_agent.market_intelligence - INFO - Found 5 results for Cipocok Jaya prices
+2026-05-27 20:25:41,146 - agents.scout_agent.market_intelligence - INFO - Searching for: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:25:44,190 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:25:51,908 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: Body collection error: error decoding response body
+2026-05-27 20:25:51,909 - agents.scout_agent.market_intelligence - ERROR - Error searching Cipocok Jaya facilities: Body collection error: error decoding response body
+2026-05-27 20:25:53,911 - agents.scout_agent.market_intelligence - INFO - Intelligence report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:25:53,911 - agents.scout_agent.market_intelligence - INFO - Cipocok Jaya research completed. Report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:25:57,493 - __main__ - INFO - Scout Agent initialized successfully
+2026-05-27 20:25:57,493 - __main__ - INFO - Running Lead Hunting only...
+2026-05-27 20:25:57,494 - agents.scout_agent.lead_hunter - INFO - Starting Serang lead hunting...
+2026-05-27 20:25:57,494 - agents.scout_agent.lead_hunter - INFO - Searching for potential buyers: cari rumah Serang
+2026-05-27 20:26:01,299 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang 200
+2026-05-27 20:26:02,550 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=11&FORM=PERE 200
+2026-05-27 20:26:03,778 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:26:05,001 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=31&FORM=PERE2 200
+2026-05-27 20:26:06,228 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=41&FORM=PERE3 200
+2026-05-27 20:26:06,396 - agents.scout_agent.lead_hunter - INFO - Found 5 potential buyers for Serang
+2026-05-27 20:26:08,398 - agents.scout_agent.lead_hunter - INFO - Searching for property sellers: dijual rumah Serang
+2026-05-27 20:26:09,581 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang 200
+2026-05-27 20:26:10,801 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang&first=11&FORM=PERE 200
+2026-05-27 20:26:12,021 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:26:12,073 - agents.scout_agent.lead_hunter - INFO - Found 15 property sellers in Serang
+2026-05-27 20:26:14,075 - agents.scout_agent.lead_hunter - INFO - Leads capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:26:14,076 - agents.scout_agent.lead_hunter - INFO - Serang lead hunting completed. Capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:26:19,832 - __main__ - INFO - Scout Agent initialized successfully
+2026-05-27 20:26:19,832 - __main__ - INFO - Starting Scout Agent - Full Operations
+2026-05-27 20:26:19,832 - __main__ - INFO - ============================================================
+2026-05-27 20:26:19,833 - __main__ - INFO - STARTING SCOUT AGENT OPERATIONS
+2026-05-27 20:26:19,833 - __main__ - INFO - ============================================================
+2026-05-27 20:26:19,833 - __main__ - INFO - STEP 1: Running Market Intelligence for Cipocok Jaya...
+2026-05-27 20:26:19,834 - __main__ - INFO - ----------------------------------------
+2026-05-27 20:26:19,834 - agents.scout_agent.market_intelligence - INFO - Starting Cipocok Jaya market research...
+2026-05-27 20:26:19,834 - agents.scout_agent.market_intelligence - INFO - Searching for: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:26:21,430 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang 200
+2026-05-27 20:26:21,855 - agents.scout_agent.market_intelligence - INFO - Found 0 results for Cipocok Jaya prices
+2026-05-27 20:26:23,857 - agents.scout_agent.market_intelligence - INFO - Searching for: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:26:26,085 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:26:26,147 - agents.scout_agent.market_intelligence - INFO - Found 0 results for Cipocok Jaya facilities
+2026-05-27 20:26:28,148 - agents.scout_agent.market_intelligence - INFO - Intelligence report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:26:28,149 - agents.scout_agent.market_intelligence - INFO - Cipocok Jaya research completed. Report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:26:28,295 - __main__ - INFO -    - Price search results: 0
+2026-05-27 20:26:28,296 - __main__ - INFO -    - Facility search results: 0
+2026-05-27 20:26:28,297 - __main__ - INFO -    - Report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:26:31,298 - __main__ - INFO - 
+STEP 2: Running Lead Hunting for Serang...
+2026-05-27 20:26:31,298 - __main__ - INFO - ----------------------------------------
+2026-05-27 20:26:31,298 - agents.scout_agent.lead_hunter - INFO - Starting Serang lead hunting...
+2026-05-27 20:26:31,299 - agents.scout_agent.lead_hunter - INFO - Searching for potential buyers: cari rumah Serang
+2026-05-27 20:26:35,450 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=cari+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:26:35,450 - agents.scout_agent.lead_hunter - ERROR - Error searching Serang buyers: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=cari+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:26:37,452 - agents.scout_agent.lead_hunter - INFO - Searching for property sellers: dijual rumah Serang
+2026-05-27 20:26:38,929 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=dijual+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:26:38,930 - agents.scout_agent.lead_hunter - ERROR - Error searching Serang sellers: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=dijual+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:26:40,931 - agents.scout_agent.lead_hunter - INFO - Leads capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:26:40,931 - agents.scout_agent.lead_hunter - INFO - Serang lead hunting completed. Capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:26:40,935 - __main__ - INFO -    - Buyer leads found: 0
+2026-05-27 20:26:40,935 - __main__ - INFO -    - Seller leads found: 0
+2026-05-27 20:26:40,936 - __main__ - INFO -    - Total leads: 0
+2026-05-27 20:26:40,936 - __main__ - INFO -    - High urgency buyers: 0
+2026-05-27 20:26:40,936 - __main__ - INFO -    - High urgency sellers: 0
+2026-05-27 20:26:40,937 - __main__ - INFO -    - Capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:26:40,937 - __main__ - INFO - 
+============================================================
+2026-05-27 20:26:40,937 - __main__ - INFO - SCOUT AGENT OPERATIONS SUMMARY
+2026-05-27 20:26:40,937 - __main__ - INFO - ============================================================
+2026-05-27 20:26:41,057 - __main__ - INFO -    - logs/scout_intelligence_report.txt
+2026-05-27 20:26:41,058 - __main__ - INFO -    - logs/scout_leads_capture.txt
+2026-05-27 20:26:41,063 - __main__ - INFO -    1. Review market intelligence report for insights
+2026-05-27 20:26:41,063 - __main__ - INFO -    2. Contact high urgency leads immediately
+2026-05-27 20:26:41,064 - __main__ - INFO -    3. Schedule follow-ups for medium urgency leads
+2026-05-27 20:26:41,064 - __main__ - INFO - ============================================================
+2026-05-27 20:26:41,064 - __main__ - INFO - SCOUT AGENT OPERATIONS COMPLETED
+2026-05-27 20:26:41,064 - __main__ - INFO - ============================================================
+2026-05-27 20:28:29,099 - __main__ - INFO - Created new leads database: data/leads_database.json
+2026-05-27 20:28:29,111 - __main__ - INFO - Scout Agent initialized successfully with professional setup
+2026-05-27 20:28:34,138 - __main__ - INFO - Leads database already exists: data/leads_database.json
+2026-05-27 20:28:34,151 - __main__ - INFO - Scout Agent initialized successfully with professional setup
+2026-05-27 20:28:34,152 - __main__ - INFO - Starting Scout Agent - Full Operations
+2026-05-27 20:28:34,152 - __main__ - INFO - ============================================================
+2026-05-27 20:28:34,153 - __main__ - INFO - STARTING SCOUT AGENT OPERATIONS
+2026-05-27 20:28:34,153 - __main__ - INFO - ============================================================
+2026-05-27 20:28:34,153 - __main__ - INFO - Database Status: 0 existing leads
+2026-05-27 20:28:34,154 - __main__ - INFO - STEP 1: Running Market Intelligence for Cipocok Jaya...
+2026-05-27 20:28:34,154 - __main__ - INFO - ----------------------------------------
+2026-05-27 20:28:34,154 - agents.scout_agent.market_intelligence - INFO - Starting Cipocok Jaya market research...
+2026-05-27 20:28:34,155 - agents.scout_agent.market_intelligence - INFO - Starting price search for: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:28:36,157 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:28:46,161 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:28:46,162 - agents.scout_agent.market_intelligence - ERROR - Search attempt 1 failed: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:28:46,162 - agents.scout_agent.market_intelligence - WARNING - Timeout error - increasing delay
+2026-05-27 20:28:46,163 - agents.scout_agent.market_intelligence - INFO - Waiting 5 seconds before retry...
+2026-05-27 20:28:51,164 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:29:01,179 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:29:01,180 - agents.scout_agent.market_intelligence - ERROR - Search attempt 2 failed: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:29:01,181 - agents.scout_agent.market_intelligence - WARNING - Timeout error - increasing delay
+2026-05-27 20:29:01,181 - agents.scout_agent.market_intelligence - INFO - Waiting 10 seconds before retry...
+2026-05-27 20:29:11,182 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:29:21,190 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:29:21,191 - agents.scout_agent.market_intelligence - ERROR - Search attempt 3 failed: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:29:21,192 - agents.scout_agent.market_intelligence - WARNING - Timeout error - increasing delay
+2026-05-27 20:29:21,192 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:29:21,193 - agents.scout_agent.market_intelligence - INFO - Successfully processed 0 price results for Cipocok Jaya
+2026-05-27 20:29:23,194 - agents.scout_agent.market_intelligence - INFO - Starting facilities search for: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:29:25,195 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:29:35,199 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya) > operation timed out
+2026-05-27 20:29:35,200 - agents.scout_agent.market_intelligence - ERROR - Search attempt 1 failed: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya) > operation timed out
+2026-05-27 20:29:35,200 - agents.scout_agent.market_intelligence - WARNING - Timeout error - increasing delay
+2026-05-27 20:29:35,200 - agents.scout_agent.market_intelligence - INFO - Waiting 5 seconds before retry...
+2026-05-27 20:29:40,202 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:29:44,799 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:29:45,490 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 2
+2026-05-27 20:29:45,491 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:29:48,016 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:29:48,729 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:29:48,730 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:29:48,730 - agents.scout_agent.market_intelligence - INFO - Successfully processed 0 facility results for Cipocok Jaya
+2026-05-27 20:29:50,732 - agents.scout_agent.market_intelligence - INFO - Intelligence report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:29:50,732 - agents.scout_agent.market_intelligence - INFO - Cipocok Jaya research completed. Report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:29:50,733 - __main__ - INFO - Market Intelligence completed successfully!
+2026-05-27 20:29:50,733 - __main__ - INFO -    - Price search results: 0
+2026-05-27 20:29:50,734 - __main__ - INFO -    - Facility search results: 0
+2026-05-27 20:29:50,734 - __main__ - INFO -    - Report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:29:53,735 - __main__ - INFO - 
+STEP 2: Running Lead Hunting for Serang...
+2026-05-27 20:29:53,736 - __main__ - INFO - ----------------------------------------
+2026-05-27 20:29:53,736 - agents.scout_agent.lead_hunter - INFO - Starting Serang lead hunting...
+2026-05-27 20:29:53,737 - agents.scout_agent.lead_hunter - INFO - Loaded leads database with 0 existing leads
+2026-05-27 20:29:53,738 - agents.scout_agent.lead_hunter - INFO - Starting buyer search for: cari rumah Serang
+2026-05-27 20:29:55,740 - agents.scout_agent.lead_hunter - INFO - Search attempt 1/3 for query: cari rumah Serang
+2026-05-27 20:30:05,742 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=cari+rumah+Serang) > operation timed out
+2026-05-27 20:30:05,743 - agents.scout_agent.lead_hunter - ERROR - Search attempt 1 failed: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=cari+rumah+Serang) > operation timed out
+2026-05-27 20:30:05,744 - agents.scout_agent.lead_hunter - WARNING - Timeout error - increasing delay
+2026-05-27 20:30:05,744 - agents.scout_agent.lead_hunter - INFO - Waiting 5 seconds before retry...
+2026-05-27 20:30:10,746 - agents.scout_agent.lead_hunter - INFO - Search attempt 2/3 for query: cari rumah Serang
+2026-05-27 20:30:14,282 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang 200
+2026-05-27 20:30:14,749 - agents.scout_agent.lead_hunter - WARNING - No results found on attempt 2
+2026-05-27 20:30:14,750 - agents.scout_agent.lead_hunter - INFO - Search attempt 3/3 for query: cari rumah Serang
+2026-05-27 20:30:16,267 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang 200
+2026-05-27 20:30:17,474 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=11&FORM=PERE 200
+2026-05-27 20:30:18,678 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:30:20,382 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=31&FORM=PERE2 200
+2026-05-27 20:30:21,588 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=41&FORM=PERE3 200
+2026-05-27 20:30:21,630 - agents.scout_agent.lead_hunter - INFO - Successfully found 10 results on attempt 3
+2026-05-27 20:30:21,632 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: Arti kata cari - Kamus Besar Bahasa Indonesia (KBBI) Online
+2026-05-27 20:30:21,632 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: Arti Kata "cari" Menurut KBBI - Kamus Besar Bahasa Indonesia
+2026-05-27 20:30:21,633 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: Bandingkan Harga & Belanja dari Toko Online Terpercaya | Cari.id
+2026-05-27 20:30:21,634 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: Cari mobil bekas, motor bekas, rumah dijual, lowongan kerja
+2026-05-27 20:30:21,634 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: Cari Perangkat - iCloud Apple
+2026-05-27 20:30:21,635 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: MyBroadband Speed Test
+2026-05-27 20:30:21,636 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: RT-AX82U V2 Router - Turning on QoS cuts my network speed in half
+2026-05-27 20:30:21,637 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: How to test your Internet speed in South Africa – MyBroadband
+2026-05-27 20:30:21,637 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: Microsoft tests File Explorer preloading for faster performance
+2026-05-27 20:30:21,638 - agents.scout_agent.lead_hunter - INFO - New buyer lead found: ISPs with the highest speeds in South Africa – MyBroadband
+2026-05-27 20:30:21,639 - agents.scout_agent.lead_hunter - INFO - Saved leads database with 10 leads
+2026-05-27 20:30:21,640 - agents.scout_agent.lead_hunter - INFO - Saved 10 new buyer leads to database
+2026-05-27 20:30:21,640 - agents.scout_agent.lead_hunter - INFO - Buyer search completed: 10 new leads, 0 duplicates
+2026-05-27 20:30:23,745 - agents.scout_agent.lead_hunter - INFO - Loaded leads database with 10 existing leads
+2026-05-27 20:30:23,745 - agents.scout_agent.lead_hunter - INFO - Starting seller search for: dijual rumah Serang
+2026-05-27 20:30:25,748 - agents.scout_agent.lead_hunter - INFO - Search attempt 1/3 for query: dijual rumah Serang
+2026-05-27 20:30:26,495 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=dijual+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:30:26,495 - agents.scout_agent.lead_hunter - ERROR - Search attempt 1 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=dijual+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:30:26,496 - agents.scout_agent.lead_hunter - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=dijual+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:30:26,496 - agents.scout_agent.lead_hunter - INFO - Waiting 5 seconds before retry...
+2026-05-27 20:30:31,498 - agents.scout_agent.lead_hunter - INFO - Search attempt 2/3 for query: dijual rumah Serang
+2026-05-27 20:30:34,199 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang 200
+2026-05-27 20:30:34,582 - agents.scout_agent.lead_hunter - WARNING - No results found on attempt 2
+2026-05-27 20:30:34,584 - agents.scout_agent.lead_hunter - INFO - Search attempt 3/3 for query: dijual rumah Serang
+2026-05-27 20:30:36,890 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang 200
+2026-05-27 20:30:38,112 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang&first=11&FORM=PERE 200
+2026-05-27 20:30:39,328 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:30:39,538 - agents.scout_agent.lead_hunter - INFO - Successfully found 15 results on attempt 3
+2026-05-27 20:30:39,606 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Verify your YouTube account - Google Help
+2026-05-27 20:30:39,658 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Esplorare YouTube Studio - Computer - Guida di YouTube
+2026-05-27 20:30:39,663 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Spam, deceptive practices, & scams policies - YouTube Help
+2026-05-27 20:30:39,664 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Reddit - Dive into anything
+2026-05-27 20:30:39,665 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Download GitHub Desktop
+2026-05-27 20:30:39,672 - agents.scout_agent.lead_hunter - INFO - New seller lead found: ChatGPT DAN, Jailbreaks prompt - GitHub
+2026-05-27 20:30:39,672 - agents.scout_agent.lead_hunter - INFO - New seller lead found: I Think it's Time We Discuss Claude vs. ChatGPT - Reddit
+2026-05-27 20:30:39,673 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Instagram
+2026-05-27 20:30:39,673 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Sign up • Instagram
+2026-05-27 20:30:39,674 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Instagram - Apps on Google Play
+2026-05-27 20:30:39,695 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Instagram (@instagram) • Instagram photos and videos
+2026-05-27 20:30:39,696 - agents.scout_agent.lead_hunter - INFO - New seller lead found: Instagram
+2026-05-27 20:30:39,698 - agents.scout_agent.lead_hunter - INFO - Saved leads database with 25 leads
+2026-05-27 20:30:39,698 - agents.scout_agent.lead_hunter - INFO - Saved 15 new seller leads to database
+2026-05-27 20:30:39,699 - agents.scout_agent.lead_hunter - INFO - Seller search completed: 15 new leads, 0 duplicates
+2026-05-27 20:30:41,700 - agents.scout_agent.lead_hunter - ERROR - Error saving leads capture: 'search_time'
+2026-05-27 20:30:41,700 - agents.scout_agent.lead_hunter - INFO - Serang lead hunting completed. Capture saved to: 
+2026-05-27 20:30:41,700 - __main__ - INFO - Lead Hunting completed successfully!
+2026-05-27 20:30:41,701 - __main__ - INFO -    - Buyer leads found: 10
+2026-05-27 20:30:41,701 - __main__ - INFO -    - Seller leads found: 15
+2026-05-27 20:30:41,701 - __main__ - INFO -    - Total leads: 25
+2026-05-27 20:30:41,702 - __main__ - INFO -    - High urgency buyers: 0
+2026-05-27 20:30:41,702 - __main__ - INFO -    - High urgency sellers: 0
+2026-05-27 20:30:41,702 - __main__ - INFO -    - Database updated: data/leads_database.json
+2026-05-27 20:30:41,704 - __main__ - INFO - 
+============================================================
+2026-05-27 20:30:41,704 - __main__ - INFO - SCOUT AGENT OPERATIONS SUMMARY
+2026-05-27 20:30:41,704 - __main__ - INFO - ============================================================
+2026-05-27 20:30:41,705 - __main__ - INFO - ALL OPERATIONS COMPLETED SUCCESSFULLY!
+2026-05-27 20:30:41,705 - __main__ - INFO - Market Intelligence: 0 data points collected
+2026-05-27 20:30:41,705 - __main__ - INFO - Lead Hunting: 25 leads captured
+2026-05-27 20:30:41,705 - __main__ - INFO - Database Update: 0 total leads in database
+2026-05-27 20:30:41,706 - __main__ - INFO - 
+Generated Files:
+2026-05-27 20:30:41,706 - __main__ - INFO -    - logs/scout_intelligence_report.txt
+2026-05-27 20:30:41,706 - __main__ - INFO -    - 
+2026-05-27 20:30:41,707 - __main__ - INFO -    - data/leads_database.json
+2026-05-27 20:30:41,707 - __main__ - INFO - 
+Database Statistics:
+2026-05-27 20:30:41,708 - __main__ - INFO -    - Total leads: 0
+2026-05-27 20:30:41,708 - __main__ - INFO -    - New leads: 0
+2026-05-27 20:30:41,708 - __main__ - INFO -    - Buyer leads: 0
+2026-05-27 20:30:41,709 - __main__ - INFO -    - Seller leads: 0
+2026-05-27 20:30:41,709 - __main__ - INFO - 
+Next Steps:
+2026-05-27 20:30:41,709 - __main__ - INFO -    1. Review market intelligence report for insights
+2026-05-27 20:30:41,709 - __main__ - INFO -    2. Contact high urgency leads immediately
+2026-05-27 20:30:41,710 - __main__ - INFO -    3. Schedule follow-ups for medium urgency leads
+2026-05-27 20:30:41,710 - __main__ - INFO -    4. Update lead status in database after contact
+2026-05-27 20:30:41,710 - __main__ - INFO - ============================================================
+2026-05-27 20:30:41,711 - __main__ - INFO - SCOUT AGENT OPERATIONS COMPLETED
+2026-05-27 20:30:41,711 - __main__ - INFO - ============================================================
+2026-05-27 20:33:05,847 - __main__ - INFO - Leads database already exists: data/leads_database.json
+2026-05-27 20:33:05,859 - __main__ - INFO - Elite Hunter initialized successfully with intelligent scoring
+2026-05-27 20:33:09,208 - __main__ - INFO - Leads database already exists: data/leads_database.json
+2026-05-27 20:33:09,222 - __main__ - INFO - Elite Hunter initialized successfully with intelligent scoring
+2026-05-27 20:33:09,222 - __main__ - INFO - Starting Elite Hunter - Full Intelligent Operations
+2026-05-27 20:33:09,223 - __main__ - INFO - ======================================================================
+2026-05-27 20:33:09,223 - __main__ - INFO - STARTING ELITE HUNTER OPERATIONS
+2026-05-27 20:33:09,224 - __main__ - INFO - ======================================================================
+2026-05-27 20:33:09,224 - __main__ - INFO - Database Status: 0 existing leads
+2026-05-27 20:33:09,224 - __main__ - INFO - STEP 1: Running Elite Market Intelligence for Cipocok Jaya...
+2026-05-27 20:33:09,225 - __main__ - INFO - --------------------------------------------------
+2026-05-27 20:33:09,225 - agents.scout_agent.market_intelligence - INFO - Starting Elite Hunter Cipocok Jaya market research...
+2026-05-27 20:33:09,225 - agents.scout_agent.market_intelligence - INFO - Starting price search for: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:33:11,227 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:33:12,874 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang 200
+2026-05-27 20:33:13,247 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:33:13,248 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:33:14,024 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:33:14,025 - agents.scout_agent.market_intelligence - ERROR - Search attempt 2 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:33:14,025 - agents.scout_agent.market_intelligence - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:33:14,026 - agents.scout_agent.market_intelligence - INFO - Waiting 10 seconds before retry...
+2026-05-27 20:33:24,027 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:33:28,201 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang 200
+2026-05-27 20:33:28,576 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:33:28,576 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:33:28,577 - agents.scout_agent.market_intelligence - INFO - Successfully processed 0 price results for Cipocok Jaya
+2026-05-27 20:33:30,578 - agents.scout_agent.market_intelligence - INFO - Starting facilities search for: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:33:32,580 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:33:32,805 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:33:33,139 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:33:33,141 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:33:35,759 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:33:35,760 - agents.scout_agent.market_intelligence - ERROR - Search attempt 2 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:33:35,760 - agents.scout_agent.market_intelligence - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:33:35,761 - agents.scout_agent.market_intelligence - INFO - Waiting 10 seconds before retry...
+2026-05-27 20:33:45,763 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:33:49,448 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:33:49,831 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:33:49,832 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:33:49,832 - agents.scout_agent.market_intelligence - INFO - Successfully processed 0 facility results for Cipocok Jaya
+2026-05-27 20:33:51,833 - agents.scout_agent.market_intelligence - INFO - Starting competitor price monitoring for Cipocok Jaya...
+2026-05-27 20:33:53,834 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:33:57,582 - primp - INFO - response: https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya 200
+2026-05-27 20:33:58,322 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:33:58,324 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:33:59,827 - primp - INFO - response: https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya 200
+2026-05-27 20:34:00,180 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 2
+2026-05-27 20:34:00,181 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:34:01,784 - primp - INFO - response: https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya 200
+2026-05-27 20:34:02,247 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:34:02,247 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:34:04,249 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: developer properti Cipocok Jaya harga
+2026-05-27 20:34:08,922 - primp - INFO - response: https://www.bing.com/search?q=developer+properti+Cipocok+Jaya+harga 200
+2026-05-27 20:34:09,280 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:34:09,281 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: developer properti Cipocok Jaya harga
+2026-05-27 20:34:14,384 - primp - INFO - response: https://www.bing.com/search?q=developer+properti+Cipocok+Jaya+harga 200
+2026-05-27 20:34:14,741 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 2
+2026-05-27 20:34:14,741 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: developer properti Cipocok Jaya harga
+2026-05-27 20:34:24,751 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=developer+properti+Cipocok+Jaya+harga) > operation timed out
+2026-05-27 20:34:24,752 - agents.scout_agent.market_intelligence - ERROR - Search attempt 3 failed: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=developer+properti+Cipocok+Jaya+harga) > operation timed out
+2026-05-27 20:34:24,753 - agents.scout_agent.market_intelligence - WARNING - Timeout error - increasing delay
+2026-05-27 20:34:24,753 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: developer properti Cipocok Jaya harga
+2026-05-27 20:34:26,755 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:34:29,275 - primp - INFO - response: https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang 200
+2026-05-27 20:34:30,343 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:34:30,344 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:34:31,962 - primp - INFO - response: https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang 200
+2026-05-27 20:34:32,345 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 2
+2026-05-27 20:34:32,346 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:34:34,875 - primp - INFO - response: https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang 200
+2026-05-27 20:34:35,235 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:34:35,235 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:34:37,237 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: promo rumah Cipocok Jaya
+2026-05-27 20:34:39,760 - primp - INFO - response: https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya 200
+2026-05-27 20:34:40,497 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:34:40,499 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: promo rumah Cipocok Jaya
+2026-05-27 20:34:41,245 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:34:41,245 - agents.scout_agent.market_intelligence - ERROR - Search attempt 2 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:34:41,246 - agents.scout_agent.market_intelligence - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:34:41,246 - agents.scout_agent.market_intelligence - INFO - Waiting 10 seconds before retry...
+2026-05-27 20:34:51,248 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: promo rumah Cipocok Jaya
+2026-05-27 20:34:54,975 - primp - INFO - response: https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya 200
+2026-05-27 20:34:55,714 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:34:55,715 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: promo rumah Cipocok Jaya
+2026-05-27 20:34:55,818 - agents.scout_agent.market_intelligence - INFO - Drift monitoring log saved to: logs/market_drift.txt
+2026-05-27 20:34:55,818 - agents.scout_agent.market_intelligence - INFO - Competitor monitoring completed. Drift log saved to: logs/market_drift.txt
+2026-05-27 20:34:57,819 - agents.scout_agent.market_intelligence - INFO - Intelligence report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:34:57,820 - agents.scout_agent.market_intelligence - INFO - Elite Hunter Cipocok Jaya research completed. Drift status: stable
+2026-05-27 20:34:57,820 - __main__ - INFO - Elite Market Intelligence completed successfully!
+2026-05-27 20:34:57,820 - __main__ - INFO -    - Price search results: 0
+2026-05-27 20:34:57,821 - __main__ - INFO -    - Facility search results: 0
+2026-05-27 20:34:57,821 - __main__ - INFO -    - Competitor listings: 0
+2026-05-27 20:34:57,821 - __main__ - INFO -    - Market drift status: stable
+2026-05-27 20:34:57,822 - __main__ - INFO -    - Report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:35:00,823 - __main__ - INFO - 
+STEP 2: Running Elite Lead Hunting for Serang...
+2026-05-27 20:35:00,823 - __main__ - INFO - --------------------------------------------------
+2026-05-27 20:35:00,824 - agents.scout_agent.lead_hunter - INFO - Starting Serang lead hunting...
+2026-05-27 20:35:00,825 - agents.scout_agent.lead_hunter - INFO - Loaded leads database with 25 existing leads
+2026-05-27 20:35:00,826 - agents.scout_agent.lead_hunter - INFO - Starting buyer search for: cari rumah Serang
+2026-05-27 20:35:02,827 - agents.scout_agent.lead_hunter - INFO - Search attempt 1/3 for query: cari rumah Serang
+2026-05-27 20:35:04,410 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang 200
+2026-05-27 20:35:05,119 - agents.scout_agent.lead_hunter - WARNING - No results found on attempt 1
+2026-05-27 20:35:05,120 - agents.scout_agent.lead_hunter - INFO - Search attempt 2/3 for query: cari rumah Serang
+2026-05-27 20:35:07,650 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang 200
+2026-05-27 20:35:09,199 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=11&FORM=PERE 200
+2026-05-27 20:35:10,490 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:35:11,727 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=31&FORM=PERE2 200
+2026-05-27 20:35:12,969 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=41&FORM=PERE3 200
+2026-05-27 20:35:13,019 - agents.scout_agent.lead_hunter - INFO - Successfully found 10 results on attempt 2
+2026-05-27 20:35:13,020 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,020 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,020 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,021 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,021 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,022 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,022 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,023 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,023 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,023 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:35:13,024 - agents.scout_agent.lead_hunter - INFO - Buyer search completed: 0 new leads, 0 duplicates
+2026-05-27 20:35:15,026 - agents.scout_agent.lead_hunter - INFO - Loaded leads database with 25 existing leads
+2026-05-27 20:35:15,026 - agents.scout_agent.lead_hunter - INFO - Starting seller search for: dijual rumah Serang
+2026-05-27 20:35:17,028 - agents.scout_agent.lead_hunter - INFO - Search attempt 1/3 for query: dijual rumah Serang
+2026-05-27 20:35:20,733 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang 200
+2026-05-27 20:35:21,480 - agents.scout_agent.lead_hunter - WARNING - No results found on attempt 1
+2026-05-27 20:35:21,481 - agents.scout_agent.lead_hunter - INFO - Search attempt 2/3 for query: dijual rumah Serang
+2026-05-27 20:35:22,959 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang 200
+2026-05-27 20:35:23,388 - agents.scout_agent.lead_hunter - WARNING - No results found on attempt 2
+2026-05-27 20:35:23,389 - agents.scout_agent.lead_hunter - INFO - Search attempt 3/3 for query: dijual rumah Serang
+2026-05-27 20:35:25,059 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang 200
+2026-05-27 20:35:25,452 - agents.scout_agent.lead_hunter - WARNING - No results found on attempt 3
+2026-05-27 20:35:25,452 - agents.scout_agent.lead_hunter - ERROR - All 3 attempts failed for query: dijual rumah Serang
+2026-05-27 20:35:25,452 - agents.scout_agent.lead_hunter - INFO - Seller search completed: 0 new leads, 0 duplicates
+2026-05-27 20:35:27,454 - agents.scout_agent.lead_hunter - INFO - Leads capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:35:27,455 - agents.scout_agent.lead_hunter - INFO - Serang lead hunting completed. Capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:35:27,455 - __main__ - INFO - Elite Lead Hunting completed successfully!
+2026-05-27 20:35:27,455 - __main__ - INFO -    - Buyer leads found: 0
+2026-05-27 20:35:27,456 - __main__ - INFO -    - Seller leads found: 0
+2026-05-27 20:35:27,456 - __main__ - INFO -    - Total leads: 0
+2026-05-27 20:35:27,457 - __main__ - INFO -    - High urgency buyers: 0
+2026-05-27 20:35:27,457 - __main__ - INFO -    - High urgency sellers: 0
+2026-05-27 20:35:27,457 - __main__ - INFO -    - Database updated: data/leads_database.json
+2026-05-27 20:35:29,458 - __main__ - INFO - 
+STEP 3: Running Intelligent Lead Scoring...
+2026-05-27 20:35:29,459 - __main__ - INFO - --------------------------------------------------
+2026-05-27 20:35:29,460 - agents.scout_agent.lead_hunter - INFO - Loaded leads database with 25 existing leads
+2026-05-27 20:35:29,462 - agents.scout_agent.scoring_logic - INFO - Scored lead: Arti kata cari - Kamus Besar Bahasa Indonesia (KBBI) Online - Score: 1/10 (unknown)
+2026-05-27 20:35:29,463 - agents.scout_agent.scoring_logic - INFO - Scored lead: Arti Kata "cari" Menurut KBBI - Kamus Besar Bahasa Indonesia - Score: 4/10 (warm)
+2026-05-27 20:35:29,463 - agents.scout_agent.scoring_logic - INFO - Scored lead: Bandingkan Harga & Belanja dari Toko Online Terpercaya | Cari.id - Score: 8/10 (high_intent)
+2026-05-27 20:35:29,464 - agents.scout_agent.scoring_logic - INFO - Scored lead: Cari mobil bekas, motor bekas, rumah dijual, lowongan kerja - Score: 1/10 (low_quality)
+2026-05-27 20:35:29,464 - agents.scout_agent.scoring_logic - INFO - Scored lead: Cari Perangkat - iCloud Apple - Score: 1/10 (unknown)
+2026-05-27 20:35:29,465 - agents.scout_agent.scoring_logic - INFO - Scored lead: MyBroadband Speed Test - Score: 1/10 (unknown)
+2026-05-27 20:35:29,465 - agents.scout_agent.scoring_logic - INFO - Scored lead: RT-AX82U V2 Router - Turning on QoS cuts my network speed in half - Score: 4/10 (warm)
+2026-05-27 20:35:29,466 - agents.scout_agent.scoring_logic - INFO - Scored lead: How to test your Internet speed in South Africa – MyBroadband - Score: 1/10 (unknown)
+2026-05-27 20:35:29,466 - agents.scout_agent.scoring_logic - INFO - Scored lead: Microsoft tests File Explorer preloading for faster performance - Score: 4/10 (warm)
+2026-05-27 20:35:29,467 - agents.scout_agent.scoring_logic - INFO - Scored lead: ISPs with the highest speeds in South Africa – MyBroadband - Score: 1/10 (unknown)
+2026-05-27 20:35:29,467 - agents.scout_agent.scoring_logic - INFO - Scored lead: Verify your YouTube account - Google Help - Score: 1/10 (unknown)
+2026-05-27 20:35:29,475 - agents.scout_agent.scoring_logic - INFO - Scored lead: Esplorare YouTube Studio - Computer - Guida di YouTube - Score: 1/10 (unknown)
+2026-05-27 20:35:29,481 - agents.scout_agent.scoring_logic - INFO - Scored lead: Spam, deceptive practices, & scams policies - YouTube Help - Score: 1/10 (low_quality)
+2026-05-27 20:35:29,482 - agents.scout_agent.scoring_logic - INFO - Scored lead: Reddit - Dive into anything - Score: 4/10 (warm)
+2026-05-27 20:35:29,482 - agents.scout_agent.scoring_logic - INFO - Scored lead: Download GitHub Desktop - Score: 1/10 (unknown)
+2026-05-27 20:35:29,487 - agents.scout_agent.scoring_logic - INFO - Scored lead: ChatGPT DAN, Jailbreaks prompt - GitHub - Score: 1/10 (unknown)
+2026-05-27 20:35:29,488 - agents.scout_agent.scoring_logic - INFO - Scored lead: I Think it's Time We Discuss Claude vs. ChatGPT - Reddit - Score: 1/10 (low_quality)
+2026-05-27 20:35:29,488 - agents.scout_agent.scoring_logic - INFO - Scored lead: Instagram - Score: 1/10 (unknown)
+2026-05-27 20:35:29,489 - agents.scout_agent.scoring_logic - INFO - Scored lead: Sign up • Instagram - Score: 1/10 (cold)
+2026-05-27 20:35:29,489 - agents.scout_agent.scoring_logic - INFO - Scored lead: Instagram - Apps on Google Play - Score: 1/10 (cold)
+2026-05-27 20:35:29,490 - agents.scout_agent.scoring_logic - INFO - Scored lead: Instagram (@instagram) • Instagram photos and videos - Score: 1/10 (cold)
+2026-05-27 20:35:29,490 - agents.scout_agent.scoring_logic - INFO - Scored lead: Instagram - Score: 1/10 (unknown)
+2026-05-27 20:35:29,491 - agents.scout_agent.scoring_logic - INFO - Filtered 1 high-value leads (score >= 8) from 25 total leads
+2026-05-27 20:35:29,491 - agents.scout_agent.scoring_logic - INFO - Filtered 1 high-value leads (score >= 8) from 25 total leads
+2026-05-27 20:35:29,491 - __main__ - INFO - Intelligent Lead Scoring completed successfully!
+2026-05-27 20:35:29,492 - __main__ - INFO -    - Total leads scored: 25
+2026-05-27 20:35:29,492 - __main__ - INFO -    - High-value leads (8-10): 1
+2026-05-27 20:35:29,493 - __main__ - INFO -    - Average score: 1.8/10
+2026-05-27 20:35:29,493 - __main__ - INFO -    - Leads with contact info: 0
+2026-05-27 20:35:29,497 - agents.scout_agent.lead_hunter - INFO - Saved leads database with 25 leads
+2026-05-27 20:35:29,498 - __main__ - INFO - Intelligent scoring report saved to: logs/intelligent_scoring_report.txt
+2026-05-27 20:35:29,499 - __main__ - INFO - 
+======================================================================
+2026-05-27 20:35:29,499 - __main__ - INFO - ELITE HUNTER OPERATIONS SUMMARY
+2026-05-27 20:35:29,500 - __main__ - INFO - ======================================================================
+2026-05-27 20:35:29,528 - __main__ - INFO -    - logs/scout_intelligence_report.txt
+2026-05-27 20:35:29,529 - __main__ - INFO -    - logs/market_drift.txt
+2026-05-27 20:35:29,529 - __main__ - INFO -    - logs/intelligent_scoring_report.txt
+2026-05-27 20:35:29,529 - __main__ - INFO -    - data/leads_database.json (with intelligent scoring)
+2026-05-27 20:35:29,534 - __main__ - INFO -    - Total leads: 0
+2026-05-27 20:35:29,534 - __main__ - INFO -    - New leads: 0
+2026-05-27 20:35:29,534 - __main__ - INFO -    - Buyer leads: 0
+2026-05-27 20:35:29,535 - __main__ - INFO -    - Seller leads: 0
+2026-05-27 20:35:29,535 - __main__ - INFO -    - High-value leads: 1
+2026-05-27 20:35:29,535 - __main__ - INFO -    - Average score: 1.8/10
+2026-05-27 20:35:29,539 - __main__ - INFO -    1. IMMEDIATE: Contact 1 high-value leads (score 8-10)
+2026-05-27 20:35:29,539 - __main__ - INFO -    2. Review market drift alerts for competitive positioning
+2026-05-27 20:35:29,540 - __main__ - INFO -    3. Schedule follow-ups for medium-value leads (score 4-7)
+2026-05-27 20:35:29,540 - __main__ - INFO -    3. Update lead status in database after contact
+2026-05-27 20:35:29,540 - __main__ - INFO - ======================================================================
+2026-05-27 20:35:29,540 - __main__ - INFO - ELITE HUNTER OPERATIONS COMPLETED
+2026-05-27 20:35:29,541 - __main__ - INFO - ======================================================================
+2026-05-27 20:41:01,598 - core_modules.db_manager - INFO - Database initialized: data/leads.db
+2026-05-27 20:41:01,598 - __main__ - INFO - SQLite database initialized successfully
+2026-05-27 20:41:01,744 - agents.scout_agent.scoring_logic - INFO - OpenAI client initialized successfully
+2026-05-27 20:41:01,744 - __main__ - INFO - Professional Elite Hunter initialized with SQLite, LLM, and anti-blocking
+2026-05-27 20:41:11,163 - core_modules.db_manager - INFO - Database initialized: data/leads.db
+2026-05-27 20:41:11,163 - __main__ - INFO - SQLite database initialized successfully
+2026-05-27 20:41:11,177 - agents.scout_agent.scoring_logic - INFO - OpenAI client initialized successfully
+2026-05-27 20:41:11,178 - __main__ - INFO - Professional Elite Hunter initialized with SQLite, LLM, and anti-blocking
+2026-05-27 20:41:11,178 - __main__ - INFO - Starting Elite Hunter - Full Intelligent Operations
+2026-05-27 20:41:11,180 - __main__ - INFO - ======================================================================
+2026-05-27 20:41:11,180 - __main__ - INFO - STARTING ELITE HUNTER OPERATIONS
+2026-05-27 20:41:11,180 - __main__ - INFO - ======================================================================
+2026-05-27 20:41:11,181 - __main__ - INFO - Database Status: 0 existing leads
+2026-05-27 20:41:11,181 - __main__ - INFO - STEP 1: Running Elite Market Intelligence for Cipocok Jaya...
+2026-05-27 20:41:11,181 - __main__ - INFO - --------------------------------------------------
+2026-05-27 20:41:11,182 - agents.scout_agent.market_intelligence - INFO - Starting Elite Hunter Cipocok Jaya market research...
+2026-05-27 20:41:11,182 - agents.scout_agent.market_intelligence - INFO - Starting price search for: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:41:13,184 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:41:23,201 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:41:23,202 - agents.scout_agent.market_intelligence - ERROR - Search attempt 1 failed: https://www.bing.com/search TimeoutError: error sending request for url (https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang) > operation timed out
+2026-05-27 20:41:23,202 - agents.scout_agent.market_intelligence - WARNING - Timeout error - increasing delay
+2026-05-27 20:41:23,202 - agents.scout_agent.market_intelligence - INFO - Waiting 5 seconds before retry...
+2026-05-27 20:41:28,203 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:41:33,641 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang 200
+2026-05-27 20:41:34,014 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 2
+2026-05-27 20:41:34,015 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:41:36,616 - primp - INFO - response: https://www.bing.com/search?q=Harga+rumah+baru+di+sekitar+Cipocok+Jaya+Serang 200
+2026-05-27 20:41:37,355 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:41:37,356 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: Harga rumah baru di sekitar Cipocok Jaya Serang
+2026-05-27 20:41:37,356 - agents.scout_agent.market_intelligence - INFO - Successfully processed 0 price results for Cipocok Jaya
+2026-05-27 20:41:39,357 - agents.scout_agent.market_intelligence - INFO - Starting facilities search for: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:41:41,359 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:41:45,320 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:41:45,675 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:41:45,676 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: Fasilitas umum terbaru di Cipocok Jaya
+2026-05-27 20:41:48,245 - primp - INFO - response: https://www.bing.com/search?q=Fasilitas+umum+terbaru+di+Cipocok+Jaya 200
+2026-05-27 20:41:48,695 - agents.scout_agent.market_intelligence - INFO - Successfully found 10 results on attempt 2
+2026-05-27 20:41:48,696 - agents.scout_agent.market_intelligence - INFO - Successfully processed 10 facility results for Cipocok Jaya
+2026-05-27 20:41:50,697 - agents.scout_agent.market_intelligence - INFO - Starting competitor price monitoring for Cipocok Jaya...
+2026-05-27 20:41:52,699 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:41:56,145 - primp - INFO - response: https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya 200
+2026-05-27 20:41:56,524 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:41:56,525 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:41:57,252 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:41:57,253 - agents.scout_agent.market_intelligence - ERROR - Search attempt 2 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:41:57,253 - agents.scout_agent.market_intelligence - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:41:57,254 - agents.scout_agent.market_intelligence - INFO - Waiting 10 seconds before retry...
+2026-05-27 20:42:07,255 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:42:09,067 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:09,068 - agents.scout_agent.market_intelligence - ERROR - Search attempt 3 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:09,068 - agents.scout_agent.market_intelligence - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=harga+rumah+kompetitor+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:09,069 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: harga rumah kompetitor Cipocok Jaya
+2026-05-27 20:42:11,071 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: developer properti Cipocok Jaya harga
+2026-05-27 20:42:12,582 - primp - INFO - response: https://www.bing.com/search?q=developer+properti+Cipocok+Jaya+harga 200
+2026-05-27 20:42:13,391 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:42:13,393 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: developer properti Cipocok Jaya harga
+2026-05-27 20:42:13,628 - primp - INFO - response: https://www.bing.com/search?q=developer+properti+Cipocok+Jaya+harga 200
+2026-05-27 20:42:13,687 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 2
+2026-05-27 20:42:13,688 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: developer properti Cipocok Jaya harga
+2026-05-27 20:42:15,306 - primp - INFO - response: https://www.bing.com/search?q=developer+properti+Cipocok+Jaya+harga 200
+2026-05-27 20:42:15,695 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:42:15,695 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: developer properti Cipocok Jaya harga
+2026-05-27 20:42:17,697 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:42:21,658 - primp - INFO - response: https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang 200
+2026-05-27 20:42:22,012 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:42:22,013 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:42:22,783 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:22,784 - agents.scout_agent.market_intelligence - ERROR - Search attempt 2 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:22,785 - agents.scout_agent.market_intelligence - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:22,785 - agents.scout_agent.market_intelligence - INFO - Waiting 10 seconds before retry...
+2026-05-27 20:42:32,787 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:42:35,388 - primp - INFO - response: https://www.bing.com/search?q=perumahan+murah+Cipocok+Jaya+Serang 200
+2026-05-27 20:42:35,763 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 3
+2026-05-27 20:42:35,763 - agents.scout_agent.market_intelligence - ERROR - All 3 attempts failed for query: perumahan murah Cipocok Jaya Serang
+2026-05-27 20:42:37,765 - agents.scout_agent.market_intelligence - INFO - Search attempt 1/3 for query: promo rumah Cipocok Jaya
+2026-05-27 20:42:39,287 - primp - INFO - response: https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya 200
+2026-05-27 20:42:39,646 - agents.scout_agent.market_intelligence - WARNING - No results found on attempt 1
+2026-05-27 20:42:39,647 - agents.scout_agent.market_intelligence - INFO - Search attempt 2/3 for query: promo rumah Cipocok Jaya
+2026-05-27 20:42:40,423 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:40,423 - agents.scout_agent.market_intelligence - ERROR - Search attempt 2 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:40,424 - agents.scout_agent.market_intelligence - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:42:40,424 - agents.scout_agent.market_intelligence - INFO - Waiting 10 seconds before retry...
+2026-05-27 20:42:50,426 - agents.scout_agent.market_intelligence - INFO - Search attempt 3/3 for query: promo rumah Cipocok Jaya
+2026-05-27 20:42:54,205 - primp - INFO - response: https://www.bing.com/search?q=promo+rumah+Cipocok+Jaya 200
+2026-05-27 20:42:54,794 - agents.scout_agent.market_intelligence - INFO - Successfully found 8 results on attempt 3
+2026-05-27 20:42:54,794 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,795 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,795 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,795 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,796 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,796 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,797 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,797 - agents.scout_agent.market_intelligence - ERROR - Error extracting price from text: name 're' is not defined
+2026-05-27 20:42:54,799 - agents.scout_agent.market_intelligence - INFO - Drift monitoring log saved to: logs/market_drift.txt
+2026-05-27 20:42:54,799 - agents.scout_agent.market_intelligence - INFO - Competitor monitoring completed. Drift log saved to: logs/market_drift.txt
+2026-05-27 20:42:56,802 - agents.scout_agent.market_intelligence - INFO - Intelligence report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:42:56,802 - agents.scout_agent.market_intelligence - INFO - Elite Hunter Cipocok Jaya research completed. Drift status: stable
+2026-05-27 20:42:56,803 - __main__ - INFO - Elite Market Intelligence completed successfully!
+2026-05-27 20:42:56,804 - __main__ - INFO -    - Price search results: 0
+2026-05-27 20:42:56,804 - __main__ - INFO -    - Facility search results: 10
+2026-05-27 20:42:56,804 - __main__ - INFO -    - Competitor listings: 8
+2026-05-27 20:42:56,805 - __main__ - INFO -    - Market drift status: stable
+2026-05-27 20:42:56,805 - __main__ - INFO -    - Report saved to: logs/scout_intelligence_report.txt
+2026-05-27 20:42:59,806 - __main__ - INFO - 
+STEP 2: Running Elite Lead Hunting for Serang...
+2026-05-27 20:42:59,806 - __main__ - INFO - --------------------------------------------------
+2026-05-27 20:42:59,807 - agents.scout_agent.lead_hunter - INFO - Starting Serang lead hunting...
+2026-05-27 20:42:59,841 - agents.scout_agent.lead_hunter - INFO - Loaded leads database with 25 existing leads
+2026-05-27 20:42:59,842 - agents.scout_agent.lead_hunter - INFO - Starting buyer search for: cari rumah Serang
+2026-05-27 20:43:01,843 - agents.scout_agent.lead_hunter - INFO - Search attempt 1/3 for query: cari rumah Serang
+2026-05-27 20:43:02,621 - duckduckgo_search.DDGS - INFO - Error to search using bing backend: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=cari+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:43:02,622 - agents.scout_agent.lead_hunter - ERROR - Search attempt 1 failed: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=cari+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:43:02,622 - agents.scout_agent.lead_hunter - ERROR - Unexpected error: https://www.bing.com/search ConnectError: error sending request for url (https://www.bing.com/search?q=cari+rumah+Serang) > client error (Connect) > peer misbehaved: SelectedUnofferedKxGroup
+2026-05-27 20:43:02,622 - agents.scout_agent.lead_hunter - INFO - Waiting 5 seconds before retry...
+2026-05-27 20:43:07,625 - agents.scout_agent.lead_hunter - INFO - Search attempt 2/3 for query: cari rumah Serang
+2026-05-27 20:43:12,706 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang 200
+2026-05-27 20:43:13,073 - agents.scout_agent.lead_hunter - WARNING - No results found on attempt 2
+2026-05-27 20:43:13,074 - agents.scout_agent.lead_hunter - INFO - Search attempt 3/3 for query: cari rumah Serang
+2026-05-27 20:43:14,582 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang 200
+2026-05-27 20:43:17,483 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=11&FORM=PERE 200
+2026-05-27 20:43:18,765 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:43:20,497 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=31&FORM=PERE2 200
+2026-05-27 20:43:21,742 - primp - INFO - response: https://www.bing.com/search?q=cari+rumah+Serang&first=41&FORM=PERE3 200
+2026-05-27 20:43:21,814 - agents.scout_agent.lead_hunter - INFO - Successfully found 10 results on attempt 3
+2026-05-27 20:43:21,883 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,884 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,884 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,885 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,885 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,885 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,886 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,886 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,886 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,887 - agents.scout_agent.lead_hunter - ERROR - Error processing buyer lead: name 'i' is not defined
+2026-05-27 20:43:21,887 - agents.scout_agent.lead_hunter - INFO - Buyer search completed: 0 new leads, 0 duplicates
+2026-05-27 20:43:23,889 - agents.scout_agent.lead_hunter - INFO - Loaded leads database with 25 existing leads
+2026-05-27 20:43:23,889 - agents.scout_agent.lead_hunter - INFO - Starting seller search for: dijual rumah Serang
+2026-05-27 20:43:25,891 - agents.scout_agent.lead_hunter - INFO - Search attempt 1/3 for query: dijual rumah Serang
+2026-05-27 20:43:27,490 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang 200
+2026-05-27 20:43:29,158 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang&first=11&FORM=PERE 200
+2026-05-27 20:43:30,825 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang&first=21&FORM=PERE1 200
+2026-05-27 20:43:32,550 - primp - INFO - response: https://www.bing.com/search?q=dijual+rumah+Serang&first=31&FORM=PERE2 200
+2026-05-27 20:43:33,009 - agents.scout_agent.lead_hunter - INFO - Successfully found 15 results on attempt 1
+2026-05-27 20:43:33,010 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,010 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,010 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,011 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,011 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,012 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,012 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,013 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,013 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,013 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,014 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,014 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,015 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,015 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,015 - agents.scout_agent.lead_hunter - ERROR - Error processing seller lead: name 'i' is not defined
+2026-05-27 20:43:33,016 - agents.scout_agent.lead_hunter - INFO - Seller search completed: 0 new leads, 0 duplicates
+2026-05-27 20:43:35,018 - agents.scout_agent.lead_hunter - INFO - Leads capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:43:35,018 - agents.scout_agent.lead_hunter - INFO - Serang lead hunting completed. Capture saved to: logs/scout_leads_capture.txt
+2026-05-27 20:43:35,019 - __main__ - INFO - Elite Lead Hunting completed successfully!
+2026-05-27 20:43:35,019 - __main__ - INFO -    - Buyer leads found: 0
+2026-05-27 20:43:35,019 - __main__ - INFO -    - Seller leads found: 0
+2026-05-27 20:43:35,019 - __main__ - INFO -    - Total leads: 0
+2026-05-27 20:43:35,020 - __main__ - INFO -    - High urgency buyers: 0
+2026-05-27 20:43:35,020 - __main__ - INFO -    - High urgency sellers: 0
+2026-05-27 20:43:35,020 - __main__ - INFO -    - Database updated: data/leads_database.json
+2026-05-27 20:43:37,021 - __main__ - INFO - 
+STEP 3: Running Professional Lead Scoring with LLM...
+2026-05-27 20:43:37,022 - __main__ - INFO - --------------------------------------------------
+2026-05-27 20:43:39,569 - __main__ - WARNING - No leads found for scoring
+2026-05-27 20:43:39,571 - __main__ - INFO - 
+======================================================================
+2026-05-27 20:43:39,571 - __main__ - INFO - ELITE HUNTER OPERATIONS SUMMARY
+2026-05-27 20:43:39,572 - __main__ - INFO - ======================================================================
+2026-05-27 20:43:40,324 - __main__ - INFO -    - logs/scout_intelligence_report.txt
+2026-05-27 20:43:40,324 - __main__ - INFO -    - logs/market_drift.txt
+2026-05-27 20:43:40,324 - __main__ - INFO -    - data/leads.db (SQLite database with LLM scoring)
+2026-05-27 20:43:40,327 - __main__ - INFO -    - Total leads in SQLite: 0
+2026-05-27 20:43:40,327 - __main__ - INFO -    - New leads: 0
+2026-05-27 20:43:40,327 - __main__ - INFO -    - Buyer leads: 0
+2026-05-27 20:43:40,327 - __main__ - INFO -    - Seller leads: 0
+2026-05-27 20:43:40,328 - __main__ - INFO -    - High-value leads: 0
+2026-05-27 20:43:40,328 - __main__ - INFO -    - Average score: 0.0/10
+2026-05-27 20:43:40,328 - __main__ - INFO -    - LLM Analysis: 0 leads analyzed with AI
+2026-05-27 20:43:40,331 - __main__ - INFO -    1. Refine search keywords for better lead quality
+2026-05-27 20:43:40,331 - __main__ - INFO -    2. Monitor market drift for competitive opportunities
+2026-05-27 20:43:40,331 - __main__ - INFO -    3. Update lead status in database after contact
+2026-05-27 20:43:40,332 - __main__ - INFO - ======================================================================
+2026-05-27 20:43:40,332 - __main__ - INFO - ELITE HUNTER OPERATIONS COMPLETED
+2026-05-27 20:43:40,332 - __main__ - INFO - ======================================================================

@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-27T20:18:21.037288",
+  "total_leads": 12,
+  "hot_leads": 6,
+  "warm_leads": 0,
+  "cold_leads": 6,
+  "top_opportunities": [
+    {
+      "id": "LEAD_502",
+      "title": "Development Opportunity: tanah",
+      "location": "Jakarta",
+      "budget": 1000000000,
+      "project_type": "residential",
+      "urgency": "medium",
+      "contact_info": "contact@property.com",
+      "source": "Online Platform",
+      "date": "2026-05-27T20:18:21.035798",
+      "score": {
+        "lead_id": "LEAD_502",
+        "total_score": 95,
+        "qualification": "Hot",
+        "factors": {
+          "budget": "Pass",
+          "location": "Pass",
+          "project_type": "Pass",
+          "urgency": "Medium",
+          "contact": "Available"
+        },
+        "recommendation": "Immediate contact required - high priority lead"
+      }
+    },
+    {
+      "id": "LEAD_006",
+      "title": "Development Opportunity: properti",
+      "location": "Jakarta",
+      "budget": 1000000000,
+      "project_type": "residential",
+      "urgency": "medium",
+      "contact_info": "contact@property.com",
+      "source": "Online Platform",
+      "date": "2026-05-27T20:18:21.035809",
+      "score": {
+        "lead_id": "LEAD_006",
+        "total_score": 95,
+        "qualification": "Hot",
+        "factors": {
+          "budget": "Pass",
+          "location": "Pass",
+          "project_type": "Pass",
+          "urgency": "Medium",
+          "contact": "Available"
+        },
+        "recommendation": "Immediate contact required - high priority lead"
+      }
+    },
+    {
+      "id": "LEAD_324",
+      "title": "Development Opportunity: development",
+      "location": "Jakarta",
+      "budget": 1000000000,
+      "project_type": "residential",
+      "urgency": "medium",
+      "contact_info": "contact@property.com",
+      "source": "Online Platform",
+      "date": "2026-05-27T20:18:21.035820",
+      "score": {
+        "lead_id": "LEAD_324",
+        "total_score": 95,
+        "qualification": "Hot",
+        "factors": {
+          "budget": "Pass",
+          "location": "Pass",
+          "project_type": "Pass",
+          "urgency": "Medium",
+          "contact": "Available"
+        },
+        "recommendation": "Immediate contact required - high priority lead"
+      }
+    },
+    {
+      "id": "LEAD_650",
+      "title": "Development Opportunity: dijual tanah",
+      "location": "Jakarta",
+      "budget": 1000000000,
+      "project_type": "residential",
+      "urgency": "medium",
+      "contact_info": "contact@property.com",
+      "source": "Online Platform",
+      "date": "2026-05-27T20:18:21.035823",
+      "score": {
+        "lead_id": "LEAD_650",
+        "total_score": 95,
+        "qualification": "Hot",
+        "factors": {
+          "budget": "Pass",
+          "location": "Pass",
+          "project_type": "Pass",
+          "urgency": "Medium",
+          "contact": "Available"
+        },
+        "recommendation": "Immediate contact required - high priority lead"
+      }
+    },
+    {
+      "id": "LEAD_136",
+      "title": "Development Opportunity: proyek properti",
+      "location": "Jakarta",
+      "budget": 1000000000,
+      "project_type": "residential",
+      "urgency": "medium",
+      "contact_info": "contact@property.com",
+      "source": "Online Platform",
+      "date": "2026-05-27T20:18:21.035827",
+      "score": {
+        "lead_id": "LEAD_136",
+        "total_score": 95,
+        "qualification": "Hot",
+        "factors": {
+          "budget": "Pass",
+          "location": "Pass",
+          "project_type": "Pass",
+          "urgency": "Medium",
+          "contact": "Available"
+        },
+        "recommendation": "Immediate contact required - high priority lead"
+      }
+    }
+  ],
+  "recommendations": [
+    "Contact 6 hot leads immediately",
+    "Prepare proposal for top 3 opportunities",
+    "Lead pipeline healthy - continue monitoring"
+  ]
+}

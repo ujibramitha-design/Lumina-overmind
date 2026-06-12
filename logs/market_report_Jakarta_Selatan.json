@@ -1,0 +1,73 @@
+{
+  "location": "Jakarta Selatan",
+  "generated_at": "2026-05-27T20:18:21.033712",
+  "market_overview": {
+    "location": "Jakarta Selatan",
+    "price_trend": "increasing",
+    "demand_level": "high",
+    "inventory_level": "low",
+    "average_price": "1.2B IDR",
+    "days_on_market": 45,
+    "price_per_sqm": 15000000,
+    "market_sentiment": "positive",
+    "analysis_date": "2026-05-27T20:18:21.031788"
+  },
+  "active_listings": 10,
+  "opportunities": [
+    {
+      "type": "residential_development",
+      "location": "Jakarta Selatan - Central Area",
+      "potential_roi": "25%",
+      "risk_level": "medium",
+      "timeline": "18 months",
+      "required_capital": "5M",
+      "market_demand": "high",
+      "competitive_advantage": "Strategic location near transit"
+    },
+    {
+      "type": "commercial_renovation",
+      "location": "Jakarta Selatan - Business District",
+      "potential_roi": "18%",
+      "risk_level": "low",
+      "timeline": "12 months",
+      "required_capital": "2M",
+      "market_demand": "medium",
+      "competitive_advantage": "Existing infrastructure"
+    }
+  ],
+  "competitor_analysis": [
+    {
+      "name": "Properti Maju Jaya",
+      "active_projects": 3,
+      "price_range": "800M - 2.5B",
+      "market_share": "15%",
+      "strengths": [
+        "Brand recognition",
+        "Quality construction"
+      ],
+      "weaknesses": [
+        "Higher pricing",
+        "Limited locations"
+      ]
+    },
+    {
+      "name": "Rumah Indah Developer",
+      "active_projects": 5,
+      "price_range": "600M - 1.8B",
+      "market_share": "12%",
+      "strengths": [
+        "Affordable pricing",
+        "Quick delivery"
+      ],
+      "weaknesses": [
+        "Basic amenities",
+        "Limited design options"
+      ]
+    }
+  ],
+  "recommendations": [
+    "Consider accelerated development timeline to capture price appreciation",
+    "Focus on residential development with mixed-use components",
+    "Prioritize residential_development project with highest ROI potential"
+  ]
+}

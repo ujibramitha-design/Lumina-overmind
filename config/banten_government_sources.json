@@ -1,0 +1,1198 @@
+{
+  "banten_government_intelligence": {
+    "provincial_info": {
+      "name": "Provinsi Banten",
+      "capital": "Serang",
+      "population": 12100000,
+      "area_km2": 9662.93,
+      "governor": "Al Muktabar",
+      "vice_governor": "Andika Hazrumy",
+      "established_year": 2000,
+      "website": "https://www.bantenprov.go.id",
+      "provincial_seal": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coat_of_arms_of_Banten.svg/200px-Coat_of_arms_of_Banten.svg.png",
+      "motto": "Iman, Taqwa, Amanah, dan Tawakal",
+      "regencies_count": 4,
+      "cities_count": 4,
+      "districts_count": 155
+    },
+    "regions": {
+      "kota_serang": {
+        "name": "Kota Serang",
+        "capital": "Serang",
+        "type": "Kota",
+        "population": 655000,
+        "area_km2": 266.74,
+        "density_per_km2": 2456,
+        "website": "https://www.serangkota.go.id",
+        "mayor": "Syafrudin",
+        "vice_mayor": "Subadri Usman",
+        "districts_count": 6,
+        "districts": [
+          {
+            "name": "Cipocok Jaya",
+            "population": 120000,
+            "area_km2": 45.2,
+            "density_per_km2": 2655,
+            "villages_count": 12
+          },
+          {
+            "name": "Curug",
+            "population": 110000,
+            "area_km2": 42.8,
+            "density_per_km2": 2570,
+            "villages_count": 10
+          },
+          {
+            "name": "Kasemen",
+            "population": 95000,
+            "area_km2": 38.5,
+            "density_per_km2": 2468,
+            "villages_count": 8
+          },
+          {
+            "name": "Serang",
+            "population": 130000,
+            "area_km2": 52.1,
+            "density_per_km2": 2495,
+            "villages_count": 14
+          },
+          {
+            "name": "Taktakan",
+            "population": 105000,
+            "area_km2": 41.2,
+            "density_per_km2": 2550,
+            "villages_count": 9
+          },
+          {
+            "name": "Walantaka",
+            "population": 95000,
+            "area_km2": 46.9,
+            "density_per_km2": 2026,
+            "villages_count": 11
+          }
+        ],
+        "dinas": [
+          {
+            "name": "Dinas Perhubungan",
+            "abbreviation": "Dishub",
+            "head": "Drs. H. Ahmad Suhadi",
+            "phone": "+62-254-8431234",
+            "email": "dishub@serangkota.go.id",
+            "address": "Jl. Ki Hajar Dewantara No. 45, Serang",
+            "website": "https://dishub.serangkota.go.id",
+            "services": ["Perizinan Kendaraan", "Uji Kir", "Perizinan Angkutan"],
+            "employee_count": 180
+          },
+          {
+            "name": "Dinas Pekerjaan Umum",
+            "abbreviation": "DPU",
+            "head": "Ir. Budi Santoso",
+            "phone": "+62-254-8431235",
+            "email": "dpu@serangkota.go.id",
+            "address": "Jl. Sudirman No. 67, Serang",
+            "website": "https://dpu.serangkota.go.id",
+            "services": ["Perizinan Bangunan", "Perizinan Gedung", "Perizinan Reklame"],
+            "employee_count": 240
+          },
+          {
+            "name": "Dinas Kesehatan",
+            "abbreviation": "Dinkes",
+            "head": "dr. Rina Widayanti",
+            "phone": "+62-254-8431236",
+            "email": "dinkes@serangkota.go.id",
+            "address": "Jl. A. Yani No. 23, Serang",
+            "website": "https://dinkes.serangkota.go.id",
+            "services": ["Pelayanan Kesehatan", "Promosi Kesehatan", "Pengendalian Penyakit"],
+            "employee_count": 300
+          },
+          {
+            "name": "Dinas Pendidikan",
+            "abbreviation": "Disdik",
+            "head": "Drs. H. M. Yusuf",
+            "phone": "+62-254-8431237",
+            "email": "disdik@serangkota.go.id",
+            "address": "Jl. Pendidikan No. 12, Serang",
+            "website": "https://disdik.serangkota.go.id",
+            "services": ["Pendidikan Dasar", "Pendidikan Menengah", "Pendidikan Tinggi"],
+            "employee_count": 300
+          },
+          {
+            "name": "Dinas Sosial",
+            "abbreviation": "Dinsos",
+            "head": "Dra. Siti Nurjanah",
+            "phone": "+62-254-8431238",
+            "email": "dinsos@serangkota.go.id",
+            "address": "Jl. Sosial No. 34, Serang",
+            "website": "https://dinsos.serangkota.go.id",
+            "services": ["Jaminan Sosial", "Pemberdayaan Sosial", "Perlindungan Anak"],
+            "employee_count": 216
+          },
+          {
+            "name": "Dinas Perdagangan",
+            "abbreviation": "Disdag",
+            "head": "Ir. H. Budi Hartono",
+            "phone": "+62-254-8431239",
+            "email": "disdag@serangkota.go.id",
+            "address": "Jl. Pasar Baru No. 56, Serang",
+            "website": "https://disdag.serangkota.go.id",
+            "services": ["Perizinan Toko", "Perizinan Pasar", "Pengawasan Harga"],
+            "employee_count": 144
+          },
+          {
+            "name": "Dinas Kependudukan dan Pencatatan Sipil",
+            "abbreviation": "Disdukcapil",
+            "head": "Drs. H. Ahmad Fauzi",
+            "phone": "+62-254-8431240",
+            "email": "disdukcapil@serangkota.go.id",
+            "address": "Jl. Veteran No. 78, Serang",
+            "website": "https://disdukcapil.serangkota.go.id",
+            "services": ["KTP", "KK", "Akta Kelahiran", "Akta Kematian"],
+            "employee_count": 240
+          },
+          {
+            "name": "Dinas Lingkungan Hidup",
+            "abbreviation": "DLH",
+            "head": "Ir. H. Budi Pranoto",
+            "phone": "+62-254-8431241",
+            "email": "dlh@serangkota.go.id",
+            "address": "Jl. Lingkungan No. 89, Serang",
+            "website": "https://dlh.serangkota.go.id",
+            "services": ["Pengelolaan Sampah", "Pengendalian Pencemaran", "Penghijauan"],
+            "employee_count": 120
+          },
+          {
+            "name": "Dinas Pertanian",
+            "abbreviation": "Disperta",
+            "head": "Ir. H. Achmad Wijaya",
+            "phone": "+62-254-8431242",
+            "email": "disperta@serangkota.go.id",
+            "address": "Jl. Pertanian No. 23, Serang",
+            "website": "https://disperta.serangkota.go.id",
+            "services": ["Pertanian", "Perkebunan", "Peternakan"],
+            "employee_count": 180
+          },
+          {
+            "name": "Dinas Perindustrian dan Perdagangan",
+            "abbreviation": "Disperindag",
+            "head": "Ir. H. Budi Santoso",
+            "phone": "+62-254-8431243",
+            "email": "disperindag@serangkota.go.id",
+            "address": "Jl. Industri No. 45, Serang",
+            "website": "https://disperindag.serangkota.go.id",
+            "services": ["Perindustrian", "Perdagangan", "Pemberdayaan UMKM"],
+            "employee_count": 96
+          },
+          {
+            "name": "Dinas Pariwisata",
+            "abbreviation": "Dispar",
+            "head": "Dra. H. Rina Suryani",
+            "phone": "+62-254-8431244",
+            "email": "dispar@serangkota.go.id",
+            "address": "Jl. Wisata No. 67, Serang",
+            "website": "https://dispar.serangkota.go.id",
+            "services": ["Pariwisata", "Kebudayaan", "Event"],
+            "employee_count": 72
+          },
+          {
+            "name": "Dinas Kebudayaan dan Pariwisata",
+            "abbreviation": "Disbudpar",
+            "head": "Drs. H. Budi Hariyanto",
+            "phone": "+62-254-8431245",
+            "email": "disbudpar@serangkota.go.id",
+            "address": "Jl. Kebudayaan No. 34, Serang",
+            "website": "https://disbudpar.serangkota.go.id",
+            "services": ["Kebudayaan", "Pariwisata", "Seni"],
+            "employee_count": 60
+          },
+          {
+            "name": "Dinas Kearsipan",
+            "abbreviation": "Dinas Kearsipan",
+            "head": "Drs. H. Ahmad Yani",
+            "phone": "+62-254-8431246",
+            "email": "kearsipan@serangkota.go.id",
+            "address": "Jl. Arsip No. 12, Serang",
+            "website": "https://kearsipan.serangkota.go.id",
+            "services": ["Arsip", "Perpustakaan", "Dokumentasi"],
+            "employee_count": 48
+          },
+          {
+            "name": "Dinas Perpustakaan dan Kearsipan",
+            "abbreviation": "Dispus",
+            "head": "Dra. H. Sri Mulyani",
+            "phone": "+62-254-8431247",
+            "email": "dispus@serangkota.go.id",
+            "address": "Jl. Perpustakaan No. 56, Serang",
+            "website": "https://dispus.serangkota.go.id",
+            "services": ["Perpustakaan", "Arsip", "Literasi"],
+            "employee_count": 36
+          },
+          {
+            "name": "Dinas Komunikasi dan Informatika",
+            "abbreviation": "Diskominfo",
+            "head": "Ir. H. Budi Pratama",
+            "phone": "+62-254-8431248",
+            "email": "diskominfo@serangkota.go.id",
+            "address": "Jl. Komunikasi No. 78, Serang",
+            "website": "https://diskominfo.serangkota.go.id",
+            "services": ["Komunikasi", "Informatika", "Statistik"],
+            "employee_count": 96
+          },
+          {
+            "name": "Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu",
+            "abbreviation": "DPMPTSP",
+            "head": "Ir. H. Budi Susilo",
+            "phone": "+62-254-8431249",
+            "email": "dpmptsp@serangkota.go.id",
+            "address": "Jl. Investasi No. 23, Serang",
+            "website": "https://dpmptsp.serangkota.go.id",
+            "services": ["Penanaman Modal", "Perizinan", "Pelayanan Terpadu"],
+            "employee_count": 84
+          },
+          {
+            "name": "Dinas Tenaga Kerja",
+            "abbreviation": "Disnaker",
+            "head": "Drs. H. Ahmad Fadli",
+            "phone": "+62-254-8431250",
+            "email": "disnaker@serangkota.go.id",
+            "address": "Jl. Tenaga Kerja No. 45, Serang",
+            "website": "https://disnaker.serangkota.go.id",
+            "services": ["Tenaga Kerja", "Pelatihan", "Penempatan Kerja"],
+            "employee_count": 120
+          },
+          {
+            "name": "Dinas Ketahanan Pangan",
+            "abbreviation": "DKP",
+            "head": "Ir. H. Budi Wibowo",
+            "phone": "+62-254-8431251",
+            "email": "dkp@serangkota.go.id",
+            "address": "Jl. Pangan No. 67, Serang",
+            "website": "https://dkp.serangkota.go.id",
+            "services": ["Ketahanan Pangan", "Distribusi Pangan", "Kualitas Pangan"],
+            "employee_count": 108
+          },
+          {
+            "name": "Dinas Pemberdayaan Masyarakat dan Desa",
+            "abbreviation": "DPMD",
+            "head": "Dra. H. Sri Nurjanah",
+            "phone": "+62-254-8431252",
+            "email": "dpmd@serangkota.go.id",
+            "address": "Jl. Pemberdayaan No. 34, Serang",
+            "website": "https://dpmd.serangkota.go.id",
+            "services": ["Pemberdayaan Masyarakat", "Pembangunan Desa", "Koperasi"],
+            "employee_count": 144
+          },
+          {
+            "name": "Dinas Perumahan Rakyat dan Kawasan Permukiman",
+            "abbreviation": "Disperum",
+            "head": "Ir. H. Budi Santoso",
+            "phone": "+62-254-8431253",
+            "email": "disperum@serangkota.go.id",
+            "address": "Jl. Perumahan No. 56, Serang",
+            "website": "https://disperum.serangkota.go.id",
+            "services": ["Perumahan", "Kawasan Permukiman", "Sarana Perumahan"],
+            "employee_count": 132
+          },
+          {
+            "name": "Dinas Koperasi, Usaha Kecil dan Menengah",
+            "abbreviation": "Dinkop",
+            "head": "Drs. H. Ahmad Wijaya",
+            "phone": "+62-254-8431254",
+            "email": "dinkop@serangkota.go.id",
+            "address": "Jl. Koperasi No. 23, Serang",
+            "website": "https://dinkop.serangkota.go.id",
+            "services": ["Koperasi", "UMKM", "Pemberdayaan Ekonomi"],
+            "employee_count": 48
+          }
+        ]
+      },
+      "kabupaten_serang": {
+        "name": "Kabupaten Serang",
+        "capital": "Ciruas",
+        "type": "Kabupaten",
+        "population": 1580000,
+        "area_km2": 1855.78,
+        "density_per_km2": 851,
+        "website": "https://www.serangkab.go.id",
+        "regent": "Ratu Tatu Chasanah",
+        "vice_regent": "Pandji Tirtayasa",
+        "districts_count": 28,
+        "districts": [
+          {
+            "name": "Ciruas",
+            "population": 85000,
+            "area_km2": 65.2,
+            "density_per_km2": 1304,
+            "villages_count": 8
+          },
+          {
+            "name": "Cikeusal",
+            "population": 62000,
+            "area_km2": 58.7,
+            "density_per_km2": 1056,
+            "villages_count": 7
+          },
+          {
+            "name": "Cinangka",
+            "population": 78000,
+            "area_km2": 72.3,
+            "density_per_km2": 1078,
+            "villages_count": 9
+          },
+          {
+            "name": "Ciomas",
+            "population": 95000,
+            "area_km2": 85.6,
+            "density_per_km2": 1109,
+            "villages_count": 11
+          },
+          {
+            "name": "Gunungsari",
+            "population": 58000,
+            "area_km2": 62.4,
+            "density_per_km2": 929,
+            "villages_count": 8
+          },
+          {
+            "name": "Kramatwatu",
+            "population": 72000,
+            "area_km2": 68.9,
+            "density_per_km2": 1045,
+            "villages_count": 9
+          },
+          {
+            "name": "Kopo",
+            "population": 68000,
+            "area_km2": 71.2,
+            "density_per_km2": 954,
+            "villages_count": 10
+          },
+          {
+            "name": "Mancak",
+            "population": 55000,
+            "area_km2": 59.8,
+            "density_per_km2": 920,
+            "villages_count": 7
+          },
+          {
+            "name": "Padarincang",
+            "population": 62000,
+            "area_km2": 64.5,
+            "density_per_km2": 961,
+            "villages_count": 8
+          },
+          {
+            "name": "Pabuaran",
+            "population": 70000,
+            "area_km2": 73.1,
+            "density_per_km2": 958,
+            "villages_count": 9
+          },
+          {
+            "name": "Pamarayan",
+            "population": 58000,
+            "area_km2": 61.2,
+            "density_per_km2": 948,
+            "villages_count": 8
+          },
+          {
+            "name": "Pontang",
+            "population": 65000,
+            "area_km2": 67.8,
+            "density_per_km2": 959,
+            "villages_count": 9
+          },
+          {
+            "name": "Tanara",
+            "population": 54000,
+            "area_km2": 58.9,
+            "density_per_km2": 916,
+            "villages_count": 7
+          },
+          {
+            "name": "Tirtayasa",
+            "population": 68000,
+            "area_km2": 70.4,
+            "density_per_km2": 966,
+            "villages_count": 10
+          },
+          {
+            "name": "Waringinkurung",
+            "population": 52000,
+            "area_km2": 56.7,
+            "density_per_km2": 917,
+            "villages_count": 7
+          },
+          {
+            "name": "Baros",
+            "population": 75000,
+            "area_km2": 78.3,
+            "density_per_km2": 958,
+            "villages_count": 10
+          },
+          {
+            "name": "Binuang",
+            "population": 45000,
+            "area_km2": 52.1,
+            "density_per_km2": 864,
+            "villages_count": 6
+          },
+          {
+            "name": "Bojonglopo",
+            "population": 48000,
+            "area_km2": 54.6,
+            "density_per_km2": 878,
+            "villages_count": 7
+          },
+          {
+            "name": "Carenang",
+            "population": 55000,
+            "area_km2": 60.2,
+            "density_per_km2": 914,
+            "villages_count": 8
+          },
+          {
+            "name": "Jawilan",
+            "population": 42000,
+            "area_km2": 48.9,
+            "density_per_km2": 859,
+            "villages_count": 6
+          },
+          {
+            "name": "Kibin",
+            "population": 38000,
+            "area_km2": 45.7,
+            "density_per_km2": 831,
+            "villages_count": 6
+          },
+          {
+            "name": "Lebakwana",
+            "population": 46000,
+            "area_km2": 51.2,
+            "density_per_km2": 898,
+            "villages_count": 7
+          },
+          {
+            "name": "Muncang",
+            "population": 41000,
+            "area_km2": 47.8,
+            "density_per_km2": 858,
+            "villages_count": 6
+          },
+          {
+            "name": "Petir",
+            "population": 59000,
+            "area_km2": 63.4,
+            "density_per_km2": 931,
+            "villages_count": 8
+          },
+          {
+            "name": "Puloampel",
+            "population": 35000,
+            "area_km2": 42.1,
+            "density_per_km2": 831,
+            "villages_count": 5
+          },
+          {
+            "name": "Sindang Sari",
+            "population": 40000,
+            "area_km2": 46.8,
+            "density_per_km2": 855,
+            "villages_count": 6
+          },
+          {
+            "name": "Sukaresmi",
+            "population": 38000,
+            "area_km2": 44.5,
+            "density_per_km2": 854,
+            "villages_count": 6
+          },
+          {
+            "name": "Tunjungharjo",
+            "population": 36000,
+            "area_km2": 43.2,
+            "density_per_km2": 833,
+            "villages_count": 5
+          },
+          {
+            "name": "Warunggunung",
+            "population": 34000,
+            "area_km2": 40.8,
+            "density_per_km2": 833,
+            "villages_count": 5
+          }
+        ],
+        "dinas": [
+          {
+            "name": "Dinas Perhubungan",
+            "abbreviation": "Dishub",
+            "head": "Drs. H. Ahmad Suhadi",
+            "phone": "+62-254-8431234",
+            "email": "dishub@serangkab.go.id",
+            "address": "Jl. Ki Hajar Dewantara No. 45, Ciruas",
+            "website": "https://dishub.serangkab.go.id",
+            "services": ["Perizinan Kendaraan", "Uji Kir", "Perizinan Angkutan"],
+            "employee_count": 225
+          },
+          {
+            "name": "Dinas Pekerjaan Umum",
+            "abbreviation": "DPU",
+            "head": "Ir. Budi Santoso",
+            "phone": "+62-254-8431235",
+            "email": "dpu@serangkab.go.id",
+            "address": "Jl. Sudirman No. 67, Ciruas",
+            "website": "https://dpu.serangkab.go.id",
+            "services": ["Perizinan Bangunan", "Perizinan Gedung", "Perizinan Reklame"],
+            "employee_count": 300
+          },
+          {
+            "name": "Dinas Kesehatan",
+            "abbreviation": "Dinkes",
+            "head": "dr. Rina Widayanti",
+            "phone": "+62-254-8431236",
+            "email": "dinkes@serangkab.go.id",
+            "address": "Jl. A. Yani No. 23, Ciruas",
+            "website": "https://dinkes.serangkab.go.id",
+            "services": ["Pelayanan Kesehatan", "Promosi Kesehatan", "Pengendalian Penyakit"],
+            "employee_count": 375
+          },
+          {
+            "name": "Dinas Pendidikan",
+            "abbreviation": "Disdik",
+            "head": "Drs. H. M. Yusuf",
+            "phone": "+62-254-8431237",
+            "email": "disdik@serangkab.go.id",
+            "address": "Jl. Pendidikan No. 12, Ciruas",
+            "website": "https://disdik.serangkab.go.id",
+            "services": ["Pendidikan Dasar", "Pendidikan Menengah", "Pendidikan Tinggi"],
+            "employee_count": 375
+          },
+          {
+            "name": "Dinas Sosial",
+            "abbreviation": "Dinsos",
+            "head": "Dra. Siti Nurjanah",
+            "phone": "+62-254-8431238",
+            "email": "dinsos@serangkab.go.id",
+            "address": "Jl. Sosial No. 34, Ciruas",
+            "website": "https://dinsos.serangkab.go.id",
+            "services": ["Jaminan Sosial", "Pemberdayaan Sosial", "Perlindungan Anak"],
+            "employee_count": 270
+          },
+          {
+            "name": "Dinas Perdagangan",
+            "abbreviation": "Disdag",
+            "head": "Ir. H. Budi Hartono",
+            "phone": "+62-254-8431239",
+            "email": "disdag@serangkab.go.id",
+            "address": "Jl. Pasar Baru No. 56, Ciruas",
+            "website": "https://disdag.serangkab.go.id",
+            "services": ["Perizinan Toko", "Perizinan Pasar", "Pengawasan Harga"],
+            "employee_count": 180
+          },
+          {
+            "name": "Dinas Kependudukan dan Pencatatan Sipil",
+            "abbreviation": "Disdukcapil",
+            "head": "Drs. H. Ahmad Fauzi",
+            "phone": "+62-254-8431240",
+            "email": "disdukcapil@serangkab.go.id",
+            "address": "Jl. Veteran No. 78, Ciruas",
+            "website": "https://disdukcapil.serangkab.go.id",
+            "services": ["KTP", "KK", "Akta Kelahiran", "Akta Kematian"],
+            "employee_count": 300
+          },
+          {
+            "name": "Dinas Lingkungan Hidup",
+            "abbreviation": "DLH",
+            "head": "Ir. H. Budi Pranoto",
+            "phone": "+62-254-8431241",
+            "email": "dlh@serangkab.go.id",
+            "address": "Jl. Lingkungan No. 89, Ciruas",
+            "website": "https://dlh.serangkab.go.id",
+            "services": ["Pengelolaan Sampah", "Pengendalian Pencemaran", "Penghijauan"],
+            "employee_count": 150
+          },
+          {
+            "name": "Dinas Pertanian",
+            "abbreviation": "Disperta",
+            "head": "Ir. H. Achmad Wijaya",
+            "phone": "+62-254-8431242",
+            "email": "disperta@serangkab.go.id",
+            "address": "Jl. Pertanian No. 23, Ciruas",
+            "website": "https://disperta.serangkab.go.id",
+            "services": ["Pertanian", "Perkebunan", "Peternakan"],
+            "employee_count": 225
+          },
+          {
+            "name": "Dinas Perindustrian dan Perdagangan",
+            "abbreviation": "Disperindag",
+            "head": "Ir. H. Budi Santoso",
+            "phone": "+62-254-8431243",
+            "email": "disperindag@serangkab.go.id",
+            "address": "Jl. Industri No. 45, Ciruas",
+            "website": "https://disperindag.serangkab.go.id",
+            "services": ["Perindustrian", "Perdagangan", "Pemberdayaan UMKM"],
+            "employee_count": 120
+          },
+          {
+            "name": "Dinas Pariwisata",
+            "abbreviation": "Dispar",
+            "head": "Dra. H. Rina Suryani",
+            "phone": "+62-254-8431244",
+            "email": "dispar@serangkab.go.id",
+            "address": "Jl. Wisata No. 67, Ciruas",
+            "website": "https://dispar.serangkab.go.id",
+            "services": ["Pariwisata", "Kebudayaan", "Event"],
+            "employee_count": 90
+          },
+          {
+            "name": "Dinas Kebudayaan dan Pariwisata",
+            "abbreviation": "Disbudpar",
+            "head": "Drs. H. Budi Hariyanto",
+            "phone": "+62-254-8431245",
+            "email": "disbudpar@serangkab.go.id",
+            "address": "Jl. Kebudayaan No. 34, Ciruas",
+            "website": "https://disbudpar.serangkab.go.id",
+            "services": ["Kebudayaan", "Pariwisata", "Seni"],
+            "employee_count": 75
+          },
+          {
+            "name": "Dinas Kearsipan",
+            "abbreviation": "Dinas Kearsipan",
+            "head": "Drs. H. Ahmad Yani",
+            "phone": "+62-254-8431246",
+            "email": "kearsipan@serangkab.go.id",
+            "address": "Jl. Arsip No. 12, Ciruas",
+            "website": "https://kearsipan.serangkab.go.id",
+            "services": ["Arsip", "Perpustakaan", "Dokumentasi"],
+            "employee_count": 60
+          },
+          {
+            "name": "Dinas Perpustakaan dan Kearsipan",
+            "abbreviation": "Dispus",
+            "head": "Dra. H. Sri Mulyani",
+            "phone": "+62-254-8431247",
+            "email": "dispus@serangkab.go.id",
+            "address": "Jl. Perpustakaan No. 56, Ciruas",
+            "website": "https://dispus.serangkab.go.id",
+            "services": ["Perpustakaan", "Arsip", "Literasi"],
+            "employee_count": 45
+          },
+          {
+            "name": "Dinas Komunikasi dan Informatika",
+            "abbreviation": "Diskominfo",
+            "head": "Ir. H. Budi Pratama",
+            "phone": "+62-254-8431248",
+            "email": "diskominfo@serangkab.go.id",
+            "address": "Jl. Komunikasi No. 78, Ciruas",
+            "website": "https://diskominfo.serangkab.go.id",
+            "services": ["Komunikasi", "Informatika", "Statistik"],
+            "employee_count": 120
+          },
+          {
+            "name": "Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu",
+            "abbreviation": "DPMPTSP",
+            "head": "Ir. H. Budi Susilo",
+            "phone": "+62-254-8431249",
+            "email": "dpmptsp@serangkab.go.id",
+            "address": "Jl. Investasi No. 23, Ciruas",
+            "website": "https://dpmptsp.serangkab.go.id",
+            "services": ["Penanaman Modal", "Perizinan", "Pelayanan Terpadu"],
+            "employee_count": 105
+          },
+          {
+            "name": "Dinas Tenaga Kerja",
+            "abbreviation": "Disnaker",
+            "head": "Drs. H. Ahmad Fadli",
+            "phone": "+62-254-8431250",
+            "email": "disnaker@serangkab.go.id",
+            "address": "Jl. Tenaga Kerja No. 45, Ciruas",
+            "website": "https://disnaker.serangkab.go.id",
+            "services": ["Tenaga Kerja", "Pelatihan", "Penempatan Kerja"],
+            "employee_count": 150
+          },
+          {
+            "name": "Dinas Ketahanan Pangan",
+            "abbreviation": "DKP",
+            "head": "Ir. H. Budi Wibowo",
+            "phone": "+62-254-8431251",
+            "email": "dkp@serangkab.go.id",
+            "address": "Jl. Pangan No. 67, Ciruas",
+            "website": "https://dkp.serangkab.go.id",
+            "services": ["Ketahanan Pangan", "Distribusi Pangan", "Kualitas Pangan"],
+            "employee_count": 135
+          },
+          {
+            "name": "Dinas Pemberdayaan Masyarakat dan Desa",
+            "abbreviation": "DPMD",
+            "head": "Dra. H. Sri Nurjanah",
+            "phone": "+62-254-8431252",
+            "email": "dpmd@serangkab.go.id",
+            "address": "Jl. Pemberdayaan No. 34, Ciruas",
+            "website": "https://dpmd.serangkab.go.id",
+            "services": ["Pemberdayaan Masyarakat", "Pembangunan Desa", "Koperasi"],
+            "employee_count": 180
+          },
+          {
+            "name": "Dinas Perumahan Rakyat dan Kawasan Permukiman",
+            "abbreviation": "Disperum",
+            "head": "Ir. H. Budi Santoso",
+            "phone": "+62-254-8431253",
+            "email": "disperum@serangkab.go.id",
+            "address": "Jl. Perumahan No. 56, Ciruas",
+            "website": "https://disperum.serangkab.go.id",
+            "services": ["Perumahan", "Kawasan Permukiman", "Sarana Perumahan"],
+            "employee_count": 165
+          },
+          {
+            "name": "Dinas Koperasi, Usaha Kecil dan Menengah",
+            "abbreviation": "Dinkop",
+            "head": "Drs. H. Ahmad Wijaya",
+            "phone": "+62-254-8431254",
+            "email": "dinkop@serangkab.go.id",
+            "address": "Jl. Koperasi No. 23, Ciruas",
+            "website": "https://dinkop.serangkab.go.id",
+            "services": ["Koperasi", "UMKM", "Pemberdayaan Ekonomi"],
+            "employee_count": 60
+          },
+          {
+            "name": "Dinas Kelautan dan Perikanan",
+            "abbreviation": "DKP",
+            "head": "Ir. H. Budi Wibowo",
+            "phone": "+62-254-8431255",
+            "email": "dkp_kelautan@serangkab.go.id",
+            "address": "Jl. Kelautan No. 78, Ciruas",
+            "website": "https://dkp_kelautan.serangkab.go.id",
+            "services": ["Kelautan", "Perikanan", "Aquaculture"],
+            "employee_count": 120
+          },
+          {
+            "name": "Dinas Kehutanan",
+            "abbreviation": "Dishut",
+            "head": "Ir. H. Budi Pranoto",
+            "phone": "+62-254-8431256",
+            "email": "dishut@serangkab.go.id",
+            "address": "Jl. Kehutanan No. 89, Ciruas",
+            "website": "https://dishut.serangkab.go.id",
+            "services": ["Kehutanan", "Perhutanan", "Konservasi"],
+            "employee_count": 90
+          },
+          {
+            "name": "Dinas Pertambangan dan Energi",
+            "abbreviation": "Distamben",
+            "head": "Ir. H. Budi Susilo",
+            "phone": "+62-254-8431257",
+            "email": "distamben@serangkab.go.id",
+            "address": "Jl. Pertambangan No. 45, Ciruas",
+            "website": "https://distamben.serangkab.go.id",
+            "services": ["Pertambangan", "Energi", "Mineral"],
+            "employee_count": 75
+          }
+        ]
+      },
+      "kota_cilegon": {
+        "name": "Kota Cilegon",
+        "capital": "Cilegon",
+        "type": "Kota",
+        "population": 435000,
+        "area_km2": 175.51,
+        "density_per_km2": 2478,
+        "website": "https://www.cilegonkota.go.id",
+        "mayor": "Helldy Agustian",
+        "vice_mayor": "Rizki Mulyaman",
+        "districts_count": 6,
+        "districts": [
+          {
+            "name": "Cibeber",
+            "population": 85000,
+            "area_km2": 28.5,
+            "density_per_km2": 2982,
+            "villages_count": 5
+          },
+          {
+            "name": "Cilegon",
+            "population": 120000,
+            "area_km2": 38.2,
+            "density_per_km2": 3141,
+            "villages_count": 7
+          },
+          {
+            "name": "Ciwandan",
+            "population": 75000,
+            "area_km2": 32.1,
+            "density_per_km2": 2336,
+            "villages_count": 6
+          },
+          {
+            "name": "Grogol",
+            "population": 65000,
+            "area_km2": 29.8,
+            "density_per_km2": 2181,
+            "villages_count": 5
+          },
+          {
+            "name": "Jombang",
+            "population": 45000,
+            "area_km2": 26.4,
+            "density_per_km2": 1705,
+            "villages_count": 4
+          },
+          {
+            "name": "Pulomerak",
+            "population": 45000,
+            "area_km2": 20.5,
+            "density_per_km2": 2195,
+            "villages_count": 4
+          }
+        ],
+        "dinas": [
+          {
+            "name": "Dinas Perhubungan",
+            "abbreviation": "Dishub",
+            "head": "Drs. H. Ahmad Suhadi",
+            "phone": "+62-254-8431234",
+            "email": "dishub@cilegonkota.go.id",
+            "address": "Jl. Ki Hajar Dewantara No. 45, Cilegon",
+            "website": "https://dishub.cilegonkota.go.id",
+            "services": ["Perizinan Kendaraan", "Uji Kir", "Perizinan Angkutan"],
+            "employee_count": 150
+          },
+          {
+            "name": "Dinas Pekerjaan Umum",
+            "abbreviation": "DPU",
+            "head": "Ir. Budi Santoso",
+            "phone": "+62-254-8431235",
+            "email": "dpu@cilegonkota.go.id",
+            "address": "Jl. Sudirman No. 67, Cilegon",
+            "website": "https://dpu.cilegonkota.go.id",
+            "services": ["Perizinan Bangunan", "Perizinan Gedung", "Perizinan Reklame"],
+            "employee_count": 200
+          },
+          {
+            "name": "Dinas Kesehatan",
+            "abbreviation": "Dinkes",
+            "head": "dr. Rina Widayanti",
+            "phone": "+62-254-8431236",
+            "email": "dinkes@cilegonkota.go.id",
+            "address": "Jl. A. Yani No. 23, Cilegon",
+            "website": "https://dinkes.cilegonkota.go.id",
+            "services": ["Pelayanan Kesehatan", "Promosi Kesehatan", "Pengendalian Penyakit"],
+            "employee_count": 250
+          },
+          {
+            "name": "Dinas Pendidikan",
+            "abbreviation": "Disdik",
+            "head": "Drs. H. M. Yusuf",
+            "phone": "+62-254-8431237",
+            "email": "disdik@cilegonkota.go.id",
+            "address": "Jl. Pendidikan No. 12, Cilegon",
+            "website": "https://disdik.cilegonkota.go.id",
+            "services": ["Pendidikan Dasar", "Pendidikan Menengah", "Pendidikan Tinggi"],
+            "employee_count": 250
+          },
+          {
+            "name": "Dinas Sosial",
+            "abbreviation": "Dinsos",
+            "head": "Dra. Siti Nurjanah",
+            "phone": "+62-254-8431238",
+            "email": "dinsos@cilegonkota.go.id",
+            "address": "Jl. Sosial No. 34, Cilegon",
+            "website": "https://dinsos.cilegonkota.go.id",
+            "services": ["Jaminan Sosial", "Pemberdayaan Sosial", "Perlindungan Anak"],
+            "employee_count": 180
+          },
+          {
+            "name": "Dinas Perdagangan",
+            "abbreviation": "Disdag",
+            "head": "Ir. H. Budi Hartono",
+            "phone": "+62-254-8431239",
+            "email": "disdag@cilegonkota.go.id",
+            "address": "Jl. Pasar Baru No. 56, Cilegon",
+            "website": "https://disdag.cilegonkota.go.id",
+            "services": ["Perizinan Toko", "Perizinan Pasar", "Pengawasan Harga"],
+            "employee_count": 120
+          },
+          {
+            "name": "Dinas Kependudukan dan Pencatatan Sipil",
+            "abbreviation": "Disdukcapil",
+            "head": "Drs. H. Ahmad Fauzi",
+            "phone": "+62-254-8431240",
+            "email": "disdukcapil@cilegonkota.go.id",
+            "address": "Jl. Veteran No. 78, Cilegon",
+            "website": "https://disdukcapil.cilegonkota.go.id",
+            "services": ["KTP", "KK", "Akta Kelahiran", "Akta Kematian"],
+            "employee_count": 200
+          },
+          {
+            "name": "Dinas Lingkungan Hidup",
+            "abbreviation": "DLH",
+            "head": "Ir. H. Budi Pranoto",
+            "phone": "+62-254-8431241",
+            "email": "dlh@cilegonkota.go.id",
+            "address": "Jl. Lingkungan No. 89, Cilegon",
+            "website": "https://dlh.cilegonkota.go.id",
+            "services": ["Pengelolaan Sampah", "Pengendalian Pencemaran", "Penghijauan"],
+            "employee_count": 100
+          },
+          {
+            "name": "Dinas Pertanian",
+            "abbreviation": "Disperta",
+            "head": "Ir. H. Achmad Wijaya",
+            "phone": "+62-254-8431242",
+            "email": "disperta@cilegonkota.go.id",
+            "address": "Jl. Pertanian No. 23, Cilegon",
+            "website": "https://disperta.cilegonkota.go.id",
+            "services": ["Pertanian", "Perkebunan", "Peternakan"],
+            "employee_count": 150
+          },
+          {
+            "name": "Dinas Perindustrian dan Perdagangan",
+            "abbreviation": "Disperindag",
+            "head": "Ir. H. Budi Santoso",
+            "phone": "+62-254-8431243",
+            "email": "disperindag@cilegonkota.go.id",
+            "address": "Jl. Industri No. 45, Cilegon",
+            "website": "https://disperindag.cilegonkota.go.id",
+            "services": ["Perindustrian", "Perdagangan", "Pemberdayaan UMKM"],
+            "employee_count": 80
+          },
+          {
+            "name": "Dinas Pariwisata",
+            "abbreviation": "Dispar",
+            "head": "Dra. H. Rina Suryani",
+            "phone": "+62-254-8431244",
+            "email": "dispar@cilegonkota.go.id",
+            "address": "Jl. Wisata No. 67, Cilegon",
+            "website": "https://dispar.cilegonkota.go.id",
+            "services": ["Pariwisata", "Kebudayaan", "Event"],
+            "employee_count": 60
+          },
+          {
+            "name": "Dinas Kebudayaan dan Pariwisata",
+            "abbreviation": "Disbudpar",
+            "head": "Drs. H. Budi Hariyanto",
+            "phone": "+62-254-8431245",
+            "email": "disbudpar@cilegonkota.go.id",
+            "address": "Jl. Kebudayaan No. 34, Cilegon",
+            "website": "https://disbudpar.cilegonkota.go.id",
+            "services": ["Kebudayaan", "Pariwisata", "Seni"],
+            "employee_count": 50
+          },
+          {
+            "name": "Dinas Kearsipan",
+            "abbreviation": "Dinas Kearsipan",
+            "head": "Drs. H. Ahmad Yani",
+            "phone": "+62-254-8431246",
+            "email": "kearsipan@cilegonkota.go.id",
+            "address": "Jl. Arsip No. 12, Cilegon",
+            "website": "https://kearsipan.cilegonkota.go.id",
+            "services": ["Arsip", "Perpustakaan", "Dokumentasi"],
+            "employee_count": 40
+          },
+          {
+            "name": "Dinas Perpustakaan dan Kearsipan",
+            "abbreviation": "Dispus",
+            "head": "Dra. H. Sri Mulyani",
+            "phone": "+62-254-8431247",
+            "email": "dispus@cilegonkota.go.id",
+            "address": "Jl. Perpustakaan No. 56, Cilegon",
+            "website": "https://dispus.cilegonkota.go.id",
+            "services": ["Perpustakaan", "Arsip", "Literasi"],
+            "employee_count": 30
+          },
+          {
+            "name": "Dinas Komunikasi dan Informatika",
+            "abbreviation": "Diskominfo",
+            "head": "Ir. H. Budi Pratama",
+            "phone": "+62-254-8431248",
+            "email": "diskominfo@cilegonkota.go.id",
+            "address": "Jl. Komunikasi No. 78, Cilegon",
+            "website": "https://diskominfo.cilegonkota.go.id",
+            "services": ["Komunikasi", "Informatika", "Statistik"],
+            "employee_count": 80
+          },
+          {
+            "name": "Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu",
+            "abbreviation": "DPMPTSP",
+            "head": "Ir. H. Budi Susilo",
+            "phone": "+62-254-8431249",
+            "email": "dpmptsp@cilegonkota.go.id",
+            "address": "Jl. Investasi No. 23, Cilegon",
+            "website": "https://dpmptsp.cilegonkota.go.id",
+            "services": ["Penanaman Modal", "Perizinan", "Pelayanan Terpadu"],
+            "employee_count": 70
+          },
+          {
+            "name": "Dinas Tenaga Kerja",
+            "abbreviation": "Disnaker",
+            "head": "Drs. H. Ahmad Fadli",
+            "phone": "+62-254-8431250",
+            "email": "disnaker@cilegonkota.go.id",
+            "address": "Jl. Tenaga Kerja No. 45, Cilegon",
+            "website": "https://disnaker.cilegonkota.go.id",
+            "services": ["Tenaga Kerja", "Pelatihan", "Penempatan Kerja"],
+            "employee_count": 100
+          },
+          {
+            "name": "Dinas Ketahanan Pangan",
+            "abbreviation": "DKP",
+            "head": "Ir. H. Budi Wibowo",
+            "phone": "+62-254-8431251",
+            "email": "dkp@cilegonkota.go.id",
+            "address": "Jl. Pangan No. 67, Cilegon",
+            "website": "https://dkp.cilegonkota.go.id",
+            "services": ["Ketahanan Pangan", "Distribusi Pangan", "Kualitas Pangan"],
+            "employee_count": 90
+          },
+          {
+            "name": "Dinas Pemberdayaan Masyarakat dan Desa",
+            "abbreviation": "DPMD",
+            "head": "Dra. H. Sri Nurjanah",
+            "phone": "+62-254-8431252",
+            "email": "dpmd@cilegonkota.go.id",
+            "address": "Jl. Pemberdayaan No. 34, Cilegon",
+            "website": "https://dpmd@cilegonkota.go.id",
+            "services": ["Pemberdayaan Masyarakat", "Pembangunan Desa", "Koperasi"],
+            "employee_count": 120
+          },
+          {
+            "name": "Dinas Perumahan Rakyat dan Kawasan Permukiman",
+            "abbreviation": "Disperum",
+            "head": "Ir. H. Budi Santoso",
+            "phone": "+62-254-8431253",
+            "email": "disperum@cilegonkota.go.id",
+            "address": "Jl. Perumahan No. 56, Cilegon",
+            "website": "https://disperum@cilegonkota.go.id",
+            "services": ["Perumahan", "Kawasan Permukiman", "Sarana Perumahan"],
+            "employee_count": 110
+          },
+          {
+            "name": "Dinas Koperasi, Usaha Kecil dan Menengah",
+            "abbreviation": "Dinkop",
+            "head": "Drs. H. Ahmad Wijaya",
+            "phone": "+62-254-8431254",
+            "email": "dinkop@cilegonkota.go.id",
+            "address": "Jl. Koperasi No. 23, Cilegon",
+            "website": "https://dinkop@cilegonkota.go.id",
+            "services": ["Koperasi", "UMKM", "Pemberdayaan Ekonomi"],
+            "employee_count": 40
+          },
+          {
+            "name": "Dinas Perindustrian Perdagangan dan Tenaga Kerja",
+            "abbreviation": "Disperindagker",
+            "head": "Ir. H. Budi Santoso",
+            "phone": "+62-254-8431255",
+            "email": "disperindagker@cilegonkota.go.id",
+            "address": "Jl. Industri No. 45, Cilegon",
+            "website": "https://disperindagker@cilegonkota.go.id",
+            "services": ["Perindustrian", "Perdagangan", "Tenaga Kerja"],
+            "employee_count": 90
+          },
+          {
+            "name": "Dinas Lingkungan Hidup dan Perumahan Rakyat",
+            "abbreviation": "DLH-Perum",
+            "head": "Ir. H. Budi Pranoto",
+            "phone": "+62-254-8431256",
+            "email": "dlh_perum@cilegonkota.go.id",
+            "address": "Jl. Lingkungan Perumahan No. 89, Cilegon",
+            "website": "https://dlh_perum@cilegonkota.go.id",
+            "services": ["Lingkungan Hidup", "Perumahan", "Sanitasi"],
+            "employee_count": 110
+          }
+        ]
+      }
+    }
+  },
+  "data_collection_priorities": {
+    "high_priority": [
+      "dinas_profile",
+      "leadership_data",
+      "contact_info",
+      "services_data",
+      "programs_data"
+    ],
+    "medium_priority": [
+      "budget_data",
+      "facilities_data",
+      "performance_data"
+    ],
+    "low_priority": [
+      "historical_data",
+      "regulation_data",
+      "achievement_data"
+    ]
+  },
+  "collection_methods": {
+    "web_scraping": {
+      "enabled": true,
+      "rate_limit": 2,
+      "user_agent_rotation": true,
+      "proxy_support": false
+    },
+    "api_simulation": {
+      "enabled": true,
+      "mock_data_generation": true,
+      "realistic_patterns": true
+    },
+    "data_simulation": {
+      "enabled": true,
+      "comprehensive_generation": true,
+      "realistic_patterns": true
+    }
+  },
+  "regional_focus": {
+    "primary_regions": [
+      "kota_serang", "kabupaten_serang", "kota_cilegon"
+    ],
+    "secondary_regions": [
+      "kota_tangerang", "kabupaten_tangerang", "kabupaten_lebak",
+      "kabupaten_pandeglang", "kabupaten_tangerang_selatan"
+    ],
+    "emerging_regions": []
+  },
+  "intelligence_categories": {
+    "government_structure": {
+      "organizational_analysis": true,
+      "leadership_tracking": true,
+      "department_hierarchy": true,
+      "resource_allocation": true
+    },
+    "service_delivery": {
+      "service_coverage": true,
+      "quality_metrics": true,
+      "citizen_satisfaction": true,
+      "digital_transformation": true
+    },
+    "strategic_planning": {
+      "regional_development": true,
+      "infrastructure_planning": true,
+      "economic_development": true,
+      "social_development": true
+    }
+  },
+  "reporting_requirements": {
+    "daily_reports": [
+      "service_summary",
+      "citizen_requests",
+      "department_performance"
+    ],
+    "weekly_reports": [
+      "regional_analysis",
+      "service_trends",
+      "strategic_insights"
+    ],
+    "monthly_reports": [
+      "comprehensive_government_analysis",
+      "strategic_recommendations",
+      "development_opportunities"
+    ]
+  },
+  "data_storage": {
+    "formats": [
+      "json",
+      "csv",
+      "markdown"
+    ],
+    "retention_period": "12_months",
+    "backup_frequency": "daily",
+    "compression_enabled": true
+  }
+}

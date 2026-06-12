@@ -1,0 +1,29 @@
+/* Tactical UI - Auth Styles & Autofill Fix */
+
+:root {
+  color-scheme: dark;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+/* Fix for browser autofill white background - Tactical Style */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #18181b inset !important;
+  -webkit-text-fill-color: #d4d4d8 !important; /* Soft White */
+  caret-color: #10b981 !important;
+  transition: background-color 5000000s ease-in-out 0s !important;
+}
+
+input {
+  color-scheme: dark !important;
+}

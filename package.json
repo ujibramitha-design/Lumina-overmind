@@ -1,0 +1,30 @@
+{
+  "name": "lumina-os-backend",
+  "version": "1.0.0",
+  "description": "LUMINA OS Backend - AI Property Intelligence System",
+  "main": "api/main.py",
+  "scripts": {
+    "dev": "uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload",
+    "start": "uvicorn api.main:app --host 0.0.0.0 --port 8000",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "prisma": "^7.8.0"
+  },
+  "keywords": [
+    "ai",
+    "property",
+    "intelligence",
+    "prisma",
+    "fastapi"
+  ],
+  "author": "LUMINA OS Team",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.11.0"
+  }
+}

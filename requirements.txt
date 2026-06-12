@@ -1,0 +1,42 @@
+fastapi
+uvicorn[standard]
+websockets
+python-socketio
+
+# Auth and security
+PyJWT
+python-jose[cryptography]
+passlib[bcrypt]
+cryptography
+bcrypt
+python-multipart
+
+# Data and database
+supabase
+prisma
+psycopg2-binary
+redis
+celery
+
+# HTTP / async clients
+httpx
+aiohttp
+
+# AI / integrations
+openai
+google-generativeai
+python-telegram-bot
+twilio
+
+# Monitoring / ops / system
+psutil
+sentry-sdk
+structlog
+prometheus-client
+
+# Utilities used across endpoints and agents
+python-dotenv
+python-dateutil
+PyYAML
+Pillow
+qrcode

@@ -1,0 +1,304 @@
+
+================================================================================
+SCOUT AGENT LEADS CAPTURE REPORT
+================================================================================
+
+Generated: 2026-05-29 22:21:24
+Target Location: Serang
+
+================================================================================
+1. CALON PEMBELI (BUYER LEADS)
+================================================================================
+
+
+1. Rumah Dijual di Palmerah, Murah & Bisa Nego
+   URL: https://www.lamudi.co.id/jual/jakarta/jakarta-barat/palmerah/rumah/
+   Snippet: Rumah Dijual di Palmerah, Jakarta Barat. Tampilkan peta.Jual Rumah 2 Lantai Bagus SHM Jakarta Barat. 19. Linktown Expert - Maida. Rumah Dijual di Jati Pulo.
+   Search Time: 2026-05-29T22:12:20.821508
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+2. Rumah Dijual di Pondok Kelapa | Paling Murah
+   URL: https://www.lamudi.co.id/jual/jakarta/jakarta-timur/pondok-kelapa-1/rumah/
+   Snippet: Rumah Dijual — Lokasi Pondok kelapa, Duren Sawit, Jakarta Timur Kesempatan memiliki rumah 1 lantai dengan akses lengkap dan lingkungan nyaman...
+   Search Time: 2026-05-29T22:12:23.199188
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+3. Rumah Dijual di Pejaten Timur, Murah & Bisa Nego
+   URL: https://www.lamudi.co.id/jual/jakarta/jakarta-selatan/pejaten-timur/rumah/
+   Snippet: Dijual Cepat Rumah Mewah Pejaten Jakarta Selatan. 13. Rumah Dijual di Pasar Minggu.Di Jual rumah furnish cocok untuk kost, 2 lantai 10 kamar tidur lokasi di pejanten Jakarta Selatan.
+   Search Time: 2026-05-29T22:12:26.166238
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+4. Rumah Dijual di Pancoran Jakarta, Murah & Bisa Nego
+   URL: https://www.lamudi.co.id/jual/jakarta/jakarta-selatan/pancoran-1/rumah/
+   Snippet: Cek di sini untuk dapatkan informasi iklan jual rumah Pancoran Jakarta Bisa KPR Sertifikat lengkap Lokasi Strategis.
+   Search Time: 2026-05-29T22:12:29.119409
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+5. Rumah Dijual di Kebayoran Baru Murah & Strategis
+   URL: https://www.lamudi.co.id/jual/jakarta/jakarta-selatan/kebayoran-baru/rumah/
+   Snippet: Rumah Dijual di Bangka. RW 02, Bangka, Mampang Prapatan, Jakarta Selatan, Daerah Khusus Ibukota Jakarta. For sale kebayoran baru senopati area.
+   Search Time: 2026-05-29T22:12:32.176303
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+6. Jurnal Lamudi Indonesia
+   URL: https://www.lamudi.co.id/journal/
+   Snippet: 11 Desain Rumah Klasik Modern Paling Populer di 2025. Properti hunian dijual. Rumah dijual DI jakarta.
+   Search Time: 2026-05-29T22:13:59.379552
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+7. Jual Beli Rumah Cibinong Depok Bogor | Facebook
+   URL: https://www.facebook.com/groups/870122767507916/
+   Snippet: Jual Beli Rumah Cibinong Depok & Bogor Legalitas dan Jelas Dilarang posting konten yang bukan konten properti.
+   Search Time: 2026-05-29T22:15:05.877707
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': ['www.facebook.com/">Go', 'facebook.com/images/logos/facebook_2x.png"', 'www.facebook.com/help/?ref=href052">Help</a></div></div><script', 'www.facebook.com/"><img'], 'websites': []}
+   
+
+8. KONTRAK RUMAH SERANG BANTEN | lg cari rumah yg di kontrakan ...
+   URL: https://www.facebook.com/groups/746569861568395/permalink/1002894345935944/
+   Snippet: May 9, 2026 · lg cari rumah yg di kontrakan bulanan sebulan 600 sd.650 di perumahan mutiara 1 atau di Taman Banten Lestari/TBL 2 kamar, air bagus, kamar mandi bersih, air lancar. tolong info nya yaa
+   Search Time: 2026-05-29T22:15:32.353127
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': ['www.facebook.com/">Go', 'facebook.com/images/logos/facebook_2x.png"', 'www.facebook.com/help/?ref=href052">Help</a></div></div><script', 'www.facebook.com/"><img'], 'websites': []}
+   
+
+9. BISNIS ONLINE TANPA MODAL - Facebook
+   URL: https://www.facebook.com/groups/716703308380444/
+   Snippet: forum berbagi informasi jual beli tanah dan rumah, take over kredit, pengurusan Surat-surat properti.
+   Search Time: 2026-05-29T22:15:50.631868
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': ['www.facebook.com/">Go', 'facebook.com/images/logos/facebook_2x.png"', 'www.facebook.com/help/?ref=href052">Help</a></div></div><script', 'www.facebook.com/"><img'], 'websites': []}
+   
+
+10. Jual Beli Rumah Properti Serang Pandeglang Cilegon Cikande ...
+   URL: https://www.facebook.com/groups/2445443005501935/
+   Snippet: Jual Beli Rumah Properti Serang Pandeglang Cilegon Cikande Kragilan Ciruas
+   Search Time: 2026-05-29T22:15:53.006052
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': ['www.facebook.com/">Go', 'facebook.com/images/logos/facebook_2x.png"', 'www.facebook.com/help/?ref=href052">Help</a></div></div><script', 'www.facebook.com/"><img'], 'websites': []}
+   
+
+11. Jual beli tanah rumah Properti Serang Cilegon Banten Dan ...
+   URL: https://www.facebook.com/groups/614902034335639/
+   Snippet: About this group Jasa Property Cilegon Serang 20h · Public post lagi bos,jual tanah kebun murah bos lokasi
+   Search Time: 2026-05-29T22:15:55.711625
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': ['www.facebook.com/">Go', 'facebook.com/images/logos/facebook_2x.png"', 'www.facebook.com/help/?ref=href052">Help</a></div></div><script', 'www.facebook.com/"><img'], 'websites': []}
+   
+
+12. Rumah+tingkat+2 - Property For Sale - Jakarta, Indonesia ...
+   URL: https://www.facebook.com/marketplace/item/983771827343745/
+   Snippet: Kamar tidur 3 kamar mandi 1 ruang keluarga dapur tempat toren air (tanam) balkon halaman (untuk tanaman)(motor parkir 2) tempat laundry tingkat 2 surat rumah (Surat jual beli rumah sampai Rw saja)...
+   Search Time: 2026-05-29T22:16:12.461627
+   Source: Multi-Engine Aggregator
+   Urgency Score: 0/100
+   Potential Value: Price not mentioned
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': ['www.facebook.com/">Go', 'facebook.com/images/logos/facebook_2x.png"', 'www.facebook.com/help/?ref=href052">Help</a></div></div><script', 'www.facebook.com/"><img'], 'websites': []}
+   
+
+================================================================================
+2. PENJUAL PROPERTI (SELLER LEADS)
+================================================================================
+
+
+1. Dijual Rumah di Parung Panjang Bogor - 2 BR | Jual Rumah
+   URL: https://www.jualrumahjakarta.com/410/dijual-rumah-di-parung-panjang-bogor-2-br/
+   Snippet: Previous Post Jual Rumah Strategis di Dekat Plaza Indonesia – 2 Lantai 11+1 BR Next Post Rumah Dijual di Kampung Baru 2 Pesanggrahan – 2 ...
+   Search Time: 2026-05-29T22:21:22.633418
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+2. Rumah Dijual Paling Murah di Jabodetabek | Jual Rumah Jakarta
+   URL: https://www.jualrumahjakarta.com/4595/rumah-dijual-paling-murah-di-jabodetabek/
+   Snippet: Previous Post Jual Rumah di Tanjung Duren Jakarta Barat – Lokasi Strategis – 3+2 KT – 2 Lantai Next Post Jual Rumah di Grand Depok ...
+   Search Time: 2026-05-29T22:21:22.635674
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': 2, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+3. Dijual Rumah di Kawasan Cinere Depok - 3+1 Kamar Tidur | Jual
+   URL: https://www.jualrumahjakarta.com/3968/dijual-rumah-di-kawasan-cinere-depok-31-kamar-tidur/
+   Snippet: Dijual Rumah di Kawasan Cinere Depok – 3+1 Kamar Tidur ... Previous Post Jual Rumah di Kelapa Gading – Siap Huni – 1.5 Lantai ...
+   Search Time: 2026-05-29T22:21:22.637434
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': 1, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+4. Dijual Rumah Mewah di Margasatwa, Pondok Labu, Jakarta Selatan
+   URL: https://www.jualrumahjakarta.com/26125/dijual-rumah-mewah-di-margasatwa-pondok-labu-jakarta-selatan-14-kamar-tidur/
+   Snippet: Dijual Rumah Mewah di Margasatwa, Pondok Labu, Jakarta Selatan – 14 Kamar Tidur ... Alasan rumah dijual:karena tuan rumah tidak tinggal di ...
+   Search Time: 2026-05-29T22:21:22.638940
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': 14, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+5. Dijual Rumah Baru Free PPN NAMEE - EONNA FREE PPN 110 Juta |
+   URL: https://www.jualrumahjakarta.com/28086/dijual-rumah-baru-free-ppn-namee-eonna-free-ppn-110-juta/
+   Snippet: Dijual Rumah Baru Free PPN NAMEE – EONNA FREE PPN 110 Juta ... Premium House at BSD City – The Armont Residence Next Post Jual Rumah ...
+   Search Time: 2026-05-29T22:21:22.640413
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+6. Dijual Rumah Rapi Minimalis - Janur Elok Kelapa Gading Jakarta
+   URL: https://www.situsproperti.com/40440/dijual-rumah-rapi-minimalis-janur-elok-kelapa-gading-jakarta-utara-5-kamar-semi-furnished
+   Snippet: Dijual Rumah Rapi Minimalis – Janur Elok Kelapa Gading Jakarta Utara – 5 Kamar Semi Furnished ... Previous Post Dijual Apartemen The Nest ...
+   Search Time: 2026-05-29T22:21:22.642049
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+7. Dijual Rumah Ex Dealer & Kantor Samsat di Raya Anyer Serang
+   URL: https://www.situsproperti.com/27712/dijual-rumah-ex-dealer-kantor-samsat-di-raya-anyer-serang-banten-6-kamar-unfurnished
+   Snippet: Dijual Rumah Ex Dealer & Kantor Samsat di Raya Anyer Serang Banten – 6 Kamar Unfurnished ... Dijual Rumah Ex.
+   Search Time: 2026-05-29T22:21:22.643722
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+8. Sewa Rumah di Kebayoran Baru Bulanan Tahunan Harian
+   URL: https://www.sewa-rumah.com/tag/kebayoran-baru/
+   Snippet: Info Tambahan: – Rumah ini baru selesai di renovasi, sangat cocok untuk usaha dan kantor tapi juga bisa untuk hunian keluarga.
+   Search Time: 2026-05-29T22:21:22.645359
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+9. Dijual / Dikontrakkan Rumah di Pondok Cilegon Indah (PCI),
+   URL: https://www.sewa-rumah.net/1717/dijual-dikontrakkan-rumah-di-pondok-cilegon-indah-pci-serang-banten-4-1-kamar-tidur-fully-furnished/
+   Snippet: Dijual / Dikontrakkan Rumah di Pondok Cilegon Indah (PCI), Serang, Banten – 4+1 Kamar Tidur – Fully Furnished
+   Search Time: 2026-05-29T22:21:22.646915
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': 1, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+10. Dijual di Bawah Harga Pasar Apartemen Royal Mediterania Garden
+   URL: https://www.iklanapartemen.com/26211/dijual-di-bawah-harga-pasar-apartemen-royal-mediterania-garden-residence-jakarta-barat-studio-fully-furnished/
+   Snippet: Previous Post Previous Dijual Cepat Harga di Bawah Pasar Apartemen Madison Park Type Studio Fully Furnished Central Park Mall @Podomoro City Jakarta ...
+   Search Time: 2026-05-29T22:21:22.649106
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'apartment'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+11. Rumah Dijual di Serang, Banten | Dot Property
+   URL: https://www.dotproperty.id/houses-for-sale/banten/serang
+   Snippet: Find 405 listing of Rumah dijual di Serang, Banten. memudahkan Anda untuk menemukan hunian idaman Anda dengan memberikan pilihan rumah terlengkap dari seluruh Indonesia.
+   Search Time: 2026-05-29T22:21:22.651712
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+12. Dijual Rumah di Banten Serang
+   URL: https://www.realoka.com/rumah-dijual/serang-kota/banten
+   Snippet: Banyak pilihan rumah dijual di Banten Serang Kota yang diupdate setiap hari dari berbagai tipe rumah, lokasi dan harga yang sangat menarik.
+   Search Time: 2026-05-29T22:21:22.654944
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+13. rumah123.com/jual/cari
+   URL: https://www.rumah123.com/jual/cari/
+   Snippet: menjual rumah.
+   Search Time: 2026-05-29T22:21:22.656685
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': None, 'bathrooms': None, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+14. 35 perumahans taman Dijual di Serang - Trovit
+   URL: https://rumah.trovit.co.id/perumahan-taman-serang
+   Snippet: Bismillah Di Jual Rumah di Kota Serang Banten 2 Kamar Tidur, 2 Kamar Mandi LT 120 M² Harga - Rp.508Jt Lokasi : Widia Asri Kota Serang B…
+   Search Time: 2026-05-29T22:21:22.657223
+   Source: DuckDuckGo
+   Urgency Score: 0/100
+   Property Details: {'bedrooms': 2, 'bathrooms': 2, 'land_area': None, 'building_area': None, 'property_type': 'house'}
+   Contact Info: {'phone_numbers': [], 'emails': [], 'social_media': [], 'websites': []}
+   
+
+================================================================================
+3. ANALISIS LEAD RINGKAS
+================================================================================
+
+Total Leads Captured:
+- Buyer Leads: 12 leads
+- Seller Leads: 14 leads
+- Total: 26 leads
+
+High Urgency Leads (Score > 50):
+- Buyers: 0
+- Sellers: 0
+
+Leads with Contact Info:
+- Buyers: 6
+- Sellers: 0
+
+Recommended Actions:
+1. Prioritize high urgency leads for immediate contact
+2. Verify contact information before outreach
+3. Prepare tailored approach for buyers vs sellers
+4. Schedule follow-up for medium urgency leads
+
+================================================================================
+END OF LEADS CAPTURE REPORT
+================================================================================

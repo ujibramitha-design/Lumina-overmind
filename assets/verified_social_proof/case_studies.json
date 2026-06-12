@@ -1,0 +1,241 @@
+{
+  "case_studies": [
+    {
+      "id": 1,
+      "title": "PT. Griya Sejahtera - 300% Lead Increase",
+      "client": "PT. Griya Sejahtera",
+      "industry": "Property Development",
+      "location": "Serang, Banten",
+      "challenge": "Low lead quality and high customer acquisition costs",
+      "solution": "Implemented HUNTER_AGENT_AI lead hunting and market intelligence",
+      "duration": "6 months",
+      "results": {
+        "lead_increase": "300%",
+        "cost_reduction": "45%",
+        "conversion_rate": "From 8% to 22%",
+        "roi": "420%"
+      },
+      "testimonials": "HUNTER_AGENT AI completely transformed our lead generation strategy. We're now getting high-quality leads consistently.",
+      "key_metrics": [
+        "2,500 qualified leads generated",
+        "550 properties sold",
+        "Customer satisfaction: 4.8/5"
+      ],
+      "technologies_used": [
+        "Lead Hunter AI",
+        "Market Intelligence",
+        "Predictive Analytics",
+        "Real-time Monitoring"
+      ],
+      "date": "2026-01-15",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Family Home Search - Perfect Match in 14 Days",
+      "client": "The Wijaya Family",
+      "industry": "Residential Buyer",
+      "location": "Tangerang to Serang",
+      "challenge": "Finding suitable family home within budget constraints",
+      "solution": "Personalized property matching using AI preferences",
+      "duration": "2 weeks",
+      "results": {
+        "properties_viewed": 8,
+        "time_to_decision": "14 days",
+        "budget_compliance": "100%",
+        "satisfaction_score": "5/5"
+      },
+      "testimonials": "The AI understood exactly what our family needed. We found our dream home faster than we ever imagined possible.",
+      "key_metrics": [
+        "Property match accuracy: 95%",
+        "Search time reduction: 70%",
+        "Budget optimization: Rp 50M saved"
+      ],
+      "technologies_used": [
+        "Personalized Matching",
+        "Budget Analysis",
+        "Area Intelligence",
+        "Preference Learning"
+      ],
+      "date": "2026-02-20",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Investment Group - Market Entry Strategy",
+      "client": "Banten Property Investors",
+      "industry": "Real Estate Investment",
+      "location": "Serang Region",
+      "challenge": "Identifying high-potential investment areas",
+      "solution": "Comprehensive market analysis and trend prediction",
+      "duration": "3 months",
+      "results": {
+        "areas_identified": 5,
+        "investment_return": "35% in 12 months",
+        "risk_mitigation": "High",
+        "market_share": "15%"
+      },
+      "testimonials": "The market intelligence provided insights we couldn't find anywhere else. Our investment strategy is now data-driven and highly profitable.",
+      "key_metrics": [
+        "15 properties acquired",
+        "Total investment: Rp 2.5B",
+        "Current value: Rp 3.4B",
+        "Annual ROI: 35%"
+      ],
+      "technologies_used": [
+        "Market Intelligence",
+        "Trend Analysis",
+        "Competitor Monitoring",
+        "Risk Assessment"
+      ],
+      "date": "2026-03-10",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "First-Time Buyer - Education to Purchase Journey",
+      "client": "Ahmad Rizki",
+      "industry": "First-time Homebuyer",
+      "location": "Serang",
+      "challenge": "Limited knowledge of property buying process",
+      "solution": "Guided journey with educational content and expert support",
+      "duration": "3 months",
+      "results": {
+        "knowledge_improvement": "90%",
+        "confidence_score": "85%",
+        "process_satisfaction": "95%",
+        "successful_purchase": true
+      },
+      "testimonials": "As a first-time buyer, I was nervous about the process. The system guided me through every step with clear information and support.",
+      "key_metrics": [
+        "Educational content consumed: 25 articles",
+        "Expert consultations: 8 sessions",
+        "Property viewings: 12",
+        "Decision confidence: 9/10"
+      ],
+      "technologies_used": [
+        "Educational Content",
+        "Expert Consultation",
+        "Process Guidance",
+        "Progress Tracking"
+      ],
+      "date": "2026-04-05",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Commercial Complex - Lead Qualification System",
+      "client": "Serang Business Center",
+      "industry": "Commercial Real Estate",
+      "location": "Kota Serang",
+      "challenge": "Filtering high-quality commercial leads",
+      "solution": "AI-powered lead scoring and qualification",
+      "duration": "4 months",
+      "results": {
+        "lead_quality": "Improved by 60%",
+        "conversion_time": "Reduced by 40%",
+        "sales_efficiency": "Up 55%",
+        "customer_acquisition_cost": "Down 35%"
+      },
+      "testimonials": "The lead scoring system helps us focus on high-potential clients. Our sales team is now much more efficient.",
+      "key_metrics": [
+        "Leads processed: 1,200",
+        "Qualified leads: 480",
+        "Conversions: 85",
+        "Revenue generated: Rp 15B"
+      ],
+      "technologies_used": [
+        "Lead Scoring AI",
+        "Qualification System",
+        "CRM Integration",
+        "Performance Analytics"
+      ],
+      "date": "2026-05-01",
+      "featured": true
+    }
+  ],
+  "success_metrics": {
+    "total_case_studies": 28,
+    "average_roi": "285%",
+    "client_satisfaction": "4.7/5",
+    "project_success_rate": "96%",
+    "repeat_business_rate": "68%",
+    "industries_served": 5
+  },
+  "industry_focus": [
+    {
+      "industry": "Property Development",
+      "case_count": 12,
+      "average_roi": "320%",
+      "key_benefits": ["Lead generation", "Market analysis", "Competitive intelligence"]
+    },
+    {
+      "industry": "Real Estate Investment",
+      "case_count": 8,
+      "average_roi": "350%",
+      "key_benefits": ["Market trends", "Risk assessment", "ROI optimization"]
+    },
+    {
+      "industry": "Residential Sales",
+      "case_count": 15,
+      "average_roi": "250%",
+      "key_benefits": ["Lead qualification", "Customer matching", "Sales acceleration"]
+    },
+    {
+      "industry": "Commercial Real Estate",
+      "case_count": 6,
+      "average_roi": "280%",
+      "key_benefits": ["Lead scoring", "Client qualification", "Market positioning"]
+    },
+    {
+      "industry": "Property Management",
+      "case_count": 4,
+      "average_roi": "220%",
+      "key_benefits": ["Tenant screening", "Market analysis", "Revenue optimization"]
+    }
+  ],
+  "implementation_process": [
+    {
+      "phase": "Discovery",
+      "duration": "1-2 weeks",
+      "activities": ["Requirements analysis", "System audit", "Goal setting"]
+    },
+    {
+      "phase": "Setup",
+      "duration": "2-3 weeks",
+      "activities": ["System configuration", "Integration setup", "Team training"]
+    },
+    {
+      "phase": "Testing",
+      "duration": "1 week",
+      "activities": ["User acceptance testing", "Performance validation", "Security checks"]
+    },
+    {
+      "phase": "Deployment",
+      "duration": "1 week",
+      "activities": ["Go-live", "Monitoring", "Support setup"]
+    },
+    {
+      "phase": "Optimization",
+      "duration": "Ongoing",
+      "activities": ["Performance tuning", "Feature enhancement", "Continuous improvement"]
+    }
+  ],
+  "guarantees": [
+    {
+      "type": "Performance",
+      "description": "Minimum 200% ROI within 6 months or service extension",
+      "duration": "6 months"
+    },
+    {
+      "type": "Satisfaction",
+      "description": "100% client satisfaction guarantee",
+      "duration": "30 days"
+    },
+    {
+      "type": "Support",
+      "description": "24/7 technical support with 1-hour response time",
+      "duration": "Contract period"
+    }
+  ]
+}

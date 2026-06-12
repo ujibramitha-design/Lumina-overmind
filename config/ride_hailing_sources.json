@@ -1,0 +1,238 @@
+{
+  "ride_hailing_intelligence": {
+    "gocar": {
+      "name": "GoCar",
+      "api_endpoints": {
+        "base_url": "https://api.gojek.io",
+        "driver_info": "/gojek/driver/v2/info",
+        "pricing": "/gojek/booking/v2/estimate",
+        "availability": "/gojek/availability/v2/check"
+      },
+      "web_sources": {
+        "driver_portal": "https://driver.gojek.com",
+        "customer_app": "https://www.gojek.com",
+        "corporate": "https://www.gojek.com/corporate",
+        "blog": "https://www.gojek.com/blog"
+      },
+      "target_regions": [
+        "jabodetabek",
+        "surabaya", 
+        "bandung",
+        "medan",
+        "semarang",
+        "makassar",
+        "bali",
+        "yogyakarta",
+        "palembang",
+        "batam"
+      ],
+      "services": [
+        "gocar",
+        "gocar-instant", 
+        "gocar-xtra",
+        "gocar-lavender"
+      ],
+      "data_points": [
+        "driver_demographics",
+        "pricing_structure",
+        "service_availability",
+        "market_share",
+        "customer_satisfaction",
+        "peak_demand_patterns",
+        "geographic_coverage",
+        "revenue_per_driver"
+      ]
+    },
+    "grabcar": {
+      "name": "GrabCar",
+      "api_endpoints": {
+        "base_url": "https://api.grab.com",
+        "driver_info": "/grab/driver/v1/profile",
+        "pricing": "/grab/transport/v2/estimate",
+        "availability": "/grab/availability/v1/check"
+      },
+      "web_sources": {
+        "driver_portal": "https://driver.grab.com",
+        "customer_app": "https://www.grab.com",
+        "corporate": "https://www.grab.com/corporate",
+        "blog": "https://www.grab.com/blog"
+      },
+      "target_regions": [
+        "jabodetabek",
+        "surabaya",
+        "bandung", 
+        "medan",
+        "semarang",
+        "makassar",
+        "bali",
+        "yogyakarta",
+        "palembang",
+        "batam"
+      ],
+      "services": [
+        "grabcar",
+        "grabcar-plus",
+        "grabcar-premium", 
+        "grabcar-seater",
+        "grabcar-executive"
+      ],
+      "data_points": [
+        "driver_demographics",
+        "pricing_structure",
+        "service_availability",
+        "market_share",
+        "customer_satisfaction",
+        "peak_demand_patterns",
+        "geographic_coverage",
+        "revenue_per_driver"
+      ]
+    },
+    "maxicar": {
+      "name": "MaxiCar",
+      "api_endpoints": {
+        "base_url": "https://api.maxim.id",
+        "driver_info": "/maxim/driver/v1/info",
+        "pricing": "/maxim/booking/v1/estimate",
+        "availability": "/maxim/availability/v1/check"
+      },
+      "web_sources": {
+        "driver_portal": "https://driver.maxim.id",
+        "customer_app": "https://www.maxim.id",
+        "corporate": "https://www.maxim.id/corporate",
+        "blog": "https://www.maxim.id/blog"
+      },
+      "target_regions": [
+        "jabodetabek",
+        "surabaya",
+        "bandung",
+        "medan", 
+        "semarang",
+        "makassar"
+      ],
+      "services": [
+        "maxicar",
+        "maxim-car",
+        "maxim-car-plus",
+        "maxim-van",
+        "maximbike"
+      ],
+      "data_points": [
+        "driver_demographics",
+        "pricing_structure",
+        "service_availability",
+        "market_share",
+        "customer_satisfaction",
+        "peak_demand_patterns",
+        "geographic_coverage",
+        "revenue_per_driver"
+      ]
+    }
+  },
+  "data_collection_priorities": {
+    "high_priority": [
+      "market_share",
+      "pricing_structure",
+      "driver_demographics",
+      "service_availability"
+    ],
+    "medium_priority": [
+      "customer_satisfaction",
+      "peak_demand_patterns",
+      "geographic_coverage"
+    ],
+    "low_priority": [
+      "revenue_per_driver",
+      "operational_metrics",
+      "technology_stack"
+    ]
+  },
+  "collection_methods": {
+    "web_scraping": {
+      "enabled": true,
+      "rate_limit": 2,
+      "user_agent_rotation": true,
+      "proxy_support": false
+    },
+    "api_simulation": {
+      "enabled": true,
+      "mock_data_generation": true,
+      "realistic_patterns": true
+    },
+    "driver_app_analysis": {
+      "enabled": false,
+      "requires_root": false,
+      "ethical_considerations": true
+    }
+  },
+  "regional_focus": {
+    "primary_markets": [
+      "jabodetabek",
+      "surabaya",
+      "bandung"
+    ],
+    "growth_markets": [
+      "medan",
+      "semarang",
+      "makassar"
+    ],
+    "emerging_markets": [
+      "bali",
+      "yogyakarta",
+      "palembang",
+      "batam"
+    ]
+  },
+  "intelligence_categories": {
+    "market_intelligence": {
+      "competitor_analysis": true,
+      "market_share_tracking": true,
+      "pricing_comparison": true,
+      "service_differentiation": true
+    },
+    "operational_intelligence": {
+      "driver_performance": true,
+      "service_efficiency": true,
+      "coverage_analysis": true,
+      "reliability_metrics": true
+    },
+    "customer_intelligence": {
+      "satisfaction_scores": true,
+      "usage_patterns": true,
+      "demographic_analysis": true,
+      "feedback_analysis": true
+    },
+    "financial_intelligence": {
+      "revenue_analysis": true,
+      "cost_structure": true,
+      "profitability_metrics": true,
+      "investment_opportunities": true
+    }
+  },
+  "reporting_requirements": {
+    "daily_reports": [
+      "market_share_summary",
+      "pricing_trends",
+      "driver_activity"
+    ],
+    "weekly_reports": [
+      "competitive_analysis",
+      "customer_satisfaction",
+      "service_performance"
+    ],
+    "monthly_reports": [
+      "comprehensive_market_analysis",
+      "strategic_recommendations",
+      "growth_opportunities"
+    ]
+  },
+  "data_storage": {
+    "formats": [
+      "json",
+      "csv",
+      "markdown"
+    ],
+    "retention_period": "12_months",
+    "backup_frequency": "daily",
+    "compression_enabled": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "regional_banten_master": {
+    "berita_utama_banten": "https://bantenprov.go.id/berita",
+    "bappeda_banten": "https://bappeda.bantenprov.go.id/berita",
+    "dpupr_banten": "https://dpupr.bantenprov.go.id/berita",
+    "pemkab_serang": "https://serangkab.go.id/berita",
+    "bappeda_serang": "https://bappeda.serangkab.go.id/berita",
+    "dpupr_serang": "https://dpupr.serangkab.go.id/berita",
+    "dpmptsp_serang": "https://dpmptsp.serangkab.go.id/berita",
+    "disperindag_serang": "https://disperindag.serangkab.go.id/berita",
+    "pertanian_serang": "https://distan.serangkab.go.id/berita",
+    "dishub_serang": "https://dishub.serangkab.go.id/berita",
+    "pemkot_serang": "https://serangkota.go.id/berita",
+    "bappeda_kota": "https://bappeda.serangkota.go.id/berita",
+    "dpmptsp_kota": "https://dpmptsp.serangkota.go.id/berita",
+    "bpn_banten": "https://www.atrbpn.go.id/Publikasi/Berita",
+    "kadin_banten": "https://kadinbanten.or.id/kabar-kadin"
+  },
+  "religious_affairs_intelligence": {
+    "kemenag_ri": "https://kemenag.go.id/berita",
+    "kemenag_banten": "https://banten.kemenag.go.id/berita",
+    "kemenag_kab_serang": "https://serangkab.kemenag.go.id/berita",
+    "kemenag_kota_serang": "https://kotaserang.kemenag.go.id/berita"
+  }
+}

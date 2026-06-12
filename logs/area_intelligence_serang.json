@@ -1,0 +1,62 @@
+{
+  "location": {
+    "name": "Serang",
+    "coordinates": {
+      "lat": -6.1256,
+      "lng": 106.1445
+    },
+    "address": "Cipocok Jaya, Serang, Banten"
+  },
+  "scan_radius": "5000m",
+  "scan_timestamp": "2026-05-29T21:44:52.332774",
+  "facilities": {
+    "school": {
+      "count": 0,
+      "details": []
+    },
+    "industrial": {
+      "count": 0,
+      "details": []
+    },
+    "commercial": {
+      "count": 0,
+      "details": []
+    }
+  },
+  "demographics": {
+    "age_distribution": "25-35 tahun (dominan), 36-45 tahun, 18-24 tahun",
+    "marriage_data": "Total rumah tangga: 85% menikah, Rata-rata 4 anggota per rumah tangga",
+    "growth_rate": "2.3% per tahun",
+    "avg_income": "Rp 3-5 juta/bulan (rata-rata)",
+    "family_structure": "Rata-rata 4 anggota per rumah tangga",
+    "population_density": "1,200 jiwa/km²",
+    "education_level": "SMA (dominan), SMP, SD"
+  },
+  "area_persona": {
+    "persona_type": "Residential Zone",
+    "primary_demographic": "Pekerja Muda",
+    "dominant_age_group": "25-35 tahun (dominan), 36-45 tahun, 18-24 tahun",
+    "income_level": "Rp 3-5 juta/bulan (rata-rata)",
+    "marriage_data": "Total rumah tangga: 85% menikah, Rata-rata 4 anggota per rumah tangga",
+    "family_structure": "Rata-rata 4 anggota per rumah tangga",
+    "key_facilities": [],
+    "area_characteristics": [],
+    "market_potential": "Rendah - Permintaan perumahan umum",
+    "marketing_focus": "Umum - Fokus pada kenyamanan dan aksesibilitas",
+    "primary_needs": "Aksesibilitas umum",
+    "kpr_potential": "Rendah - Perlu program subsidi",
+    "growth_rate": "2.3% per tahun",
+    "target_audience": {
+      "primary": "Umum",
+      "secondary": "Penduduk Lokal",
+      "characteristics": "Beragam kebutuhan",
+      "housing_needs": "Rumah sesuai kebutuhan"
+    },
+    "narrative_strategy": "Fokus pada kenyamanan, kenyamanan, dan keterjangkapan umum. Target pada kebutuhan perumahan dasar."
+  },
+  "summary": "Kawasan ini didominasi Pekerja Muda usia 25-35 tahun (dominan), 36-45 tahun, 18-24 tahun, dekat dengan . Potensi KPR: Rendah - Perlu program subsidi.",
+  "recommendations": [
+    "Fokus Marketing: Umum - Fokus pada kenyamanan dan aksesibilitas",
+    "Kebutuhan Utama: Aksesibilitas umum"
+  ]
+}

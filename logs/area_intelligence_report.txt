@@ -1,0 +1,42 @@
+================================================================================
+AREA INTELLIGENCE REPORT
+================================================================================
+
+Lokasi: Serang
+Koordinat: {'lat': -6.1256, 'lng': 106.1445}
+Radius: 5000m
+Waktu Analisis: 2026-05-29T21:44:52.332774
+
+ANALISIS USIA:
+  • Distribusi Usia: 25-35 tahun (dominan), 36-45 tahun, 18-24 tahun
+  • Data Pernikahan: Total rumah tangga: 85% menikah, Rata-rata 4 anggota per rumah tangga
+  • Struktur Keluarga: Rata-rata 4 anggota per rumah tangga
+  • Laju Pertumbuhan: 2.3% per tahun
+  • Rata-rata Pendapatan: Rp 3-5 juta/bulan (rata-rata)
+
+PROFIL PASUTRI:
+  • Tipe Area: Residential Zone
+  • Demografik Utama: Pekerja Muda
+  • Target Audience: Umum
+  • Karakteristik: Beragam kebutuhan
+  • Kebutuhan Perumahan: Rumah sesuai kebutuhan
+
+FASILITAS KUNCI:
+
+
+
+MARKET POTENTIAL SCORE: 3/10
+
+STRATEGI NARATI MARKETING:
+  Fokus pada kenyamanan, kenyamanan, dan keterjangkapan umum. Target pada kebutuhan perumahan dasar.
+
+RINGKASAN EKSEKUTIF:
+  Kawasan ini didominasi Pekerja Muda usia 25-35 tahun (dominan), 36-45 tahun, 18-24 tahun, dekat dengan . Potensi KPR: Rendah - Perlu program subsidi.
+
+REKOMENDASI STRATEGIS:
+  1. Fokus Marketing: Umum - Fokus pada kenyamanan dan aksesibilitas
+  2. Kebutuhan Utama: Aksesibilitas umum
+
+================================================================================
+Report generated: 2026-05-29 21:44:52
+================================================================================

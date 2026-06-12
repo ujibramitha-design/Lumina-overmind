@@ -1,0 +1,231 @@
+{
+  "status": "success",
+  "location_coordinate": [
+    -6.1256,
+    106.1445
+  ],
+  "location_name": "Serang",
+  "analysis_years": [
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034
+  ],
+  "infrastructure_mapping": {
+    "status": "success",
+    "location_name": "Serang",
+    "total_projects_found": 0,
+    "infrastructure_projects": [],
+    "crawl_timestamp": "2026-05-28T17:18:32.063843"
+  },
+  "zoning_analysis": {
+    "status": "success",
+    "location_name": "Serang",
+    "total_documents_found": 4,
+    "rtrw_documents": 2,
+    "rdtr_documents": 2,
+    "analyzed_documents": {
+      "status": "success",
+      "total_documents": 4,
+      "zoning_analysis": [
+        {
+          "status": "success",
+          "total_documents": 1,
+          "zoning_analysis": [
+            {
+              "document_name": "RTRW Serang 2024-2034",
+              "zoning_type": "Unknown",
+              "target_year": "202024s",
+              "estimated_completion": "Unknown",
+              "location_impact": "Unknown",
+              "key_projects": [],
+              "strategic_importance": "Medium",
+              "analysis_method": "keyword_based"
+            }
+          ],
+          "analysis_timestamp": "2026-05-28T17:18:34.816426"
+        },
+        {
+          "status": "success",
+          "total_documents": 1,
+          "zoning_analysis": [
+            {
+              "document_name": "RTRW Serang 2025-2035",
+              "zoning_type": "Unknown",
+              "target_year": "202025s",
+              "estimated_completion": "Unknown",
+              "location_impact": "Unknown",
+              "key_projects": [],
+              "strategic_importance": "Medium",
+              "analysis_method": "keyword_based"
+            }
+          ],
+          "analysis_timestamp": "2026-05-28T17:18:36.952934"
+        },
+        {
+          "status": "success",
+          "total_documents": 1,
+          "zoning_analysis": [
+            {
+              "document_name": "RDTR Serang 2024-2034",
+              "zoning_type": "Unknown",
+              "target_year": "202024s",
+              "estimated_completion": "Unknown",
+              "location_impact": "Unknown",
+              "key_projects": [],
+              "strategic_importance": "Medium",
+              "analysis_method": "keyword_based"
+            }
+          ],
+          "analysis_timestamp": "2026-05-28T17:18:38.993851"
+        },
+        {
+          "status": "success",
+          "total_documents": 1,
+          "zoning_analysis": [
+            {
+              "document_name": "RDTR Serang 2025-2035",
+              "zoning_type": "Unknown",
+              "target_year": "202025s",
+              "estimated_completion": "Unknown",
+              "location_impact": "Unknown",
+              "key_projects": [],
+              "strategic_importance": "Medium",
+              "analysis_method": "keyword_based"
+            }
+          ],
+          "analysis_timestamp": "2026-05-28T17:18:40.967392"
+        }
+      ],
+      "analysis_timestamp": "2026-05-28T17:18:40.967424"
+    },
+    "zoning_data": [
+      {
+        "name": "RTRW Serang 2024-2034",
+        "document_type": "RTRW",
+        "url": "https://example.com/rtrw-serang-2024.pdf",
+        "year_range": "2024-2034",
+        "location": "Serang",
+        "extracted_date": "2026-05-28T17:18:32.063864"
+      },
+      {
+        "name": "RTRW Serang 2025-2035",
+        "document_type": "RTRW",
+        "url": "https://example.com/rtrw-serang-2025.pdf",
+        "year_range": "2025-2035",
+        "location": "Serang",
+        "extracted_date": "2026-05-28T17:18:32.063870"
+      },
+      {
+        "name": "RDTR Serang 2024-2034",
+        "document_type": "RDTR",
+        "url": "https://example.com/rdtr-serang-2024.pdf",
+        "year_range": "2024-2034",
+        "location": "Serang",
+        "extracted_date": "2026-05-28T17:18:32.063878"
+      },
+      {
+        "name": "RDTR Serang 2025-2035",
+        "document_type": "RDTR",
+        "url": "https://example.com/rdtr-serang-2025.pdf",
+        "year_range": "2025-2035",
+        "location": "Serang",
+        "extracted_date": "2026-05-28T17:18:32.063884"
+      }
+    ],
+    "scan_timestamp": "2026-05-28T17:18:40.968769"
+  },
+  "targeting_matrix": {
+    "status": "error",
+    "error": "No zoning data available",
+    "location_name": "Serang"
+  },
+  "timeline_data": [
+    {
+      "year": 2024,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2025,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2026,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2027,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2028,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2029,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2030,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2031,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2032,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2033,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    },
+    {
+      "year": 2034,
+      "infrastructure_projects": [],
+      "zoning_documents": [],
+      "targeting_opportunities": {},
+      "market_potential": "Low"
+    }
+  ],
+  "visual_report": "Error generating visual timeline report: 'market_size'",
+  "report_timestamp": "2026-05-28T17:18:40.969889"
+}

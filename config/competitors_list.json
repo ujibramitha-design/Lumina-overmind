@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Perumahan A",
+    "search_keywords": [
+      "perumahan a serang",
+      "cluster a serang"
+    ],
+    "website": "https://example-perumahan-a.com",
+    "google_maps_url": "https://maps.google.com/?q=perumahan+a+serang"
+  },
+  {
+    "name": "Perumahan B",
+    "search_keywords": [
+      "perumahan b serang",
+      "taman b serang"
+    ],
+    "website": "https://example-perumahan-b.com",
+    "google_maps_url": "https://maps.google.com/?q=perumahan+b+serang"
+  },
+  {
+    "name": "Perumahan C",
+    "search_keywords": [
+      "perumahan c serang",
+      "griya c serang"
+    ],
+    "website": "https://example-perumahan-c.com",
+    "google_maps_url": "https://maps.google.com/?q=perumahan+c+serang"
+  }
+]

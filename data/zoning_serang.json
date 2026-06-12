@@ -1,0 +1,114 @@
+{
+  "location_name": "Serang",
+  "scan_timestamp": "2026-05-28T17:18:40.967432",
+  "total_documents": 4,
+  "zoning_documents": [
+    {
+      "name": "RTRW Serang 2024-2034",
+      "document_type": "RTRW",
+      "url": "https://example.com/rtrw-serang-2024.pdf",
+      "year_range": "2024-2034",
+      "location": "Serang",
+      "extracted_date": "2026-05-28T17:18:32.063864"
+    },
+    {
+      "name": "RTRW Serang 2025-2035",
+      "document_type": "RTRW",
+      "url": "https://example.com/rtrw-serang-2025.pdf",
+      "year_range": "2025-2035",
+      "location": "Serang",
+      "extracted_date": "2026-05-28T17:18:32.063870"
+    },
+    {
+      "name": "RDTR Serang 2024-2034",
+      "document_type": "RDTR",
+      "url": "https://example.com/rdtr-serang-2024.pdf",
+      "year_range": "2024-2034",
+      "location": "Serang",
+      "extracted_date": "2026-05-28T17:18:32.063878"
+    },
+    {
+      "name": "RDTR Serang 2025-2035",
+      "document_type": "RDTR",
+      "url": "https://example.com/rdtr-serang-2025.pdf",
+      "year_range": "2025-2035",
+      "location": "Serang",
+      "extracted_date": "2026-05-28T17:18:32.063884"
+    }
+  ],
+  "analyzed_documents": {
+    "status": "success",
+    "total_documents": 4,
+    "zoning_analysis": [
+      {
+        "status": "success",
+        "total_documents": 1,
+        "zoning_analysis": [
+          {
+            "document_name": "RTRW Serang 2024-2034",
+            "zoning_type": "Unknown",
+            "target_year": "202024s",
+            "estimated_completion": "Unknown",
+            "location_impact": "Unknown",
+            "key_projects": [],
+            "strategic_importance": "Medium",
+            "analysis_method": "keyword_based"
+          }
+        ],
+        "analysis_timestamp": "2026-05-28T17:18:34.816426"
+      },
+      {
+        "status": "success",
+        "total_documents": 1,
+        "zoning_analysis": [
+          {
+            "document_name": "RTRW Serang 2025-2035",
+            "zoning_type": "Unknown",
+            "target_year": "202025s",
+            "estimated_completion": "Unknown",
+            "location_impact": "Unknown",
+            "key_projects": [],
+            "strategic_importance": "Medium",
+            "analysis_method": "keyword_based"
+          }
+        ],
+        "analysis_timestamp": "2026-05-28T17:18:36.952934"
+      },
+      {
+        "status": "success",
+        "total_documents": 1,
+        "zoning_analysis": [
+          {
+            "document_name": "RDTR Serang 2024-2034",
+            "zoning_type": "Unknown",
+            "target_year": "202024s",
+            "estimated_completion": "Unknown",
+            "location_impact": "Unknown",
+            "key_projects": [],
+            "strategic_importance": "Medium",
+            "analysis_method": "keyword_based"
+          }
+        ],
+        "analysis_timestamp": "2026-05-28T17:18:38.993851"
+      },
+      {
+        "status": "success",
+        "total_documents": 1,
+        "zoning_analysis": [
+          {
+            "document_name": "RDTR Serang 2025-2035",
+            "zoning_type": "Unknown",
+            "target_year": "202025s",
+            "estimated_completion": "Unknown",
+            "location_impact": "Unknown",
+            "key_projects": [],
+            "strategic_importance": "Medium",
+            "analysis_method": "keyword_based"
+          }
+        ],
+        "analysis_timestamp": "2026-05-28T17:18:40.967392"
+      }
+    ],
+    "analysis_timestamp": "2026-05-28T17:18:40.967424"
+  }
+}

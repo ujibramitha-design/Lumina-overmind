@@ -1,0 +1,218 @@
+{
+  "report_type": "Combined Intelligence Report",
+  "generated_at": "2026-05-27T20:18:21.052701",
+  "market_intelligence": {
+    "location": "Jakarta Selatan",
+    "market_overview": {
+      "location": "Jakarta Selatan",
+      "price_trend": "increasing",
+      "demand_level": "high",
+      "inventory_level": "low",
+      "average_price": "1.2B IDR",
+      "days_on_market": 45,
+      "price_per_sqm": 15000000,
+      "market_sentiment": "positive",
+      "analysis_date": "2026-05-27T20:18:21.031788"
+    },
+    "active_listings": 10,
+    "opportunities": [
+      {
+        "type": "residential_development",
+        "location": "Jakarta Selatan - Central Area",
+        "potential_roi": "25%",
+        "risk_level": "medium",
+        "timeline": "18 months",
+        "required_capital": "5M",
+        "market_demand": "high",
+        "competitive_advantage": "Strategic location near transit"
+      },
+      {
+        "type": "commercial_renovation",
+        "location": "Jakarta Selatan - Business District",
+        "potential_roi": "18%",
+        "risk_level": "low",
+        "timeline": "12 months",
+        "required_capital": "2M",
+        "market_demand": "medium",
+        "competitive_advantage": "Existing infrastructure"
+      }
+    ],
+    "competitor_analysis": [
+      {
+        "name": "Properti Maju Jaya",
+        "active_projects": 3,
+        "price_range": "800M - 2.5B",
+        "market_share": "15%",
+        "strengths": [
+          "Brand recognition",
+          "Quality construction"
+        ],
+        "weaknesses": [
+          "Higher pricing",
+          "Limited locations"
+        ]
+      },
+      {
+        "name": "Rumah Indah Developer",
+        "active_projects": 5,
+        "price_range": "600M - 1.8B",
+        "market_share": "12%",
+        "strengths": [
+          "Affordable pricing",
+          "Quick delivery"
+        ],
+        "weaknesses": [
+          "Basic amenities",
+          "Limited design options"
+        ]
+      }
+    ],
+    "market_recommendations": [
+      "Consider accelerated development timeline to capture price appreciation",
+      "Focus on residential development with mixed-use components",
+      "Prioritize residential_development project with highest ROI potential"
+    ]
+  },
+  "lead_intelligence": {
+    "total_leads": 12,
+    "hot_leads": 6,
+    "warm_leads": 0,
+    "cold_leads": 6,
+    "top_opportunities": [
+      {
+        "id": "LEAD_502",
+        "title": "Development Opportunity: tanah",
+        "location": "Jakarta",
+        "budget": 1000000000,
+        "project_type": "residential",
+        "urgency": "medium",
+        "contact_info": "contact@property.com",
+        "source": "Online Platform",
+        "date": "2026-05-27T20:18:21.035798",
+        "score": {
+          "lead_id": "LEAD_502",
+          "total_score": 95,
+          "qualification": "Hot",
+          "factors": {
+            "budget": "Pass",
+            "location": "Pass",
+            "project_type": "Pass",
+            "urgency": "Medium",
+            "contact": "Available"
+          },
+          "recommendation": "Immediate contact required - high priority lead"
+        }
+      },
+      {
+        "id": "LEAD_006",
+        "title": "Development Opportunity: properti",
+        "location": "Jakarta",
+        "budget": 1000000000,
+        "project_type": "residential",
+        "urgency": "medium",
+        "contact_info": "contact@property.com",
+        "source": "Online Platform",
+        "date": "2026-05-27T20:18:21.035809",
+        "score": {
+          "lead_id": "LEAD_006",
+          "total_score": 95,
+          "qualification": "Hot",
+          "factors": {
+            "budget": "Pass",
+            "location": "Pass",
+            "project_type": "Pass",
+            "urgency": "Medium",
+            "contact": "Available"
+          },
+          "recommendation": "Immediate contact required - high priority lead"
+        }
+      },
+      {
+        "id": "LEAD_324",
+        "title": "Development Opportunity: development",
+        "location": "Jakarta",
+        "budget": 1000000000,
+        "project_type": "residential",
+        "urgency": "medium",
+        "contact_info": "contact@property.com",
+        "source": "Online Platform",
+        "date": "2026-05-27T20:18:21.035820",
+        "score": {
+          "lead_id": "LEAD_324",
+          "total_score": 95,
+          "qualification": "Hot",
+          "factors": {
+            "budget": "Pass",
+            "location": "Pass",
+            "project_type": "Pass",
+            "urgency": "Medium",
+            "contact": "Available"
+          },
+          "recommendation": "Immediate contact required - high priority lead"
+        }
+      },
+      {
+        "id": "LEAD_650",
+        "title": "Development Opportunity: dijual tanah",
+        "location": "Jakarta",
+        "budget": 1000000000,
+        "project_type": "residential",
+        "urgency": "medium",
+        "contact_info": "contact@property.com",
+        "source": "Online Platform",
+        "date": "2026-05-27T20:18:21.035823",
+        "score": {
+          "lead_id": "LEAD_650",
+          "total_score": 95,
+          "qualification": "Hot",
+          "factors": {
+            "budget": "Pass",
+            "location": "Pass",
+            "project_type": "Pass",
+            "urgency": "Medium",
+            "contact": "Available"
+          },
+          "recommendation": "Immediate contact required - high priority lead"
+        }
+      },
+      {
+        "id": "LEAD_136",
+        "title": "Development Opportunity: proyek properti",
+        "location": "Jakarta",
+        "budget": 1000000000,
+        "project_type": "residential",
+        "urgency": "medium",
+        "contact_info": "contact@property.com",
+        "source": "Online Platform",
+        "date": "2026-05-27T20:18:21.035827",
+        "score": {
+          "lead_id": "LEAD_136",
+          "total_score": 95,
+          "qualification": "Hot",
+          "factors": {
+            "budget": "Pass",
+            "location": "Pass",
+            "project_type": "Pass",
+            "urgency": "Medium",
+            "contact": "Available"
+          },
+          "recommendation": "Immediate contact required - high priority lead"
+        }
+      }
+    ],
+    "lead_recommendations": [
+      "Contact 6 hot leads immediately",
+      "Prepare proposal for top 3 opportunities",
+      "Lead pipeline healthy - continue monitoring"
+    ]
+  },
+  "strategic_insights": [
+    "Strong market demand aligns with high-quality leads - optimal conditions for growth",
+    "Healthy lead pipeline indicates effective market penetration"
+  ],
+  "action_items": [
+    "Contact 6 hot leads within 24 hours",
+    "Evaluate 2 market opportunities for feasibility",
+    "Develop competitive differentiation strategy"
+  ]
+}

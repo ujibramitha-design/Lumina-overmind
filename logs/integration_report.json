@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-28T15:21:53.746595",
+  "total_modules": 21,
+  "successful_imports": 21,
+  "failed_imports": [],
+  "broken_dependencies": [
+    {
+      "component": "Database",
+      "error": "'DatabaseManager' object has no attribute 'get_database_stats'"
+    }
+  ],
+  "missing_modules": [],
+  "system_health": "EXCELLENT"
+}

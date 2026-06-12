@@ -1,0 +1,3141 @@
+{
+  "banten_ministry_intelligence": {
+    "provincial_info": {
+      "name": "Provinsi Banten",
+      "capital": "Serang",
+      "population": 12100000,
+      "area_km2": 9662.93,
+      "governor": "Al Muktabar",
+      "vice_governor": "Andika Hazrumy",
+      "established_year": 2000,
+      "website": "https://www.bantenprov.go.id",
+      "provincial_seal": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coat_of_arms_of_Banten.svg/200px-Coat_of_arms_of_Banten.svg.png",
+      "motto": "Iman, Taqwa, Amanah, dan Tawakal",
+      "regencies_count": 4,
+      "cities_count": 4,
+      "districts_count": 155,
+      "central_government_offices": 25,
+      "regional_government_offices": 75,
+      "total_ministry_offices": 100
+    },
+    "regions": {
+      "kota_serang": {
+        "name": "Kota Serang",
+        "capital": "Serang",
+        "type": "Kota",
+        "population": 655000,
+        "area_km2": 266.74,
+        "density_per_km2": 2456,
+        "website": "https://www.serangkota.go.id",
+        "mayor": "Syafrudin",
+        "vice_mayor": "Subadri Usman",
+        "districts_count": 6,
+        "districts": [
+          {
+            "name": "Cipocok Jaya",
+            "population": 120000,
+            "area_km2": 45.2,
+            "density_per_km2": 2655,
+            "villages_count": 12,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Curug",
+            "population": 110000,
+            "area_km2": 42.8,
+            "density_per_km2": 2570,
+            "villages_count": 10,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Kasemen",
+            "population": 95000,
+            "area_km2": 38.5,
+            "density_per_km2": 2468,
+            "villages_count": 8,
+            "ministry_offices": 6
+          },
+          {
+            "name": "Serang",
+            "population": 130000,
+            "area_km2": 52.1,
+            "density_per_km2": 2495,
+            "villages_count": 14,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Taktakan",
+            "population": 105000,
+            "area_km2": 41.2,
+            "density_per_km2": 2550,
+            "villages_count": 9,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Walantaka",
+            "population": 95000,
+            "area_km2": 46.9,
+            "density_per_km2": 2026,
+            "villages_count": 11,
+            "ministry_offices": 6
+          }
+        ],
+        "ministries": [
+          {
+            "name": "Kementerian Dalam Negeri",
+            "abbreviation": "Kemendagri",
+            "central_ministry": "Kementerian Dalam Negeri",
+            "website": "https://www.kemendagri.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Dalam Negeri Wilayah Kota Serang",
+              "address": "Jl. Ki Hajar Dewantara No. 45, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431234",
+              "fax": "+62-254-8431235",
+              "email": "wilayah.serang@kemendagri.go.id",
+              "website": "https://serang.kemendagri.go.id",
+              "office_count": 6,
+              "employee_count": 240,
+              "services": [
+                "Administrasi Pemerintahan",
+                "Pelayanan Publik",
+                "Koordinasi Pemerintahan",
+                "Pemerintahan Daerah",
+                "Otonomi Daerah",
+                "Kepegawaian"
+              ],
+              "programs": [
+                "Program Pemerintahan",
+                "Program Kepegawaian",
+                "Program Otonomi Daerah",
+                "Program Pelayanan Publik"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Hukum dan HAM",
+            "abbreviation": "Kemenkumham",
+            "central_ministry": "Kementerian Hukum dan Hak Asasi Manusia",
+            "website": "https://www.kemenkumham.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Hukum dan HAM Wilayah Kota Serang",
+              "address": "Jl. Sudirman No. 67, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431236",
+              "fax": "+62-254-8431237",
+              "email": "wilayah.serang@kemenkumham.go.id",
+              "website": "https://serang.kemenkumham.go.id",
+              "office_count": 5,
+              "employee_count": 180,
+              "services": [
+                "Bantuan Hukum",
+                "Perlindungan HAM",
+                "Notaris",
+                "Layanan Hukum",
+                "Advokasi"
+              ],
+              "programs": [
+                "Program Bantuan Hukum",
+                "Program HAM",
+                "Program Notaris",
+                "Program Advokasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Keuangan",
+            "abbreviation": "Kemenkeu",
+            "central_ministry": "Kementerian Keuangan",
+            "website": "https://www.kemenkeu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Keuangan Wilayah Kota Serang",
+              "address": "Jl. A. Yani No. 23, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431238",
+              "fax": "+62-254-8431239",
+              "email": "wilayah.serang@kemenkeu.go.id",
+              "website": "https://serang.kemenkeu.go.id",
+              "office_count": 5,
+              "employee_count": 216,
+              "services": [
+                "Perpajakan",
+                "Anggaran",
+                "Keuangan",
+                "Pajak Daerah",
+                "Retribusi"
+              ],
+              "programs": [
+                "Program Pajak",
+                "Program Anggaran",
+                "Program Keuangan",
+                "Program Retribusi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pendidikan dan Kebudayaan",
+            "abbreviation": "Kemendikbud",
+            "central_ministry": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
+            "website": "https://www.kemdikbud.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pendidikan dan Kebudayaan Wilayah Kota Serang",
+              "address": "Jl. Pendidikan No. 12, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431240",
+              "fax": "+62-254-8431241",
+              "email": "wilayah.serang@kemdikbud.go.id",
+              "website": "https://serang.kemdikbud.go.id",
+              "office_count": 7,
+              "employee_count": 300,
+              "services": [
+                "Pendidikan",
+                "Kebudayaan",
+                "Beasiswa",
+                "Pendidikan Dasar",
+                "Pendidikan Menengah",
+                "Pendidikan Tinggi",
+                "Pendidikan Nonformal"
+              ],
+              "programs": [
+                "Program Pendidikan",
+                "Program Kebudayaan",
+                "Program Beasiswa",
+                "Program Pendidikan Dasar",
+                "Program Pendidikan Menengah",
+                "Program Pendidikan Tinggi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Kesehatan",
+            "abbreviation": "Kemenkes",
+            "central_ministry": "Kementerian Kesehatan",
+            "website": "https://www.kemenkes.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Kesehatan Wilayah Kota Serang",
+              "address": "Jl. Veteran No. 78, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431242",
+              "fax": "+62-254-8431243",
+              "email": "wilayah.serang@kemenkes.go.id",
+              "website": "https://serang.kemenkes.go.id",
+              "office_count": 6,
+              "employee_count": 264,
+              "services": [
+                "Pelayanan Kesehatan",
+                "BPJS",
+                "Vaksinasi",
+                "Kesehatan Masyarakat",
+                "Kesehatan Dasar",
+                "Kesehatan Rujukan"
+              ],
+              "programs": [
+                "Program Kesehatan",
+                "Program BPJS",
+                "Program Vaksinasi",
+                "Program Kesehatan Masyarakat"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Sosial",
+            "abbreviation": "Kemensos",
+            "central_ministry": "Kementerian Sosial",
+            "website": "https://www.kemensos.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Sosial Wilayah Kota Serang",
+              "address": "Jl. Sosial No. 34, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431244",
+              "fax": "+62-254-8431245",
+              "email": "wilayah.serang@kemensos.go.id",
+              "website": "https://serang.kemensos.go.id",
+              "office_count": 5,
+              "employee_count": 192,
+              "services": [
+                "Bantuan Sosial",
+                "Pemberdayaan",
+                "Perlindungan",
+                "Jaminan Sosial",
+                "PKH",
+                "BLT",
+                "Jamkesmas"
+              ],
+              "programs": [
+                "Program Bantuan Sosial",
+                "Program Pemberdayaan",
+                "Program Perlindungan",
+                "Program PKH",
+                "Program BLT",
+                "Program Jamkesmas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perhubungan",
+            "abbreviation": "Kemenhub",
+            "central_ministry": "Kementerian Perhubungan",
+            "website": "https://www.kemenhub.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perhubungan Wilayah Kota Serang",
+              "address": "Jl. Pasar Baru No. 56, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431246",
+              "fax": "+62-254-8431247",
+              "email": "wilayah.serang@kemenhub.go.id",
+              "website": "https://serang.kemenhub.go.id",
+              "office_count": 5,
+              "employee_count": 204,
+              "services": [
+                "Perizinan Kendaraan",
+                "Uji Kir",
+                "Perizinan Angkutan",
+                "Lalu Lintas",
+                "Terminal",
+                "Parkir"
+              ],
+              "programs": [
+                "Program Transportasi",
+                "Program Keselamatan",
+                "Program Terminal",
+                "Program Parkir"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pekerjaan Umum dan Perumahan Rakyat",
+            "abbreviation": "KemenPU-PR",
+            "central_ministry": "Kementerian Pekerjaan Umum dan Perumahan Rakyat",
+            "website": "https://www.kemenpu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pekerjaan Umum dan Perumahan Rakyat Wilayah Kota Serang",
+              "address": "Jl. Wisata No. 67, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431248",
+              "fax": "+62-254-8431249",
+              "email": "wilayah.serang@kemenpu.go.id",
+              "website": "https://serang.kemenpu.go.id",
+              "office_count": 6,
+              "employee_count": 240,
+              "services": [
+                "Perizinan Bangunan",
+                "Perizinan Gedung",
+                "Perizinan Reklame",
+                "Infrastruktur",
+                "Perumahan",
+                "Jalan"
+              ],
+              "programs": [
+                "Program Infrastruktur",
+                "Program Perumahan",
+                "Program Jalan",
+                "Program Drainase"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pertanian",
+            "abbreviation": "Kementan",
+            "central_ministry": "Kementerian Pertanian",
+            "website": "https://www.pertanian.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pertanian Wilayah Kota Serang",
+              "address": "Jl. Pertanian No. 23, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431250",
+              "fax": "+62-254-8431251",
+              "email": "wilayah.serang@pertanian.go.id",
+              "website": "https://serang.pertanian.go.id",
+              "office_count": 4,
+              "employee_count": 168,
+              "services": [
+                "Pertanian",
+                "Perkebunan",
+                "Peternakan",
+                "Bibit",
+                "Pupuk",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Pertanian",
+                "Program Perkebunan",
+                "Program Peternakan",
+                "Program Bibit",
+                "Program Pupuk"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perindustrian",
+            "abbreviation": "Kemenperin",
+            "central_ministry": "Kementerian Perindustrian",
+            "website": "https://www.kemenperin.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perindustrian Wilayah Kota Serang",
+              "address": "Jl. Industri No. 45, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431252",
+              "fax": "+62-254-8431253",
+              "email": "wilayah.serang@kemenperin.go.id",
+              "website": "https://serang.kemenperin.go.id",
+              "office_count": 3,
+              "employee_count": 120,
+              "services": [
+                "Perizinan Industri",
+                "Standar Industri",
+                "UMKM",
+                "Teknologi",
+                "Pemasaran"
+              ],
+              "programs": [
+                "Program Industri",
+                "Program UMKM",
+                "Program Teknologi",
+                "Program Pemasaran"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perdagangan",
+            "abbreviation": "Kemendag",
+            "central_ministry": "Kementerian Perdagangan",
+            "website": "https://www.kemendag.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perdagangan Wilayah Kota Serang",
+              "address": "Jl. Perdagangan No. 89, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431254",
+              "fax": "+62-254-8431255",
+              "email": "wilayah.serang@kemendag.go.id",
+              "website": "https://serang.kemendag.go.id",
+              "office_count": 3,
+              "employee_count": 108,
+              "services": [
+                "Perizinan Dagang",
+                "Pasar",
+                "Pengawasan Harga",
+                "Promosi",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Perdagangan",
+                "Program Pengawasan Harga",
+                "Program Pasar",
+                "Program Pelatihan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Lingkungan Hidup dan Kehutanan",
+            "abbreviation": "KLHK",
+            "central_ministry": "Kementerian Lingkungan Hidup dan Kehutanan",
+            "website": "https://www.lhk.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Lingkungan Hidup dan Kehutanan Wilayah Kota Serang",
+              "address": "Jl. Lingkungan No. 12, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431256",
+              "fax": "+62-254-8431257",
+              "email": "wilayah.serang@lhk.go.id",
+              "website": "https://serang.lhk.go.id",
+              "office_count": 4,
+              "employee_count": 144,
+              "services": [
+                "Lingkungan",
+                "Kehutanan",
+                "Penghijauan",
+                "Sampah",
+                "Pencemaran",
+                "Konservasi"
+              ],
+              "programs": [
+                "Program Lingkungan",
+                "Program Kehutanan",
+                "Program Penghijauan",
+                "Program Sampah"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Kelautan dan Perikanan",
+            "abbreviation": "KKP",
+            "central_ministry": "Kementerian Kelautan dan Perikanan",
+            "website": "https://www.kkp.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Kelautan dan Perikanan Wilayah Kota Serang",
+              "address": "Jl. Kelautan No. 34, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431258",
+              "fax": "+62-254-8431259",
+              "email": "wilayah.serang@kkp.go.id",
+              "website": "https://serang.kkp.go.id",
+              "office_count": 3,
+              "employee_count": 96,
+              "services": [
+                "Kelautan",
+                "Perikanan",
+                "Aquaculture",
+                "Kapal",
+                "Teknologi",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Kelautan",
+                "Program Perikanan",
+                "Program Aquaculture",
+                "Program Kapal"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Tenaga Kerja dan Transmigrasi",
+            "abbreviation": "Kemnakertrans",
+            "central_ministry": "Kementerian Tenaga Kerja dan Transmigrasi",
+            "website": "https://www.kemnakertrans.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Tenaga Kerja dan Transmigrasi Wilayah Kota Serang",
+              "address": "Jl. Tenaga Kerja No. 56, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431260",
+              "fax": "+62-254-8431261",
+              "email": "wilayah.serang@kemnakertrans.go.id",
+              "website": "https://serang.kemnakertrans.go.id",
+              "office_count": 4,
+              "employee_count": 156,
+              "services": [
+                "Tenaga Kerja",
+                "Pelatihan",
+                "Penempatan",
+                "Transmigrasi",
+                "Bursa Kerja",
+                "Program Kerja"
+              ],
+              "programs": [
+                "Program Tenaga Kerja",
+                "Program Pelatihan",
+                "Program Transmigrasi",
+                "Program Bursa Kerja"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pariwisata dan Ekonomi Kreatif",
+            "abbreviation": "Kemenparekraf",
+            "central_ministry": "Kementerian Pariwisata dan Ekonomi Kreatif",
+            "website": "https://www.kemenparekraf.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pariwisata dan Ekonomi Kreatif Wilayah Kota Serang",
+              "address": "Jl. Pariwisata No. 78, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431262",
+              "fax": "+62-254-8431263",
+              "email": "wilayah.serang@kemenparekraf.go.id",
+              "website": "https://serang.kemenparekraf.go.id",
+              "office_count": 3,
+              "employee_count": 84,
+              "services": [
+                "Pariwisata",
+                "Ekonomi Kreatif",
+                "Event",
+                "Promosi",
+                "Pengembangan"
+              ],
+              "programs": [
+                "Program Pariwisata",
+                "Program Ekonomi Kreatif",
+                "Program Event",
+                "Program Promosi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Komunikasi dan Informatika",
+            "abbreviation": "Kominfo",
+            "central_ministry": "Kementerian Komunikasi dan Informatika",
+            "website": "https://www.kominfo.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Komunikasi dan Informatika Wilayah Kota Serang",
+              "address": "Jl. Komunikasi No. 23, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431264",
+              "fax": "+62-254-8431265",
+              "email": "wilayah.serang@kominfo.go.id",
+              "website": "https://serang.kominfo.go.id",
+              "office_count": 4,
+              "employee_count": 120,
+              "services": [
+                "Komunikasi",
+                "Informatika",
+                "Statistik",
+                "Jaringan",
+                "Aplikasi",
+                "Digitalisasi"
+              ],
+              "programs": [
+                "Program Komunikasi",
+                "Program Informatika",
+                "Program Statistik",
+                "Program Digitalisasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Koperasi dan UKM",
+            "abbreviation": "Kemenkopukm",
+            "central_ministry": "Kementerian Koperasi dan Usaha Kecil Menengah",
+            "website": "https://www.kemenkopukm.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Koperasi dan UKM Wilayah Kota Serang",
+              "address": "Jl. Koperasi No. 45, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431266",
+              "fax": "+62-254-8431267",
+              "email": "wilayah.serang@kemenkopukm.go.id",
+              "website": "https://serang.kemenkopukm.go.id",
+              "office_count": 3,
+              "employee_count": 72,
+              "services": [
+                "Koperasi",
+                "UKM",
+                "Modal",
+                "Pelatihan",
+                "Pemberdayaan",
+                "Pemasaran"
+              ],
+              "programs": [
+                "Program Koperasi",
+                "Program UKM",
+                "Program Modal",
+                "Program Pelatihan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
+            "abbreviation": "Kemenpppa",
+            "central_ministry": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
+            "website": "https://www.kemenpppa.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pemberdayaan Perempuan dan Perlindungan Anak Wilayah Kota Serang",
+              "address": "Jl. Pemberdayaan No. 67, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431268",
+              "fax": "+62-254-8431269",
+              "email": "wilayah.serang@kemenpppa.go.id",
+              "website": "https://serang.kemenpppa.go.id",
+              "office_count": 3,
+              "employee_count": 96,
+              "services": [
+                "Pemberdayaan Perempuan",
+                "Perlindungan Anak",
+                "KDRT",
+                "Perlindungan",
+                "Kekerasan",
+                "Bantuan"
+              ],
+              "programs": [
+                "Program Pemberdayaan Perempuan",
+                "Program Perlindungan Anak",
+                "Program KDRT",
+                "Program Perlindungan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pemuda dan Olahraga",
+            "abbreviation": "Kemenpora",
+            "central_ministry": "Kementerian Pemuda dan Olahraga",
+            "website": "https://www.kemenpora.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pemuda dan Olahraga Wilayah Kota Serang",
+              "address": "Jl. Pemuda No. 34, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431270",
+              "fax": "+62-254-8431271",
+              "email": "wilayah.serang@kemenpora.go.id",
+              "website": "https://serang.kemenpora.go.id",
+              "office_count": 3,
+              "employee_count": 84,
+              "services": [
+                "Pemberdayaan Pemuda",
+                "Olahraga",
+                "Fasilitas",
+                "Kompetisi",
+                "Pelatihan",
+                "Organisasi"
+              ],
+              "programs": [
+                "Program Pemberdayaan Pemuda",
+                "Program Olahraga",
+                "Program Fasilitas",
+                "Program Kompetisi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Agama",
+            "abbreviation": "Kemenag",
+            "central_ministry": "Kementerian Agama",
+            "website": "https://www.kemenag.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Agama Wilayah Kota Serang",
+              "address": "Jl. Agama No. 89, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431272",
+              "fax": "+62-254-8431273",
+              "email": "wilayah.serang@kemenag.go.id",
+              "website": "https://serang.kemenag.go.id",
+              "office_count": 4,
+              "employee_count": 108,
+              "services": [
+                "Pendidikan Agama",
+                "Tempat Ibadah",
+                "Bantuan",
+                "Fasilitas",
+                "Pengembangan",
+                "Zakat"
+              ],
+              "programs": [
+                "Program Pendidikan Agama",
+                "Program Tempat Ibadah",
+                "Program Bantuan",
+                "Program Fasilitas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Luar Negeri",
+            "abbreviation": "Kemenlu",
+            "central_ministry": "Kementerian Luar Negeri",
+            "website": "https://www.kemenlu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Luar Negeri Wilayah Kota Serang",
+              "address": "Jl. Luar Negeri No. 56, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431274",
+              "fax": "+62-254-8431275",
+              "email": "wilayah.serang@kemenlu.go.id",
+              "website": "https://serang.kemenlu.go.id",
+              "office_count": 2,
+              "employee_count": 60,
+              "services": [
+                "Paspor",
+                "Visa",
+                "Konsuler",
+                "Bantuan",
+                "Perlindungan",
+                "Dokumentasi"
+              ],
+              "programs": [
+                "Program Paspor",
+                "Program Visa",
+                "Program Konsuler",
+                "Program Bantuan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pertahanan",
+            "abbreviation": "Kemenhan",
+            "central_ministry": "Kementerian Pertahanan",
+            "website": "https://www.kemenhan.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pertahanan Wilayah Kota Serang",
+              "address": "Jl. Pertahanan No. 23, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431276",
+              "fax": "+62-254-8431277",
+              "email": "wilayah.serang@kemenhan.go.id",
+              "website": "https://serang.kemenhan.go.id",
+              "office_count": 3,
+              "employee_count": 96,
+              "services": [
+                "Pertahanan",
+                "Wajib Militer",
+                "Cadangan",
+                "Belanegara",
+                "Pelatihan",
+                "Simulasi"
+              ],
+              "programs": [
+                "Program Pertahanan",
+                "Program Wajib Militer",
+                "Program Cadangan",
+                "Program Belanegara"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian BUMN",
+            "abbreviation": "Kemenbumn",
+            "central_ministry": "Kementerian Badan Usaha Milik Negara",
+            "website": "https://www.kemenbumn.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian BUMN Wilayah Kota Serang",
+              "address": "Jl. BUMN No. 45, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431278",
+              "fax": "+62-254-8431279",
+              "email": "wilayah.serang@kemenbumn.go.id",
+              "website": "https://serang.kemenbumn.go.id",
+              "office_count": 2,
+              "employee_count": 48,
+              "services": [
+                "Layanan BUMN",
+                "Investasi",
+                "Bantuan",
+                "Program",
+                "Fasilitasi",
+                "Monitoring"
+              ],
+              "programs": [
+                "Program BUMN",
+                "Program Investasi",
+                "Program Bantuan",
+                "Program Fasilitasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Investasi dan Hilirisasi",
+            "abbreviation": "Kemeninvest",
+            "central_ministry": "Kementerian Investasi dan Hilirisasi",
+            "website": "https://www.kemeninvest.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Investasi dan Hilirisasi Wilayah Kota Serang",
+              "address": "Jl. Investasi No. 67, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431280",
+              "fax": "+62-254-8431281",
+              "email": "wilayah.serang@kemeninvest.go.id",
+              "website": "https://serang.kemeninvest.go.id",
+              "office_count": 2,
+              "employee_count": 36,
+              "services": [
+                "Investasi",
+                "Izin Investasi",
+                "Fasilitasi",
+                "Promosi",
+                "Monitoring",
+                "Layanan",
+                "Hilirisasi",
+                "Pengembangan Industri"
+              ],
+              "programs": [
+                "Program Investasi",
+                "Program Izin Investasi",
+                "Program Fasilitasi",
+                "Program Promosi",
+                "Program Hilirisasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Agraria dan Tata Ruang",
+            "abbreviation": "Kementan ATR",
+            "central_ministry": "Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional",
+            "website": "https://www.atrbpn.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Agraria dan Tata Ruang Wilayah Kota Serang",
+              "address": "Jl. Agraria No. 89, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431282",
+              "fax": "+62-254-8431283",
+              "email": "wilayah.serang@atrbpn.go.id",
+              "website": "https://serang.atrbpn.go.id",
+              "office_count": 3,
+              "employee_count": 108,
+              "services": [
+                "Pertanahan",
+                "Tata Ruang",
+                "Pendaftaran Tanah",
+                "Sertifikat",
+                "Peta Wilayah",
+                "Agraria"
+              ],
+              "programs": [
+                "Program Pertanahan",
+                "Program Tata Ruang",
+                "Program Sertifikasi",
+                "Program Pendaftaran"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Desa dan Pembangunan Daerah Tertinggal",
+            "abbreviation": "Kemendes PDTT",
+            "central_ministry": "Kementerian Desa dan Pembangunan Daerah Tertinggal",
+            "website": "https://www.kemendesa.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Desa dan Pembangunan Daerah Tertinggal Wilayah Kota Serang",
+              "address": "Jl. Desa No. 45, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431284",
+              "fax": "+62-254-8431285",
+              "email": "wilayah.serang@kemendesa.go.id",
+              "website": "https://serang.kemendesa.go.id",
+              "office_count": 2,
+              "employee_count": 72,
+              "services": [
+                "Pembangunan Desa",
+                "Pemberdayaan Masyarakat",
+                "Dana Desa",
+                "Infrastruktur Desa",
+                "Pemberdayaan Ekonomi"
+              ],
+              "programs": [
+                "Program Desa",
+                "Program Pembangunan",
+                "Program Pemberdayaan",
+                "Program Dana Desa"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Transmigrasi",
+            "abbreviation": "Kementrans",
+            "central_ministry": "Kementerian Transmigrasi",
+            "website": "https://www.kementrans.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Transmigrasi Wilayah Kota Serang",
+              "address": "Jl. Transmigrasi No. 23, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431286",
+              "fax": "+62-254-8431287",
+              "email": "wilayah.serang@kementrans.go.id",
+              "website": "https://serang.kementrans.go.id",
+              "office_count": 2,
+              "employee_count": 60,
+              "services": [
+                "Transmigrasi",
+                "Pemukiman Transmigrasi",
+                "Pemberdayaan Transmigran",
+                "Pengembangan Wilayah",
+                "Koordinasi Transmigrasi"
+              ],
+              "programs": [
+                "Program Transmigrasi",
+                "Program Pemukiman",
+                "Program Pemberdayaan",
+                "Program Pengembangan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Energi dan Sumber Daya Mineral",
+            "abbreviation": "Kemen ESDM",
+            "central_ministry": "Kementerian Energi dan Sumber Daya Mineral",
+            "website": "https://www.esdm.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Energi dan Sumber Daya Mineral Wilayah Kota Serang",
+              "address": "Jl. Energi No. 34, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431288",
+              "fax": "+62-254-8431289",
+              "email": "wilayah.serang@esdm.go.id",
+              "website": "https://serang.esdm.go.id",
+              "office_count": 2,
+              "employee_count": 84,
+              "services": [
+                "Energi",
+                "Sumber Daya Mineral",
+                "Listrik",
+                "Minyak dan Gas",
+                "Batubara",
+                "Energi Terbarukan"
+              ],
+              "programs": [
+                "Program Energi",
+                "Program Sumber Daya Mineral",
+                "Program Listrik",
+                "Program Energi Terbarukan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Imigrasi dan Pemasyarakatan",
+            "abbreviation": "Kemenkumham Imigrasi",
+            "central_ministry": "Kementerian Imigrasi dan Pemasyarakatan",
+            "website": "https://www.kemenkumham.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Imigrasi dan Pemasyarakatan Wilayah Kota Serang",
+              "address": "Jl. Imigrasi No. 56, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431290",
+              "fax": "+62-254-8431291",
+              "email": "wilayah.serang.imigrasi@kemenkumham.go.id",
+              "website": "https://serang.imigrasi.kemenkumham.go.id",
+              "office_count": 2,
+              "employee_count": 96,
+              "services": [
+                "Imigrasi",
+                "Paspor",
+                "Visa",
+                "Izin Tinggal",
+                "Pemasyarakatan",
+                "Lapas"
+              ],
+              "programs": [
+                "Program Imigrasi",
+                "Program Paspor",
+                "Program Visa",
+                "Program Pemasyarakatan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Ketenagakerjaan",
+            "abbreviation": "Kemnaker",
+            "central_ministry": "Kementerian Ketenagakerjaan",
+            "website": "https://www.kemnaker.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Ketenagakerjaan Wilayah Kota Serang",
+              "address": "Jl. Ketenagakerjaan No. 78, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431292",
+              "fax": "+62-254-8431293",
+              "email": "wilayah.serang@kemnaker.go.id",
+              "website": "https://serang.kemnaker.go.id",
+              "office_count": 3,
+              "employee_count": 120,
+              "services": [
+                "Ketenagakerjaan",
+                "Pelatihan Kerja",
+                "Penempatan Kerja",
+                "Buruh Migran",
+                "Jaminan Sosial",
+                "Hubungan Industrial"
+              ],
+              "programs": [
+                "Program Ketenagakerjaan",
+                "Program Pelatihan",
+                "Program Penempatan",
+                "Program Jaminan Sosial"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pelindungan Pekerja Migran",
+            "abbreviation": "Kemen PPMI",
+            "central_ministry": "Kementerian Pelindungan Pekerja Migran",
+            "website": "https://www.kemenppmi.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pelindungan Pekerja Migran Wilayah Kota Serang",
+              "address": "Jl. Pekerja Migran No. 34, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431294",
+              "fax": "+62-254-8431295",
+              "email": "wilayah.serang@kemenppmi.go.id",
+              "website": "https://serang.kemenppmi.go.id",
+              "office_count": 2,
+              "employee_count": 48,
+              "services": [
+                "Pelindungan Pekerja Migran",
+                "Penempatan Luar Negeri",
+                "Perlindungan Hukum",
+                "Bantuan Sosial",
+                "Konseling",
+                "Advokasi"
+              ],
+              "programs": [
+                "Program Pelindungan",
+                "Program Penempatan",
+                "Program Bantuan",
+                "Program Advokasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Haji dan Umrah",
+            "abbreviation": "Kemen Haji",
+            "central_ministry": "Kementerian Haji dan Umrah",
+            "website": "https://www.kemenhaji.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Haji dan Umrah Wilayah Kota Serang",
+              "address": "Jl. Haji No. 67, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431296",
+              "fax": "+62-254-8431297",
+              "email": "wilayah.serang@kemenhaji.go.id",
+              "website": "https://serang.kemenhaji.go.id",
+              "office_count": 2,
+              "employee_count": 60,
+              "services": [
+                "Haji",
+                "Umrah",
+                "Pelayanan Jemaah",
+                "Bimbingan Haji",
+                "Pendaftaran Haji",
+                "Travel Haji"
+              ],
+              "programs": [
+                "Program Haji",
+                "Program Umrah",
+                "Program Pelayanan",
+                "Program Bimbingan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Sekretariat Negara",
+            "abbreviation": "Kemensetneg",
+            "central_ministry": "Kementerian Sekretariat Negara",
+            "website": "https://www.setneg.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Sekretariat Negara Wilayah Kota Serang",
+              "address": "Jl. Sekretariat No. 45, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431298",
+              "fax": "+62-254-8431299",
+              "email": "wilayah.serang@setneg.go.id",
+              "website": "https://serang.setneg.go.id",
+              "office_count": 2,
+              "employee_count": 72,
+              "services": [
+                "Sekretariat Negara",
+                "Administrasi Negara",
+                "Protokoler",
+                "Keuangan Negara",
+                "Arsip Negara",
+                "Dokumentasi"
+              ],
+              "programs": [
+                "Program Administrasi",
+                "Program Protokoler",
+                "Program Keuangan",
+                "Program Arsip"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi",
+            "abbreviation": "Kemen PAN RB",
+            "central_ministry": "Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi",
+            "website": "https://www.menpan.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Wilayah Kota Serang",
+              "address": "Jl. Aparatur No. 23, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431300",
+              "fax": "+62-254-8431301",
+              "email": "wilayah.serang@menpan.go.id",
+              "website": "https://serang.menpan.go.id",
+              "office_count": 2,
+              "employee_count": 84,
+              "services": [
+                "Reformasi Birokrasi",
+                "Aparatur Negara",
+                "Kepegawaian",
+                "Organisasi",
+                "Tata Kelola",
+                "Kinerja"
+              ],
+              "programs": [
+                "Program Reformasi",
+                "Program Aparatur",
+                "Program Kepegawaian",
+                "Program Tata Kelola"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perencanaan Pembangunan Nasional",
+            "abbreviation": "Bappenas",
+            "central_ministry": "Kementerian Perencanaan Pembangunan Nasional/Badan Perencanaan Pembangunan Nasional",
+            "website": "https://www.bappenas.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perencanaan Pembangunan Nasional Wilayah Kota Serang",
+              "address": "Jl. Perencanaan No. 56, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431302",
+              "fax": "+62-254-8431303",
+              "email": "wilayah.serang@bappenas.go.id",
+              "website": "https://serang.bappenas.go.id",
+              "office_count": 2,
+              "employee_count": 96,
+              "services": [
+                "Perencanaan Pembangunan",
+                "Evaluasi Pembangunan",
+                "Kerjasama Pembangunan",
+                "Anggaran Pembangunan",
+                "Monitoring Pembangunan",
+                "Data Pembangunan"
+              ],
+              "programs": [
+                "Program Perencanaan",
+                "Program Evaluasi",
+                "Program Kerjasama",
+                "Program Monitoring"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Kependudukan dan Pembangunan Keluarga",
+            "abbreviation": "BKKBN",
+            "central_ministry": "Kementerian Kependudukan dan Pembangunan Keluarga",
+            "website": "https://www.bkkbn.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Kependudukan dan Pembangunan Keluarga Wilayah Kota Serang",
+              "address": "Jl. Kependudukan No. 78, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431304",
+              "fax": "+62-254-8431305",
+              "email": "wilayah.serang@bkkbn.go.id",
+              "website": "https://serang.bkkbn.go.id",
+              "office_count": 2,
+              "employee_count": 108,
+              "services": [
+                "Kependudukan",
+                "Pembangunan Keluarga",
+                "KB",
+                "Kesehatan Reproduksi",
+                "Pelayanan Keluarga",
+                "Data Kependudukan"
+              ],
+              "programs": [
+                "Program Kependudukan",
+                "Program KB",
+                "Program Keluarga",
+                "Program Kesehatan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Koordinator Bidang Politik dan Keamanan",
+            "abbreviation": "Kemenko Polhukam",
+            "central_ministry": "Kementerian Koordinator Bidang Politik dan Keamanan",
+            "website": "https://www.kemenkopolhukam.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Koordinator Bidang Politik dan Keamanan Wilayah Kota Serang",
+              "address": "Jl. Polhukam No. 34, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431306",
+              "fax": "+62-254-8431307",
+              "email": "wilayah.serang@kemenkopolhukam.go.id",
+              "website": "https://serang.kemenkopolhukam.go.id",
+              "office_count": 2,
+              "employee_count": 120,
+              "services": [
+                "Politik",
+                "Keamanan",
+                "Koordinasi Politik",
+                "Koordinasi Keamanan",
+                "Stabilitas Politik",
+                "Intelijen"
+              ],
+              "programs": [
+                "Program Politik",
+                "Program Keamanan",
+                "Program Koordinasi",
+                "Program Stabilitas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Koordinator Bidang Hukum, HAM, Imigrasi, dan Pemasyarakatan",
+            "abbreviation": "Kemenko Hukham",
+            "central_ministry": "Kementerian Koordinator Bidang Hukum, HAM, Imigrasi, dan Pemasyarakatan",
+            "website": "https://www.kemenkohukham.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Koordinator Bidang Hukum, HAM, Imigrasi, dan Pemasyarakatan Wilayah Kota Serang",
+              "address": "Jl. Hukham No. 67, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431308",
+              "fax": "+62-254-8431309",
+              "email": "wilayah.serang@kemenkohukham.go.id",
+              "website": "https://serang.kemenkohukham.go.id",
+              "office_count": 2,
+              "employee_count": 96,
+              "services": [
+                "Hukum",
+                "Hak Asasi Manusia",
+                "Imigrasi",
+                "Pemasyarakatan",
+                "Koordinasi Hukum",
+                "Reformasi Hukum"
+              ],
+              "programs": [
+                "Program Hukum",
+                "Program HAM",
+                "Program Imigrasi",
+                "Program Koordinasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Koordinator Bidang Perekonomian",
+            "abbreviation": "Kemenko Perekonomian",
+            "central_ministry": "Kementerian Koordinator Bidang Perekonomian",
+            "website": "https://www.kemenkoperekonomian.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Koordinator Bidang Perekonomian Wilayah Kota Serang",
+              "address": "Jl. Perekonomian No. 45, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431310",
+              "fax": "+62-254-8431311",
+              "email": "wilayah.serang@kemenkoperekonomian.go.id",
+              "website": "https://serang.kemenkoperekonomian.go.id",
+              "office_count": 2,
+              "employee_count": 108,
+              "services": [
+                "Perekonomian",
+                "Koordinasi Ekonomi",
+                "Investasi",
+                "Perdagangan",
+                "Industri",
+                "Keuangan"
+              ],
+              "programs": [
+                "Program Perekonomian",
+                "Program Investasi",
+                "Program Perdagangan",
+                "Program Industri"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan",
+            "abbreviation": "Kemenko PMK",
+            "central_ministry": "Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan",
+            "website": "https://www.kemenkopmk.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan Wilayah Kota Serang",
+              "address": "Jl. PMK No. 23, Serang, Kota Serang, Banten",
+              "phone": "+62-254-8431312",
+              "fax": "+62-254-8431313",
+              "email": "wilayah.serang@kemenkopmk.go.id",
+              "website": "https://serang.kemenkopmk.go.id",
+              "office_count": 2,
+              "employee_count": 84,
+              "services": [
+                "Pembangunan Manusia",
+                "Kebudayaan",
+                "Pendidikan",
+                "Kesehatan",
+                "Sosial",
+                "Pemberdayaan"
+              ],
+              "programs": [
+                "Program Pembangunan",
+                "Program Pendidikan",
+                "Program Kesehatan",
+                "Program Sosial"
+              ]
+            }
+          }
+        ]
+      },
+      "kabupaten_serang": {
+        "name": "Kabupaten Serang",
+        "capital": "Ciruas",
+        "type": "Kabupaten",
+        "population": 1580000,
+        "area_km2": 1855.78,
+        "density_per_km2": 851,
+        "website": "https://www.serangkab.go.id",
+        "regent": "Ratu Tatu Chasanah",
+        "vice_regent": "Pandji Tirtayasa",
+        "districts_count": 28,
+        "districts": [
+          {
+            "name": "Ciruas",
+            "population": 85000,
+            "area_km2": 65.2,
+            "density_per_km2": 1304,
+            "villages_count": 8,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Cikeusal",
+            "population": 62000,
+            "area_km2": 58.7,
+            "density_per_km2": 1056,
+            "villages_count": 7,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Cinangka",
+            "population": 78000,
+            "area_km2": 72.3,
+            "density_per_km2": 1078,
+            "villages_count": 9,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Ciomas",
+            "population": 95000,
+            "area_km2": 85.6,
+            "density_per_km2": 1109,
+            "villages_count": 11,
+            "ministry_offices": 10
+          },
+          {
+            "name": "Gunungsari",
+            "population": 58000,
+            "area_km2": 62.4,
+            "density_per_km2": 929,
+            "villages_count": 8,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Kramatwatu",
+            "population": 72000,
+            "area_km2": 68.9,
+            "density_per_km2": 1045,
+            "villages_count": 9,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Kopo",
+            "population": 68000,
+            "area_km2": 71.2,
+            "density_per_km2": 954,
+            "villages_count": 10,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Mancak",
+            "population": 55000,
+            "area_km2": 59.8,
+            "density_per_km2": 920,
+            "villages_count": 7,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Padarincang",
+            "population": 62000,
+            "area_km2": 64.5,
+            "density_per_km2": 961,
+            "villages_count": 8,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Pabuaran",
+            "population": 70000,
+            "area_km2": 73.1,
+            "density_per_km2": 958,
+            "villages_count": 9,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Pamarayan",
+            "population": 58000,
+            "area_km2": 61.2,
+            "density_per_km2": 948,
+            "villages_count": 8,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Pontang",
+            "population": 65000,
+            "area_km2": 67.8,
+            "density_per_km2": 959,
+            "villages_count": 9,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Tanara",
+            "population": 54000,
+            "area_km2": 58.9,
+            "density_per_km2": 916,
+            "villages_count": 7,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Tirtayasa",
+            "population": 68000,
+            "area_km2": 70.4,
+            "density_per_km2": 966,
+            "villages_count": 10,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Waringinkurung",
+            "population": 52000,
+            "area_km2": 56.7,
+            "density_per_km2": 917,
+            "villages_count": 7,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Baros",
+            "population": 75000,
+            "area_km2": 78.3,
+            "density_per_km2": 958,
+            "villages_count": 10,
+            "ministry_offices": 10
+          },
+          {
+            "name": "Binuang",
+            "population": 45000,
+            "area_km2": 52.1,
+            "density_per_km2": 864,
+            "villages_count": 6,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Bojonglopo",
+            "population": 48000,
+            "area_km2": 54.6,
+            "density_per_km2": 878,
+            "villages_count": 7,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Carenang",
+            "population": 55000,
+            "area_km2": 60.2,
+            "density_per_km2": 914,
+            "villages_count": 8,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Jawilan",
+            "population": 42000,
+            "area_km2": 48.9,
+            "density_per_km2": 859,
+            "villages_count": 6,
+            "ministry_offices": 6
+          },
+          {
+            "name": "Kibin",
+            "population": 38000,
+            "area_km2": 45.7,
+            "density_per_km2": 831,
+            "villages_count": 6,
+            "ministry_offices": 6
+          },
+          {
+            "name": "Lebakwana",
+            "population": 46000,
+            "area_km2": 51.2,
+            "density_per_km2": 898,
+            "villages_count": 7,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Muncang",
+            "population": 41000,
+            "area_km2": 47.8,
+            "density_per_km2": 858,
+            "villages_count": 6,
+            "ministry_offices": 6
+          },
+          {
+            "name": "Petir",
+            "population": 59000,
+            "area_km2": 63.4,
+            "density_per_km2": 931,
+            "villages_count": 8,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Puloampel",
+            "population": 35000,
+            "area_km2": 42.1,
+            "density_per_km2": 831,
+            "villages_count": 5,
+            "ministry_offices": 5
+          },
+          {
+            "name": "Sindang Sari",
+            "population": 40000,
+            "area_km2": 46.8,
+            "density_per_km2": 855,
+            "villages_count": 6,
+            "ministry_offices": 6
+          },
+          {
+            "name": "Sukaresmi",
+            "population": 38000,
+            "area_km2": 44.5,
+            "density_per_km2": 854,
+            "villages_count": 6,
+            "ministry_offices": 6
+          },
+          {
+            "name": "Tunjungharjo",
+            "population": 36000,
+            "area_km2": 43.2,
+            "density_per_km2": 833,
+            "villages_count": 5,
+            "ministry_offices": 5
+          },
+          {
+            "name": "Warunggunung",
+            "population": 34000,
+            "area_km2": 40.8,
+            "density_per_km2": 833,
+            "villages_count": 5,
+            "ministry_offices": 5
+          }
+        ],
+        "ministries": [
+          {
+            "name": "Kementerian Dalam Negeri",
+            "abbreviation": "Kemendagri",
+            "central_ministry": "Kementerian Dalam Negeri",
+            "website": "https://www.kemendagri.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Dalam Negeri Wilayah Kabupaten Serang",
+              "address": "Jl. Ki Hajar Dewantara No. 45, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431234",
+              "fax": "+62-254-8431235",
+              "email": "wilayah.serangkab@kemendagri.go.id",
+              "website": "https://serangkab.kemendagri.go.id",
+              "office_count": 7,
+              "employee_count": 300,
+              "services": [
+                "Administrasi Pemerintahan",
+                "Pelayanan Publik",
+                "Koordinasi Pemerintahan",
+                "Pemerintahan Daerah",
+                "Otonomi Daerah",
+                "Kepegawaian"
+              ],
+              "programs": [
+                "Program Pemerintahan",
+                "Program Kepegawaian",
+                "Program Otonomi Daerah",
+                "Program Pelayanan Publik"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Hukum dan HAM",
+            "abbreviation": "Kemenkumham",
+            "central_ministry": "Kementerian Hukum dan Hak Asasi Manusia",
+            "website": "https://www.kemenkumham.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Hukum dan HAM Wilayah Kabupaten Serang",
+              "address": "Jl. Sudirman No. 67, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431236",
+              "fax": "+62-254-8431237",
+              "email": "wilayah.serangkab@kemenkumham.go.id",
+              "website": "https://serangkab.kemenkumham.go.id",
+              "office_count": 6,
+              "employee_count": 225,
+              "services": [
+                "Bantuan Hukum",
+                "Perlindungan HAM",
+                "Notaris",
+                "Layanan Hukum",
+                "Advokasi"
+              ],
+              "programs": [
+                "Program Bantuan Hukum",
+                "Program HAM",
+                "Program Notaris",
+                "Program Advokasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Keuangan",
+            "abbreviation": "Kemenkeu",
+            "central_ministry": "Kementerian Keuangan",
+            "website": "https://www.kemenkeu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Keuangan Wilayah Kabupaten Serang",
+              "address": "Jl. A. Yani No. 23, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431238",
+              "fax": "+62-254-8431239",
+              "email": "wilayah.serangkab@kemenkeu.go.id",
+              "website": "https://serangkab.kemenkeu.go.id",
+              "office_count": 6,
+              "employee_count": 270,
+              "services": [
+                "Perpajakan",
+                "Anggaran",
+                "Keuangan",
+                "Pajak Daerah",
+                "Retribusi"
+              ],
+              "programs": [
+                "Program Pajak",
+                "Program Anggaran",
+                "Program Keuangan",
+                "Program Retribusi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pendidikan dan Kebudayaan",
+            "abbreviation": "Kemendikbud",
+            "central_ministry": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
+            "website": "https://www.kemdikbud.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pendidikan dan Kebudayaan Wilayah Kabupaten Serang",
+              "address": "Jl. Pendidikan No. 12, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431240",
+              "fax": "+62-254-8431241",
+              "email": "wilayah.serangkab@kemdikbud.go.id",
+              "website": "https://serangkab.kemdikbud.go.id",
+              "office_count": 8,
+              "employee_count": 375,
+              "services": [
+                "Pendidikan",
+                "Kebudayaan",
+                "Beasiswa",
+                "Pendidikan Dasar",
+                "Pendidikan Menengah",
+                "Pendidikan Tinggi",
+                "Pendidikan Nonformal"
+              ],
+              "programs": [
+                "Program Pendidikan",
+                "Program Kebudayaan",
+                "Program Beasiswa",
+                "Program Pendidikan Dasar",
+                "Program Pendidikan Menengah",
+                "Program Pendidikan Tinggi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Kesehatan",
+            "abbreviation": "Kemenkes",
+            "central_ministry": "Kementerian Kesehatan",
+            "website": "https://www.kemenkes.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Kesehatan Wilayah Kabupaten Serang",
+              "address": "Jl. Veteran No. 78, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431242",
+              "fax": "+62-254-8431243",
+              "email": "wilayah.serangkab@kemenkes.go.id",
+              "website": "https://serangkab.kemenkes.go.id",
+              "office_count": 7,
+              "employee_count": 330,
+              "services": [
+                "Pelayanan Kesehatan",
+                "BPJS",
+                "Vaksinasi",
+                "Kesehatan Masyarakat",
+                "Kesehatan Dasar",
+                "Kesehatan Rujukan"
+              ],
+              "programs": [
+                "Program Kesehatan",
+                "Program BPJS",
+                "Program Vaksinasi",
+                "Program Kesehatan Masyarakat"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Sosial",
+            "abbreviation": "Kemensos",
+            "central_ministry": "Kementerian Sosial",
+            "website": "https://www.kemensos.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Sosial Wilayah Kabupaten Serang",
+              "address": "Jl. Sosial No. 34, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431244",
+              "fax": "+62-254-8431245",
+              "email": "wilayah.serangkab@kemensos.go.id",
+              "website": "https://serangkab.kemensos.go.id",
+              "office_count": 6,
+              "employee_count": 240,
+              "services": [
+                "Bantuan Sosial",
+                "Pemberdayaan",
+                "Perlindungan",
+                "Jaminan Sosial",
+                "PKH",
+                "BLT",
+                "Jamkesmas"
+              ],
+              "programs": [
+                "Program Bantuan Sosial",
+                "Program Pemberdayaan",
+                "Program Perlindungan",
+                "Program PKH",
+                "Program BLT",
+                "Program Jamkesmas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perhubungan",
+            "abbreviation": "Kemenhub",
+            "central_ministry": "Kementerian Perhubungan",
+            "website": "https://www.kemenhub.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perhubungan Wilayah Kabupaten Serang",
+              "address": "Jl. Pasar Baru No. 56, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431246",
+              "fax": "+62-254-8431247",
+              "email": "wilayah.serangkab@kemenhub.go.id",
+              "website": "https://serangkab.kemenhub.go.id",
+              "office_count": 6,
+              "employee_count": 255,
+              "services": [
+                "Perizinan Kendaraan",
+                "Uji Kir",
+                "Perizinan Angkutan",
+                "Lalu Lintas",
+                "Terminal",
+                "Parkir"
+              ],
+              "programs": [
+                "Program Transportasi",
+                "Program Keselamatan",
+                "Program Terminal",
+                "Program Parkir"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pekerjaan Umum dan Perumahan Rakyat",
+            "abbreviation": "KemenPU-PR",
+            "central_ministry": "Kementerian Pekerjaan Umum dan Perumahan Rakyat",
+            "website": "https://www.kemenpu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pekerjaan Umum dan Perumahan Rakyat Wilayah Kabupaten Serang",
+              "address": "Jl. Wisata No. 67, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431248",
+              "fax": "+62-254-8431249",
+              "email": "wilayah.serangkab@kemenpu.go.id",
+              "website": "https://serangkab.kemenpu.go.id",
+              "office_count": 7,
+              "employee_count": 300,
+              "services": [
+                "Perizinan Bangunan",
+                "Perizinan Gedung",
+                "Perizinan Reklame",
+                "Infrastruktur",
+                "Perumahan",
+                "Jalan"
+              ],
+              "programs": [
+                "Program Infrastruktur",
+                "Program Perumahan",
+                "Program Jalan",
+                "Program Drainase"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pertanian",
+            "abbreviation": "Kementan",
+            "central_ministry": "Kementerian Pertanian",
+            "website": "https://www.pertanian.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pertanian Wilayah Kabupaten Serang",
+              "address": "Jl. Pertanian No. 23, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431250",
+              "fax": "+62-254-8431251",
+              "email": "wilayah.serangkab@pertanian.go.id",
+              "website": "https://serangkab.pertanian.go.id",
+              "office_count": 5,
+              "employee_count": 225,
+              "services": [
+                "Pertanian",
+                "Perkebunan",
+                "Peternakan",
+                "Bibit",
+                "Pupuk",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Pertanian",
+                "Program Perkebunan",
+                "Program Peternakan",
+                "Program Bibit",
+                "Program Pupuk"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perindustrian",
+            "abbreviation": "Kemenperin",
+            "central_ministry": "Kementerian Perindustrian",
+            "website": "https://www.kemenperin.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perindustrian Wilayah Kabupaten Serang",
+              "address": "Jl. Industri No. 45, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431252",
+              "fax": "+62-254-8431253",
+              "email": "wilayah.serangkab@kemenperin.go.id",
+              "website": "https://serangkab.kemenperin.go.id",
+              "office_count": 4,
+              "employee_count": 150,
+              "services": [
+                "Perizinan Industri",
+                "Standar Industri",
+                "UMKM",
+                "Teknologi",
+                "Pemasaran"
+              ],
+              "programs": [
+                "Program Industri",
+                "Program UMKM",
+                "Program Teknologi",
+                "Program Pemasaran"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perdagangan",
+            "abbreviation": "Kemendag",
+            "central_ministry": "Kementerian Perdagangan",
+            "website": "https://www.kemendag.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perdagangan Wilayah Kabupaten Serang",
+              "address": "Jl. Perdagangan No. 89, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431254",
+              "fax": "+62-254-8431255",
+              "email": "wilayah.serangkab@kemendag.go.id",
+              "website": "https://serangkab.kemendag.go.id",
+              "office_count": 4,
+              "employee_count": 135,
+              "services": [
+                "Perizinan Dagang",
+                "Pasar",
+                "Pengawasan Harga",
+                "Promosi",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Perdagangan",
+                "Program Pengawasan Harga",
+                "Program Pasar",
+                "Program Pelatihan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Lingkungan Hidup dan Kehutanan",
+            "abbreviation": "KLHK",
+            "central_ministry": "Kementerian Lingkungan Hidup dan Kehutanan",
+            "website": "https://www.lhk.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Lingkungan Hidup dan Kehutanan Wilayah Kabupaten Serang",
+              "address": "Jl. Lingkungan No. 12, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431256",
+              "fax": "+62-254-8431257",
+              "email": "wilayah.serangkab@lhk.go.id",
+              "website": "https://serangkab.lhk.go.id",
+              "office_count": 5,
+              "employee_count": 180,
+              "services": [
+                "Lingkungan",
+                "Kehutanan",
+                "Penghijauan",
+                "Sampah",
+                "Pencemaran",
+                "Konservasi"
+              ],
+              "programs": [
+                "Program Lingkungan",
+                "Program Kehutanan",
+                "Program Penghijauan",
+                "Program Sampah"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Kelautan dan Perikanan",
+            "abbreviation": "KKP",
+            "central_ministry": "Kementerian Kelautan dan Perikanan",
+            "website": "https://www.kkp.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Kelautan dan Perikanan Wilayah Kabupaten Serang",
+              "address": "Jl. Kelautan No. 34, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431258",
+              "fax": "+62-254-8431259",
+              "email": "wilayah.serangkab@kkp.go.id",
+              "website": "https://serangkab.kkp.go.id",
+              "office_count": 4,
+              "employee_count": 120,
+              "services": [
+                "Kelautan",
+                "Perikanan",
+                "Aquaculture",
+                "Kapal",
+                "Teknologi",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Kelautan",
+                "Program Perikanan",
+                "Program Aquaculture",
+                "Program Kapal"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Tenaga Kerja dan Transmigrasi",
+            "abbreviation": "Kemnakertrans",
+            "central_ministry": "Kementerian Tenaga Kerja dan Transmigrasi",
+            "website": "https://www.kemnakertrans.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Tenaga Kerja dan Transmigrasi Wilayah Kabupaten Serang",
+              "address": "Jl. Tenaga Kerja No. 56, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431260",
+              "fax": "+62-254-8431261",
+              "email": "wilayah.serangkab@kemnakertrans.go.id",
+              "website": "https://serangkab.kemnakertrans.go.id",
+              "office_count": 5,
+              "employee_count": 187,
+              "services": [
+                "Tenaga Kerja",
+                "Pelatihan",
+                "Penempatan",
+                "Transmigrasi",
+                "Bursa Kerja",
+                "Program Kerja"
+              ],
+              "programs": [
+                "Program Tenaga Kerja",
+                "Program Pelatihan",
+                "Program Transmigrasi",
+                "Program Bursa Kerja"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pariwisata dan Ekonomi Kreatif",
+            "abbreviation": "Kemenparekraf",
+            "central_ministry": "Kementerian Pariwisata dan Ekonomi Kreatif",
+            "website": "https://www.kemenparekraf.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pariwisata dan Ekonomi Kreatif Wilayah Kabupaten Serang",
+              "address": "Jl. Pariwisata No. 78, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431262",
+              "fax": "+62-254-8431263",
+              "email": "wilayah.serangkab@kemenparekraf.go.id",
+              "website": "https://serangkab.kemenparekraf.go.id",
+              "office_count": 3,
+              "employee_count": 90,
+              "services": [
+                "Pariwisata",
+                "Ekonomi Kreatif",
+                "Event",
+                "Promosi",
+                "Pengembangan"
+              ],
+              "programs": [
+                "Program Pariwisata",
+                "Program Ekonomi Kreatif",
+                "Program Event",
+                "Program Promosi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Komunikasi dan Informatika",
+            "abbreviation": "Kominfo",
+            "central_ministry": "Kementerian Komunikasi dan Informatika",
+            "website": "https://www.kominfo.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Komunikasi dan Informatika Wilayah Kabupaten Serang",
+              "address": "Jl. Komunikasi No. 23, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431264",
+              "fax": "+62-254-8431265",
+              "email": "wilayah.serangkab@kominfo.go.id",
+              "website": "https://serangkab.kominfo.go.id",
+              "office_count": 5,
+              "employee_count": 150,
+              "services": [
+                "Komunikasi",
+                "Informatika",
+                "Statistik",
+                "Jaringan",
+                "Aplikasi",
+                "Digitalisasi"
+              ],
+              "programs": [
+                "Program Komunikasi",
+                "Program Informatika",
+                "Program Statistik",
+                "Program Digitalisasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Koperasi dan UKM",
+            "abbreviation": "Kemenkopukm",
+            "central_ministry": "Kementerian Koperasi dan Usaha Kecil Menengah",
+            "website": "https://www.kemenkopukm.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Koperasi dan UKM Wilayah Kabupaten Serang",
+              "address": "Jl. Koperasi No. 45, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431266",
+              "fax": "+62-254-8431267",
+              "email": "wilayah.serangkab@kemenkopukm.go.id",
+              "website": "https://serangkab.kemenkopukm.go.id",
+              "office_count": 4,
+              "employee_count": 90,
+              "services": [
+                "Koperasi",
+                "UKM",
+                "Modal",
+                "Pelatihan",
+                "Pemberdayaan",
+                "Pemasaran"
+              ],
+              "programs": [
+                "Program Koperasi",
+                "Program UKM",
+                "Program Modal",
+                "Program Pelatihan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
+            "abbreviation": "Kemenpppa",
+            "central_ministry": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
+            "website": "https://www.kemenpppa.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pemberdayaan Perempuan dan Perlindungan Anak Wilayah Kabupaten Serang",
+              "address": "Jl. Pemberdayaan No. 67, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431268",
+              "fax": "+62-254-8431269",
+              "email": "wilayah.serangkab@kemenpppa.go.id",
+              "website": "https://serangkab.kemenpppa.go.id",
+              "office_count": 3,
+              "employee_count": 120,
+              "services": [
+                "Pemberdayaan Perempuan",
+                "Perlindungan Anak",
+                "KDRT",
+                "Perlindungan",
+                "Kekerasan",
+                "Bantuan"
+              ],
+              "programs": [
+                "Program Pemberdayaan Perempuan",
+                "Program Perlindungan Anak",
+                "Program KDRT",
+                "Program Perlindungan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pemuda dan Olahraga",
+            "abbreviation": "Kemenpora",
+            "central_ministry": "Kementerian Pemuda dan Olahraga",
+            "website": "https://www.kemenpora.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pemuda dan Olahraga Wilayah Kabupaten Serang",
+              "address": "Jl. Pemuda No. 34, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431270",
+              "fax": "+62-254-8431271",
+              "email": "wilayah.serangkab@kemenpora.go.id",
+              "website": "https://serangkab.kemenpora.go.id",
+              "office_count": 3,
+              "employee_count": 105,
+              "services": [
+                "Pemberdayaan Pemuda",
+                "Olahraga",
+                "Fasilitas",
+                "Kompetisi",
+                "Pelatihan",
+                "Organisasi"
+              ],
+              "programs": [
+                "Program Pemberdayaan Pemuda",
+                "Program Olahraga",
+                "Program Fasilitas",
+                "Program Kompetisi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Agama",
+            "abbreviation": "Kemenag",
+            "central_ministry": "Kementerian Agama",
+            "website": "https://www.kemenag.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Agama Wilayah Kabupaten Serang",
+              "address": "Jl. Agama No. 89, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431272",
+              "fax": "+62-254-8431273",
+              "email": "wilayah.serangkab@kemenag.go.id",
+              "website": "https://serangkab.kemenag.go.id",
+              "office_count": 5,
+              "employee_count": 135,
+              "services": [
+                "Pendidikan Agama",
+                "Tempat Ibadah",
+                "Bantuan",
+                "Fasilitas",
+                "Pengembangan",
+                "Zakat"
+              ],
+              "programs": [
+                "Program Pendidikan Agama",
+                "Program Tempat Ibadah",
+                "Program Bantuan",
+                "Program Fasilitas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Luar Negeri",
+            "abbreviation": "Kemenlu",
+            "central_ministry": "Kementerian Luar Negeri",
+            "website": "https://www.kemenlu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Luar Negeri Wilayah Kabupaten Serang",
+              "address": "Jl. Luar Negeri No. 56, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431274",
+              "fax": "+62-254-8431275",
+              "email": "wilayah.serangkab@kemenlu.go.id",
+              "website": "https://serangkab.kemenlu.go.id",
+              "office_count": 2,
+              "employee_count": 75,
+              "services": [
+                "Paspor",
+                "Visa",
+                "Konsuler",
+                "Bantuan",
+                "Perlindungan",
+                "Dokumentasi"
+              ],
+              "programs": [
+                "Program Paspor",
+                "Program Visa",
+                "Program Konsuler",
+                "Program Bantuan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pertahanan",
+            "abbreviation": "Kemenhan",
+            "central_ministry": "Kementerian Pertahanan",
+            "website": "https://www.kemenhan.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pertahanan Wilayah Kabupaten Serang",
+              "address": "Jl. Pertahanan No. 23, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431276",
+              "fax": "+62-254-8431277",
+              "email": "wilayah.serangkab@kemenhan.go.id",
+              "website": "https://serangkab.kemenhan.go.id",
+              "office_count": 3,
+              "employee_count": 120,
+              "services": [
+                "Pertahanan",
+                "Wajib Militer",
+                "Cadangan",
+                "Belanegara",
+                "Pelatihan",
+                "Simulasi"
+              ],
+              "programs": [
+                "Program Pertahanan",
+                "Program Wajib Militer",
+                "Program Cadangan",
+                "Program Belanegara"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian BUMN",
+            "abbreviation": "Kemenbumn",
+            "central_ministry": "Kementerian Badan Usaha Milik Negara",
+            "website": "https://www.kemenbumn.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian BUMN Wilayah Kabupaten Serang",
+              "address": "Jl. BUMN No. 45, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431278",
+              "fax": "+62-254-8431279",
+              "email": "wilayah.serangkab@kemenbumn.go.id",
+              "website": "https://serangkab.kemenbumn.go.id",
+              "office_count": 2,
+              "employee_count": 60,
+              "services": [
+                "Layanan BUMN",
+                "Investasi",
+                "Bantuan",
+                "Program",
+                "Fasilitas",
+                "Monitoring"
+              ],
+              "programs": [
+                "Program BUMN",
+                "Program Investasi",
+                "Program Bantuan",
+                "Program Fasilitasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Investasi",
+            "abbreviation": "BKPM",
+            "central_ministry": "Badan Koordinasi Penanaman Modal",
+            "website": "https://www.bkpm.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Investasi Wilayah Kabupaten Serang",
+              "address": "Jl. Investasi No. 67, Ciruas, Kabupaten Serang, Banten",
+              "phone": "+62-254-8431280",
+              "fax": "+62-254-8431281",
+              "email": "wilayah.serangkab@bkpm.go.id",
+              "website": "https://serangkab.bkpm.go.id",
+              "office_count": 2,
+              "employee_count": 45,
+              "services": [
+                "Investasi",
+                "Izin Investasi",
+                "Fasilitasi",
+                "Promosi",
+                "Monitoring",
+                "Layanan"
+              ],
+              "programs": [
+                "Program Investasi",
+                "Program Izin Investasi",
+                "Program Fasilitasi",
+                "Program Promosi"
+              ]
+            }
+          }
+        ]
+      },
+      "kota_cilegon": {
+        "name": "Kota Cilegon",
+        "capital": "Cilegon",
+        "type": "Kota",
+        "population": 435000,
+        "area_km2": 175.51,
+        "density_per_km2": 2478,
+        "website": "https://www.cilegonkota.go.id",
+        "mayor": "Helldy Agustian",
+        "vice_mayor": "Rizki Mulyaman",
+        "districts_count": 6,
+        "districts": [
+          {
+            "name": "Cibeber",
+            "population": 85000,
+            "area_km2": 28.5,
+            "density_per_km2": 2982,
+            "villages_count": 5,
+            "ministry_offices": 7
+          },
+          {
+            "name": "Cilegon",
+            "population": 120000,
+            "area_km2": 38.2,
+            "density_per_km2": 3141,
+            "villages_count": 7,
+            "ministry_offices": 9
+          },
+          {
+            "name": "Ciwandan",
+            "population": 75000,
+            "area_km2": 32.1,
+            "density_per_km2": 2336,
+            "villages_count": 6,
+            "ministry_offices": 8
+          },
+          {
+            "name": "Grogol",
+            "population": 65000,
+            "area_km2": 29.8,
+            "density_per_km2: 2181,
+            "villages_count": 5,
+            "ministry_offices": 6
+          },
+          {
+            "name": "Jombang",
+            "population": 45000,
+            "area_km2: 26.4",
+            "density_per_km2: 1705,
+            "villages_count": 4,
+            "ministry_offices": 5
+          },
+          {
+            "name": "Pulomerak",
+            "population": 45000,
+            "area_km2": 20.5,
+            "density_per_km2: 2195,
+            "villages_count": 4,
+            "ministry_offices": 5
+          }
+        ],
+        "ministries": [
+          {
+            "name": "Kementerian Dalam Negeri",
+            "abbreviation": "Kemendagri",
+            "central_ministry": "Kementerian Dalam Negeri",
+            "website": "https://www.kemendagri.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Dalam Negeri Wilayah Kota Cilegon",
+              "address": "Jl. Ki Hajar Dewantara No. 45, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431234",
+              "fax": "+62-254-8431235",
+              "email": "wilayah.cilegon@kemendagri.go.id",
+              "website": "https://cilegon.kemendagri.go.id",
+              "office_count": 6,
+              "employee_count": 180,
+              "services": [
+                "Administrasi Pemerintahan",
+                "Pelayanan Publik",
+                "Koordinasi Pemerintahan",
+                "Pemerintahan Daerah",
+                "Otonomi Daerah",
+                "Kepegawaian"
+              ],
+              "programs": [
+                "Program Pemerintahan",
+                "Program Kepegawaian",
+                "Program Otonomi Daerah",
+                "Program Pelayanan Publik"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Hukum dan HAM",
+            "abbreviation": "Kemenkumham",
+            "central_ministry": "Kementerian Hukum dan Hak Asasi Manusia",
+            "website": "https://www.kemenkumham.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Hukum dan HAM Wilayah Kota Cilegon",
+              "address": "Jl. Sudirman No. 67, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431236",
+              "fax": "+62-254-8431237",
+              "email": "wilayah.cilegon@kemenkumham.go.id",
+              "website": "https://cilegon.kemenkumham.go.id",
+              "office_count": 5,
+              "employee_count": 150,
+              "services": [
+                "Bantuan Hukum",
+                "Perlindungan HAM",
+                "Notaris",
+                "Layanan Hukum",
+                "Advokasi"
+              ],
+              "programs": [
+                "Program Bantuan Hukum",
+                "Program HAM",
+                "Program Notaris",
+                "Program Advokasi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Keuangan",
+            "abbreviation": "Kemenkeu",
+            "central_ministry": "Kementerian Keuangan",
+            "website": "https://www.kemenkeu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Keuangan Wilayah Kota Cilegon",
+              "address": "Jl. A. Yani No. 23, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431238",
+              "fax": "+62-254-8431239",
+              "email": "wilayah.cilegon@kemenkeu.go.id",
+              "website": "https://cilegon.kemenkeu.go.id",
+              "office_count": 5,
+              "employee_count": 216,
+              "services": [
+                "Perpajakan",
+                "Anggaran",
+                "Keuangan",
+                "Pajak Daerah",
+                "Retribusi"
+              ],
+              "programs": [
+                "Program Pajak",
+                "Program Anggaran",
+                "Program Keuangan",
+                "Program Retribusi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pendidikan dan Kebudayaan",
+            "abbreviation": "Kemendikbud",
+            "central_ministry": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi",
+            "website": "https://www.kemdikbud.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pendidikan dan Kebudayaan Wilayah Kota Cilegon",
+              "address": "Jl. Pendidikan No. 12, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431240",
+              "fax": "62-254-8431241",
+              "email": "wilayah.cilegon@kemdikbud.go.id",
+              "website": "https://cilegon.kemdikbud.go.id",
+              "office_count": 7,
+              "employee_count": 250,
+              "services": [
+                "Pendidikan",
+                "Kebudayaan",
+                "Beasiswa",
+                "Pendidikan Dasar",
+                "Pendidikan Menengah",
+                "Pendidikan Tinggi",
+                "Pendidikan Nonformal"
+              ],
+              "programs": [
+                "Program Pendidikan",
+                "Program Kebudayaan",
+                "Program Beasiswa",
+                "Program Pendidikan Dasar",
+                "Program Pendidikan Menengah",
+                "Program Pendidikan Tinggi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Kesehatan",
+            "abbreviation": "Kemenkes",
+            "central_ministry": "Kementerian Kesehatan",
+            "website": "https://www.kemenkes.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Kesehatan Wilayah Kota Cilegon",
+              "address": "Jl. Veteran No. 78, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431242",
+              "fax": "+62-254-8431243",
+              "email": "wilayah.cilegon@kemenkes.go.id",
+              "website": "https://cilegon.kemenkes.go.id",
+              "office_count": 6,
+              "employee_count": 220,
+              "services": [
+                "Pelayanan Kesehatan",
+                "BPJS",
+                "Vaksinasi",
+                "Kesehatan Masyarakat",
+                "Kesehatan Dasar",
+                "Kesehatan Rujukan"
+              ],
+              "programs": [
+                "Program Kesehatan",
+                "Program BPJS",
+                "Program Vaksinasi",
+                "Program Kesehatan Masyarakat"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Sosial",
+            "abbreviation": "Kemensos",
+            "central_ministry": "Kementerian Sosial",
+            "website": "https://www.kemensos.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Sosial Wilayah Kota Cilegon",
+              "address": "Jl. Sosial No. 34, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431244",
+              "fax": "+62-254-8431245",
+              "email": "wilayah.cilegon@kemensos.go.id",
+              "website": "https://cilegon.kemensos.go.id",
+              "office_count": 5,
+              "employee_count": 180,
+              "services": [
+                "Bantuan Sosial",
+                "Pemberdayaan",
+                "Perlindungan",
+                "Jaminan Sosial",
+                "PKH",
+                "BLT",
+                "Jamkesmas"
+              ],
+              "programs": [
+                "Program Bantuan Sosial",
+                "Program Pemberdayaan",
+                "Program Perlindungan",
+                "Program PKH",
+                "Program BLT",
+                "Program Jamkesmas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perhubungan",
+            "abbreviation": "Kemenhub",
+            "central_ministry": "Kementerian Perhubungan",
+            "website": "https://www.kemenhub.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perhubungan Wilayah Kota Cilegon",
+              "address": "Jl. Pasar Baru No. 56, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431246",
+              "fax": "+62-254-8431247",
+              "email": "wilayah.cilegon@kemenhub.go.id",
+              "website": "https://cilegon.kemenhub.go.id",
+              "office_count": 5,
+              "employee_count": 170,
+              "services": [
+                "Perizinan Kendaraan",
+                "Uji Kir",
+                "Perizinan Angkutan",
+                "Lalu Lintas",
+                "Terminal",
+                "Parkir"
+              ],
+              "programs": [
+                "Program Transportasi",
+                "Program Keselamatan",
+                "Program Terminal",
+                "Program Parkir"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pekerjaan Umum dan Perumahan Rakyat",
+            "abbreviation": "KemenPU-PR",
+            "central_ministry": "Kementerian Pekerjaan Umum dan Perumahan Rakyat",
+            "website": "https://www.kemenpu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pekerjaan Umum dan Perumahan Rakyat Wilayah Kota Cilegon",
+              "address": "Jl. Wisata No. 67, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431248",
+              "fax": "+62-254-8431249",
+              "email": "wilayah.cilegon@kemenpu.go.id",
+              "website": "https://cilegon.kemenpu.go.id",
+              "office_count": 6,
+              "employee_count": 200,
+              "services": [
+                "Perizinan Bangunan",
+                "Perizinan Gedung",
+                "Perizinan Reklame",
+                "Infrastruktur",
+                "Perumahan",
+                "Jalan"
+              ],
+              "programs": [
+                "Program Infrastruktur",
+                "Program Perumahan",
+                "Program Jalan",
+                "Program Drainase"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pertanian",
+            "abbreviation": "Kementan",
+            "central_ministry": "Kementerian Pertanian",
+            "website": "https://www.pertanian.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pertanian Wilayah Kota Cilegon",
+              "address": "Jl. Pertanian No. 23, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431250",
+              "fax": "+62-254-8431251",
+              "email": "wilayah.cilegon@pertanian.go.id",
+              "website": "https://cilegon.pertanian.go.id",
+              "office_count": 4,
+              "employee_count": 150,
+              "services": [
+                "Pertanian",
+                "Perkebunan",
+                "Peternakan",
+                "Bibit",
+                "Pupuk",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Pertanian",
+                "Program Perkebunan",
+                "Program Peternakan",
+                "Program Bibit",
+                "Program Pupuk"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perindustrian",
+            "abbreviation": "Kemenperin",
+            "central_ministry": "Kementerian Perindustrian",
+            "website": "https://www.kemenperin.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perindustrian Wilayah Kota Cilegon",
+              "address": "Jl. Industri No. 45, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431252",
+              "fax": "+62-254-8431253",
+              "email": "wilayah.cilegon@kemenperin.go.id",
+              "website": "https://cilegon.kemenperin.go.id",
+              "office_count": 3,
+              "employee_count": 80,
+              "services": [
+                "Perizinan Industri",
+                "Standar Industri",
+                "UMKM",
+                "Teknologi",
+                "Pemasaran"
+              ],
+              "programs": [
+                "Program Industri",
+                "Program UMKM",
+                "Program Teknologi",
+                "Program Pemasaran"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Perdagangan",
+            "abbreviation": "Kemendag",
+            "central_ministry": "Kementerian Perdagangan",
+            "website": "https://www.kemendag.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Perdagangan Wilayah Kota Cilegon",
+              "address": "Jl. Perdagangan No. 89, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431254",
+              "fax": "+62-254-8431255",
+              "email": "wilayah.cilegon@kemendag.go.id",
+              "website": "https://cilegon.kemendag.go.id",
+              "office_count": 3,
+              "employee_count": 90,
+              "services": [
+                "Perizinan Dagang",
+                "Pasar",
+                "Pengawasan Harga",
+                "Promosi",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Perdagangan",
+                "Program Pengawasan Harga",
+                "Program Pasar",
+                "Program Pelatihan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Lingkungan Hidup dan Kehutanan",
+            "abbreviation": "KLHK",
+            "central_ministry": "Kementerian Lingkungan Hidup dan Kehutanan",
+            "website": "https://www.lhk.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Lingkungan Hidup dan Kehutanan Wilayah Kota Cilegon",
+              "address": "Jl. Lingkungan No. 12, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431256",
+              "fax": "+62-254-8431257",
+              "email": "wilayah.cilegon@lhk.go.id",
+              "website": "https://cilegon.lhk.go.id",
+              "office_count": 4,
+              "employee_count": 100,
+              "services": [
+                "Lingkungan",
+                "Kehutanan",
+                "Penghijauan",
+                "Sampah",
+                "Pencemaran",
+                "Konservasi"
+              ],
+              "programs": [
+                "Program Lingkungan",
+                "Program Kehutanan",
+                "Program Penghijauan",
+                "Program Sampah"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Kelautan dan Perikanan",
+            "abbreviation": "KKP",
+            "central_ministry": "Kementerian Kelautan dan Perikanan",
+            "website": "https://www.kkp.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Kelautan dan Perikanan Wilayah Kota Cilegon",
+              "address": "Jl. Kelautan No. 34, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431258",
+              "fax": "+62-254-8431259",
+              "email": "wilayah.cilegon@kkp.go.id",
+              "website": "https://cilegon.kkp.go.id",
+              "office_count": 3,
+              "employee_count": 80,
+              "services": [
+                "Kelautan",
+                "Perikanan",
+                "Aquaculture",
+                "Kapal",
+                "Teknologi",
+                "Pelatihan"
+              ],
+              "programs": [
+                "Program Kelautan",
+                "Program Perikanan",
+                "Program Aquaculture",
+                "Program Kapal"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Tenaga Kerja dan Transmigrasi",
+            "abbreviation": "Kemnakertrans",
+            "central_ministry": "Kementerian Tenaga Kerja dan Transmigrasi",
+            "website": "https://www.kemnakertrans.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Tenaga Kerja dan Transmigrasi Wilayah Kota Cilegon",
+              "address": "Jl. Tenaga Kerja No. 56, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431260",
+              "fax": "+62-254-8431261",
+              "email": "wilayah.cilegon@kemnakertrans.go.id",
+              "website": "https://cilegon.kemnakertrans.go.id",
+              "office_count": 4,
+              "employee_count": 125,
+              "services": [
+                "Tenaga Kerja",
+                "Pelatihan",
+                "Penempatan",
+                "Transmigrasi",
+                "Bursa Kerja",
+                "Program Kerja"
+              ],
+              "programs": [
+                "Program Tenaga Kerja",
+                "Program Pelatihan",
+                "Program Transmigrasi",
+                "Program Bursa Kerja"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pariwisata dan Ekonomi Kreatif",
+            "abbreviation": "Kemenparekraf",
+            "central_ministry": "Kementerian Pariwisata dan Ekonomi Kreatif",
+            "website": "https://www.kemenparekraf.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pariwisata dan Ekonomi Kreatif Wilayah Kota Cilegon",
+              "address": "Jl. Pariwisata No. 78, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431262",
+              "fax": "+62-254-8431263",
+              "email": "wilayah.cilegon@kemenparekraf.go.id",
+              "website": "https://cilegon.kemenparekraf.go.id",
+              "office_count": 3,
+              "employee_count": "60",
+              "services": [
+                "Pariwisata",
+                "Ekonomi Kreatif",
+                "Event",
+                "Promosi",
+                "Pengembangan"
+              ],
+              "programs": [
+                "Program Pariwisata",
+                "Program Ekonomi Kreatif",
+                "Program Event",
+                "Program Promosi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Komunikasi dan Informatika",
+            "abbreviation": "Kominfo",
+            "central_ministry": "Kementerian Komunikasi dan Informatika",
+            "website": "https://www.kominfo.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Komunikasi dan Informatika Wilayah Kota Cilegon",
+              "address": "Jl. Komunikasi No. 23, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431264",
+              "fax": "+62-254-8431265",
+              "email": "wilayah.cilegon@kominfo.go.id",
+              "website": "https://cilegon.kominfo.go.id",
+              "office_count": 4,
+              "employee_count": 80,
+              "services": [
+                "Komunikasi",
+                "Informatika",
+                "Statistik",
+                "Jaringan",
+                "Aplikasi",
+                "Digitalisasi"
+              ],
+              "programs": [
+                "Program Komunikasi",
+                "Program Informatika",
+                "Program Statistik",
+                "Program Digitalisasi"
+              ]
+            },
+          },
+          {
+            "name": "Kementerian Koperasi dan UKM",
+            "abbreviation": "Kemenkopukm",
+            "central_ministry": "Kementerian Koperasi dan Usaha Kecil Menengah",
+            "website": "https://www.kemenkopukm.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Koperasi dan UKM Wilayah Kota Cilegon",
+              "address": "Jl. Koperasi No. 45, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431266",
+              "fax": "+62-254-8431267",
+              "email": "wilayah.cilegon@kemenkopukm.go.id",
+              "website": "https://cilegon.kemenkopukm.go.id",
+              "office_count": 3,
+              "employee_count": "48",
+              "services": [
+                "Koperasi",
+                "UKM",
+                "Modal",
+                "Pelatihan",
+                "Pemberdayaan",
+                "Pemasaran"
+              ],
+              "programs": [
+                "Program Koperasi",
+                "Program UKM",
+                "Program Modal",
+                "Program Pelatihan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
+            "abbreviation": "Kemenpppa",
+            "central_ministry": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak",
+            "website": "https://www.kemenpppa.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pemberdayaan Perempuan dan Perlindungan Anak Wilayah Kota Cilegon",
+              "address": "Jl. Pemberdayaan No. 67, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431268",
+              "fax": "+62-254-8431269",
+              "email": "wilayah.cilegon@kemenpppa.go.id",
+              "website": "https://cilegon.kemenpppa.go.id",
+              "office_count": 3,
+              "employee_count": "72",
+              "services": [
+                "Pemberdayaan Perempuan",
+                "Perlindungan Anak",
+                "KDRT",
+                "Perlindungan",
+                "Kekerasan",
+                "Bantuan"
+              ],
+              "programs": [
+                "Program Pemberdayaan Perempuan",
+                "Program Perlindungan Anak",
+                "Program KDRT",
+                "Program Perlindungan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pemuda dan Olahraga",
+            "abbreviation": "Kemenpora",
+            "central_ministry": "Kementerian Pemuda dan Olahraga",
+            "website": "https://www.kemenpora.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pemuda dan Olahraga Wilayah Kota Cilegon",
+              "address": "Jl. Pemuda No. 34, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431270",
+              "fax": "+62-254-8431271",
+              "email": "wilayah.cilegon@kemenpora.go.id",
+              "website": "https://cilegon.kemenpora.go.id",
+              "office_count": 3,
+              "employee_count": "60",
+              "services": [
+                "Pemberdayaan Pemuda",
+                "Olahraga",
+                "Fasilitas",
+                "Kompetisi",
+                "Pelatihan",
+                "Organisasi"
+              ],
+              "programs": [
+                "Program Pemberdayaan Pemuda",
+                "Program Olahraga",
+                "Program Fasilitas",
+                "Program Kompetisi"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Agama",
+            "abbreviation": "Kemenag",
+            "central_ministry": "Kementerian Agama",
+            "website": "https://www.kemenag.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Agama Wilayah Kota Cilegon",
+              "address": "Jl. Agama No. 89, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431272",
+              "fax": "+62-254-8431273",
+              "email": "wilayah.cilegon@kemenag.go.id",
+              "website": "https://cilegon.kemenag.go.id",
+              "office_count": 4,
+              "employee_count": "108",
+              "services": [
+                "Pendidikan Agama",
+                "Tempat Ibadah",
+                "Bantuan",
+                "Fasilitas",
+                "Pengembangan",
+                "Zakat"
+              ],
+              "programs": [
+                "Program Pendidikan Agama",
+                "Program Tempat Ibadah",
+                "Program Bantuan",
+                "Program Fasilitas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Luar Negeri",
+            "abbreviation": "Kemenlu",
+            "central_ministry": "Kementerian Luar Negeri",
+            "website": "https://www.kemenlu.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Luar Negeri Wilayah Kota Cilegon",
+              "address": "Jl. Luar Negeri No. 56, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431274",
+              "fax": "+62-254-8431275",
+              "email": "wilayah.cilegon@kemenlu.go.id",
+              "website": "https://cilegon.kemenlu.go.id",
+              "office_count": 2,
+              "employee_count": "50",
+              "services": [
+                "Paspor",
+                "Visa",
+                "Konsuler",
+                "Bantuan",
+                "Perlindungan",
+                "Dokumentasi"
+              ],
+              "programs": [
+                "Program Paspor",
+                "Program Visa",
+                "Program Konsuler",
+                "Program Bantuan"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Pertahanan",
+            "abbreviation": "Kemenhan",
+            "central_ministry": "Kementerian Pertahanan",
+            "website": "https://www.kemenhan.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Pertahanan Wilayah Kota Cilegon",
+              "address": "Jl. Pertahanan No. 23, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431276",
+              "fax": "+62-254-8431277",
+              "email": "wilayah.cilegon@kemenhan.go.id",
+              "website": "https://cilegon.kemenhan.go.id",
+              "office_count": 3,
+              "employee_count": "90",
+              "services": [
+                "Pertahanan",
+                "Wajib Militer",
+                "Cadangan",
+                "Belanegara",
+                "Pelatihan",
+                "Simulasi"
+              ],
+              "programs": [
+                "Program Pertahanan",
+                "Program Wajib Militer",
+                "Program Cadangan",
+                "Program Belanegara"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian BUMN",
+            "abbreviation": "Kemenbumn",
+            "central_ministry": "Kementerian Badan Usaha Milik Negara",
+            "website": "https://www.kemenbumn.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian BUMN Wilayah Kota Cilegon",
+              "address": "Jl. BUMN No. 45, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431278",
+              "fax": "+62-254-8431279",
+              "email": "wilayah.cilegon@kemenbumn.go.id",
+              "website": "https://cilegon.kemenbumn.go.id",
+              "office_count": 2,
+              "employee_count": "40",
+              "services": [
+                "Layanan BUMN",
+                "Investasi",
+                "Bantuan",
+                "Program",
+                "Fasilitas",
+                "Monitoring"
+              ],
+              "programs": [
+                "Program BUMN",
+                "Program Investasi",
+                "Program Bantuan",
+                "Program Fasilitas"
+              ]
+            }
+          },
+          {
+            "name": "Kementerian Investasi",
+            "abbreviation": "BKPM",
+            "central_ministry": "Badan Koordinasi Penanaman Modal",
+            "website": "https://www.bkpm.go.id",
+            "regional_office": {
+              "name": "Kantor Kementerian Investasi Wilayah Kota Cilegon",
+              "address": "Jl. Investasi No. 67, Cilegon, Kota Cilegon, Banten",
+              "phone": "+62-254-8431280",
+              "fax": "+62-254-8431281",
+              "email": "wilayah.cilegon@bkpm.go.id",
+              "website": "https://cilegon.bkpm.go.id",
+              "office_count": 2,
+              "employee_count": "30",
+              "services": [
+                "Investasi",
+                "Izin Investasi",
+                "Fasilitasi",
+                "Promosi",
+                "Monitoring",
+                "Layanan"
+              ],
+              "programs": [
+                "Program Investasi",
+                "Program Izin Investasi",
+                "Program Fasilitasi",
+                "Program Promosi"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "data_collection_priorities": {
+      "high_priority": [
+        "ministry_profile",
+        "leadership_data",
+        "contact_info",
+        "services_data",
+        "programs_data"
+      ],
+      "medium_priority": [
+        "budget_data",
+        "facilities_data",
+        "performance_data"
+      ],
+      "low_priority": [
+        "historical_data",
+        "regulation_data",
+        "achievement_data"
+      ]
+    },
+    "collection_methods": {
+      "web_scraping": {
+        "enabled": true,
+        "rate_limit": 2,
+        "user_agent_rotation": true,
+        "proxy_support": false
+      },
+      "api_simulation": {
+        "enabled": true,
+        "mock_data_generation": true,
+        "realistic_patterns": true
+      },
+      "data_simulation": {
+        "enabled": true,
+        "comprehensive_generation": true,
+        "realistic_patterns": true
+      }
+    },
+    "regional_focus": {
+      "primary_regions": [
+        "kota_serang", "kabupaten_serang", "kota_cilegon"
+      ],
+      "secondary_regions": [
+        "kota_tangerang", "kabupaten_tangerang", "kabupaten_lebak",
+        "kabupaten_pandeglang", "kabupaten_tangerang_selatan"
+      ],
+      "emerging_regions": []
+    },
+    "intelligence_categories": {
+      "government_structure": {
+        "organizational_analysis": true,
+        "leadership_tracking": true,
+        "department_hierarchy": true,
+        "resource_allocation": true
+      },
+      "service_delivery": {
+        "service_coverage": true,
+        "quality_metrics": true,
+        "citizen_satisfaction": true,
+        "digital_transformation": true
+      },
+      "strategic_planning": {
+        "regional_development": true,
+        "infrastructure_planning": true,
+        "economic_development": true,
+        "social_development": true
+      }
+    },
+    "reporting_requirements": {
+      "daily_reports": [
+        "service_summary",
+        "citizen_requests",
+        "department_performance"
+      ],
+      "weekly_reports": [
+        "regional_analysis",
+        "service_trends",
+        "strategic_insights"
+      ],
+      "monthly_reports": [
+        "comprehensive_government_analysis",
+        "strategic_recommendations",
+        "development_opportunities"
+      ]
+    },
+    "data_storage": {
+      "formats": [
+        "json",
+        "csv",
+        "markdown"
+      ],
+      "retention_period": "12_months",
+      "backup_frequency": "daily",
+      "compression_enabled": true
+    }
+  }
+}

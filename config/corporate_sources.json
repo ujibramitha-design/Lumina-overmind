@@ -1,0 +1,877 @@
+{
+  "corporate_intelligence": {
+    "manufacturing": {
+      "name": "Manufacturing & Industri",
+      "companies": [
+        {
+          "name": "Astra International",
+          "website": "https://www.astra.co.id",
+          "careers_page": "https://www.astra.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/astra-international",
+          "focus_areas": ["production_workers", "plant_workers", "quality_control", "maintenance"],
+          "headquarters": "Jakarta",
+          "industry": "Automotive, Manufacturing, Financial Services"
+        },
+        {
+          "name": "Unilever Indonesia",
+          "website": "https://www.unilever.co.id",
+          "careers_page": "https://www.unilever.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/unilever-indonesia",
+          "focus_areas": ["production_workers", "quality_control", "supply_chain", "marketing"],
+          "headquarters": "Jakarta",
+          "industry": "Consumer Goods"
+        },
+        {
+          "name": "Indofood",
+          "website": "https://www.indofood.com",
+          "careers_page": "https://www.indofood.com/careers",
+          "linkedin": "https://www.linkedin.com/company/indofood",
+          "focus_areas": ["production_workers", "quality_control", "research_development"],
+          "headquarters": "Jakarta",
+          "industry": "Food & Beverage"
+        },
+        {
+          "name": "Garudafood",
+          "website": "https://www.garudafood.com",
+          "careers_page": "https://www.garudafood.com/careers",
+          "linkedin": "https://www.linkedin.com/company/garudafood",
+          "focus_areas": ["production_workers", "quality_control", "distribution"],
+          "headquarters": "Jakarta",
+          "industry": "Food & Beverage"
+        },
+        {
+          "name": "Wings Group",
+          "website": "https://www.wingsgroup.com",
+          "careers_page": "https://www.wingsgroup.com/careers",
+          "linkedin": "https://www.linkedin.com/company/wings-group",
+          "focus_areas": ["production_workers", "quality_control", "logistics"],
+          "headquarters": "Jakarta",
+          "industry": "Consumer Goods"
+        },
+        {
+          "name": "Kalbe Farma",
+          "website": "https://www.kalbefarma.co.id",
+          "careers_page": "https://www.kalbefarma.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/kalbe-farma",
+          "focus_areas": ["medical_staff", "quality_control", "research_development"],
+          "headquarters": "Jakarta",
+          "industry": "Pharmaceutical"
+        },
+        {
+          "name": "Kimia Farma",
+          "website": "https://www.kimiafarma.co.id",
+          "careers_page": "https://www.kimiafarma.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/kimia-farma",
+          "focus_areas": ["medical_staff", "pharmacists", "quality_control"],
+          "headquarters": "Jakarta",
+          "industry": "Pharmaceutical"
+        },
+        {
+          "name": "Semen Indonesia",
+          "website": "https://www.semenindonesia.co.id",
+          "careers_page": "https://www.semenindonesia.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/semen-indonesia",
+          "focus_areas": ["production_workers", "quality_control", "engineering"],
+          "headquarters": "Jakarta",
+          "industry": "Construction Materials"
+        }
+      ]
+    },
+    "banking_finance": {
+      "name": "Banking & Finance",
+      "companies": [
+        {
+          "name": "Bank Central Asia (BCA)",
+          "website": "https://www.bca.co.id",
+          "careers_page": "https://www.bca.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bank-central-asia-bca",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "compliance"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        },
+        {
+          "name": "Bank Mandiri",
+          "website": "https://www.bankmandiri.co.id",
+          "careers_page": "https://www.bankmandiri.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bank-mandiri",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "operations"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        },
+        {
+          "name": "Bank Rakyat Indonesia (BRI)",
+          "website": "https://www.bri.co.id",
+          "careers_page": "https://www.bri.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bank-rakyat-indonesia-bri",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "micro_banking"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        },
+        {
+          "name": "Bank Negara Indonesia (BNI)",
+          "website": "https://www.bni.co.id",
+          "careers_page": "https://www.bni.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bank-negara-indonesia-bni",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "corporate_banking"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        },
+        {
+          "name": "CIMB Niaga",
+          "website": "https://www.cimbniaga.co.id",
+          "careers_page": "https://www.cimbniaga.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/cimb-niaga",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "islamic_banking"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        },
+        {
+          "name": "Bank Danamon",
+          "website": "https://www.danamon.co.id",
+          "careers_page": "https://www.danamon.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bank-danamon",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "digital_banking"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        },
+        {
+          "name": "Permata Bank",
+          "website": "https://www.permatabank.co.id",
+          "careers_page": "https://www.permatabank.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/permata-bank",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "wealth_management"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        },
+        {
+          "name": "Bank Syariah Indonesia",
+          "website": "https://www.syariahmandiri.co.id",
+          "careers_page": "https://www.syariahmandiri.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bank-syariah-mandiri",
+          "focus_areas": ["bank_staff", "relationship_managers", "credit_analysts", "islamic_finance"],
+          "headquarters": "Jakarta",
+          "industry": "Banking"
+        }
+      ]
+    },
+    "technology": {
+      "name": "Technology & Digital",
+      "companies": [
+        {
+          "name": "Telkom Indonesia",
+          "website": "https://www.telkom.co.id",
+          "careers_page": "https://www.telkom.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/telkom-indonesia",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "network_engineers"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "Indosat Ooredoo",
+          "website": "https://www.indosatooredoo.com",
+          "careers_page": "https://www.indosatooredoo.com/careers",
+          "linkedin": "https://www.linkedin.com/company/indosat-ooredoo",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "data_analysts"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "XL Axiata",
+          "website": "https://www.xl.co.id",
+          "careers_page": "https://www.xl.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/xl-axiata",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "network_engineers"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "Gojek",
+          "website": "https://www.gojek.com",
+          "careers_page": "https://www.gojek.com/careers",
+          "linkedin": "https://www.linkedin.com/company/gojek",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "operations"],
+          "headquarters": "Jakarta",
+          "industry": "Technology"
+        },
+        {
+          "name": "Traveloka",
+          "website": "https://www.traveloka.com",
+          "careers_page": "https://www.traveloka.com/careers",
+          "linkedin": "https://www.linkedin.com/company/traveloka",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "data_science"],
+          "headquarters": "Jakarta",
+          "industry": "Technology"
+        },
+        {
+          "name": "Tokopedia",
+          "website": "https://www.tokopedia.com",
+          "careers_page": "https://www.tokopedia.com/careers",
+          "linkedin": "https://www.linkedin.com/company/tokopedia",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "logistics"],
+          "headquarters": "Jakarta",
+          "industry": "E-commerce"
+        },
+        {
+          "name": "Bukalapak",
+          "website": "https://www.bukalapak.com",
+          "careers_page": "https://www.bukalapak.com/careers",
+          "linkedin": "https://www.linkedin.com/company/bukalapak",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "customer_service"],
+          "headquarters": "Jakarta",
+          "industry": "E-commerce"
+        },
+        {
+          "name": "Shopee",
+          "website": "https://www.shopee.com",
+          "careers_page": "https://careers.shopee.com",
+          "linkedin": "https://www.linkedin.com/company/shopee",
+          "focus_areas": ["tech_developers", "digital_marketers", "product_managers", "logistics"],
+          "headquarters": "Jakarta",
+          "industry": "E-commerce"
+        }
+      ]
+    },
+    "retail_consumer": {
+      "name": "Retail & Consumer Goods",
+      "companies": [
+        {
+          "name": "Matahari Department Store",
+          "website": "https://www.matahari.com",
+          "careers_page": "https://www.matahari.com/careers",
+          "linkedin": "https://www.linkedin.com/company/matahari-department-store",
+          "focus_areas": ["retail_staff", "sales_associates", "store_managers", "visual_merchandising"],
+          "headquarters": "Jakarta",
+          "industry": "Retail"
+        },
+        {
+          "name": "Hypermart",
+          "website": "https://www.hypermart.co.id",
+          "careers_page": "https://www.hypermart.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/hypermart-indonesia",
+          "focus_areas": ["retail_staff", "sales_associates", "store_managers", "warehouse_operations"],
+          "headquarters": "Jakarta",
+          "industry": "Retail"
+        },
+        {
+          "name": "Carrefour Indonesia",
+          "website": "https://www.carrefour.co.id",
+          "careers_page": "https://www.carrefour.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/carrefour-indonesia",
+          "focus_areas": ["retail_staff", "sales_associates", "store_managers", "supply_chain"],
+          "headquarters": "Jakarta",
+          "industry": "Retail"
+        },
+        {
+          "name": "Lotte Shopping",
+          "website": "https://www.lotteindonesia.com",
+          "careers_page": "https://www.lotteindonesia.com/careers",
+          "linkedin": "https://www.linkedin.com/company/lotte-shopping",
+          "focus_areas": ["retail_staff", "sales_associates", "store_managers", "mall_operations"],
+          "headquarters": "Jakarta",
+          "industry": "Retail"
+        },
+        {
+          "name": "Ace Hardware",
+          "website": "https://www.acehardware.co.id",
+          "careers_page": "https://www.acehardware.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/ace-hardware-indonesia",
+          "focus_areas": ["retail_staff", "sales_associates", "store_managers", "inventory_management"],
+          "headquarters": "Jakarta",
+          "industry": "Retail"
+        },
+        {
+          "name": "Informa",
+          "website": "https://www.informa.co.id",
+          "careers_page": "https://www.informa.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/informa",
+          "focus_areas": ["retail_staff", "sales_associates", "store_managers", "product_specialists"],
+          "headquarters": "Jakarta",
+          "industry": "Retail"
+        },
+        {
+          "name": "IKEA Indonesia",
+          "website": "https://www.ikea.co.id",
+          "careers_page": "https://www.ikea.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/ikea-indonesia",
+          "focus_areas": ["retail_staff", "sales_associates", "store_managers", "logistics"],
+          "headquarters": "Tangerang",
+          "industry": "Retail"
+        }
+      ]
+    },
+    "logistics_expedisi": {
+      "name": "Logistics & Expedisi",
+      "companies": [
+        {
+          "name": "JNE Express",
+          "website": "https://www.jne.co.id",
+          "careers_page": "https://www.jne.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/jne",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "J&T Express",
+          "website": "https://www.jet.co.id",
+          "careers_page": "https://www.jet.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/j-t-express",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "customer_service"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "SiCepat Express",
+          "website": "https://www.sicepat.com",
+          "careers_page": "https://www.sicepat.com/careers",
+          "linkedin": "https://www.linkedin.com/company/sicepat-express",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "TIKI",
+          "website": "https://www.tiki.co.id",
+          "careers_page": "https://www.tiki.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/tiki",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "international_operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "Pos Indonesia",
+          "website": "https://www.posindonesia.co.id",
+          "careers_page": "https://www.posindonesia.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/pos-indonesia",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "postal_operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "Wahana Prestasi Logistik",
+          "website": "https://www.wahana.com",
+          "careers_page": "https://www.wahana.com/careers",
+          "linkedin": "https://www.linkedin.com/company/wahana-prestasi-logistik",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "supply_chain"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "Rex Express",
+          "website": "https://www.rexexpress.id",
+          "careers_page": "https://www.rexexpress.id/careers",
+          "linkedin": "https://www.linkedin.com/company/rex-express",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "DHL Express Indonesia",
+          "website": "https://www.dhl.com/id",
+          "careers_page": "https://www.dhl.com/id/careers",
+          "linkedin": "https://www.linkedin.com/company/dhl-express-indonesia",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "international_operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "FedEx Indonesia",
+          "website": "https://www.fedex.com/id",
+          "careers_page": "https://www.fedex.com/id/careers",
+          "linkedin": "https://www.linkedin.com/company/fedex",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "international_operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        },
+        {
+          "name": "SAP Express",
+          "website": "https://www.sap-express.com",
+          "careers_page": "https://www.sap-express.com/careers",
+          "linkedin": "https://www.linkedin.com/company/sap-express",
+          "focus_areas": ["logistics_staff", "warehouse_workers", "delivery_drivers", "operations"],
+          "headquarters": "Jakarta",
+          "industry": "Logistics"
+        }
+      ]
+    },
+    "property_construction": {
+      "name": "Property & Construction",
+      "companies": [
+        {
+          "name": "Ciputra Development",
+          "website": "https://www.ciputra.com",
+          "careers_page": "https://www.ciputra.com/careers",
+          "linkedin": "https://www.linkedin.com/company/ciputra-development",
+          "focus_areas": ["construction_workers", "project_managers", "property_agents", "architects"],
+          "headquarters": "Jakarta",
+          "industry": "Property Development"
+        },
+        {
+          "name": "Summarecon Agung",
+          "website": "https://www.summarecon.com",
+          "careers_page": "https://www.summarecon.com/careers",
+          "linkedin": "https://www.linkedin.com/company/summarecon-agung",
+          "focus_areas": ["construction_workers", "project_managers", "property_agents", "engineers"],
+          "headquarters": "Jakarta",
+          "industry": "Property Development"
+        },
+        {
+          "name": "Lippo Karawaci",
+          "website": "https://www.lippokarawaci.com",
+          "careers_page": "https://www.lippokarawaci.com/careers",
+          "linkedin": "https://www.linkedin.com/company/lippo-karawaci",
+          "focus_areas": ["construction_workers", "project_managers", "property_agents", "urban_planning"],
+          "headquarters": "Jakarta",
+          "industry": "Property Development"
+        },
+        {
+          "name": "PT Pembangunan Perumahan",
+          "website": "https://www.perumahan.go.id",
+          "careers_page": "https://www.perumahan.go.id/careers",
+          "linkedin": "https://www.linkedin.com/company/pt-pembangunan-perumahan",
+          "focus_areas": ["construction_workers", "project_managers", "property_agents", "government_relations"],
+          "headquarters": "Jakarta",
+          "industry": "Property Development"
+        },
+        {
+          "name": "PP Properti",
+          "website": "https://www.ppproperti.co.id",
+          "careers_page": "https://www.ppproperti.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/pp-properti",
+          "focus_areas": ["construction_workers", "project_managers", "property_agents", "marketing"],
+          "headquarters": "Jakarta",
+          "industry": "Property Development"
+        },
+        {
+          "name": "Agung Podomoro Land",
+          "website": "https://www.agungpodomoro-land.com",
+          "careers_page": "https://www.agungpodomoro-land.com/careers",
+          "linkedin": "https://www.linkedin.com/company/agung-podomoro-land",
+          "focus_areas": ["construction_workers", "project_managers", "property_agents", "sales"],
+          "headquarters": "Jakarta",
+          "industry": "Property Development"
+        },
+        {
+          "name": "Waskita Karya",
+          "website": "https://www.waskita.co.id",
+          "careers_page": "https://www.waskita.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/waskita-karya",
+          "focus_areas": ["construction_workers", "project_managers", "engineers", "quality_control"],
+          "headquarters": "Jakarta",
+          "industry": "Construction"
+        },
+        {
+          "name": "Adhi Karya",
+          "website": "https://www.adhi.co.id",
+          "careers_page": "https://www.adhi.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/adhi-karya",
+          "focus_areas": ["construction_workers", "project_managers", "engineers", "procurement"],
+          "headquarters": "Jakarta",
+          "industry": "Construction"
+        },
+        {
+          "name": "Hutama Karya",
+          "website": "https://www.hutamakarya.com",
+          "careers_page": "https://www.hutamakarya.com/careers",
+          "linkedin": "https://www.linkedin.com/company/hutama-karya",
+          "focus_areas": ["construction_workers", "project_managers", "engineers", "infrastructure"],
+          "headquarters": "Jakarta",
+          "industry": "Construction"
+        }
+      ]
+    },
+    "telecommunications": {
+      "name": "Telecommunications",
+      "companies": [
+        {
+          "name": "Telkomsel",
+          "website": "https://www.telkomsel.com",
+          "careers_page": "https://www.telkomsel.com/careers",
+          "linkedin": "https://www.linkedin.com/company/telkomsel",
+          "focus_areas": ["network_engineers", "sales_staff", "customer_service", "digital_services"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "Indosat Ooredoo",
+          "website": "https://www.indosatooredoo.com",
+          "careers_page": "https://www.indosatooredoo.com/careers",
+          "linkedin": "https://www.linkedin.com/company/indosat-ooredoo",
+          "focus_areas": ["network_engineers", "sales_staff", "customer_service", "marketing"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "XL Axiata",
+          "website": "https://www.xl.co.id",
+          "careers_page": "https://www.xl.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/xl-axiata",
+          "focus_areas": ["network_engineers", "sales_staff", "customer_service", "product_development"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "Smartfren",
+          "website": "https://www.smartfren.com",
+          "careers_page": "https://www.smartfren.com/careers",
+          "linkedin": "https://www.linkedin.com/company/smartfren",
+          "focus_areas": ["network_engineers", "sales_staff", "customer_service", "digital_innovation"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "Bolt",
+          "website": "https://www.bolt.id",
+          "careers_page": "https://www.bolt.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bolt",
+          "focus_areas": ["network_engineers", "sales_staff", "customer_service", "4g_services"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "3 Indonesia",
+          "website": "https://www.tri.co.id",
+          "careers_page": "https://www.tri.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/3-indonesia",
+          "focus_areas": ["network_engineers", "sales_staff", "customer_service", "5g_services"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "By.U",
+          "website": "https://www.byu.id",
+          "careers_page": "https://www.byu.id/careers",
+          "linkedin": "https://www.linkedin.com/company/by-u",
+          "focus_areas": ["network_engineers", "sales_staff", "customer_service", "digital_services"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        }
+      ]
+    },
+    "mining_energy": {
+      "name": "Mining & Energy",
+      "companies": [
+        {
+          "name": "Pertamina",
+          "website": "https://www.pertamina.com",
+          "careers_page": "https://www.pertamina.com/careers",
+          "linkedin": "https://www.linkedin.com/company/pertamina",
+          "focus_areas": ["mining_engineers", "plant_operators", "safety_officers", "refining"],
+          "headquarters": "Jakarta",
+          "industry": "Energy"
+        },
+        {
+          "name": "PLN",
+          "website": "https://www.pln.co.id",
+          "careers_page": "https://www.pln.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/pln",
+          "focus_areas": ["engineers", "plant_operators", "safety_officers", "renewable_energy"],
+          "headquarters": "Jakarta",
+          "industry": "Energy"
+        },
+        {
+          "name": "Freeport Indonesia",
+          "website": "https://www.freeportindonesia.com",
+          "careers_page": "https://www.freeportindonesia.com/careers",
+          "linkedin": "https://www.linkedin.com/company/freeport-indonesia",
+          "focus_areas": ["mining_engineers", "plant_operators", "safety_officers", "environmental_management"],
+          "headquarters": "Jakarta",
+          "industry": "Mining"
+        },
+        {
+          "name": "Vale Indonesia",
+          "website": "https://www.vale.com",
+          "careers_page": "https://www.vale.com/careers",
+          "linkedin": "https://www.linkedin.com/company/vale",
+          "focus_areas": ["mining_engineers", "plant_operators", "safety_officers", "sustainability"],
+          "headquarters": "Jakarta",
+          "industry": "Mining"
+        },
+        {
+          "name": "Adaro Energy",
+          "website": "https://www.adaroenergy.com",
+          "careers_page": "https://www.adaroenergy.com/careers",
+          "linkedin": "https://www.linkedin.com/company/adaro-energy",
+          "focus_areas": ["mining_engineers", "plant_operators", "safety_officers", "power_generation"],
+          "headquarters": "Jakarta",
+          "industry": "Energy"
+        },
+        {
+          "name": "Bumi Resources",
+          "website": "https://www.bumiresources.co.id",
+          "careers_page": "https://www.bumiresources.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/bumi-resources",
+          "focus_areas": ["mining_engineers", "plant_operators", "safety_officers", "exploration"],
+          "headquarters": "Jakarta",
+          "industry": "Mining"
+        },
+        {
+          "name": "Medco Energi",
+          "website": "https://www.medcoenergi.com",
+          "careers_page": "https://www.medcoenergi.com/careers",
+          "linkedin": "https://www.linkedin.com/company/medco-energi",
+          "focus_areas": ["mining_engineers", "plant_operators", "safety_officers", "oil_gas"],
+          "headquarters": "Jakarta",
+          "industry": "Energy"
+        },
+        {
+          "name": "Tambang Batubara Bukit Asam",
+          "website": "https://www.ptba.co.id",
+          "careers_page": "https://www.ptba.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/pt-bukit-asam",
+          "focus_areas": ["mining_engineers", "plant_operators", "safety_officers", "coal_mining"],
+          "headquarters": "Jakarta",
+          "industry": "Mining"
+        }
+      ]
+    },
+    "healthcare_pharma": {
+      "name": "Healthcare & Pharmaceutical",
+      "companies": [
+        {
+          "name": "Kimia Farma",
+          "website": "https://www.kimiafarma.co.id",
+          "careers_page": "https://www.kimiafarma.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/kimia-farma",
+          "focus_areas": ["medical_staff", "pharmacists", "quality_control", "research_development"],
+          "headquarters": "Jakarta",
+          "industry": "Pharmaceutical"
+        },
+        {
+          "name": "Kalbe Farma",
+          "website": "https://www.kalbefarma.co.id",
+          "careers_page": "https://www.kalbefarma.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/kalbe-farma",
+          "focus_areas": ["medical_staff", "pharmacists", "quality_control", "marketing"],
+          "headquarters": "Jakarta",
+          "industry": "Pharmaceutical"
+        },
+        {
+          "name": "Indofarma",
+          "website": "https://www.indofarma.co.id",
+          "careers_page": "https://www.indofarma.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/indofarma",
+          "focus_areas": ["medical_staff", "pharmacists", "quality_control", "distribution"],
+          "headquarters": "Jakarta",
+          "industry": "Pharmaceutical"
+        },
+        {
+          "name": "Siloam Hospitals",
+          "website": "https://www.siloamhospitals.com",
+          "careers_page": "https://www.siloamhospitals.com/careers",
+          "linkedin": "https://www.linkedin.com/company/siloam-hospitals",
+          "focus_areas": ["medical_staff", "nurses", "administrative_staff", "healthcare_workers"],
+          "headquarters": "Jakarta",
+          "industry": "Healthcare"
+        },
+        {
+          "name": "Mayapada Hospital",
+          "website": "https://www.mayapadahospital.com",
+          "careers_page": "https://www.mayapadahospital.com/careers",
+          "linkedin": "https://www.linkedin.com/company/mayapada-hospital",
+          "focus_areas": ["medical_staff", "nurses", "administrative_staff", "specialists"],
+          "headquarters": "Jakarta",
+          "industry": "Healthcare"
+        },
+        {
+          "name": "Rumah Sakit Premier",
+          "website": "https://www.premierhospital.com",
+          "careers_page": "https://www.premierhospital.com/careers",
+          "linkedin": "https://www.linkedin.com/company/rumah-sakit-premier",
+          "focus_areas": ["medical_staff", "nurses", "administrative_staff", "healthcare_workers"],
+          "headquarters": "Jakarta",
+          "industry": "Healthcare"
+        },
+        {
+          "name": "Hermina Hospital",
+          "website": "https://www.herminahospital.com",
+          "careers_page": "https://www.herminahospital.com/careers",
+          "linkedin": "https://www.linkedin.com/company/hermina-hospital",
+          "focus_areas": ["medical_staff", "nurses", "administrative_staff", "healthcare_workers"],
+          "headquarters": "Jakarta",
+          "industry": "Healthcare"
+        },
+        {
+          "name": "Rumah Sakit Harapan Kita",
+          "website": "https://www.rshk.co.id",
+          "careers_page": "https://www.rshk.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/rumah-sakit-harapan-kita",
+          "focus_areas": ["medical_staff", "nurses", "administrative_staff", "healthcare_workers"],
+          "headquarters": "Jakarta",
+          "industry": "Healthcare"
+        }
+      ]
+    },
+    "government_state": {
+      "name": "Government & State-Owned",
+      "companies": [
+        {
+          "name": "PLN",
+          "website": "https://www.pln.co.id",
+          "careers_page": "https://www.pln.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/pln",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "engineers"],
+          "headquarters": "Jakarta",
+          "industry": "Energy"
+        },
+        {
+          "name": "Pertamina",
+          "website": "https://www.pertamina.com",
+          "careers_page": "https://www.pertamina.com/careers",
+          "linkedin": "https://www.linkedin.com/company/pertamina",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "engineers"],
+          "headquarters": "Jakarta",
+          "industry": "Energy"
+        },
+        {
+          "name": "Telkom Indonesia",
+          "website": "https://www.telkom.co.id",
+          "careers_page": "https://www.telkom.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/telkom-indonesia",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "telecommunications"],
+          "headquarters": "Jakarta",
+          "industry": "Telecommunications"
+        },
+        {
+          "name": "Garuda Indonesia",
+          "website": "https://www.garuda-indonesia.com",
+          "careers_page": "https://www.garuda-indonesia.com/careers",
+          "linkedin": "https://www.linkedin.com/company/garuda-indonesia",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "aviation"],
+          "headquarters": "Jakarta",
+          "industry": "Aviation"
+        },
+        {
+          "name": "KAI",
+          "website": "https://www.kai.id",
+          "careers_page": "https://www.kai.id/careers",
+          "linkedin": "https://www.linkedin.com/company/kai",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "railway"],
+          "headquarters": "Jakarta",
+          "industry": "Transportation"
+        },
+        {
+          "name": "Pelni",
+          "website": "https://www.pelni.co.id",
+          "careers_page": "https://www.pelni.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/pelni",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "maritime"],
+          "headquarters": "Jakarta",
+          "industry": "Transportation"
+        },
+        {
+          "name": "Jasa Marga",
+          "website": "https://www.jasamarga.co.id",
+          "careers_page": "https://www.jasamarga.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/jasa-marga",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "infrastructure"],
+          "headquarters": "Jakarta",
+          "industry": "Infrastructure"
+        },
+        {
+          "name": "Angkasa Pura",
+          "website": "https://www.angkapura.co.id",
+          "careers_page": "https://www.angkapura.co.id/careers",
+          "linkedin": "https://www.linkedin.com/company/angkasa-pura",
+          "focus_areas": ["civil_servants", "state_employees", "government_workers", "aviation"],
+          "headquarters": "Jakarta",
+          "industry": "Aviation"
+        }
+      ]
+    }
+  },
+  "data_collection_priorities": {
+    "high_priority": [
+      "employee_demographics",
+      "job_openings",
+      "contact_info",
+      "company_profile"
+    ],
+    "medium_priority": [
+      "recruitment_trends",
+      "salary_ranges",
+      "office_locations"
+    ],
+    "low_priority": [
+      "social_media_presence",
+      "company_news",
+      "industry_analysis"
+    ]
+  },
+  "collection_methods": {
+    "web_scraping": {
+      "enabled": true,
+      "rate_limit": 2,
+      "user_agent_rotation": true,
+      "proxy_support": false
+    },
+    "api_simulation": {
+      "enabled": true,
+      "mock_data_generation": true,
+      "realistic_patterns": true
+    },
+    "data_simulation": {
+      "enabled": true,
+      "comprehensive_generation": true,
+      "realistic_patterns": true
+    }
+  },
+  "regional_focus": {
+    "primary_markets": [
+      "Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Makassar"
+    ],
+    "growth_markets": [
+      "Palembang", "Batam", "Denpasar", "Balikpapan", "Pontianak", "Manado"
+    ],
+    "emerging_markets": [
+      "Mataram", "Kupang", "Samarinda", "Palangkaraya", "Bengkulu", "Jambi"
+    ]
+  },
+  "intelligence_categories": {
+    "market_intelligence": {
+      "employee_analysis": true,
+      "recruitment_trends": true,
+      "salary_analysis": true,
+      "competitor_analysis": true
+    },
+    "talent_acquisition": {
+      "job_opening_tracking": true,
+      "candidate_sourcing": true,
+      "recruitment_channels": true,
+      "application_tracking": true
+    },
+    "strategic_planning": {
+      "market_trends": true,
+      "industry_analysis": true,
+      "growth_opportunities": true,
+      "risk_assessment": true
+    }
+  },
+  "reporting_requirements": {
+    "daily_reports": [
+      "job_opening_summary",
+      "recruitment_activity",
+      "employee_demographics"
+    ],
+    "weekly_reports": [
+      "market_analysis",
+      "competitor_intelligence",
+      "strategic_insights"
+    ],
+    "monthly_reports": [
+      "comprehensive_market_analysis",
+      "strategic_recommendations",
+      "growth_opportunities"
+    ]
+  },
+  "data_storage": {
+    "formats": [
+      "json",
+      "csv",
+      "markdown"
+    ],
+    "retention_period": "12_months",
+    "backup_frequency": "daily",
+    "compression_enabled": true
+  }
+}

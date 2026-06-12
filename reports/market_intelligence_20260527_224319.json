@@ -1,0 +1,197 @@
+{
+  "location_coordinate": [
+    -6.1256,
+    106.1445
+  ],
+  "government_mapping": {
+    "status": "success",
+    "location_coordinate": [
+      -6.1256,
+      106.1445
+    ],
+    "scan_radius_km": 10.0,
+    "total_offices_found": 6,
+    "government_offices": [
+      {
+        "name": "Dinas Perumahan Rakyak dan Kawasan Permukiman Kabupaten Serang",
+        "address": "Jl. Ahmad Yani No. 1, Serang",
+        "location": {
+          "lat": -6.1256,
+          "lng": 106.1445
+        },
+        "distance_meters": 500,
+        "distance_km": 0.5,
+        "types": [
+          "local_government_office"
+        ],
+        "rating": 4.2,
+        "user_ratings_total": 156,
+        "gov_category": "Ministry/Department",
+        "keyword_found": "Dinas",
+        "scan_timestamp": "2026-05-27T22:43:17.128770"
+      },
+      {
+        "name": "Kantor Bupati Serang",
+        "address": "Jl. Ahmad Yani No. 2, Serang",
+        "location": {
+          "lat": -6.126,
+          "lng": 106.145
+        },
+        "distance_meters": 800,
+        "distance_km": 0.8,
+        "types": [
+          "local_government_office"
+        ],
+        "rating": 4.5,
+        "user_ratings_total": 89,
+        "gov_category": "Executive",
+        "keyword_found": "Kantor Pemerintah",
+        "scan_timestamp": "2026-05-27T22:43:17.128804"
+      },
+      {
+        "name": "BAPPEDA Kabupaten Serang",
+        "address": "Jl. KH. Abdul Hadi No. 45, Serang",
+        "location": {
+          "lat": -6.124,
+          "lng": 106.143
+        },
+        "distance_meters": 1200,
+        "distance_km": 1.2,
+        "types": [
+          "local_government_office"
+        ],
+        "rating": 4.0,
+        "user_ratings_total": 67,
+        "gov_category": "Regional Planning",
+        "keyword_found": "BAPPEDA",
+        "scan_timestamp": "2026-05-27T22:43:17.128809"
+      },
+      {
+        "name": "DPRD Kabupaten Serang",
+        "address": "Jl. Raya Serang Km. 3, Serang",
+        "location": {
+          "lat": -6.127,
+          "lng": 106.146
+        },
+        "distance_meters": 1500,
+        "distance_km": 1.5,
+        "types": [
+          "local_government_office"
+        ],
+        "rating": 3.8,
+        "user_ratings_total": 45,
+        "gov_category": "Legislative",
+        "keyword_found": "DPRD",
+        "scan_timestamp": "2026-05-27T22:43:17.128814"
+      },
+      {
+        "name": "Kejaksaan Negeri Serang",
+        "address": "Jl. Diponegoro No. 15, Serang",
+        "location": {
+          "lat": -6.123,
+          "lng": 106.142
+        },
+        "distance_meters": 1800,
+        "distance_km": 1.8,
+        "types": [
+          "courthouse"
+        ],
+        "rating": 4.1,
+        "user_ratings_total": 78,
+        "gov_category": "Judicial",
+        "keyword_found": "Kejaksaan",
+        "scan_timestamp": "2026-05-27T22:43:17.128818"
+      },
+      {
+        "name": "Kantor Camat Cipocok Jaya",
+        "address": "Jl. Cipocok Jaya Raya No. 10, Serang",
+        "location": {
+          "lat": -6.128,
+          "lng": 106.147
+        },
+        "distance_meters": 2200,
+        "distance_km": 2.2,
+        "types": [
+          "local_government_office"
+        ],
+        "rating": 3.5,
+        "user_ratings_total": 23,
+        "gov_category": "Local Administration",
+        "keyword_found": "Kecamatan",
+        "scan_timestamp": "2026-05-27T22:43:17.128823"
+      }
+    ],
+    "scan_timestamp": "2026-05-27T22:43:17.130376",
+    "note": "Mock data used for demonstration"
+  },
+  "density_analysis": {
+    "status": "success",
+    "location_coordinate": [
+      -6.1256,
+      106.1445
+    ],
+    "density_radius_km": 2.0,
+    "density_score": 10,
+    "tier": "Tier 1 Govt Hotspot",
+    "offices_within_2km": 5,
+    "total_offices_within_10km": 6,
+    "category_distribution": {
+      "Ministry/Department": 1,
+      "Executive": 1,
+      "Regional Planning": 1,
+      "Legislative": 1,
+      "Judicial": 1
+    },
+    "assessment_timestamp": "2026-05-27T22:43:17.132546"
+  },
+  "market_potential": {
+    "status": "success",
+    "location_coordinate": [
+      -6.1256,
+      106.1445
+    ],
+    "density_score": 10,
+    "tier": "Tier 1 Govt Hotspot",
+    "market_potential": "Very High",
+    "target_priority": "PNS/P3K Priority",
+    "market_segment": "Government Employees",
+    "confidence_level": "High",
+    "marketing_profile": {
+      "target_audience": "PNS/P3K Priority",
+      "key_selling_points": [
+        "Lokasi strategis dekat kantor pemerintahan",
+        "Akses mudah ke fasilitas publik",
+        "Investasi jangka panjang yang stabil",
+        "Dikelilingi oleh 5+ kantor pemerintahan dalam radius 2km",
+        "Ekosistem bisnis yang matang"
+      ],
+      "marketing_narrative": "Hunian ideal untuk aparatur negara dengan cicilan yang terjangkau dan lokasi yang mendukung karir",
+      "recommended_channels": [
+        "Kerjasama dengan instansi",
+        "Word of mouth",
+        "Local marketing",
+        "Direct marketing ke kantor pemerintahan",
+        "Program KPR khusus PNS"
+      ],
+      "pricing_strategy": "Cicilan KPR yang disesuaikan dengan gaji PNS",
+      "investment_benefits": [
+        "Nilai properti yang stabil",
+        "Potensi capital gain",
+        "Kenyamanan jangka panjang"
+      ],
+      "risk_factors": [
+        "Regulasi perubahan zona",
+        "Fluktuasi pasar properti"
+      ],
+      "success_metrics": [
+        "Tingkat hunian",
+        "Kepuasan pembeli",
+        "Waktu penjualan"
+      ]
+    },
+    "assessment_timestamp": "2026-05-27T22:43:19.341552"
+  },
+  "visual_report": "# GOVERNMENT AFFINITY MARKET INTELLIGENCE REPORT\n============================================================\n\n**Location Coordinates:** -6.1256, 106.1445\n**Scan Radius:** 10.0 km\n**Report Generated:** 2026-05-27 22:43:19\n\n## EXECUTIVE SUMMARY\n\n- **Area Classification:** Tier 1 Govt Hotspot\n- **Market Potential:** Very High\n- **Density Score:** 10/10\n- **Target Priority:** PNS/P3K Priority\n\n## GOVERNMENT OFFICES ANALYSIS\n\n| Nama Kantor Pemerintahan | Jarak dari Proyek | Potensi Impact | Kategori | Rating |\n|---|---|---|---|---|\n| Dinas Perumahan Rakyak dan Kawasan Permukiman Kabupaten Serang | 0.5 km | Very High | Ministry/Department | 4.2 |\n| Kantor Bupati Serang | 0.8 km | Very High | Executive | 4.5 |\n| BAPPEDA Kabupaten Serang | 1.2 km | Medium | Regional Planning | 4.0 |\n| DPRD Kabupaten Serang | 1.5 km | Medium | Legislative | 3.8 |\n| Kejaksaan Negeri Serang | 1.8 km | Medium | Judicial | 4.1 |\n| Kantor Camat Cipocok Jaya | 2.2 km | Low | Local Administration | 3.5 |\n\n## DENSITY ANALYSIS\n\n- **Offices within 2km:** 5\n- **Total offices within 10km:** 6\n- **Density Score:** 10/10\n- **Tier Classification:** Tier 1 Govt Hotspot\n\n### Category Distribution\n\n- **Ministry/Department:** 1 offices\n- **Executive:** 1 offices\n- **Regional Planning:** 1 offices\n- **Legislative:** 1 offices\n- **Judicial:** 1 offices\n\n## MARKET POTENTIAL ASSESSMENT\n\n- **Market Segment:** Government Employees\n- **Confidence Level:** High\n- **Target Audience:** PNS/P3K Priority\n\n## MARKETING STRATEGY\n\n### Key Selling Points\n- Lokasi strategis dekat kantor pemerintahan\n- Akses mudah ke fasilitas publik\n- Investasi jangka panjang yang stabil\n- Dikelilingi oleh 5+ kantor pemerintahan dalam radius 2km\n- Ekosistem bisnis yang matang\n\n### Marketing Narrative\nHunian ideal untuk aparatur negara dengan cicilan yang terjangkau dan lokasi yang mendukung karir\n\n### Recommended Channels\n- Kerjasama dengan instansi\n- Word of mouth\n- Local marketing\n- Direct marketing ke kantor pemerintahan\n- Program KPR khusus PNS\n\n## STRATEGIC RECOMMENDATIONS\n\n1. Fokus pada pengembangan hunian menengah ke atas (type 36-72) untuk PNS/P3K\n2. Jalin kerjasama dengan kantor pemerintahan untuk program KPR khusus\n3. Highlight aksesibilitas ke fasilitas publik dan lokasi kerja\n4. Tawarkan fasilitas investasi jangka panjang dan nilai properti stabil\n5. Tawarkan hunian premium dengan fasilitas mewah untuk pejabat tinggi\n\n============================================================\n*Report generated by Gov Affinity Scout System*",
+  "report_timestamp": "2026-05-27T22:43:19.341716",
+  "status": "success"
+}

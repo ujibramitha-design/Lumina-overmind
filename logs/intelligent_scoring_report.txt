@@ -1,0 +1,37 @@
+
+================================================================================
+ELITE HUNTER - INTELLIGENT LEAD SCORING REPORT
+================================================================================
+
+Generated: 2026-05-27 20:35:29
+
+================================================================================
+SCORING SUMMARY
+================================================================================
+
+Total Leads Analyzed: 25
+Average Score: 1.8/10
+High-Value Percentage: 4.0%
+
+Value Breakdown:
+- High-Value Leads (8-10): 1
+- Medium-Value Leads (4-7): 4
+- Low-Value Leads (1-3): 20
+
+Quality Metrics:
+- Leads with Contact Info: 0
+- Leads with Price Info: 0
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. IMMEDIATE ACTION: Contact 1 high-value leads (score 8-10) within 24 hours
+2. Priority: Focus on leads with financial keywords (KPR, cicilan, harga)
+3. QUALITY ISSUE: 20 low-value leads detected - consider refining search keywords
+4. DATA QUALITY: Only 30% leads have contact info - improve search targeting
+
+================================================================================
+END OF SCORING REPORT
+================================================================================
+

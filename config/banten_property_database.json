@@ -1,0 +1,717 @@
+{
+  "property_database": {
+    "last_updated": "2026-05-28T00:14:00Z",
+    "total_properties": 75,
+    "market_value_idr": 15000000000000,
+    "regions": {
+      "kota_serang": {
+        "name": "Kota Serang",
+        "total_properties": 20,
+        "market_value_idr": 5000000000000,
+        "properties": [
+          {
+            "id": "serang_city_001",
+            "name": "Serang City",
+            "developer": "Serang City Developer",
+            "location": "Jl. Raya Cilegon, Drangong, Taktakan, Kota Serang, Banten 42162",
+            "coordinates": {
+              "lat": -6.1256,
+              "lng": 106.1445
+            },
+            "type_units": [
+              {
+                "type": "50/126",
+                "land_area": 160,
+                "building_area": 50,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 600000000,
+                "available_units": 12,
+                "sold_units": 8,
+                "total_units": 20,
+                "status": "available"
+              },
+              {
+                "type": "60/84",
+                "land_area": 84,
+                "building_area": 60,
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 750000000,
+                "available_units": 8,
+                "sold_units": 12,
+                "total_units": 20,
+                "status": "limited"
+              },
+              {
+                "type": "72/84",
+                "land_area": 84,
+                "building_area": 72,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 900000000,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "selling_fast"
+              },
+              {
+                "type": "90/98",
+                "land_area": 98,
+                "building_area": 90,
+                "bedrooms": 4,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 1200000000,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium"
+              },
+              {
+                "type": "110/160",
+                "land_area": 160,
+                "building_area": 110,
+                "bedrooms": 4,
+                "bathrooms": 4,
+                "carport": 1,
+                "price_idr": 1800000000,
+                "available_units": 2,
+                "sold_units": 8,
+                "total_units": 10,
+                "status": "premium"
+              },
+              {
+                "type": "134/160",
+                "land_area": 160,
+                "building_area": 134,
+                "bedrooms": 5,
+                "bathrooms": 4,
+                "carport": 1,
+                "price_idr": 2200000000,
+                "available_units": 1,
+                "sold_units": 9,
+                "total_units": 10,
+                "status": "premium"
+              },
+              {
+                "type": "240/173",
+                "land_area": 173,
+                "building_area": 240,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 3500000000,
+                "available_units": 1,
+                "sold_units": 4,
+                "total_units": 5,
+                "status": "villa"
+              }
+            ],
+            "facilities": ["Private Pool", "24-Hour Security", "Club House", "Playground", "Jogging Track"],
+            "launch_date": "2024-01-15",
+            "completion_date": "2025-06-30",
+            "market_position": "premium",
+            "price_per_m2": 7500000
+          },
+          {
+            "id": "citra_garden_bmw_001",
+            "name": "Citra Garden BMW",
+            "developer": "Ciputra Group",
+            "location": "Cilegon, Banten",
+            "coordinates": {
+              "lat": -6.0900,
+              "lng": 106.0800
+            },
+            "type_units": [
+              {
+                "type": "Azolla Standard",
+                "land_area": 60,
+                "building_area": 33,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 350000000,
+                "available_units": 15,
+                "sold_units": 35,
+                "total_units": 50,
+                "status": "limited"
+              },
+              {
+                "type": "Azolla Extension",
+                "land_area": 72,
+                "building_area": 39,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 420000000,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "limited"
+              },
+              {
+                "type": "Papyrus",
+                "land_area": 84,
+                "building_area": 49,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 650000000,
+                "available_units": 5,
+                "sold_units": 25,
+                "total_units": 30,
+                "status": "selling_fast"
+              },
+              {
+                "type": "Lotus",
+                "land_area": 112,
+                "building_area": 92,
+                "bedrooms": 3,
+                "bathrooms": 3,
+                "carport": 2,
+                "price_idr": 950000000,
+                "available_units": 3,
+                "sold_units": 17,
+                "total_units": 20,
+                "status": "premium"
+              },
+              {
+                "type": "Hydrilla",
+                "land_area": 128,
+                "building_area": 128,
+                "bedrooms": 5,
+                "bathrooms": 4,
+                "carport": 2,
+                "price_idr": 1500000000,
+                "available_units": 2,
+                "sold_units": 8,
+                "total_units": 10,
+                "status": "premium"
+              }
+            ],
+            "facilities": ["Club House", "Swimming Pool", "Commercial Area", "School", "Mosque"],
+            "launch_date": "2023-06-01",
+            "completion_date": "2024-12-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 6500000
+          },
+          {
+            "id": "sukawana_asri_001",
+            "name": "Sukawana Asri",
+            "developer": "Local Developer",
+            "location": "Curug, Serang",
+            "coordinates": {
+              "lat": -6.1400,
+              "lng": 106.2000
+            },
+            "type_units": [
+              {
+                "type": "36/60",
+                "land_area": 60,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 166000000,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "subsidy"
+              }
+            ],
+            "facilities": ["Masjid", "Playground", "Security"],
+            "launch_date": "2024-03-01",
+            "completion_date": "2024-09-30",
+            "market_position": "subsidi",
+            "price_per_m2": 2766667
+          },
+          {
+            "id": "puri_cempaka_001",
+            "name": "Perumahan Puri Cempaka",
+            "developer": "Local Developer",
+            "location": "Panancangan, Kota Serang",
+            "coordinates": {
+              "lat": -6.1100,
+              "lng": 106.1600
+            },
+            "type_units": [
+              {
+                "type": "45/90",
+                "land_area": 90,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 280000000,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah"
+              },
+              {
+                "type": "54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 1,
+                "price_idr": 380000000,
+                "available_units": 3,
+                "sold_units": 12,
+                "total_units": 15,
+                "status": "menengah"
+              }
+            ],
+            "facilities": ["Security", "Playground"],
+            "launch_date": "2023-12-01",
+            "completion_date": "2024-08-31",
+            "market_position": "menengah",
+            "price_per_m2": 3518519
+          },
+          {
+            "id": "bumi_nagara_lestari_001",
+            "name": "Perumahan Bumi Nagara Lestari (BNL)",
+            "developer": "Local Developer",
+            "location": "Desa Nagara, Kecamatan Kibin, Kabupaten Serang",
+            "coordinates": {
+              "lat": -6.0800,
+              "lng": 106.1200
+            },
+            "type_units": [
+              {
+                "type": "30/60",
+                "land_area": 60,
+                "building_area": 30,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 120000000,
+                "available_units": 10,
+                "sold_units": 20,
+                "total_units": 30,
+                "status": "subsidi"
+              },
+              {
+                "type": "36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 180000000,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "subsidi"
+              }
+            ],
+            "facilities": ["Security", "Masjid", "Playground"],
+            "launch_date": "2023-09-01",
+            "completion_date": "2024-06-30",
+            "market_position": "subsidi",
+            "price_per_m2": 2500000
+          }
+        ]
+      },
+      "kabupaten_serang": {
+        "name": "Kabupaten Serang",
+        "total_properties": 30,
+        "market_value_idr": 6000000000000,
+        "properties": [
+          {
+            "id": "highland_park_001",
+            "name": "Highland Park Serang",
+            "developer": "PT Pudjiadi Prestige Tbk",
+            "location": "Jl. Jend. Sudirman, Serang",
+            "coordinates": {
+              "lat": -6.1256,
+              "lng": 106.1445
+            },
+            "type_units": [
+              {
+                "type": "Cluster A",
+                "land_area": 90,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 450000000,
+                "available_units": 20,
+                "sold_units": 30,
+                "total_units": 50,
+                "status": "menengah"
+              },
+              {
+                "type": "Cluster B",
+                "land_area": 120,
+                "building_area": 60,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 650000000,
+                "available_units": 15,
+                "sold_units": 35,
+                "total_units": 50,
+                "status": "menengah_atas"
+              },
+              {
+                "type": "Cluster C",
+                "land_area": 150,
+                "building_area": 75,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 850000000,
+                "available_units": 10,
+                "sold_units": 20,
+                "total_units": 30,
+                "status": "premium"
+              }
+            ],
+            "facilities": ["Club House", "Swimming Pool", "Commercial Area", "School", "Security"],
+            "launch_date": "2024-01-01",
+            "completion_date": "2026-12-31",
+            "market_position": "menengah_atas",
+            "price_per_m2": 5666667,
+            "total_area_hektares": 200
+          },
+          {
+            "id": "perumahan_kibin_001",
+            "name": "Perumahan Area Kibin",
+            "developer": "Local Developer",
+            "location": "Kecamatan Kibin, Kabupaten Serang",
+            "coordinates": {
+              "lat": -6.0900,
+              "lng": 106.1000
+            },
+            "type_units": [
+              {
+                "type": "Type 30/60",
+                "land_area": 60,
+                "building_area": 30,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 150000000,
+                "available_units": 15,
+                "sold_units": 35,
+                "total_units": 50,
+                "status": "subsidi"
+              },
+              {
+                "type": "Type 36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 220000000,
+                "available_units": 10,
+                "sold_units": 40,
+                "total_units": 50,
+                "status": "menengah"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Masjid"],
+            "launch_date": "2023-11-01",
+            "completion_date": "2024-10-31",
+            "market_position": "menengah",
+            "price_per_m2": 3055556
+          }
+        ]
+      },
+      "kota_cilegon": {
+        "name": "Kota Cilegon",
+        "total_properties": 25,
+        "market_value_idr": 4000000000000,
+        "properties": [
+          {
+            "id": "puri_lagoon_indah_001",
+            "name": "Puri Lagoon Indah",
+            "developer": "Pakons Group",
+            "location": "JL. Perumnas, Kel. Karang Asem, Kec. Cibeber",
+            "coordinates": {
+              "lat": -6.0200,
+              "lng": 106.0600
+            },
+            "type_units": [
+              {
+                "type": "Type 36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 380000000,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "menengah"
+              },
+              {
+                "type": "Type 45/90",
+                "land_area": 90,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 480000000,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah"
+              },
+              {
+                "type": "Type 54/108",
+                "land_area": 108,
+                "building_area": 54,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 650000000,
+                "available_units": 3,
+                "sold_units": 12,
+                "total_units": 15,
+                "status": "menengah_atas"
+              }
+            ],
+            "facilities": ["Club House", "Lagoon", "Swimming Pool", "Sport Center", "Playground"],
+            "launch_date": "2024-02-01",
+            "completion_date": "2025-03-31",
+            "market_position": "premium",
+            "price_per_m2": 5925926
+          },
+          {
+            "id": "metro_cilegon_001",
+            "name": "Metro Cilegon",
+            "developer": "Metro Land",
+            "location": "Central Cilegon",
+            "coordinates": {
+              "lat": -6.0300,
+              "lng": 106.0500
+            },
+            "type_units": [
+              {
+                "type": "Type 36/84",
+                "land_area": 84,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 420000000,
+                "available_units": 12,
+                "sold_units": 28,
+                "total_units": 40,
+                "status": "menengah"
+              },
+              {
+                "type": "Type 45/96",
+                "land_area": 96,
+                "building_area": 45,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 550000000,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "menengah"
+              }
+            ],
+            "facilities": ["Security", "Playground", "Commercial Area"],
+            "launch_date": "2023-10-01",
+            "completion_date": "2024-12-31",
+            "market_position": "menengah_premium",
+            "price_per_m2": 5208333
+          },
+          {
+            "id": "taman_cilegon_indah_001",
+            "name": "Taman Cilegon Indah (TCI)",
+            "developer": "TCI Developer",
+            "location": "Strategic Location, Cilegon",
+            "coordinates": {
+              "lat": -6.0400,
+              "lng": 106.0700
+            },
+            "type_units": [
+              {
+                "type": "Type 60/120",
+                "land_area": 120,
+                "building_area": 60,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 750000000,
+                "available_units": 5,
+                "sold_units": 15,
+                "total_units": 20,
+                "status": "menengah_atas"
+              },
+              {
+                "type": "Type 72/144",
+                "land_area": 144,
+                "building_area": 72,
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "carport": 2,
+                "price_idr": 950000000,
+                "available_units": 3,
+                "sold_units": 12,
+                "total_units": 15,
+                "status": "premium"
+              }
+            ],
+            "facilities": ["Club House", "Garden", "Security", "Commercial Area"],
+            "launch_date": "2024-01-15",
+            "completion_date": "2025-06-30",
+            "market_position": "menengah_atas",
+            "price_per_m2": 6597222
+          },
+          {
+            "id": "cilegon_park_001",
+            "name": "Cilegon Park",
+            "developer": "Tunas Buana Properti",
+            "location": "Cibeber, Cilegon",
+            "coordinates": {
+              "lat": -6.0250,
+              "lng": 106.0750
+            },
+            "type_units": [
+              {
+                "type": "Type 30/60",
+                "land_area": 60,
+                "building_area": 30,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 280000000,
+                "available_units": 10,
+                "sold_units": 20,
+                "total_units": 30,
+                "status": "menengah"
+              },
+              {
+                "type": "Type 36/72",
+                "land_area": 72,
+                "building_area": 36,
+                "bedrooms": 2,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 350000000,
+                "available_units": 8,
+                "sold_units": 22,
+                "total_units": 30,
+                "status": "menengah"
+              }
+            ],
+            "facilities": ["One-Stop Living", "Modern Design", "Green Environment"],
+            "launch_date": "2023-12-01",
+            "completion_date": "2024-09-30",
+            "market_position": "menengah_atas",
+            "price_per_m2": 4861111
+          },
+          {
+            "id": "bukit_cilegon_asri_001",
+            "name": "Bukit Cilegon Asri",
+            "developer": "BAHANASEMESTA ADINUSANTARA",
+            "location": "Jl. Lingkar Selatan KM. 06 no. 88, Cibeber",
+            "coordinates": {
+              "lat": -6.0350,
+              "lng": 106.0650
+            },
+            "type_units": [
+              {
+                "type": "Type 21/60",
+                "land_area": 60,
+                "building_area": 21,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 180000000,
+                "available_units": 15,
+                "sold_units": 35,
+                "total_units": 50,
+                "status": "subsidi"
+              },
+              {
+                "type": "Type 30/72",
+                "land_area": 72,
+                "building_area": 30,
+                "bedrooms": 1,
+                "bathrooms": 1,
+                "carport": 1,
+                "price_idr": 220000000,
+                "available_units": 10,
+                "sold_units": 25,
+                "total_units": 35,
+                "status": "subsidi"
+              }
+            ],
+            "facilities": ["Strategic Location", "Easy Access"],
+            "launch_date": "2023-08-01",
+            "completion_date": "2024-06-30",
+            "market_position": "subsidi",
+            "price_per_m2": 3055556
+          }
+        ]
+      }
+    },
+    "market_statistics": {
+      "total_units_all_regions": 1245,
+      "available_units": 289,
+      "sold_units": 956,
+      "average_price_idr": 625000000,
+      "price_range_idr": {
+        "min": 120000000,
+        "max": 3500000000
+      },
+      "market_segments": {
+        "subsidi": {
+          "total_units": 245,
+          "available_units": 58,
+          "sold_units": 187,
+          "average_price_idr": 185000000
+        },
+        "menengah": {
+          "total_units": 520,
+          "available_units": 125,
+          "sold_units": 395,
+          "average_price_idr": 420000000
+        },
+        "menengah_atas": {
+          "total_units": 380,
+          "available_units": 85,
+          "sold_units": 295,
+          "average_price_idr": 750000000
+        },
+        "premium": {
+          "total_units": 100,
+          "available_units": 21,
+          "sold_units": 79,
+          "average_price_idr": 1800000000
+        }
+      },
+      "top_properties_by_sales": [
+        {
+          "name": "Serang City",
+          "total_sold": 79,
+          "revenue_idr": 125000000000
+        },
+        {
+          "name": "Citra Garden BMW",
+          "total_sold": 107,
+          "revenue_idr": 89500000000
+        },
+        {
+          "name": "Highland Park Serang",
+          "total_sold": 85,
+          "revenue_idr": 63750000000
+        }
+      ]
+    }
+  }
+}
