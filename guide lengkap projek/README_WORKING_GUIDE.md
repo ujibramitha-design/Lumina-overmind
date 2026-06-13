@@ -132,15 +132,20 @@ Lumina Overmind is an AI-assisted real-estate intelligence and operations platfo
 - Some AI paths depend on Gemini/OpenAI packages and environment variables that must be validated together.
 - A few routes are still placeholder or partially implemented, especially detail pages and asset/creative flows.
 
-## 22-Dimension Global Standard Health Analysis
+## 19-Dimension Global Standard Health Analysis
 
-This guide is complemented by a 22-dimension global standard health analysis framework. See `22_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation of each dimension.
+This guide is complemented by a 19-dimension global standard health analysis framework. See `19_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation of each dimension.
 
 ### Scale Progression
 - **Indonesia**: 15 dimensions (1-15)
 - **Asia**: 18 dimensions (1-18)
-- **Eropa**: 20 dimensions (1-20)
-- **Global Internasional**: 22 dimensions (1-22)
+- **Global Internasional**: 19 dimensions (1-19)
+
+### Note on Removed Dimensions
+Framework ini dioptimasi untuk konteks pasukan hunter scraping & market expansion:
+- **Environmental Sustainability** - Tidak relevan untuk scraping operations
+- **Supply Chain & Vendor Management** - Tidak relevan untuk scraping operations
+- **AI Ethics & Compliance** - Optional, dapat ditambahkan jika menggunakan AI untuk decision-making
 
 ### Current Status (Core Dimensions 1-10)
 
@@ -199,18 +204,13 @@ This guide is complemented by a 22-dimension global standard health analysis fra
 - 17. Multi-Timezone Support: ⬜ Not started
 - 18. Cross-Border Data Transfer: ⬜ Not started
 
-### Europe Dimensions (19-20) - Not Yet Implemented
-- 19. Environmental Sustainability: ⬜ Not started
-- 20. AI Ethics & Compliance: ⬜ Not started
-
-### Global International Dimensions (21-22) - Not Yet Implemented
-- 21. Cultural Adaptation & RTL Support: ⬜ Not started
-- 22. Supply Chain & Vendor Management: ⬜ Not started
+### Global International Dimension (19) - Not Yet Implemented
+- 19. Cultural Adaptation & RTL Support: ⬜ Not started
 
 ## Integration with Roadmap
 
-The 22-dimension global standard analysis complements the 6-phase roadmap:
-- **22-Dimension Analysis**: Provides overall project health check with scalability from Indonesia to global international
+The 19-dimension global standard analysis complements the 6-phase roadmap:
+- **19-Dimension Analysis**: Provides overall project health check with scalability from Indonesia to global international
 - **Roadmap**: Provides specific action items with timeline
-- **Combined Approach**: Use roadmap for execution, use 22-dimension for periodic health checks
+- **Combined Approach**: Use roadmap for execution, use 19-dimension for periodic health checks
 

@@ -66,9 +66,9 @@ Always refer to these documents in "guide lengkap projek" folder:
 - DEPLOYMENT_CHECKLIST.md - Deployment preparation checklist
 - RUNBOOK.md - Local development and recovery procedures
 - KNOWN_ISSUES.md - Current blockers and issues
-- 22_DIMENSIONS_GLOBAL_STANDARD.md - 22-dimension global standard framework
+- 19_DIMENSIONS_GLOBAL_STANDARD.md - 19-dimension global standard framework
 
-## 22-Dimension Global Standard Health Framework
+## 19-Dimension Global Standard Health Framework
 
 When making changes, consider impact on:
 
@@ -96,21 +96,21 @@ When making changes, consider impact on:
 17. Multi-Timezone Support
 18. Cross-Border Data Transfer
 
-### Europe Dimensions (19-20)
-19. Environmental Sustainability
-20. AI Ethics & Compliance
-
-### Global International Dimensions (21-22)
-21. Cultural Adaptation & RTL Support
-22. Supply Chain & Vendor Management
+### Global International Dimension (19)
+19. Cultural Adaptation & RTL Support
 
 **Scale Progression**:
 - **Indonesia**: 15 dimensions (1-15)
 - **Asia**: 18 dimensions (1-18)
-- **Eropa**: 20 dimensions (1-20)
-- **Global Internasional**: 22 dimensions (1-22)
+- **Global Internasional**: 19 dimensions (1-19)
 
-See `guide lengkap projek/22_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation of each dimension.
+### Note on Removed Dimensions
+Framework ini dioptimasi untuk konteks pasukan hunter scraping & market expansion:
+- **Environmental Sustainability** - Tidak relevan untuk scraping operations
+- **Supply Chain & Vendor Management** - Tidak relevan untuk scraping operations
+- **AI Ethics & Compliance** - Optional, dapat ditambahkan jika menggunakan AI untuk decision-making
+
+See `guide lengkap projek/19_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation of each dimension.
 
 ## Priority Order
 

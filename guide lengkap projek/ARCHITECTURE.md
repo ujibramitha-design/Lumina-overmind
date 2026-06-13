@@ -108,15 +108,20 @@ Use this style consistently across dashboard pages. Do not mix marketing-style c
 - **CRITICAL:** Missing Excel export capability (exceljs)
 - **CRITICAL:** Missing GIS/Mapping capability (react-leaflet)
 
-## 22-Dimension Global Standard Health Check Integration
+## 19-Dimension Global Standard Health Check Integration
 
-This architecture is periodically evaluated using a 22-dimension global standard health framework. See `22_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation.
+This architecture is periodically evaluated using a 19-dimension global standard health framework. See `19_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation.
 
 ### Scale Progression
 - **Indonesia**: 15 dimensions (1-15)
 - **Asia**: 18 dimensions (1-18)
-- **Eropa**: 20 dimensions (1-20)
-- **Global Internasional**: 22 dimensions (1-22)
+- **Global Internasional**: 19 dimensions (1-19)
+
+### Note on Removed Dimensions
+Framework ini dioptimasi untuk konteks pasukan hunter scraping & market expansion:
+- **Environmental Sustainability** - Tidak relevan untuk scraping operations
+- **Supply Chain & Vendor Management** - Tidak relevan untuk scraping operations
+- **AI Ethics & Compliance** - Optional, dapat ditambahkan jika menggunakan AI untuk decision-making
 
 ### Core Dimensions (1-10) - Current Status
 
@@ -174,13 +179,8 @@ This architecture is periodically evaluated using a 22-dimension global standard
 - 17. Multi-Timezone Support: ⬜ Not started
 - 18. Cross-Border Data Transfer: ⬜ Not started
 
-### Europe Dimensions (19-20) - Not Yet Implemented
-- 19. Environmental Sustainability: ⬜ Not started
-- 20. AI Ethics & Compliance: ⬜ Not started
-
-### Global International Dimensions (21-22) - Not Yet Implemented
-- 21. Cultural Adaptation & RTL Support: ⬜ Not started
-- 22. Supply Chain & Vendor Management: ⬜ Not started
+### Global International Dimension (19) - Not Yet Implemented
+- 19. Cultural Adaptation & RTL Support: ⬜ Not started
 
 ## Tech Stack Gaps (Priority Order)
 

@@ -1,15 +1,22 @@
-# 22 Dimensi Standar Global Internasional
+# 19 Dimensi Standar Global Internasional
 
 ## Overview
 
-Framework 22 dimensi ini adalah standar komprehensif untuk analisa kesehatan proyek software yang dapat di-scale dari level nasional (Indonesia) hingga global internasional (USA, Eropa, Asia, Timur Tengah, Rusia).
+Framework 19 dimensi ini adalah standar komprehensif untuk analisa kesehatan proyek software yang dapat di-scale dari level nasional (Indonesia) hingga global internasional (USA, Eropa, Asia, Timur Tengah, Rusia). Framework ini dioptimasi untuk konteks scraping, market expansion, dan hybrid business operations.
 
 ## Scale Progression
 
 - **Indonesia**: 15 dimensi (1-15)
 - **Asia**: 18 dimensi (1-18)
-- **Eropa**: 20 dimensi (1-20)
-- **Global Internasional**: 22 dimensi (1-22)
+- **Global Internasional**: 19 dimensi (1-19)
+
+## Note on Removed Dimensions
+
+Framework ini telah dioptimasi untuk konteks pasukan hunter scraping & market expansion. Dimensi yang dihapus karena tidak relevan:
+- **Environmental Sustainability** (sebelumnya dimensi 19) - Tidak relevan untuk scraping operations
+- **Supply Chain & Vendor Management** (sebelumnya dimensi 22) - Tidak relevan untuk scraping operations
+
+Dimensi **AI Ethics & Compliance** (sebelumnya dimensi 20) dapat ditambahkan nanti jika menggunakan AI untuk decision-making.
 
 ---
 
@@ -295,45 +302,9 @@ Framework 22 dimensi ini adalah standar komprehensif untuk analisa kesehatan pro
 
 ---
 
-## Dimensi 19-20: Eropa Dimensions
+## Dimensi 19: Global International Dimension
 
-### 19. Environmental Sustainability
-
-**Fungsi**: Menilai dampak lingkungan dari operasional IT
-**Kegunaan**: Memastikan aplikasi environmentally friendly
-**Feature**:
-- Carbon footprint tracking
-- Energy efficiency monitoring
-- Green hosting selection
-- ESG compliance reporting
-
-**Outlook Kedepan**:
-- Carbon-negative computing
-- Renewable energy integration
-- AI-powered energy optimization
-- Circular economy IT
-
-### 20. AI Ethics & Compliance
-
-**Fungsi**: Menilai ethical use dan compliance AI
-**Kegunaan**: Memastikan AI usage compliant dengan EU AI Act
-**Feature**:
-- AI transparency
-- Bias detection
-- Explainable AI
-- AI audit trails
-
-**Outlook Kedepan**:
-- Ethical AI certification
-- Human-in-the-loop systems
-- AI governance frameworks
-- Responsible AI standards
-
----
-
-## Dimensi 21-22: Global International Dimensions
-
-### 21. Cultural Adaptation & RTL Support
+### 19. Cultural Adaptation & RTL Support
 
 **Fungsi**: Menilai adaptasi budaya dan RTL support
 **Kegunaan**: Memastikan aplikasi sesuai dengan budaya Timur Tengah dan Rusia
@@ -348,22 +319,6 @@ Framework 22 dimensi ini adalah standar komprehensif untuk analisa kesehatan pro
 - Dynamic UI layout switching
 - Context-aware cultural features
 - Cross-cultural design systems
-
-### 22. Supply Chain & Vendor Management
-
-**Fungsi**: Menilai manajemen supply chain dan vendor
-**Kegunaan**: Memastikan vendor compliance dan supply chain reliability
-**Feature**:
-- Vendor risk assessment
-- SLA monitoring
-- Supply chain compliance
-- Global vendor management
-
-**Outlook Kedepan**:
-- Blockchain-based supply chain
-- AI-powered vendor selection
-- Predictive supply chain analytics
-- Automated compliance verification
 
 ---
 
@@ -384,16 +339,16 @@ Framework 22 dimensi ini adalah standar komprehensif untuk analisa kesehatan pro
 - Timeline: 2-3 months
 - Priority: Medium
 
-### Phase 4: Europe Expansion (Dimensi 19-20)
-- Focus: ESG dan AI compliance
-- Timeline: 2-3 months
-- Priority: Medium
-
-### Phase 5: Global International (Dimensi 21-22)
+### Phase 4: Global International (Dimensi 19)
 - Focus: Timur Tengah dan Rusia markets
 - Timeline: 3-4 months
 - Priority: Low
 
+### Optional: AI Ethics & Compliance
+- Focus: EU AI Act compliance (jika menggunakan AI untuk decision-making)
+- Timeline: 2-3 months
+- Priority: Optional
+
 ## Conclusion
 
-Framework 22 dimensi ini menyediakan standar komprehensif yang dapat di-scale sesuai kebutuhan ekspansi bisnis, dari level nasional hingga global internasional.
+Framework 19 dimensi ini menyediakan standar komprehensif yang dapat di-scale sesuai kebutuhan ekspansi bisnis, dari level nasional hingga global internasional. Framework ini dioptimasi untuk konteks scraping, market expansion, dan hybrid business operations.

@@ -1,14 +1,19 @@
 # Roadmap
 
-## 22-Dimension Global Standard Health Check Integration
+## 19-Dimension Global Standard Health Check Integration
 
-This roadmap is integrated with the 22-dimension global standard health framework. See `22_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation.
+This roadmap is integrated with the 19-dimension global standard health framework. See `19_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation.
 
 ### Scale Progression
 - **Indonesia**: 15 dimensions (1-15)
 - **Asia**: 18 dimensions (1-18)
-- **Eropa**: 20 dimensions (1-20)
-- **Global Internasional**: 22 dimensions (1-22)
+- **Global Internasional**: 19 dimensions (1-19)
+
+### Note on Removed Dimensions
+Framework ini dioptimasi untuk konteks pasukan hunter scraping & market expansion:
+- **Environmental Sustainability** - Tidak relevan untuk scraping operations
+- **Supply Chain & Vendor Management** - Tidak relevan untuk scraping operations
+- **AI Ethics & Compliance** - Optional, dapat ditambahkan jika menggunakan AI untuk decision-making
 
 ### Core Dimensions (1-10) Mapping
 - **Dimension 1 (Structure)**: Addressed in Phase 2 (Turborepo, folder organization)
@@ -34,13 +39,11 @@ This roadmap is integrated with the 22-dimension global standard health framewor
 - **Dimension 17 (Multi-Timezone)**: Future - Timezone support for Asia
 - **Dimension 18 (Cross-Border Data)**: Future - Data transfer compliance for Asia
 
-### Europe Dimensions (19-20) Mapping - Future Expansion
-- **Dimension 19 (Environmental Sustainability)**: Future - ESG compliance for Europe
-- **Dimension 20 (AI Ethics)**: Future - EU AI Act compliance
+### Global International Dimension (19) Mapping - Future Expansion
+- **Dimension 19 (Cultural Adaptation & RTL)**: Future - RTL support for Middle East, Cyrillic for Russia
 
-### Global International Dimensions (21-22) Mapping - Future Expansion
-- **Dimension 21 (Cultural Adaptation & RTL)**: Future - RTL support for Middle East, Cyrillic for Russia
-- **Dimension 22 (Supply Chain)**: Future - Global vendor management
+### Optional: AI Ethics & Compliance
+- **AI Ethics**: Optional - EU AI Act compliance (jika menggunakan AI untuk decision-making)
 
 ## Phase 1: Critical Tech Stack Gaps (Week 1-2)
 
