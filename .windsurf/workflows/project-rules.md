@@ -66,10 +66,13 @@ Always refer to these documents in "guide lengkap projek" folder:
 - DEPLOYMENT_CHECKLIST.md - Deployment preparation checklist
 - RUNBOOK.md - Local development and recovery procedures
 - KNOWN_ISSUES.md - Current blockers and issues
+- 22_DIMENSIONS_GLOBAL_STANDARD.md - 22-dimension global standard framework
 
-## 10-Dimension Health Framework
+## 22-Dimension Global Standard Health Framework
 
 When making changes, consider impact on:
+
+### Core Dimensions (1-10)
 1. Structure & Organization
 2. Code Quality
 3. Documentation
@@ -80,6 +83,34 @@ When making changes, consider impact on:
 8. Maintainability
 9. User Experience
 10. Deployment & DevOps
+
+### Regional Dimensions (11-15) - Indonesia
+11. Accessibility
+12. Internationalization (i18n)
+13. Compliance & Legal
+14. Data Privacy
+15. Cost Management
+
+### Asia Dimensions (16-18)
+16. Multi-Currency Support
+17. Multi-Timezone Support
+18. Cross-Border Data Transfer
+
+### Europe Dimensions (19-20)
+19. Environmental Sustainability
+20. AI Ethics & Compliance
+
+### Global International Dimensions (21-22)
+21. Cultural Adaptation & RTL Support
+22. Supply Chain & Vendor Management
+
+**Scale Progression**:
+- **Indonesia**: 15 dimensions (1-15)
+- **Asia**: 18 dimensions (1-18)
+- **Eropa**: 20 dimensions (1-20)
+- **Global Internasional**: 22 dimensions (1-22)
+
+See `guide lengkap projek/22_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation of each dimension.
 
 ## Priority Order
 

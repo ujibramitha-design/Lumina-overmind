@@ -1,9 +1,16 @@
 # Roadmap
 
-## 10-Dimension Health Check Integration
+## 22-Dimension Global Standard Health Check Integration
 
-This roadmap is integrated with the 10-dimension project health framework:
+This roadmap is integrated with the 22-dimension global standard health framework. See `22_DIMENSIONS_GLOBAL_STANDARD.md` for detailed documentation.
 
+### Scale Progression
+- **Indonesia**: 15 dimensions (1-15)
+- **Asia**: 18 dimensions (1-18)
+- **Eropa**: 20 dimensions (1-20)
+- **Global Internasional**: 22 dimensions (1-22)
+
+### Core Dimensions (1-10) Mapping
 - **Dimension 1 (Structure)**: Addressed in Phase 2 (Turborepo, folder organization)
 - **Dimension 2 (Code Quality)**: Addressed in Phase 2 (commitlint, audit trails)
 - **Dimension 3 (Documentation)**: Ongoing - guide lengkap projek maintained
@@ -14,6 +21,26 @@ This roadmap is integrated with the 10-dimension project health framework:
 - **Dimension 8 (Maintainability)**: Addressed in Phase 2 (audit trails, Phase 6 (policy engine))
 - **Dimension 9 (UX)**: Addressed in Phase 3 (UI standardization)
 - **Dimension 10 (DevOps)**: Addressed in Phase 2 (GitHub Actions, Docker optimization)
+
+### Regional Dimensions (11-15) Mapping - Future Expansion
+- **Dimension 11 (Accessibility)**: Future - WCAG compliance implementation
+- **Dimension 12 (i18n)**: Future - Multi-language support for Indonesia
+- **Dimension 13 (Compliance)**: Future - PDP Law Indonesia compliance
+- **Dimension 14 (Data Privacy)**: Future - Data protection implementation
+- **Dimension 15 (Cost Management)**: Future - Cloud cost optimization
+
+### Asia Dimensions (16-18) Mapping - Future Expansion
+- **Dimension 16 (Multi-Currency)**: Future - Currency support for Asia markets
+- **Dimension 17 (Multi-Timezone)**: Future - Timezone support for Asia
+- **Dimension 18 (Cross-Border Data)**: Future - Data transfer compliance for Asia
+
+### Europe Dimensions (19-20) Mapping - Future Expansion
+- **Dimension 19 (Environmental Sustainability)**: Future - ESG compliance for Europe
+- **Dimension 20 (AI Ethics)**: Future - EU AI Act compliance
+
+### Global International Dimensions (21-22) Mapping - Future Expansion
+- **Dimension 21 (Cultural Adaptation & RTL)**: Future - RTL support for Middle East, Cyrillic for Russia
+- **Dimension 22 (Supply Chain)**: Future - Global vendor management
 
 ## Phase 1: Critical Tech Stack Gaps (Week 1-2)
 
