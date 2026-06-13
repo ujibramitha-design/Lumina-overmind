@@ -9,11 +9,11 @@ from typing import List, Optional
 import os
 import json
 from datetime import datetime
-from prisma import Client as PrismaClient
+from core_modules.db_manager import prisma_manager
 
 # Database dependency
-def get_db():
-    db = PrismaClient()
+async def get_db():
+    db = await prisma_manager.get_db()
     return db
 
 router = APIRouter(prefix="/api/projects", tags=["projects"])

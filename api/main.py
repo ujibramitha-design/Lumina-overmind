@@ -202,6 +202,13 @@ except ImportError as e:
     logger.warning(f"⚠️ Intelligence router not available: {e}")
 
 try:
+    from api.endpoints.leads import router as leads_router
+    app.include_router(leads_router, tags=["Leads"])
+    logger.info("✅ Leads router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Leads router not available: {e}")
+
+try:
     from api.endpoints.visual import router as visual_router
     app.include_router(visual_router, prefix="/api/visual", tags=["Visual"])
     logger.info("✅ Visual router included")
@@ -222,21 +229,21 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Notifications router not available: {e}")
 
-# Temporarily disabled due to Prisma client issues
-# try:
-#     from api.endpoints.projects import router as projects_router
-#     app.include_router(projects_router, tags=["Projects"])
-#     logger.info("✅ Projects router included")
-# except ImportError as e:
-#     logger.warning(f"⚠️ Projects router not available: {e}")
+# Projects router
+try:
+    from api.endpoints.projects import router as projects_router
+    app.include_router(projects_router, tags=["Projects"])
+    logger.info("✅ Projects router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Projects router not available: {e}")
 
-# Temporarily disabled due to syntax errors in conversational_ai.py
-# try:
-#     from api.endpoints.jarvis import router as jarvis_router
-#     app.include_router(jarvis_router, tags=["J.A.R.V.I.S."])
-#     logger.info("✅ J.A.R.V.I.S. router included")
-# except ImportError as e:
-#     logger.warning(f"⚠️ J.A.R.V.I.S. router not available: {e}")
+# J.A.R.V.I.S. router
+try:
+    from api.endpoints.jarvis import router as jarvis_router
+    app.include_router(jarvis_router, tags=["J.A.R.V.I.S."])
+    logger.info("✅ J.A.R.V.I.S. router included")
+except ImportError as e:
+    logger.warning(f"⚠️ J.A.R.V.I.S. router not available: {e}")
 
 # Security router
 try:

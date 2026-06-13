@@ -1,16 +1,47 @@
 # Implementation Guide
 
-## Implementation Order
+## Implementation Order (Updated with Tech Stack Priorities)
 
 Use this order for safe delivery:
 
-1. Backend stability
+### Phase 1: Critical Tech Stack Gaps (Week 1-2)
+**Priority: CRITICAL - Must complete first**
+1. Install and configure react-hook-form + Zod for all forms
+2. Setup @tanstack/react-query for data fetching and caching
+3. Add dinero.js for financial precision calculations
+4. Add exceljs for Excel export functionality
+5. Add react-leaflet for property mapping/GIS
+
+### Phase 2: Backend Stability & Infrastructure (Week 3-4)
+1. Backend stability (fix `/api/leads` database mismatch)
 2. Core dashboard shell
-3. High-traffic operational pages
-4. Detail pages
-5. AI/orchestration modules
-6. Creative and asset pipelines
-7. Governance and audit improvements
+3. Add audit trails to Prisma schema
+4. Add rate limiting with slowapi
+5. Setup Turborepo for monorepo management
+6. Setup GitHub Actions for CI/CD
+
+### Phase 3: High-traffic Operational Pages (Week 5-6)
+1. Standardize UI shell across all pages
+2. Complete detail pages (leads/[id], projects/[id])
+3. Upgrade Next.js to 15 with Turbopack
+4. Upgrade TailwindCSS to 4
+
+### Phase 4: AI/Orchestration Modules (Week 7-8)
+1. Stabilize J.A.R.V.I.S. commands
+2. Add next-seo + sitemap generation
+3. Add PostHog for analytics
+4. Complete workflow runtime and versioning
+
+### Phase 5: Creative and Asset Pipelines (Week 9-10)
+1. Add react-pdf for PDF generation
+2. Complete upload queue and approval flows
+3. Add Playwright for E2E testing
+
+### Phase 6: Governance and Audit Improvements (Week 11-12)
+1. Migrate to Supabase Auth
+2. Add Casbin for RBAC
+3. Migrate to pnpm package manager
+4. Complete policy engine and compliance reporting
 
 ## Backend Stability First
 

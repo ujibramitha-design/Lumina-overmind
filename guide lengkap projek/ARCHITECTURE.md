@@ -3,11 +3,44 @@
 ## System Overview
 
 Lumina Overmind is split into:
-- `dashboard/`: product UI, route shells, dashboards, forms, charts, and interactive control surfaces
+- `dashboard/`: Next.js 14 product UI, route shells, dashboards, forms, charts, and interactive control surfaces
 - `api/`: FastAPI backend for auth, leads, projects, ads, workflows, jarvis, assets, security, and integrations
 - `core_modules/`: shared intelligence, fallback, orchestration, storage, and helper systems
 - `agents/`: scouting and automation agents
-- `database/`: schema and persistence assets
+- `database/`: Prisma schema and PostgreSQL persistence assets
+
+## Tech Stack (Best-in-Class)
+
+### Frontend
+- **Framework:** Next.js 14 (target: upgrade to 15 with Turbopack)
+- **UI Library:** shadcn/ui + Radix UI
+- **Styling:** TailwindCSS 3.3.0 (target: upgrade to 4)
+- **State Management:** Zustand
+- **Data Fetching:** @tanstack/react-query (to be added)
+- **Form Management:** react-hook-form + Zod (to be added)
+- **Charts:** Recharts
+- **Data Grid:** TanStack Table
+- **3D Graphics:** Three.js + React Three Fiber
+- **Animation:** Framer Motion + GSAP
+- **Icons:** Lucide React
+- **TypeScript:** Strict mode enabled
+
+### Backend
+- **Framework:** FastAPI
+- **Database:** PostgreSQL (Supabase)
+- **ORM:** Prisma 7.8.0
+- **Authentication:** JWT (PyJWT, python-jose) + Passlib (bcrypt)
+- **Background Jobs:** Celery + Redis
+- **WebSocket:** Socket.IO
+- **Encryption:** cryptography
+- **Monitoring:** Sentry, Prometheus, Grafana
+- **Logging:** structlog
+
+### Infrastructure
+- **Package Manager:** npm (target: migrate to pnpm)
+- **Monorepo:** Not yet implemented (target: Turborepo)
+- **CI/CD:** Not yet implemented (target: GitHub Actions)
+- **Containerization:** Docker + Docker Compose
 
 ## Request Flow
 
@@ -69,4 +102,39 @@ Use this style consistently across dashboard pages. Do not mix marketing-style c
 - Pages that rely on backend endpoints not yet stable
 - AI provider dependency and env-variable mismatches
 - Mixed legacy and new UI surfaces
+- **CRITICAL:** Missing form management (react-hook-form + Zod)
+- **CRITICAL:** Missing data fetching library (@tanstack/react-query)
+- **CRITICAL:** Missing financial precision library (dinero.js)
+- **CRITICAL:** Missing Excel export capability (exceljs)
+- **CRITICAL:** Missing GIS/Mapping capability (react-leaflet)
+
+## Tech Stack Gaps (Priority Order)
+
+### Phase 1: Critical (Week 1-2)
+1. Add react-hook-form + Zod for form validation
+2. Add @tanstack/react-query for data fetching
+3. Add dinero.js for financial precision
+4. Add exceljs for Excel export
+5. Add react-leaflet for property mapping
+
+### Phase 2: Infrastructure (Week 3-4)
+1. Migrate to Turborepo for monorepo management
+2. Setup GitHub Actions for CI/CD
+3. Add commitlint for commit standards
+4. Add audit trails to Prisma schema
+5. Add rate limiting with slowapi
+
+### Phase 3: Enhancement (Week 5-8)
+1. Upgrade Next.js to 15 with Turbopack
+2. Upgrade TailwindCSS to 4
+3. Add next-seo + sitemap generation
+4. Add PostHog for analytics
+5. Add Playwright for E2E testing
+
+### Phase 4: Advanced (Week 9-12)
+1. Migrate to Supabase Auth
+2. Add Casbin for RBAC
+3. Migrate Jest to Vitest
+4. Add react-pdf for PDF generation
+5. Migrate to pnpm package manager
 

@@ -2,6 +2,32 @@
 
 This matrix classifies each major surface for planning and implementation.
 
+## Tech Stack Status Overview
+
+### Frontend Stack
+- **Next.js 14** → Target: Upgrade to 15 with Turbopack
+- **shadcn/ui + Radix UI** → Best-in-class, keep
+- **TailwindCSS 3.3.0** → Target: Upgrade to 4
+- **Zustand** → Good, keep or migrate to Jotai
+- **TanStack Table** → Upgrade to v8
+- **Recharts** → Upgrade to latest or switch to Visx
+- **Framer Motion + GSAP** → Best-in-class, keep
+- **Three.js + R3F** → Best-in-class, keep
+
+### Backend Stack
+- **FastAPI** → Best-in-class, keep
+- **Prisma 7.8.0** → Upgrade to latest
+- **PostgreSQL (Supabase)** → Best-in-class, keep
+- **Celery + Redis** → Good, consider BullMQ
+- **JWT + Passlib** → Consider Supabase Auth
+
+### Critical Gaps (To Add)
+- **react-hook-form + Zod** → Form management
+- **@tanstack/react-query** → Data fetching
+- **dinero.js** → Financial precision
+- **exceljs** → Excel export
+- **react-leaflet** → GIS/Mapping
+
 ## Frontend Modules
 
 | Module | Status | Notes |
@@ -52,8 +78,31 @@ This matrix classifies each major surface for planning and implementation.
 
 ## Prioritization
 
-1. Stabilize blocked backend routes.
-2. Complete page/detail data contracts.
-3. Standardize all remaining pages to the same shell.
-4. Finish workflow, creative, asset, and governance feature depth.
+### Phase 1: Critical Tech Stack Gaps (Week 1-2)
+1. Add react-hook-form + Zod for all forms
+2. Add @tanstack/react-query for data fetching
+3. Add dinero.js for financial calculations
+4. Add exceljs for reporting exports
+5. Add react-leaflet for property mapping
+
+### Phase 2: Backend Stability (Week 3-4)
+1. Stabilize blocked backend routes
+2. Complete page/detail data contracts
+3. Add audit trails to Prisma schema
+4. Add rate limiting with slowapi
+5. Setup Turborepo for monorepo
+
+### Phase 3: UI Standardization (Week 5-8)
+1. Standardize all remaining pages to the same shell
+2. Upgrade Next.js to 15 with Turbopack
+3. Upgrade TailwindCSS to 4
+4. Add next-seo + sitemap
+5. Add PostHog analytics
+
+### Phase 4: Feature Depth (Week 9-12)
+1. Finish workflow, creative, asset, and governance feature depth
+2. Add Playwright for E2E testing
+3. Migrate to Supabase Auth
+4. Add Casbin for RBAC
+5. Migrate to pnpm package manager
 

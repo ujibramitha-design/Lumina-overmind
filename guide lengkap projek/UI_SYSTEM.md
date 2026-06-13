@@ -9,6 +9,46 @@ Canonical dashboard style:
 - data-first and operational
 - minimal decorative noise
 
+## UI Tech Stack (Best-in-Class)
+
+### Core Framework
+- **Next.js 14** → Target: Upgrade to 15 with Turbopack
+- **React 18** with Server Components
+- **TypeScript** strict mode enabled
+
+### Styling System
+- **TailwindCSS 3.3.0** → Target: Upgrade to 4
+- **PostCSS** for CSS processing
+- **CSS Variables** for theming (HSL-based)
+- **Dark Mode** class-based implementation
+
+### Component Library
+- **shadcn/ui** - Headless components with Radix UI primitives
+- **Radix UI** - Accessible unstyled components
+- **Lucide React** - Icon library
+
+### State & Data
+- **Zustand** - Global state management
+- **@tanstack/react-query** (to be added) - Server state management
+- **react-hook-form + Zod** (to be added) - Form validation
+
+### Visualization
+- **Recharts** - Charting library
+- **TanStack Table** - Data grid with virtualization
+- **ReactFlow** - Flow diagrams and workflows
+- **react-leaflet** (to be added) - GIS/Mapping
+
+### Animation & 3D
+- **Framer Motion** - Production-ready animations
+- **GSAP** - Complex animations
+- **Three.js + React Three Fiber** - 3D graphics
+- **@react-three/drei** - 3D helpers
+
+### Utilities
+- **date-fns** - Date manipulation
+- **clsx + tailwind-merge** - Conditional classes
+- **class-variance-authority** - Component variants
+
 ## Shell Rules
 
 All dashboard pages should use the same core shell:

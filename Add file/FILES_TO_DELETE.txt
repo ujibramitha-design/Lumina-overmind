@@ -1,0 +1,99 @@
+# FILES TO DELETE - Irrelevant to Tech Stack Migration
+# Generated: 2026-06-14
+
+## ESLint/TypeScript Rule Files (Node dependency docs)
+- no-empty-function.md
+- no-unbound-method.md
+- query-index-types.md
+- and all other no-*.md files (ESLint rule documentation)
+- and all other *.md files that are TypeScript/ESLint rule descriptions
+
+## Template Files
+- _template.md
+- TEMPLATE.md
+- _contributing.md
+- _sections.md
+
+## Generic/Default Files
+- Home.md
+- index.md
+- default.md
+- first.md
+- gettingStarted.md
+- notes.md
+- scope.md
+- other-tools.md
+- release.md
+- exports-last.md
+- faq_knowledge.md
+
+## Node/Build System Files
+- binding.gyp-files-in-the-wild.md
+- Error-pre-versions-of-node-cannot-be-installed.md
+- Linking-to-OpenSSL.md
+- Porting-Buffer.md
+- Updating-npm-bundled-node-gyp.md
+- conn-idle-timeout.md
+- conn-limits.md
+- conn-pooling.md
+- conn-prepared-statements.md
+
+## License/Legal Files (Duplicates)
+- LICENSE.md
+- LICENCE.md
+- NOTICE.md
+- THIRD-PARTY-LICENSES.md
+- DISCLAIMER.md
+- CODE_OF_CONDUCT.md
+
+## Duplicate Documentation
+- README.md (use README_LUMINA_OS_ENTERPRISE.md instead)
+- ROADMAP.md (empty file)
+- SECURITY.md (empty file)
+- SUPPORT.md
+- AUTHORS.md
+- HISTORY.md
+
+## Issue Templates
+- ISSUE_TEMPLATE.md
+- PULL_REQUEST_TEMPLATE.md
+
+## Development Files
+- DEVELOPER_SOP.md
+- SKILL.md
+
+## Unused Analytics/Reports
+- banten_government_intelligence_report.md
+- banten_government_summary.md
+- banten_ministry_intelligence_report.md
+- banten_ministry_summary.md
+- corporate_intelligence_report.md
+- corporate_summary.md
+- ride_hailing_analysis_report.md
+- ride_hailing_intelligence_report.md
+- ride_hailing_summary.md
+- market_intelligence.md
+- market_research.md
+- marketing_funnel.md
+- partner_list.md
+- properti_dna.md
+
+## Configuration Files
+- AUDIT_IGNORE.md
+- CLEANUP_CONFIRMATION.md
+- CLEANUP_EXECUTION_REPORT.md
+- DOOM_SENTINEL_SETUP.md
+- GITLAB_SETUP_INSTRUCTIONS.md
+- GOOGLE_SHEETS_SETUP.md
+- INCIDENT_RESPONSE_PROCESS.md
+- README_CREDENTIALS_SETUP.md
+- README_FASE3_WEBHOOK.md
+- README_SETUP.md
+- README_SUPER.md
+- README_v3.md
+- STRUCTURE_SUPER_COMPLETE.md
+- THREAT_MODEL.md
+- system_architecture_swimlane.md
+
+## Documentation from Dependencies
+- All files in docs/ folder (if exists)

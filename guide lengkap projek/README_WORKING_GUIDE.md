@@ -1,11 +1,41 @@
 # Lumina Overmind Working Guide
 
 This repository is a dual-stack enterprise application:
-- `dashboard/` is the Next.js front end and product UI.
+- `dashboard/` is the Next.js 14 front end and product UI.
 - `api/` is the FastAPI backend and system integration layer.
 - `core_modules/`, `agents/`, `tasks/`, and `database/` hold shared runtime logic, automation, and data support.
 
 Use this guide as the working entry point when implementing changes.
+
+## Tech Stack Overview
+
+### Frontend (Best-in-Class)
+- **Next.js 14** → Target: Upgrade to 15 with Turbopack
+- **shadcn/ui + Radix UI** - Accessible component library
+- **TailwindCSS 3.3.0** → Target: Upgrade to 4
+- **Zustand** - Global state management
+- **TanStack Table** - Data grid with virtualization
+- **Recharts** - Charting library
+- **Framer Motion + GSAP** - Animations
+- **Three.js + React Three Fiber** - 3D graphics
+- **TypeScript** - Strict mode enabled
+
+### Backend (Best-in-Class)
+- **FastAPI** - Modern async web framework
+- **PostgreSQL (Supabase)** - Production database
+- **Prisma 7.8.0** - Type-safe ORM
+- **Celery + Redis** - Background job processing
+- **JWT + Passlib** - Authentication
+- **Socket.IO** - Real-time communication
+- **Sentry** - Error tracking
+- **Prometheus + Grafana** - Monitoring
+
+### Critical Gaps (To Add)
+- **react-hook-form + Zod** - Form validation
+- **@tanstack/react-query** - Data fetching
+- **dinero.js** - Financial precision
+- **exceljs** - Excel export
+- **react-leaflet** - GIS/Mapping
 
 ## What This Project Is
 

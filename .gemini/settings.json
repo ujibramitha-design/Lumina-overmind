@@ -1,0 +1,19 @@
+﻿{
+  "tools": {
+    "allowed": [
+      "run_shell_command(*)",
+      "write_file",
+      "replace",
+      "read_file",
+      "grep_search",
+      "glob",
+      "list_directory",
+      "update_topic"
+    ]
+  },
+  "security": {
+    "folderTrust": {
+      "enabled": true
+    }
+  }
+}
