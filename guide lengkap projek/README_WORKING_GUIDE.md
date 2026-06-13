@@ -106,6 +106,8 @@ Lumina Overmind is an AI-assisted real-estate intelligence and operations platfo
 3. When creating new framework → Add to "guide lengkap projek" and update README_WORKING_GUIDE.md
 4. Always refer to "guide lengkap projek" as the primary source of truth
 
+**Note**: These rules are also defined in `.windsurf/workflows/project-rules.md` for IDE integration. Both locations must be kept in sync.
+
 ## Progress Tracking Rule
 
 **CRITICAL**: When working through checklists, roadmaps, or any action items:
