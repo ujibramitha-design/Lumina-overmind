@@ -1,75 +1,20 @@
 # Add File - Documentation Archive
 
-This folder contains archived documentation files organized by category.
+This folder contains archived documentation files organized in a single consolidated location.
 
 ## Folder Structure
 
-### **api/**
-API documentation and endpoint specifications
-- README_API.md
-- [MIGRATION_NEEDED]API.md
-- [MIGRATION_NEEDED]API_DOCUMENTATION.md
-- [MIGRATION_NEEDED]INBOX_API_DOCUMENTATION.md
-
-### **auth/**
-Authentication and authorization documentation
-- [MIGRATION_NEEDED]AUTHENTICATION_DOCUMENTATION.md
-- [MIGRATION_NEEDED]LOGIN_PAGE_DOCUMENTATION.md
-
-### **backend/**
-Backend services and middleware documentation
-- [MIGRATION_NEEDED]BACKGROUND_SERVICES_DOCUMENTATION.md
-- [MIGRATION_NEEDED]MIDDLEWARE_DOCUMENTATION.md
-
-### **database/**
-Database schema, queries, and performance documentation
-- Schema documentation (schema-*.md)
-- Query optimization (query-*.md)
-- Data operations (data-*.md)
-- Monitoring (monitor-*.md)
-- Security (security-*.md)
-- Lock management (lock-*.md)
-- [MIGRATION_NEEDED]DATABASE_LAYER_MAPPING.md
-
 ### **docs/**
-General documentation and guides
-- TypeScript/ESLint rules (ban-*.md)
-- Accessibility guidelines (click-events-have-key-events.md, etc.)
-- Contributing guides (CONTRIBUTING.md)
-- Deployment guides (DEPLOYMENT.md)
-- Governance documentation (GOVERNANCE.md)
-- Legal compliance (legal_compliance.md)
-- README files (README-*.md)
-- Various development guides
-
-### **frontend/**
-Frontend components and UI documentation
-- 3D graphics (BezierMesh.md)
-- React examples (bindExample.md, connectExample.md, createDerivedMaterial.md)
-
-### **integration/**
-Third-party integrations and webhooks
-- Webhook integration (archidep_webhook_integration.md)
-- CDN configuration (cdn.md)
-- Streaming (streaming.md)
-- [MIGRATION_NEEDED]WEBHOOK_DOCUMENTATION.md
-- [MIGRATION_NEEDED]WHATSAPP_GATEWAY_DOCUMENTATION.md
-- [MIGRATION_NEEDED]WORKFLOW_DOCUMENTATION.md
-
-### **migration/**
-Files marked for tech stack migration
-- All files with [MIGRATION_NEEDED] prefix
-- Migration reference files (FILES_TO_DELETE.txt, FILES_TO_KEEP_CRITICAL.txt)
-- TypeScript/ESLint rule documentation (accessible-emoji.md, etc.)
-
-### **reports/**
-Audit reports and system diagnostics
-- [MIGRATION_NEEDED]DASHBOARD_AUDIT_REPORT.md
-- [MIGRATION_NEEDED]EXECUTIVE_PRODUCT_BLUEPRINT.md
-- [MIGRATION_NEEDED]SYSTEM_DIAGNOSTIC_REPORT.md
-- FINAL_AUDIT_REPORT.md
-- LUMINA_OS_MASTER_DOCUMENTATION.md
-- CHANGELOG.md
+All documentation files consolidated into one folder:
+- **API Documentation**: README_API.md, [MIGRATION_NEEDED]API.md, [MIGRATION_NEEDED]API_DOCUMENTATION.md, [MIGRATION_NEEDED]INBOX_API_DOCUMENTATION.md
+- **Authentication**: [MIGRATION_NEEDED]AUTHENTICATION_DOCUMENTATION.md, [MIGRATION_NEEDED]LOGIN_PAGE_DOCUMENTATION.md
+- **Backend Services**: [MIGRATION_NEEDED]BACKGROUND_SERVICES_DOCUMENTATION.md, [MIGRATION_NEEDED]MIDDLEWARE_DOCUMENTATION.md
+- **Database**: Schema, query, data, monitoring, security, and lock documentation (schema-*.md, query-*.md, data-*.md, monitor-*.md, security-*.md, lock-*.md), [MIGRATION_NEEDED]DATABASE_LAYER_MAPPING.md
+- **Frontend**: 3D graphics (BezierMesh.md), React examples (bindExample.md, connectExample.md, createDerivedMaterial.md)
+- **Integration**: Webhook integration (archidep_webhook_integration.md), CDN configuration (cdn.md), Streaming (streaming.md), [MIGRATION_NEEDED]WEBHOOK_DOCUMENTATION.md, [MIGRATION_NEEDED]WHATSAPP_GATEWAY_DOCUMENTATION.md, [MIGRATION_NEEDED]WORKFLOW_DOCUMENTATION.md
+- **Reports**: [MIGRATION_NEEDED]DASHBOARD_AUDIT_REPORT.md, [MIGRATION_NEEDED]EXECUTIVE_PRODUCT_BLUEPRINT.md, [MIGRATION_NEEDED]SYSTEM_DIAGNOSTIC_REPORT.md, FINAL_AUDIT_REPORT.md, LUMINA_OS_MASTER_DOCUMENTATION.md, CHANGELOG.md
+- **General Docs**: TypeScript/ESLint rules, accessibility guidelines, contributing guides, deployment guides, governance documentation, legal compliance, README files, and various development guides
+- **Migration Files**: All files with [MIGRATION_NEEDED] prefix, migration reference files (FILES_TO_DELETE.txt, FILES_TO_KEEP_CRITICAL.txt)
 
 ## Migration Notes
 
