@@ -78,7 +78,8 @@ Lumina Overmind is an AI-assisted real-estate intelligence and operations platfo
 4. `docs/API_CONTRACTS.md`
 5. `docs/UI_SYSTEM.md`
 6. `docs/RUNBOOK.md`
-7. Existing docs for deeper areas:
+7. `docs/DEPLOYMENT_CHECKLIST.md` - For deployment preparation
+8. Existing docs for deeper areas:
    - `README.md`
    - `dashboard/README_SETUP.md`
    - `dashboard/DASHBOARD_AUDIT_REPORT.md`
@@ -90,6 +91,20 @@ Lumina Overmind is an AI-assisted real-estate intelligence and operations platfo
 - Do not treat visual polish as completion if the backend contract is still missing.
 - Keep the login/auth style as the canonical visual language for dashboard surfaces.
 - Stabilize route/data dependencies before expanding new screens.
+
+## Documentation Update Rule
+
+**CRITICAL**: Any addition or modification to analysis, checklists, frameworks, or any documentation must be immediately updated in the "guide lengkap projek" folder. This ensures:
+- All documentation remains synchronized
+- The team always refers to the single source of truth
+- No duplicate or contradictory information exists
+- Changes are tracked and version-controlled
+
+**Process**:
+1. When adding new analysis or checklist → Update corresponding file in "guide lengkap projek"
+2. When modifying existing analysis → Update the file in "guide lengkap projek"
+3. When creating new framework → Add to "guide lengkap projek" and update README_WORKING_GUIDE.md
+4. Always refer to "guide lengkap projek" as the primary source of truth
 
 ## Known Current Blockers
 
