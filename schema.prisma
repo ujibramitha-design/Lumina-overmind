@@ -73,6 +73,8 @@ model Lead {
   @@index([score])
   @@index([nomorHp])
   @@index([createdAt])
+  @@index([business_name, contact, area], type: Gin, map: "idx_lead_search")
+  @@index([encryptedData], type: Gin, map: "idx_lead_encrypted_data")
 }
 
 model Campaign {

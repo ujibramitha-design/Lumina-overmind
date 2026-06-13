@@ -10,6 +10,7 @@ from typing import List, Optional
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query
 from pydantic import BaseModel, Field
+from prisma import Prisma
 
 from core_modules.db_manager import prisma_manager
 
@@ -40,7 +41,7 @@ class LeadCreate(BaseModel):
 
     # Lead intelligence
     score: Optional[int] = Field(None, ge=0, le=100)
-    status: Optional[str] = Field("new", regex="^(new|contacted|qualified|closed)$")
+    status: Optional[str] = Field("new", pattern="^(new|contacted|qualified|closed)$")
 
     # Platform enrichment
     platform_sumber: Optional[str] = Field(None, max_length=50)
@@ -51,7 +52,7 @@ class LeadCreate(BaseModel):
 
     # Additional data
     notes: Optional[str] = Field(None, max_length=1000)
-    priority: Optional[str] = Field("medium", regex="^(low|medium|high|urgent)$")
+    priority: Optional[str] = Field("medium", pattern="^(low|medium|high|urgent)$")
 
 
 class LeadUpdate(BaseModel):
@@ -64,9 +65,9 @@ class LeadUpdate(BaseModel):
 
     # Lead intelligence
     score: Optional[int] = Field(None, ge=0, le=100)
-    status: Optional[str] = Field(None, regex="^(new|contacted|qualified|closed)$")
+    status: Optional[str] = Field(None, pattern="^(new|contacted|qualified|closed)$")
     notes: Optional[str] = Field(None, max_length=1000)
-    priority: Optional[str] = Field(None, regex="^(low|medium|high|urgent)$")
+    priority: Optional[str] = Field(None, pattern="^(low|medium|high|urgent)$")
 
 
 class LeadResponse(BaseModel):
@@ -214,7 +215,7 @@ async def get_leads(
     ),
     skip: int = Query(0, ge=0),
     limit: int = Query(50, ge=1, le=100),
-    status: Optional[str] = Query(None, regex="^(new|contacted|qualified|closed)$"),
+    status: Optional[str] = Query(None, pattern="^(new|contacted|qualified|closed)$"),
     search: Optional[str] = Query(None),
     db: PrismaClient = Depends(get_db),
 ):

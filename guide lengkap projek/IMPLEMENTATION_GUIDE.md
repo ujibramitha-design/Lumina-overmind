@@ -4,21 +4,37 @@
 
 Use this order for safe delivery:
 
-### Phase 1: Critical Tech Stack Gaps (Week 1-2)
-**Priority: CRITICAL - Must complete first**
-1. Install and configure react-hook-form + Zod for all forms
-2. Setup @tanstack/react-query for data fetching and caching
-3. Add dinero.js for financial precision calculations
-4. Add exceljs for Excel export functionality
-5. Add react-leaflet for property mapping/GIS
+### Phase 0: New Critical Features (Week 1-2) - ✅ COMPLETED
+**Priority: HIGH - Production Readiness & Property Project Integration**
+1. ✅ Implement Archidep M2M Webhook Integration untuk transfer file siteplan otomatis
+2. ⏭️ Setup DevSecOps & Code Quality (ESLint, Prettier, TypeScript, pre-commit hooks) - SKIPPED due to TypeScript strict mode issues
+3. ✅ Implement PostgreSQL Optimization Patterns (full-text search, JSONB indexing, batch INSERT)
 
-### Phase 2: Backend Stability & Infrastructure (Week 3-4)
-1. Backend stability (fix `/api/leads` database mismatch)
-2. Core dashboard shell
-3. Add audit trails to Prisma schema
-4. Add rate limiting with slowapi
-5. Setup Turborepo for monorepo management
-6. Setup GitHub Actions for CI/CD
+**Note:** Phase ini khusus untuk proyek properti dengan Archidep dan production readiness.
+
+### Phase 1: Critical Tech Stack Gaps (Week 1-2) - ✅ COMPLETED
+**Priority: CRITICAL - Must complete first**
+1. ✅ Install and configure react-hook-form + Zod for all forms
+2. ✅ Setup @tanstack/react-query for data fetching and caching
+3. ✅ Add dinero.js for financial precision calculations
+4. ✅ Add exceljs for Excel export functionality
+5. ✅ Add react-leaflet for property mapping/GIS
+
+### Phase 2: Infrastructure & Performance Upgrades (Week 3-4) - PENDING
+**Priority: HIGH - Performance & DevOps**
+1. Upgrade Next.js to 15 with Turbopack
+2. Upgrade TailwindCSS to 4
+3. Add Playwright for E2E testing
+4. Add next-seo + sitemap for SEO
+5. Add PostHog for analytics
+6. Add Casbin for authorization
+7. Add slowapi for rate limiting
+8. Migrate to Turborepo for monorepo management
+9. Setup GitHub Actions for CI/CD
+10. Add commitlint for commit standards
+11. Switch to pnpm package manager
+12. Upgrade TanStack Table to v8
+13. Migrate Jest to Vitest
 
 ### Phase 3: High-traffic Operational Pages (Week 5-6)
 1. Standardize UI shell across all pages

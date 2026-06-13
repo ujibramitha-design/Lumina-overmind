@@ -327,6 +327,14 @@ except ImportError as e:
 # except ImportError as e:
 #     logger.warning(f"⚠️ M2M Webhooks router not available: {e}")
 
+# Archidep Webhook router
+try:
+    from api.endpoints.archidep_webhook import router as archidep_router
+    app.include_router(archidep_router, tags=["Archidep Webhooks"])
+    logger.info("✅ Archidep Webhook router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Archidep Webhook router not available: {e}")
+
 # Health check endpoint
 @app.get("/health", tags=["Health"])
 async def health_check():

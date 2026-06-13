@@ -45,33 +45,57 @@ Framework ini dioptimasi untuk konteks pasukan hunter scraping & market expansio
 ### Optional: AI Ethics & Compliance
 - **AI Ethics**: Optional - EU AI Act compliance (jika menggunakan AI untuk decision-making)
 
-## Phase 1: Critical Tech Stack Gaps (Week 1-2)
+## Phase 0: New Critical Features (Week 1-2) - ✅ COMPLETED
+
+**Priority: HIGH - Production Readiness & Property Project Integration**
+
+Goals:
+- ✅ Implement Archidep M2M Webhook Integration untuk transfer file siteplan otomatis
+- ⏭️ Setup DevSecOps & Code Quality (ESLint, Prettier, TypeScript, pre-commit hooks) - SKIPPED due to TypeScript strict mode issues
+- ✅ Implement PostgreSQL Optimization Patterns (full-text search, JSONB indexing, batch INSERT)
+
+**Deliverables:**
+- ✅ Archidep webhook endpoints dengan authentication dan file processing (`api/endpoints/archidep_webhook.py`)
+- ⏭️ Complete DevSecOps setup dengan automated linting dan type checking - SKIPPED
+- ✅ PostgreSQL performance optimization dengan proper indexing (GIN indexes added to schema.prisma)
+- ✅ PostgreSQL optimization utility functions (`api/utils/postgres_optimization.py`)
+
+**Note:** Phase ini khusus untuk proyek properti dengan Archidep dan production readiness.
+
+## Phase 1: Critical Tech Stack Gaps (Week 1-2) - ✅ COMPLETED
 
 **Priority: CRITICAL - Foundation for all other work**
 
 Goals:
-- Install react-hook-form + Zod for form validation
-- Setup @tanstack/react-query for data fetching
-- Add dinero.js for financial precision
-- Add exceljs for Excel export
-- Add react-leaflet for property mapping
+- ✅ Install react-hook-form + Zod for form validation
+- ✅ Setup @tanstack/react-query for data fetching
+- ✅ Add dinero.js for financial precision
+- ✅ Add exceljs for Excel export
+- ✅ Add react-leaflet for property mapping
 
 **Deliverables:**
-- Form validation system across all forms
-- Data fetching with caching and deduplication
-- Financial calculations without floating point errors
-- Excel export functionality for reports
-- Property location visualization with maps
+- ✅ Form validation system across all forms
+- ✅ Data fetching with caching and deduplication
+- ✅ Financial calculations without floating point errors
+- ✅ Excel export functionality for reports
+- ✅ Property location visualization with maps
 
-## Phase 2: Backend Stability & Infrastructure (Week 3-4)
+## Phase 2: Infrastructure & Performance Upgrades (Week 3-4) - PENDING
 
 Goals:
-- fix `/api/leads` database mismatch
-- verify AI provider env and dependency setup
-- ensure build passes without route failures
-- confirm login and dashboard shell are stable
-- Add audit trails to Prisma schema
-- Add rate limiting with slowapi
+- Upgrade Next.js to 15 with Turbopack
+- Upgrade TailwindCSS to 4
+- Add Playwright for E2E testing
+- Add next-seo + sitemap for SEO
+- Add PostHog for analytics
+- Add Casbin for authorization
+- Add slowapi for rate limiting
+- Migrate to Turborepo for monorepo management
+- Setup GitHub Actions for CI/CD
+- Add commitlint for commit standards
+- Switch to pnpm package manager
+- Upgrade TanStack Table to v8
+- Migrate Jest to Vitest
 - Setup Turborepo for monorepo
 - Setup GitHub Actions for CI/CD
 

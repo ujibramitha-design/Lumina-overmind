@@ -72,18 +72,20 @@ Lumina Overmind is an AI-assisted real-estate intelligence and operations platfo
 
 ## Recommended Reading Order
 
-1. `docs/ARCHITECTURE.md`
-2. `docs/MODULE_MATRIX.md`
-3. `docs/IMPLEMENTATION_GUIDE.md`
-4. `docs/API_CONTRACTS.md`
-5. `docs/UI_SYSTEM.md`
-6. `docs/RUNBOOK.md`
-7. `docs/DEPLOYMENT_CHECKLIST.md` - For deployment preparation
-8. Existing docs for deeper areas:
-   - `README.md`
-   - `dashboard/README_SETUP.md`
-   - `dashboard/DASHBOARD_AUDIT_REPORT.md`
-   - `api` documentation files
+1. `laporan_komprehensif_final.md` - **NEW** - Comprehensive analysis of all features, new ideas, and implementation status
+2. `ARCHITECTURE.md` - System architecture and tech stack
+3. `MODULE_MATRIX.md` - Module classification and implementation status
+4. `IMPLEMENTATION_GUIDE.md` - Implementation guidelines
+5. `API_CONTRACTS.md` - API contracts and data models
+6. `UI_SYSTEM.md` - UI system and design guidelines
+7. `RUNBOOK.md` - Operational runbook
+8. `DEPLOYMENT_CHECKLIST.md` - For deployment preparation
+9. `ROADMAP.md` - Implementation roadmap with phases
+10. Existing docs for deeper areas:
+    - `README.md`
+    - `dashboard/README_SETUP.md`
+    - `dashboard/DASHBOARD_AUDIT_REPORT.md`
+    - `api` documentation files
 
 ## Working Rules
 
