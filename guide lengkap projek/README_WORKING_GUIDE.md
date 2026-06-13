@@ -106,6 +106,24 @@ Lumina Overmind is an AI-assisted real-estate intelligence and operations platfo
 3. When creating new framework → Add to "guide lengkap projek" and update README_WORKING_GUIDE.md
 4. Always refer to "guide lengkap projek" as the primary source of truth
 
+## Progress Tracking Rule
+
+**CRITICAL**: When working through checklists, roadmaps, or any action items:
+- Always mark completed items as ✅ (completed)
+- Never delete completed items - keep them for tracking history
+- Mark incomplete items as ⬜ (not started) or ⏳ (in progress)
+- This ensures:
+  - Progress visibility at all times
+  - Historical tracking of what has been done
+  - Ability to resume work from where left off
+  - Audit trail of completed tasks
+
+**Format**:
+- ✅ Item completed
+- ⏳ Item in progress
+- ⬜ Item not started
+- ❌ Item blocked/cannot be completed
+
 ## Known Current Blockers
 
 - Build still fails on `/api/leads` because the SQLite schema state does not match route expectations.
