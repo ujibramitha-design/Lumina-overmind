@@ -1,20 +1,50 @@
 # Add File - Documentation Archive
 
-This folder contains archived documentation files organized in a single consolidated location.
+This folder contains archived documentation files organized by category.
 
 ## Folder Structure
 
 ### **docs/**
-All documentation files consolidated into one folder:
-- **API Documentation**: README_API.md, [MIGRATION_NEEDED]API.md, [MIGRATION_NEEDED]API_DOCUMENTATION.md, [MIGRATION_NEEDED]INBOX_API_DOCUMENTATION.md
-- **Authentication**: [MIGRATION_NEEDED]AUTHENTICATION_DOCUMENTATION.md, [MIGRATION_NEEDED]LOGIN_PAGE_DOCUMENTATION.md
-- **Backend Services**: [MIGRATION_NEEDED]BACKGROUND_SERVICES_DOCUMENTATION.md, [MIGRATION_NEEDED]MIDDLEWARE_DOCUMENTATION.md
-- **Database**: Schema, query, data, monitoring, security, and lock documentation (schema-*.md, query-*.md, data-*.md, monitor-*.md, security-*.md, lock-*.md), [MIGRATION_NEEDED]DATABASE_LAYER_MAPPING.md
-- **Frontend**: 3D graphics (BezierMesh.md), React examples (bindExample.md, connectExample.md, createDerivedMaterial.md)
-- **Integration**: Webhook integration (archidep_webhook_integration.md), CDN configuration (cdn.md), Streaming (streaming.md), [MIGRATION_NEEDED]WEBHOOK_DOCUMENTATION.md, [MIGRATION_NEEDED]WHATSAPP_GATEWAY_DOCUMENTATION.md, [MIGRATION_NEEDED]WORKFLOW_DOCUMENTATION.md
-- **Reports**: [MIGRATION_NEEDED]DASHBOARD_AUDIT_REPORT.md, [MIGRATION_NEEDED]EXECUTIVE_PRODUCT_BLUEPRINT.md, [MIGRATION_NEEDED]SYSTEM_DIAGNOSTIC_REPORT.md, FINAL_AUDIT_REPORT.md, LUMINA_OS_MASTER_DOCUMENTATION.md, CHANGELOG.md
-- **General Docs**: TypeScript/ESLint rules, accessibility guidelines, contributing guides, deployment guides, governance documentation, legal compliance, README files, and various development guides
-- **Migration Files**: All files with [MIGRATION_NEEDED] prefix, migration reference files (FILES_TO_DELETE.txt, FILES_TO_KEEP_CRITICAL.txt)
+Main documentation folder with categorized subfolders:
+
+#### **database/** (9 files)
+Database schema, queries, monitoring, and security documentation
+- Schema documentation (caching_sha2_password.md)
+- Data operations (data-batch-inserts.md, data-n-plus-one.md, data-pagination.md, data-upsert.md)
+- Monitoring (monitor-explain-analyze.md, monitor-pg-stat-statements.md, monitor-vacuum-analyze.md)
+- Query optimization (query-composite-indexes.md, query-covering-indexes.md, query-index-types.md, query-missing-indexes.md, query-partial-indexes.md)
+- Security (security-privileges.md, security-rls-basics.md, security-rls-performance.md)
+
+#### **frontend/** (4 files)
+Frontend components and UI documentation
+- 3D graphics (BezierMesh.md)
+- React examples (bindExample.md, connectExample.md, createDerivedMaterial.md)
+
+#### **guides/** (8 files)
+General documentation and guides
+- Contributing guides (CONTRIBUTING.md)
+- Commercial package documentation (COMMERCIAL_PACKAGE_README.md)
+- Common issues (Common-issues.md)
+- README files (README-DEVSECOPS.md, README-es.md, README_FASE3_CLOSER.md)
+- Legal compliance (legal_compliance.md)
+- Development guides (fp.md, lang.md, prompt_instructions.md, quotes.md)
+
+#### **integration/** (2 files)
+Third-party integrations
+- Webhook integration (archidep_webhook_integration.md)
+- CDN configuration (cdn.md)
+- Streaming (streaming.md)
+
+#### **migration/** (62 files)
+Files marked for tech stack migration
+- All files with [MIGRATION_NEEDED] prefix (API, authentication, backend, database, frontend, integration, reports)
+- Migration reference files (FILES_TO_DELETE.txt, FILES_TO_KEEP_CRITICAL.txt)
+- TypeScript/ESLint rule documentation
+
+#### **typescript/** (4 files)
+TypeScript and ESLint configuration
+- TypeScript rules (ban-ts-comment.md, ban-tslint-comment.md, ban-types.md)
+- Accessibility guidelines (click-events-have-key-events.md)
 
 ## Migration Notes
 
