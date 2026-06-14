@@ -430,6 +430,14 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Policy engine router not available: {e}")
 
+# Data privacy router
+try:
+    from api.endpoints.data_privacy import router as data_privacy_router
+    app.include_router(data_privacy_router)
+    logger.info("✅ Data privacy router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Data privacy router not available: {e}")
+
 # Add license middleware - Temporarily disabled for testing
 # try:
 #     from api.middleware.license_middleware import LicenseMiddleware
