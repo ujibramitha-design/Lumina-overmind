@@ -104,19 +104,21 @@ export default function InboxPage() {
                     />
                   </div>
                   <div className="flex gap-3">
-                    <Button className="h-12 flex-1 bg-emerald-500 text-black hover:bg-emerald-400">
+                    <Button className="h-12 flex-1 bg-emerald-500 text-black hover:bg-emerald-400" aria-label="Approve and send message">
                       <Send className="mr-2 h-4 w-4" />
                       Approve & send
                     </Button>
                     <Button
                       variant="outline"
                       className="h-12 border-zinc-700 bg-zinc-900 text-zinc-100 hover:bg-zinc-800"
+                      aria-label="Shorten message"
                     >
                       Shorten
                     </Button>
                     <Button
                       variant="outline"
                       className="h-12 border-zinc-700 bg-zinc-900 text-zinc-100 hover:bg-zinc-800"
+                      aria-label="Soften message tone"
                     >
                       Soften
                     </Button>
@@ -154,6 +156,7 @@ export default function InboxPage() {
                     <Button
                       variant="outline"
                       className="w-full justify-start border-zinc-700 bg-black/35 text-zinc-100 hover:bg-zinc-800"
+                      aria-label="Make message shorter"
                     >
                       <Sparkles className="mr-2 h-4 w-4 text-emerald-400" />
                       Make shorter
@@ -161,6 +164,7 @@ export default function InboxPage() {
                     <Button
                       variant="outline"
                       className="w-full justify-start border-zinc-700 bg-black/35 text-zinc-100 hover:bg-zinc-800"
+                      aria-label="Make message tone softer"
                     >
                       <MessageCircle className="mr-2 h-4 w-4 text-emerald-400" />
                       Make softer

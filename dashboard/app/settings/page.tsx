@@ -64,6 +64,7 @@ export default function SettingsPage() {
                     <Button
                       variant="outline"
                       className="w-full justify-start border-red-500/30 bg-red-500/5 text-red-300 hover:bg-red-500/10"
+                      aria-label="Purge system cache"
                     >
                       <RefreshCw className="mr-2 h-4 w-4" />
                       Purge cache
@@ -71,6 +72,7 @@ export default function SettingsPage() {
                     <Button
                       variant="outline"
                       className="w-full justify-start border-red-500/30 bg-red-500/5 text-red-300 hover:bg-red-500/10"
+                      aria-label="Reset database to initial state"
                     >
                       <Database className="mr-2 h-4 w-4" />
                       Reset database
@@ -84,7 +86,7 @@ export default function SettingsPage() {
                     <CardTitle className="text-xl text-zinc-100">Publish configuration</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <Button className="w-full bg-emerald-500 text-black hover:bg-emerald-400">
+                    <Button className="w-full bg-emerald-500 text-black hover:bg-emerald-400" aria-label="Deploy new AI configuration">
                       <Zap className="mr-2 h-4 w-4" />
                       Deploy new AI config
                     </Button>

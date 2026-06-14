@@ -1,12 +1,13 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Sidebar } from '@/components/Sidebar'
 import TopHeader from '@/components/TopHeader'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
+import { Skeleton } from '@/components/ui/skeleton'
 import { Plus, Search, Filter, Phone, MapPin, TrendingUp } from 'lucide-react'
 
 const leads = [
@@ -47,6 +48,13 @@ const leads = [
 
 export default function LeadsPage() {
   const [query, setQuery] = useState('')
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 1000)
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.12),transparent_35%),linear-gradient(180deg,#020617_0%,#000_100%)] text-zinc-100">
       <div className="flex min-h-screen">
@@ -85,57 +93,83 @@ export default function LeadsPage() {
                 </div>
 
                 <div className="space-y-3">
-                  {leads
-                    .filter(
-                      l =>
-                        l.business_name.toLowerCase().includes(query.toLowerCase()) ||
-                        l.location.toLowerCase().includes(query.toLowerCase())
-                    )
-                    .map(lead => (
-                      <Card key={lead.id} className="border-zinc-800 bg-black/35">
+                  {isLoading ? (
+                    // Loading skeletons
+                    Array.from({ length: 3 }).map((_, i) => (
+                      <Card key={i} className="border-zinc-800 bg-black/35">
                         <CardContent className="flex items-center justify-between p-4">
                           <div className="flex items-center gap-4">
-                            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500/10 text-emerald-400">
-                              <Phone className="h-5 w-5" />
-                            </div>
-                            <div>
-                              <div className="font-medium text-zinc-100">{lead.business_name}</div>
-                              <div className="flex items-center gap-3 text-sm text-zinc-500">
-                                <span className="flex items-center gap-1">
-                                  <MapPin className="h-3 w-3" />
-                                  {lead.location}
-                                </span>
-                                <span>•</span>
-                                <span>{lead.source}</span>
-                              </div>
+                            <Skeleton className="h-12 w-12 rounded-full" />
+                            <div className="space-y-2">
+                              <Skeleton className="h-5 w-40 rounded" />
+                              <Skeleton className="h-4 w-32 rounded" />
                             </div>
                           </div>
                           <div className="flex items-center gap-4">
-                            <div className="text-right">
-                              <div className="flex items-center gap-2 text-emerald-400">
-                                <TrendingUp className="h-4 w-4" />
-                                {lead.score}
-                              </div>
-                              <div className="text-xs text-zinc-500">{lead.date}</div>
+                            <div className="text-right space-y-2">
+                              <Skeleton className="h-5 w-16 rounded" />
+                              <Skeleton className="h-4 w-20 rounded" />
                             </div>
-                            <Badge
-                              className={
-                                lead.status === 'Hot'
-                                  ? 'bg-red-500/15 text-red-300'
-                                  : lead.status === 'Warm'
-                                  ? 'bg-amber-500/15 text-amber-300'
-                                  : 'bg-zinc-800 text-zinc-300'
-                              }
-                            >
-                              {lead.status}
-                            </Badge>
-                            <Button variant="outline" size="sm" className="border-zinc-700 bg-zinc-900 text-zinc-100">
-                              View
-                            </Button>
+                            <Skeleton className="h-6 w-16 rounded" />
+                            <Skeleton className="h-8 w-16 rounded" />
                           </div>
                         </CardContent>
                       </Card>
-                    ))}
+                    ))
+                  ) : (
+                    // Actual content
+                    leads
+                      .filter(
+                        l =>
+                          l.business_name.toLowerCase().includes(query.toLowerCase()) ||
+                          l.location.toLowerCase().includes(query.toLowerCase())
+                      )
+                      .map(lead => (
+                        <Card key={lead.id} className="border-zinc-800 bg-black/35">
+                          <CardContent className="flex items-center justify-between p-4">
+                            <div className="flex items-center gap-4">
+                              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500/10 text-emerald-400">
+                                <Phone className="h-5 w-5" />
+                              </div>
+                              <div>
+                                <div className="font-medium text-zinc-100">{lead.business_name}</div>
+                                <div className="flex items-center gap-3 text-sm text-zinc-500">
+                                  <span className="flex items-center gap-1">
+                                    <MapPin className="h-3 w-3" />
+                                    {lead.location}
+                                  </span>
+                                  <span>•</span>
+                                  <span>{lead.source}</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="flex items-center gap-4">
+                              <div className="text-right">
+                                <div className="flex items-center gap-2 text-emerald-400">
+                                  <TrendingUp className="h-4 w-4" />
+                                  {lead.score}
+                                </div>
+                                <div className="text-xs text-zinc-500">{lead.date}</div>
+                              </div>
+                              <Badge
+                                className={
+                                  lead.status === 'Hot'
+                                    ? 'bg-red-500/15 text-red-300'
+                                    : lead.status === 'Warm'
+                                    ? 'bg-amber-500/15 text-amber-300'
+                                    : 'bg-zinc-800 text-zinc-300'
+                                }
+                              >
+                                {lead.status}
+                              </Badge>
+                              <Button variant="outline" size="sm" className="border-zinc-700 bg-zinc-900 text-zinc-100" aria-label={`View details for ${lead.business_name}`}>
+                                View
+                              </Button>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      ))
+                  )}
                 </div>
               </CardContent>
             </Card>

@@ -608,29 +608,152 @@ export default function AdsApprovalPage() {
               </div>
 
               <div className="flex gap-2 pt-4 border-t border-slate-700">
-                <Button
-                  className="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white"
-                  onClick={() => {
-                    setShowDetailsModal(false)
-                    handleApprove(selectedProposal.id)
-                  }}
-                >
-                  <CheckCircle className="h-4 w-4 mr-2" />
-                  Approve & Launch
-                </Button>
+                {selectedProposal.status === 'PENDING' && (
+                  <>
+                    <Button
+                      className="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white"
+                      onClick={() => {
+                        setShowDetailsModal(false)
+                        handleApprove(selectedProposal.id)
+                      }}
+                    >
+                      <CheckCircle className="h-4 w-4 mr-2" />
+                      Approve
+                    </Button>
 
-                <Button
-                  variant="outline"
-                  className="flex-1 border-red-500/50 text-red-400 hover:bg-red-500/20"
-                  onClick={() => {
-                    setShowDetailsModal(false)
-                    handleReject(selectedProposal.id)
-                  }}
-                >
-                  <XCircle className="h-4 w-4 mr-2" />
-                  Reject
-                </Button>
+                    <Button
+                      variant="outline"
+                      className="flex-1 border-red-500/50 text-red-400 hover:bg-red-500/20"
+                      onClick={() => {
+                        setShowDetailsModal(false)
+                        handleReject(selectedProposal.id)
+                      }}
+                    >
+                      <XCircle className="h-4 w-4 mr-2" />
+                      Reject
+                    </Button>
+                  </>
+                )}
+
+                {selectedProposal.status === 'APPROVED' && (
+                  <>
+                    <Button
+                      className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                      onClick={() => {
+                        setShowDetailsModal(false)
+                        handleLaunch(selectedProposal.id)
+                      }}
+                    >
+                      <Play className="h-4 w-4 mr-2" />
+                      Launch
+                    </Button>
+
+                    <Button
+                      variant="outline"
+                      className="flex-1 border-slate-600 text-slate-300 hover:bg-slate-800"
+                      onClick={() => {
+                        setShowDetailsModal(false)
+                        setShowReviseModal(true)
+                      }}
+                    >
+                      <Edit3 className="h-4 w-4 mr-2" />
+                      Revise
+                    </Button>
+                  </>
+                )}
+
+                {selectedProposal.status === 'LAUNCHED' && (
+                  <>
+                    <Button
+                      variant="outline"
+                      className="flex-1 border-yellow-500/50 text-yellow-400 hover:bg-yellow-500/20"
+                      onClick={() => {
+                        setShowDetailsModal(false)
+                        handlePause(selectedProposal.id)
+                      }}
+                    >
+                      <Pause className="h-4 w-4 mr-2" />
+                      Pause
+                    </Button>
+
+                    <Button
+                      variant="outline"
+                      className="flex-1 border-slate-600 text-slate-300 hover:bg-slate-800"
+                      onClick={() => setShowDetailsModal(false)}
+                    >
+                      Close
+                    </Button>
+                  </>
+                )}
               </div>
+
+              {/* Launch Tracking */}
+              {selectedProposal.status === 'LAUNCHED' && selectedProposal.metrics && (
+                <div className="mt-6 pt-6 border-t border-slate-700">
+                  <h4 className="text-white font-medium mb-4 flex items-center gap-2">
+                    <TrendingUp className="h-4 w-4 text-emerald-400" />
+                    Launch Tracking & Metrics
+                  </h4>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">Impressions</p>
+                      <p className="text-white font-semibold">{selectedProposal.metrics.impressions.toLocaleString()}</p>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">Clicks</p>
+                      <p className="text-white font-semibold">{selectedProposal.metrics.clicks.toLocaleString()}</p>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">Conversions</p>
+                      <p className="text-white font-semibold">{selectedProposal.metrics.conversions.toLocaleString()}</p>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">CTR</p>
+                      <p className="text-emerald-400 font-semibold">{selectedProposal.metrics.ctr.toFixed(2)}%</p>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">Cost/Conv</p>
+                      <p className="text-white font-semibold">{formatCurrency(selectedProposal.metrics.costPerConversion)}</p>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">Spent</p>
+                      <p className="text-white font-semibold">{formatCurrency(selectedProposal.metrics.spent)}</p>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">Start Date</p>
+                      <p className="text-white font-semibold text-sm">{new Date(selectedProposal.metrics.startDate).toLocaleDateString()}</p>
+                    </div>
+                    <div className="bg-slate-800 rounded-lg p-3">
+                      <p className="text-gray-400 text-xs">End Date</p>
+                      <p className="text-white font-semibold text-sm">
+                        {selectedProposal.metrics.endDate ? new Date(selectedProposal.metrics.endDate).toLocaleDateString() : 'Active'}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Revision History */}
+              {selectedProposal.revisions && selectedProposal.revisions.length > 0 && (
+                <div className="mt-6 pt-6 border-t border-slate-700">
+                  <h4 className="text-white font-medium mb-4 flex items-center gap-2">
+                    <Edit3 className="h-4 w-4 text-blue-400" />
+                    Revision History
+                  </h4>
+                  <div className="space-y-3">
+                    {selectedProposal.revisions.map((revision, index) => (
+                      <div key={revision.id} className="bg-slate-800 rounded-lg p-3">
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="text-white font-medium text-sm">Revision #{index + 1}</span>
+                          <span className="text-gray-400 text-xs">{new Date(revision.createdAt).toLocaleString()}</span>
+                        </div>
+                        <p className="text-gray-300 text-sm">{revision.instructions}</p>
+                        <p className="text-gray-500 text-xs mt-1">By: {revision.createdBy}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </CardContent>
           </Card>
         </div>

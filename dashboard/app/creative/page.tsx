@@ -142,6 +142,7 @@ export default function CreativePage() {
           <Button
             onClick={handleGenerateNew}
             className="bg-emerald-600 hover:bg-emerald-500 text-white font-medium px-6 py-3 transition-colors"
+            aria-label="Generate new marketing brochure"
           >
             Generate New Brochure
           </Button>
@@ -216,6 +217,7 @@ export default function CreativePage() {
                   size="sm"
                   onClick={() => handleDownload(asset.id)}
                   className="flex-1 border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-white transition-colors"
+                  aria-label={`Download ${asset.title}`}
                 >
                   <Download className="h-4 w-4 mr-2" />
                   Download
@@ -227,6 +229,7 @@ export default function CreativePage() {
                     size="sm"
                     onClick={() => handleDeploy(asset.id)}
                     className="flex-1 border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-white transition-colors"
+                    aria-label={`Deploy ${asset.title} to ads`}
                   >
                     <ArrowRight className="h-4 w-4 mr-2" />
                     Deploy

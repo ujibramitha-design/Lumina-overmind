@@ -7,6 +7,7 @@ import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { useIsAdmin } from '@/lib/store'
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
+import { useMobileMenu } from '@/lib/mobile-menu-context'
 import {
   ChevronDown,
   ChevronRight,
@@ -166,6 +167,7 @@ export function Sidebar({ className, collapsed = false, onCollapse }: SidebarPro
   const pathname = usePathname()
   const isAdmin = useIsAdmin()
   const [openItems, setOpenItems] = useState<Set<string>>(new Set(['🔍 Intelligence Hub']))
+  const { isMobileMenuOpen, setIsMobileMenuOpen } = useMobileMenu()
 
   const toggleItem = (title: string) => {
     const newOpenItems = new Set(openItems)
@@ -290,13 +292,25 @@ export function Sidebar({ className, collapsed = false, onCollapse }: SidebarPro
   }
 
   return (
-    <div
-      className={cn(
-        'flex flex-col h-full bg-zinc-950 border-r border-zinc-800 transition-all duration-300',
-        collapsed ? 'w-16' : 'w-64',
-        className
+    <>
+      {/* Mobile Overlay */}
+      {isMobileOpen && (
+        <div
+          className="fixed inset-0 bg-black/50 z-40 xl:hidden"
+          onClick={() => setIsMobileOpen(false)}
+          aria-label="Close sidebar"
+        />
       )}
-    >
+      
+      {/* Sidebar */}
+      <div
+        className={cn(
+          'flex flex-col h-full bg-zinc-950 border-r border-zinc-800 transition-all duration-300 fixed xl:relative z-50',
+          collapsed ? 'w-16' : 'w-64',
+          isMobileOpen ? 'translate-x-0' : '-translate-x-full xl:translate-x-0',
+          className
+        )}
+      >
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-zinc-800">
         {!collapsed && (
@@ -310,11 +324,15 @@ export function Sidebar({ className, collapsed = false, onCollapse }: SidebarPro
         <Button
           variant="ghost"
           size="sm"
-          onClick={onCollapse}
+          onClick={() => {
+            onCollapse?.()
+            setIsMobileOpen(false)
+          }}
           className={cn(
             'text-zinc-400 hover:text-emerald-500 hover:bg-zinc-900 transition-colors',
             collapsed && 'mx-auto'
           )}
+          aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
         >
           {collapsed ? <Menu className="h-4 w-4" /> : <X className="h-4 w-4" />}
         </Button>
@@ -341,6 +359,7 @@ export function Sidebar({ className, collapsed = false, onCollapse }: SidebarPro
         )}
       </div>
     </div>
+    </>
   )
 }
 

@@ -1,0 +1,41 @@
+module.exports = {
+  apps: [
+    {
+      name: 'lumina-app',
+      script: './api/main.py',
+      interpreter: 'python',
+      cwd: './',
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '1G',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 8000,
+      },
+      error_file: './logs/lumina-error.log',
+      out_file: './logs/lumina-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+      merge_logs: true,
+    },
+    {
+      name: 'jarvis-app',
+      script: './jarvis-system/index.js',
+      interpreter: 'node',
+      cwd: './',
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '500M',
+      env: {
+        NODE_ENV: 'production',
+        JARVIS_PORT: 3001,
+        LUMINA_API_URL: 'http://localhost:8000',
+      },
+      error_file: './logs/jarvis-error.log',
+      out_file: './logs/jarvis-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+      merge_logs: true,
+    },
+  ],
+};

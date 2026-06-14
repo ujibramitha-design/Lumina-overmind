@@ -100,11 +100,11 @@ export default function GrowthPage() {
                         <div className="text-right text-xs text-zinc-400">{c.leads} leads</div>
                       </div>
                       <div className="mt-3 flex gap-2">
-                        <Button variant="outline" size="sm" className="border-zinc-700 bg-zinc-900 text-zinc-100">
+                        <Button variant="outline" size="sm" className="border-zinc-700 bg-zinc-900 text-zinc-100" aria-label={`Pause ${c.name} campaign`}>
                           <Pause className="mr-2 h-3 w-3" />
                           Pause
                         </Button>
-                        <Button variant="outline" size="sm" className="border-zinc-700 bg-zinc-900 text-zinc-100">
+                        <Button variant="outline" size="sm" className="border-zinc-700 bg-zinc-900 text-zinc-100" aria-label={`Resume ${c.name} campaign`}>
                           <Play className="mr-2 h-3 w-3" />
                           Resume
                         </Button>

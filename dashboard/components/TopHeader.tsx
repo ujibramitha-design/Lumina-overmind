@@ -16,12 +16,14 @@ import {
   Crown,
   Shield,
   Building,
+  Menu,
 } from 'lucide-react'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
 import { useProjects, getProjectThemeColors } from '@/lib/store/projectStore'
+import { useMobileMenu } from '@/lib/mobile-menu-context'
 
 interface Notification {
   id: string
@@ -58,6 +60,7 @@ const TopHeader: React.FC = () => {
   const [isSearching, setIsSearching] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const [projectDropdownOpen, setProjectDropdownOpen] = useState(false)
+  const { isMobileMenuOpen, toggleMobileMenu } = useMobileMenu()
 
   const notificationRef = useRef<HTMLDivElement>(null)
   const searchRef = useRef<HTMLDivElement>(null)
@@ -216,6 +219,16 @@ const TopHeader: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800">
       <div className="flex items-center justify-between px-6 py-3">
+        {/* Mobile Menu Button */}
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={toggleMobileMenu}
+          className="xl:hidden mr-4 p-2"
+          aria-label="Toggle mobile menu"
+        >
+          <Menu className="h-5 w-5 text-zinc-300" />
+        </Button>
         {/* Project Switcher */}
         <div className="relative mr-6" ref={projectDropdownRef}>
           <Button

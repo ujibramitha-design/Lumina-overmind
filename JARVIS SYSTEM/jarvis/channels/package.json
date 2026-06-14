@@ -1,0 +1,28 @@
+{
+  "name": "jarvis-channels",
+  "version": "1.0.0",
+  "description": "JARVIS Communication Channels - WhatsApp, Telegram, WebSocket",
+  "main": "hub.js",
+  "scripts": {
+    "start": "node hub.js",
+    "dev": "node hub.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "jarvis",
+    "ai",
+    "whatsapp",
+    "telegram",
+    "websocket"
+  ],
+  "author": "Lumina Overmind",
+  "license": "MIT"
+}

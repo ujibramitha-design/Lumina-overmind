@@ -1,0 +1,98 @@
+version: '3.8'
+
+services:
+  # JARVIS Communication Hub (WhatsApp + Telegram)
+  jarvis-hub:
+    build:
+      context: ./channels
+      dockerfile: Dockerfile
+    container_name: jarvis-hub
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - JARVIS_WHATSAPP_ENABLED=true
+      - JARVIS_TELEGRAM_ENABLED=true
+      - JARVIS_TELEGRAM_BOT_TOKEN=${JARVIS_TELEGRAM_BOT_TOKEN}
+      - JARVIS_SERVICE_TOKEN=${JARVIS_SERVICE_TOKEN}
+      - JARVIS_HEALTH_CHECK_PORT=3001
+    volumes:
+      - ./data/sessions:/app/jarvis/data/sessions
+      - ./logs:/app/logs
+    ports:
+      - "3001:3001"
+    networks:
+      - jarvis-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # JARVIS Python Backend (Health Monitor, Memory Pruning, Terminal Executor)
+  jarvis-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.jarvis
+    container_name: jarvis-backend
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - JARVIS_SERVICE_TOKEN=${JARVIS_SERVICE_TOKEN}
+      - JARVIS_MEMORY_DB_PATH=/app/jarvis/data/jarvis_memory.db
+      - JARVIS_CODE_INDEX_PATH=/app/jarvis/data/code_index
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./data:/app/jarvis/data
+      - ./logs:/app/logs
+      - ./jarvis:/app/jarvis
+    depends_on:
+      - redis
+    networks:
+      - jarvis-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/api/jarvis-mobile/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Redis for caching and session management
+  redis:
+    image: redis:7-alpine
+    container_name: jarvis-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - redis-data:/data
+    networks:
+      - jarvis-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # Nginx reverse proxy (optional, for production)
+  nginx:
+    image: nginx:alpine
+    container_name: jarvis-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - jarvis-hub
+      - jarvis-backend
+    networks:
+      - jarvis-network
+
+networks:
+  jarvis-network:
+    driver: bridge
+
+volumes:
+  redis-data:

@@ -1,12 +1,13 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Sidebar } from '@/components/Sidebar'
 import TopHeader from '@/components/TopHeader'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Badge } from '@/components/ui/badge'
+import { Skeleton } from '@/components/ui/skeleton'
 import { Plus, Building2, Crown, Shield, Search, Filter } from 'lucide-react'
 
 const projects = [
@@ -44,6 +45,14 @@ const projects = [
 
 export default function ProjectsPage() {
   const [query, setQuery] = useState('')
+  const [isLoading, setIsLoading] = useState(true)
+
+  // Simulate loading
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 1000)
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(16,185,129,0.12),transparent_35%),linear-gradient(180deg,#020617_0%,#000_100%)] text-zinc-100">
       <div className="flex min-h-screen">
@@ -82,50 +91,78 @@ export default function ProjectsPage() {
                 </div>
 
                 <div className="grid gap-4 xl:grid-cols-3">
-                  {projects
-                    .filter(
-                      p =>
-                        p.name.toLowerCase().includes(query.toLowerCase()) ||
-                        p.location.toLowerCase().includes(query.toLowerCase())
-                    )
-                    .map(project => (
-                      <Card key={project.id} className="border-zinc-800 bg-black/35">
+                  {isLoading ? (
+                    // Loading skeletons
+                    Array.from({ length: 3 }).map((_, i) => (
+                      <Card key={i} className="border-zinc-800 bg-black/35">
                         <CardHeader>
                           <div className="flex items-start justify-between gap-3">
                             <div className="flex items-center gap-2">
-                              {project.type === 'KOMERSIL' ? (
-                                <Crown className="h-4 w-4 text-yellow-400" />
-                              ) : (
-                                <Shield className="h-4 w-4 text-sky-400" />
-                              )}
-                              <CardTitle className="text-lg text-zinc-100">{project.name}</CardTitle>
+                              <Skeleton className="h-4 w-4 rounded" />
+                              <Skeleton className="h-5 w-32 rounded" />
                             </div>
-                            <Badge className="bg-emerald-500/15 text-emerald-300">
-                              {project.active ? 'Active' : 'Paused'}
-                            </Badge>
+                            <Skeleton className="h-6 w-16 rounded" />
                           </div>
-                          <CardDescription className="text-zinc-500">
-                            {project.location} • {project.type}
-                          </CardDescription>
+                          <Skeleton className="h-4 w-24 rounded mt-2" />
                         </CardHeader>
                         <CardContent className="space-y-3">
-                          <div className="text-sm text-zinc-400">Starting price</div>
-                          <div className="text-zinc-100">{project.price}</div>
-                          <div className="flex items-center justify-between border-t border-zinc-800 pt-3 text-sm text-zinc-400">
-                            <span>
-                              <span className="text-emerald-400">{project.leads}</span> leads
-                            </span>
-                            <span>
-                              <span className="text-amber-400">{project.hot}</span> hot
-                            </span>
+                          <Skeleton className="h-4 w-20 rounded" />
+                          <Skeleton className="h-6 w-32 rounded" />
+                          <div className="flex items-center justify-between border-t border-zinc-800 pt-3">
+                            <Skeleton className="h-4 w-16 rounded" />
+                            <Skeleton className="h-4 w-12 rounded" />
                           </div>
-                          <Button variant="outline" className="w-full border-zinc-700 bg-zinc-900 text-zinc-100">
-                            <Building2 className="mr-2 h-4 w-4" />
-                            View details
-                          </Button>
+                          <Skeleton className="h-10 w-full rounded" />
                         </CardContent>
                       </Card>
-                    ))}
+                    ))
+                  ) : (
+                    // Actual content
+                    projects
+                      .filter(
+                        p =>
+                          p.name.toLowerCase().includes(query.toLowerCase()) ||
+                          p.location.toLowerCase().includes(query.toLowerCase())
+                      )
+                      .map(project => (
+                        <Card key={project.id} className="border-zinc-800 bg-black/35">
+                          <CardHeader>
+                            <div className="flex items-start justify-between gap-3">
+                              <div className="flex items-center gap-2">
+                                {project.type === 'KOMERSIL' ? (
+                                  <Crown className="h-4 w-4 text-yellow-400" />
+                                ) : (
+                                  <Shield className="h-4 w-4 text-sky-400" />
+                                )}
+                                <CardTitle className="text-lg text-zinc-100">{project.name}</CardTitle>
+                              </div>
+                              <Badge className="bg-emerald-500/15 text-emerald-300">
+                                {project.active ? 'Active' : 'Paused'}
+                              </Badge>
+                            </div>
+                            <CardDescription className="text-zinc-500">
+                              {project.location} • {project.type}
+                            </CardDescription>
+                          </CardHeader>
+                          <CardContent className="space-y-3">
+                            <div className="text-sm text-zinc-400">Starting price</div>
+                            <div className="text-zinc-100">{project.price}</div>
+                            <div className="flex items-center justify-between border-t border-zinc-800 pt-3 text-sm text-zinc-400">
+                              <span>
+                                <span className="text-emerald-400">{project.leads}</span> leads
+                              </span>
+                              <span>
+                                <span className="text-amber-400">{project.hot}</span> hot
+                              </span>
+                            </div>
+                            <Button variant="outline" className="w-full border-zinc-700 bg-zinc-900 text-zinc-100" aria-label={`View details for ${project.name}`}>
+                              <Building2 className="mr-2 h-4 w-4" />
+                              View details
+                            </Button>
+                          </CardContent>
+                        </Card>
+                      ))
+                  )}
                 </div>
               </CardContent>
             </Card>

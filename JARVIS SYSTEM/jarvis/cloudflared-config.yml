@@ -1,0 +1,69 @@
+# Cloudflare Tunnel Configuration for JARVIS
+# ===========================================
+# 
+# This configuration exposes JARVIS services to the internet
+# securely without needing port forwarding or public IP
+
+tunnel: <TUNNEL_ID>  # Replace with your tunnel ID from Cloudflare dashboard
+credentials-file: /root/.cloudflared/<TUNNEL_ID>.json
+
+# ingress rules for routing traffic
+ingress:
+  # Telegram Webhook endpoint
+  - hostname: jarvis.yourdomain.com
+    service: http://localhost:3000/telegram-webhook
+    originRequest:
+      noTLSVerify: true
+  
+  # JARVIS Health Check endpoint
+  - hostname: jarvis.yourdomain.com
+    path: /health
+    service: http://localhost:3001/health
+    originRequest:
+      noTLSVerify: true
+  
+  # JARVIS Mobile API endpoints
+  - hostname: jarvis.yourdomain.com
+    path: /api/jarvis-mobile/*
+    service: http://localhost:8000/api/jarvis-mobile/
+    originRequest:
+      noTLSVerify: true
+  
+  # JARVIS WebSocket endpoint
+  - hostname: jarvis.yourdomain.com
+    path: /api/jarvis-mobile/ws
+    service: http://localhost:8000/api/jarvis-mobile/ws
+    originRequest:
+      noTLSVerify: true
+      http2Origin: true
+  
+  # Lumina Overmind Dashboard (optional)
+  - hostname: dashboard.yourdomain.com
+    service: http://localhost:3000
+    originRequest:
+      noTLSVerify: true
+  
+  # Lumina Overmind API (optional)
+  - hostname: api.yourdomain.com
+    service: http://localhost:8000
+    originRequest:
+      noTLSVerify: true
+  
+  # Catch-all rule (block all other traffic)
+  - service: http_status:404
+
+# Optional: Configure origin server settings
+originRequest:
+  connectTimeout: 30s
+  tlsTimeout: 10s
+  tcpKeepAlive: 30s
+  keepAliveConnections: 100
+  keepAliveTimeout: 90s
+  httpHostHeader: true
+
+# Optional: Configure log settings
+loglevel: info
+logfile: /var/log/cloudflared.log
+
+# Optional: Configure metrics
+metrics: 0.0.0.0:2000

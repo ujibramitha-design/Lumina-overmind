@@ -62,7 +62,7 @@ export default function WorkflowBuilderPage() {
                   <CardDescription className="text-zinc-400">Automation</CardDescription>
                   <CardTitle className="text-2xl text-zinc-100">AI workflow orchestrator</CardTitle>
                 </div>
-                <Button className="bg-emerald-500 text-black hover:bg-emerald-400">
+                <Button className="bg-emerald-500 text-black hover:bg-emerald-400" aria-label="Deploy current workflow">
                   <Play className="mr-2 h-4 w-4" />
                   Deploy workflow
                 </Button>

@@ -1,6 +1,8 @@
 'use client'
 
 import React, { useState, useEffect, useRef } from 'react'
+import VoiceWaveform from './VoiceWaveform'
+import TypingAnimation from './TypingAnimation'
 import {
   Brain,
   Mic,
@@ -30,6 +32,8 @@ interface JarvisMessage {
   content: string
   timestamp: string
   platform: string
+  isTyping?: boolean
+  confidence?: number
 }
 
 interface JarvisStatus {
@@ -160,6 +164,8 @@ export default function JarvisAssistant() {
           content: result.response,
           timestamp: result.timestamp,
           platform: result.platform,
+          isTyping: true,
+          confidence: result.confidence || Math.random() * 0.3 + 0.7, // Simulated confidence 70-100%
         }
 
         setMessages(prev => [...prev, jarvisMessage])
@@ -192,42 +198,16 @@ export default function JarvisAssistant() {
       return
     }
 
-    const SpeechRecognition = (window as any).webkitSpeechRecognition || (window as any).SpeechRecognition
-    const recognition = new SpeechRecognition()
+    setIsListening(true)
+  }
 
-    recognition.continuous = false
-    recognition.interimResults = false
-    recognition.lang = 'id-ID'
-
-    recognition.onstart = () => {
-      setIsListening(true)
-    }
-
-    recognition.onresult = (event: any) => {
-      const transcript = event.results[0][0].transcript
-      sendMessage(transcript, 'voice')
-    }
-
-    recognition.onerror = (event: any) => {
-      console.error('Speech recognition error:', event.error)
-      setIsListening(false)
-      toast({
-        title: 'Voice Recognition Error',
-        description: 'Failed to recognize speech. Please try again.',
-        variant: 'destructive',
-      })
-    }
-
-    recognition.onend = () => {
-      setIsListening(false)
-    }
-
-    recognition.start()
+  const handleVoiceTranscript = (transcript: string) => {
+    sendMessage(transcript, 'voice')
+    setIsListening(false)
   }
 
   const stopListening = () => {
     setIsListening(false)
-    // Speech recognition will stop automatically
   }
 
   const speakText = (text: string) => {
@@ -429,7 +409,21 @@ export default function JarvisAssistant() {
                       <span className="text-xs opacity-70">{message.type === 'user' ? 'You' : 'J.A.R.V.I.S.'}</span>
                       <span className="text-xs opacity-50">{new Date(message.timestamp).toLocaleTimeString()}</span>
                     </div>
-                    <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                    {message.type === 'jarvis' && message.isTyping ? (
+                      <TypingAnimation
+                        text={message.content}
+                        speed={20}
+                        onComplete={() => {
+                          setMessages(prev =>
+                            prev.map(msg =>
+                              msg.id === message.id ? { ...msg, isTyping: false } : msg
+                            )
+                          )
+                        }}
+                      />
+                    ) : (
+                      <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                    )}
                   </div>
                 </div>
               ))}
@@ -450,6 +444,17 @@ export default function JarvisAssistant() {
 
           {/* Input Area */}
           <div className="p-4 border-t border-slate-700">
+            {/* Voice Waveform */}
+            {isListening && (
+              <div className="mb-3">
+                <VoiceWaveform
+                  isRecording={isListening}
+                  onRecordingChange={setIsListening}
+                  onTranscript={handleVoiceTranscript}
+                />
+              </div>
+            )}
+
             {!isActive && (
               <Alert className="mb-3 bg-red-500/20 border-red-500/30">
                 <AlertCircle className="h-4 w-4" />

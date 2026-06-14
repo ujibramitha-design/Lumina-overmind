@@ -27,7 +27,7 @@ export default function PartnerPage() {
                     <CardDescription className="text-zinc-400">Network</CardDescription>
                     <CardTitle className="text-2xl text-zinc-100">Partner & broker directory</CardTitle>
                   </div>
-                  <Button className="bg-emerald-500 text-black hover:bg-emerald-400">
+                  <Button className="bg-emerald-500 text-black hover:bg-emerald-400" aria-label="Invite new partner">
                     <Plus className="mr-2 h-4 w-4" />
                     Invite partner
                   </Button>
@@ -78,7 +78,7 @@ export default function PartnerPage() {
                       Bronze
                     </Button>
                   </div>
-                  <Button className="w-full bg-emerald-500 text-black hover:bg-emerald-400">
+                  <Button className="w-full bg-emerald-500 text-black hover:bg-emerald-400" aria-label="Calculate commission based on deal value">
                     <Calculator className="mr-2 h-4 w-4" />
                     Calculate commission
                   </Button>

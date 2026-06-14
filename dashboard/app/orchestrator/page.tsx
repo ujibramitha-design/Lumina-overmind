@@ -20,12 +20,16 @@ import {
 } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Switch } from '@/components/ui/switch'
 import { Badge } from '@/components/ui/badge'
+import { Switch } from '@/components/ui/switch'
 import { useToast } from '@/hooks/use-toast'
 import { useWebSocket } from '@/hooks/useWebSocket'
+import { SystemControlSection } from '@/components/orchestrator/SystemControlSection'
+import { SystemMetricsSection } from '@/components/orchestrator/SystemMetricsSection'
+import { RunnerCard } from '@/components/orchestrator/RunnerCard'
+import { SystemStatusFooter } from '@/components/orchestrator/SystemStatusFooter'
 
-interface RunnerCard {
+interface RunnerCardData {
   id: string
   runnerId: string
   name: string
@@ -111,13 +115,14 @@ export default function SystemOrchestrator() {
     is_hunting: false,
     hunt_duration: 'Not active',
     last_status_check: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
   })
 
   const [isHunting, setIsHunting] = useState(false)
   const [systemControlLoading, setSystemControlLoading] = useState(false)
   const [systemError, setSystemError] = useState<string | null>(null)
 
-  const [runners, setRunners] = useState<RunnerCard[]>([
+  const [runners, setRunners] = useState<RunnerCardData[]>([
     {
       id: 'lead-gen',
       runnerId: 'lead_generation',
@@ -602,312 +607,33 @@ export default function SystemOrchestrator() {
       </div>
 
       {/* System Control Section */}
-      <div className="mb-8">
-        <div className="flex items-center gap-3 mb-4">
-          <Radio className="h-6 w-6 text-emerald-500" />
-          <h2 className="text-2xl font-bold text-zinc-100">System Control Interface</h2>
-        </div>
-        <p className="text-zinc-400 mb-6">Advanced control system for Lumina OS operations via Web Dashboard</p>
-
-        {/* System Status Overview */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-          <Card className="bg-zinc-950/50 border-zinc-800 backdrop-blur-sm">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-zinc-400">Lumina OS</CardTitle>
-              <Server className="h-4 w-4 text-emerald-500" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-lg font-bold text-emerald-500">{systemStatus.lumina_os}</div>
-              <p className="text-xs text-zinc-500 mt-1">Core System</p>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-zinc-950/50 border-zinc-800 backdrop-blur-sm">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-zinc-400">Database</CardTitle>
-              <Globe className="h-4 w-4 text-emerald-500" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-lg font-bold text-emerald-500">{systemStatus.database}</div>
-              <p className="text-xs text-zinc-500 mt-1">Cloud Storage</p>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-zinc-950/50 border-zinc-800 backdrop-blur-sm">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-zinc-400">Hunter Status</CardTitle>
-              <Activity className="h-4 w-4 text-emerald-500" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-lg font-bold text-emerald-500">{systemStatus.hunt_duration}</div>
-              <p className="text-xs text-zinc-500 mt-1">Mission Duration</p>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-zinc-950/50 border-zinc-800 backdrop-blur-sm">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-zinc-400">System Load</CardTitle>
-              <Cpu className="h-4 w-4 text-emerald-500" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-lg font-bold text-emerald-500">{systemStatus.cpu}</div>
-              <p className="text-xs text-zinc-500 mt-1">CPU Usage</p>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Control Buttons */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <Button
-            onClick={startHunter}
-            disabled={isHunting || systemControlLoading}
-            className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-6 px-8 text-lg border-emerald-500/50 backdrop-blur-sm transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            <div className="flex items-center gap-3">
-              {systemControlLoading ? <Loader2 className="h-5 w-5 animate-spin" /> : <Play className="h-5 w-5" />}
-              <span>INITIATE HUNTER PROTOCOL</span>
-            </div>
-          </Button>
-
-          <Button
-            onClick={stopHunter}
-            disabled={!isHunting || systemControlLoading}
-            variant="outline"
-            className="border-amber-500/50 text-amber-500 hover:bg-amber-500/10 font-bold py-6 px-8 text-lg backdrop-blur-sm transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            <div className="flex items-center gap-3">
-              {systemControlLoading ? <Loader2 className="h-5 w-5 animate-spin" /> : <Square className="h-5 w-5" />}
-              <span>ABORT MISSION</span>
-            </div>
-          </Button>
-
-          <Button
-            onClick={emergencyStopAll}
-            disabled={systemControlLoading}
-            variant="outline"
-            className="border-red-500/50 text-red-500 hover:bg-red-500/10 font-bold py-6 px-8 text-lg backdrop-blur-sm transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            <div className="flex items-center gap-3">
-              {systemControlLoading ? <Loader2 className="h-5 w-5 animate-spin" /> : <Shield className="h-5 w-5" />}
-              <span>EMERGENCY STOP</span>
-            </div>
-          </Button>
-        </div>
-
-        {systemError && (
-          <div className="mt-4 p-4 bg-red-900/20 border border-red-500/50 rounded-lg">
-            <div className="flex items-center gap-2">
-              <AlertCircle className="h-4 w-4 text-red-500" />
-              <span className="text-red-500 text-sm">System Control Error: {systemError}</span>
-            </div>
-          </div>
-        )}
-      </div>
+      <SystemControlSection
+        systemStatus={systemStatus}
+        isHunting={isHunting}
+        systemControlLoading={systemControlLoading}
+        systemError={systemError}
+        onStartHunter={startHunter}
+        onStopHunter={stopHunter}
+        onEmergencyStop={emergencyStopAll}
+      />
 
       {/* System Metrics Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-        {/* System Load Card */}
-        <Card className="bg-zinc-950/50 border-zinc-800 backdrop-blur-sm">
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium text-zinc-400">System Load</CardTitle>
-            <Cpu className="h-4 w-4 text-zinc-500" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold">
-              <span className={getSystemLoadColor(systemMetrics.systemLoad)}>{systemMetrics.systemLoad}%</span>
-            </div>
-            <p className="text-xs text-zinc-500 mt-1">CPU & Memory Usage</p>
-            <div className="mt-2 w-full bg-zinc-800 rounded-full h-2">
-              <div
-                className={`h-2 rounded-full transition-all duration-500 ${
-                  systemMetrics.systemLoad < 50
-                    ? 'bg-emerald-500'
-                    : systemMetrics.systemLoad < 75
-                      ? 'bg-amber-500'
-                      : 'bg-red-500'
-                }`}
-                style={{ width: `${systemMetrics.systemLoad}%` }}
-              />
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Active Runners Card */}
-        <Card className="bg-zinc-950/50 border-zinc-800 backdrop-blur-sm">
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium text-zinc-400">Active Runners</CardTitle>
-            <Activity className="h-4 w-4 text-emerald-500" />
-          </CardHeader>
-          <CardContent>
-            <div className="text-2xl font-bold text-emerald-500">
-              {systemMetrics.activeRunners}/{systemMetrics.totalRunners}
-            </div>
-            <p className="text-xs text-zinc-500 mt-1">Production Systems Online</p>
-            <div className="mt-2 flex gap-1">
-              {Array.from({ length: systemMetrics.totalRunners }).map((_, i) => (
-                <div
-                  key={i}
-                  className={`h-2 w-2 rounded-full ${
-                    i < systemMetrics.activeRunners ? 'bg-emerald-500' : 'bg-zinc-700'
-                  }`}
-                />
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* API Rate Limit Card */}
-        <Card className="bg-zinc-950/50 border-zinc-800 backdrop-blur-sm">
-          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium text-zinc-400">API Rate Limit</CardTitle>
-            <Zap className="h-4 w-4 text-zinc-500" />
-          </CardHeader>
-          <CardContent>
-            <div className={`text-2xl font-bold ${getRateLimitColor(systemMetrics.apiRateLimit)}`}>
-              {systemMetrics.apiRateLimit}
-            </div>
-            <p className="text-xs text-zinc-500 mt-1">External API Status</p>
-            <Badge
-              variant="outline"
-              className={`mt-2 ${
-                systemMetrics.apiRateLimit === 'Normal'
-                  ? 'border-emerald-500 text-emerald-500'
-                  : systemMetrics.apiRateLimit === 'Warning'
-                    ? 'border-amber-500 text-amber-500'
-                    : 'border-red-500 text-red-500'
-              }`}
-            >
-              {systemMetrics.apiRateLimit}
-            </Badge>
-          </CardContent>
-        </Card>
-      </div>
+      <SystemMetricsSection systemMetrics={systemMetrics} />
 
       {/* Runners Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {runners.map(runner => {
-          const IconComponent = runner.icon
-          return (
-            <Card
-              key={runner.id}
-              className={`bg-zinc-950/50 border backdrop-blur-sm transition-all duration-300 ${
-                runner.status === 'running'
-                  ? 'border-emerald-500/50 shadow-lg shadow-emerald-500/20'
-                  : 'border-zinc-800'
-              }`}
-            >
-              <CardHeader className="pb-3">
-                <div className="flex items-start justify-between">
-                  <div className="flex items-center gap-3">
-                    <div
-                      className={`p-2 rounded-lg ${
-                        runner.status === 'running' ? 'bg-emerald-500/20 text-emerald-500' : 'bg-zinc-800 text-zinc-500'
-                      }`}
-                    >
-                      <IconComponent className="h-5 w-5" />
-                    </div>
-                    <div>
-                      <CardTitle className="text-sm font-semibold text-zinc-100">{runner.name}</CardTitle>
-                      <p className="text-xs text-zinc-500 mt-1 max-w-xs">{runner.description}</p>
-                    </div>
-                  </div>
-                </div>
-              </CardHeader>
-
-              <CardContent className="space-y-4">
-                {/* Status Toggle */}
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <div className="relative">
-                      <Switch
-                        checked={runner.status === 'running'}
-                        onCheckedChange={() => handleToggleRunner(runner.id, runner.runnerId)}
-                        disabled={loadingStates[runner.id]}
-                        className={runner.status === 'running' ? 'data-[state=checked]:bg-emerald-500' : ''}
-                      />
-                      {loadingStates[runner.id] && (
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <Loader2 className="h-3 w-3 animate-spin text-zinc-400" />
-                        </div>
-                      )}
-                    </div>
-                    <span
-                      className={`text-sm font-medium ${
-                        runner.status === 'running' ? 'text-emerald-500' : 'text-zinc-500'
-                      }`}
-                    >
-                      Status: {runner.status === 'running' ? 'Running' : 'Idle'}
-                    </span>
-                  </div>
-                  <div
-                    className={`w-2 h-2 rounded-full ${
-                      runner.status === 'running' ? 'bg-emerald-500 animate-pulse' : 'bg-zinc-600'
-                    }`}
-                  />
-                </div>
-
-                {/* System Load Bar */}
-                {runner.status === 'running' && (
-                  <div>
-                    <div className="flex items-center justify-between mb-1">
-                      <span className="text-xs text-zinc-500">System Load</span>
-                      <span className={`text-xs font-medium ${getSystemLoadColor(runner.systemLoad)}`}>
-                        {runner.systemLoad}%
-                      </span>
-                    </div>
-                    <div className="w-full bg-zinc-800 rounded-full h-1.5">
-                      <div
-                        className={`h-1.5 rounded-full transition-all duration-500 ${
-                          runner.systemLoad < 50
-                            ? 'bg-emerald-500'
-                            : runner.systemLoad < 75
-                              ? 'bg-amber-500'
-                              : 'bg-red-500'
-                        }`}
-                        style={{ width: `${runner.systemLoad}%` }}
-                      />
-                    </div>
-                  </div>
-                )}
-
-                {/* Success Rate */}
-                {runner.status === 'running' && (
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs text-zinc-500">Success Rate</span>
-                    <span className="text-xs font-medium text-emerald-500">{runner.successRate}%</span>
-                  </div>
-                )}
-
-                {/* Last Log */}
-                <div className="pt-2 border-t border-zinc-800">
-                  <div className="flex items-center gap-2">
-                    <AlertCircle className="h-3 w-3 text-zinc-500" />
-                    <span className="text-xs text-zinc-400">{runner.lastScan}</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          )
-        })}
+        {runners.map(runner => (
+          <RunnerCard
+            key={runner.id}
+            runner={runner}
+            loading={loadingStates[runner.id]}
+            onToggle={() => handleToggleRunner(runner.id, runner.runnerId)}
+          />
+        ))}
       </div>
 
       {/* System Status Footer */}
-      <div className="mt-8 p-4 bg-zinc-950/50 border border-zinc-800 rounded-lg backdrop-blur-sm">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className={`w-2 h-2 rounded-full ${apiError ? 'bg-red-500' : 'bg-emerald-500 animate-pulse'}`} />
-            <span className="text-sm text-zinc-400">Master Orchestrator {apiError ? 'Offline' : 'Online'}</span>
-            {apiError && <span className="text-xs text-red-500 ml-2">{apiError}</span>}
-          </div>
-          <div className="flex items-center gap-4 text-xs text-zinc-500">
-            <span>Last sync: {lastSync.toLocaleTimeString()}</span>
-            <span>•</span>
-            <span>Uptime: 4d 12h 23m</span>
-            <span>•</span>
-            <span>Version: 2.1.0</span>
-          </div>
-        </div>
-      </div>
+      <SystemStatusFooter apiError={apiError} lastSync={lastSync} />
     </div>
   )
 }

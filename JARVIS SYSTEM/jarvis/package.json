@@ -1,0 +1,50 @@
+{
+  "name": "jarvis-ai-system",
+  "version": "6.0.0",
+  "description": "JARVIS AI System - Autonomous, Hyper-Intelligent AI Assistant",
+  "main": "core/index.js",
+  "scripts": {
+    "start": "node core/index.js",
+    "dev": "nodemon core/index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop ecosystem.config.js",
+    "pm2:restart": "pm2 restart ecosystem.config.js"
+  },
+  "keywords": [
+    "jarvis",
+    "ai",
+    "assistant",
+    "autonomous",
+    "gemini",
+    "ollama",
+    "web3",
+    "iot"
+  ],
+  "author": "Creator",
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "ethers": "^6.9.0",
+    "ollama": "^0.5.0",
+    "sharp": "^0.33.0",
+    "pdfkit": "^0.14.0",
+    "sqlite3": "^5.1.6",
+    "mqtt": "^5.3.0",
+    "axios": "^1.6.0",
+    "ws": "^8.14.0",
+    "stripe": "^14.0.0",
+    "express": "^4.18.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
