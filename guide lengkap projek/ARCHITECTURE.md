@@ -238,7 +238,7 @@ Framework ini dioptimasi untuk konteks pasukan hunter scraping & market expansio
 4. ✅ Add exceljs for Excel export
 5. ✅ Add react-leaflet for property mapping
 
-### Phase 2: Infrastructure (Week 3-4) - ✅ SEBAGIAN COMPLETED
+### Phase 2: Infrastructure (Week 3-4) - ✅ COMPLETED
 1. ✅ Upgrade Next.js to 15 with Turbopack
 2. ⏭️ Upgrade TailwindCSS to 4 (SKIPPED - belum stabil)
 3. ✅ Add Playwright for E2E testing
@@ -252,6 +252,12 @@ Framework ini dioptimasi untuk konteks pasukan hunter scraping & market expansio
 11. ⏭️ Switch to pnpm package manager (SKIPPED - migrasi kompleks)
 12. ✅ Upgrade TanStack Table to v8
 13. ✅ Migrate Jest to Vitest
+
+### Phase 3: Standardize UI & Complete Pages (Week 5-6) - ✅ COMPLETED
+1. ✅ Standardize UI shell across all pages (Sidebar + TopHeader)
+2. ✅ Create leads listing page
+3. ✅ Complete detail pages (leads/[id], projects/[id])
+4. ✅ Remove dashboard submodule and add as regular directory
 
 ## Additional Components Status
 

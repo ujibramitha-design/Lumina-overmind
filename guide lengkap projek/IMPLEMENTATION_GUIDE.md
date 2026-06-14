@@ -36,11 +36,12 @@ Use this order for safe delivery:
 12. ✅ Upgrade TanStack Table to v8
 13. ✅ Migrate Jest to Vitest
 
-### Phase 3: High-traffic Operational Pages (Week 5-6)
-1. Standardize UI shell across all pages
-2. Complete detail pages (leads/[id], projects/[id])
-3. Upgrade Next.js to 15 with Turbopack
-4. Upgrade TailwindCSS to 4
+### Phase 3: Standardize UI & Complete Pages (Week 5-6) - ✅ COMPLETED
+**Priority: HIGH - User Experience**
+1. ✅ Standardize UI shell across all pages (Sidebar + TopHeader)
+2. ✅ Complete detail pages (leads/[id], projects/[id])
+3. ✅ Create leads listing page
+4. ✅ Remove dashboard submodule and add as regular directory
 
 ### Phase 4: AI/Orchestration Modules (Week 7-8)
 1. Stabilize J.A.R.V.I.S. commands

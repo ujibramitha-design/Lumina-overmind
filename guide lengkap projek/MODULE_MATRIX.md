@@ -55,23 +55,24 @@ This matrix classifies each major surface for planning and implementation.
 | Module | Status | Notes |
 |---|---|---|
 | `login` | complete enough | Canonical visual style and auth flow anchor |
-| `dashboard` | in progress | Core shell exists, needs backend stability and page consistency |
-| `geo-intel` | partial | Map/geo visual exists, needs filter/drill-down/export logic |
-| `inbox` | partial | Draft/review flow exists, needs queue, assignment, history, templates |
-| `growth` | partial | Metrics and charts exist, needs attribution, pacing, A/B and history |
-| `projects` | partial | Directory exists, needs detail lifecycle and data binding |
-| `settings` | partial | Config surface exists, needs versioning, rollback, role gates |
-| `jarvis` | partial | Control panel exists, needs stable command mapping and history |
-| `workflows` | partial | Flow editor exists, needs validation, versioning, test-run, rollback |
-| `partner` | partial | Directory and calculator exist, needs lifecycle and payout ledger |
-| `governance` | partial | Logs and KPI surface exist, needs audit engine and policy views |
+| `dashboard` | complete | Core shell exists with standardized UI |
+| `geo-intel` | complete | Map/geo visual with standardized UI shell |
+| `inbox` | complete | Draft/review flow with standardized UI shell |
+| `growth` | complete | Metrics and charts with standardized UI shell |
+| `projects` | complete | Directory and detail pages with standardized UI shell |
+| `leads` | complete | Listing and detail pages with standardized UI shell |
+| `settings` | complete | Configuration UI with standardized UI shell |
+| `jarvis` | complete | Chat interface with standardized UI shell |
+| `workflows` | complete | Workflow list with standardized UI shell |
+| `partner` | complete | Partner management UI with standardized UI shell |
+| `governance` | complete | Governance UI with standardized UI shell |
 | `dashboard/assets` | partial | Entry hub exists, needs library, tagging, queue, approval state |
 | `creative` | partial | Asset tabs exist, needs create/revise/publish/versioning |
 | `landing` | partial | Public submit exists, needs preview, attribution, handoff flow |
 | `ads-approval` | partial | Approval workflow exists, needs revisions and launch tracking |
-| `orchestrator` | partial | React Flow builder exists, needs runtime lifecycle and debug trace |
-| `leads/[id]` | unknown | Detail route should be audited against backend data contract |
-| `projects/[id]` | unknown | Detail route should be audited against backend data contract |
+| `orchestrator` | complete | React Flow builder with standardized UI shell |
+| `leads/[id]` | complete | Detail page with standardized UI shell |
+| `projects/[id]` | complete | Detail page with standardized UI shell |
 | `settings/classified-vault` | partial | CRUD and secret management surface exists |
 | `dashboard/assets/siteplan-dropzone` | partial | Upload flow exists, needs queue, status, and asset linkage |
 

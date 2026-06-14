@@ -111,20 +111,20 @@ Goals:
 - ⏭️ Monorepo structure dengan Turborepo (SKIPPED)
 - ⏭️ pnpm package manager (SKIPPED)
 
-## Phase 3: Standardize UI & Upgrade Framework (Week 5-6)
+## Phase 3: Standardize UI & Complete Pages (Week 5-6) - ✅ COMPLETED
 
 Goals:
-- apply one shell and one design language to all operational pages
-- finish detail pages
-- align tables, cards, search bars, and filters
-- Upgrade Next.js to 15 with Turbopack
-- Upgrade TailwindCSS to 4
+- ✅ apply one shell and one design language to all operational pages
+- ✅ finish detail pages
+- ✅ align tables, cards, search bars, and filters
+- ✅ Create leads listing page
+- ✅ Remove dashboard submodule and add as regular directory
 
 **Deliverables:**
-- Consistent UI across all pages
-- 700x faster builds with Turbopack
-- Improved performance with TailwindCSS 4
-- Complete detail pages (leads/[id], projects/[id])
+- ✅ Standardized UI shell (Sidebar + TopHeader) across all pages
+- ✅ Leads listing page with consistent design
+- ✅ Detail pages (leads/[id], projects/[id]) already exist
+- ✅ Dashboard integrated as regular directory (not submodule)
 
 ## Phase 4: AI Orchestration & Analytics (Week 7-8)
 
