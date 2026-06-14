@@ -33,8 +33,8 @@ Use this order for safe delivery:
 9. ✅ Setup GitHub Actions for CI/CD
 10. ✅ Add commitlint for commit standards
 11. ⏭️ Switch to pnpm package manager (SKIPPED - migrasi kompleks)
-12. ⏳ Upgrade TanStack Table to v8 (pending)
-13. ⏳ Migrate Jest to Vitest (pending)
+12. ✅ Upgrade TanStack Table to v8
+13. ✅ Migrate Jest to Vitest
 
 ### Phase 3: High-traffic Operational Pages (Week 5-6)
 1. Standardize UI shell across all pages

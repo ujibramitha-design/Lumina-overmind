@@ -94,8 +94,8 @@ Goals:
 - ✅ Setup GitHub Actions for CI/CD
 - ✅ Add commitlint for commit standards
 - ⏭️ Switch to pnpm package manager (SKIPPED - migrasi kompleks)
-- ⏳ Upgrade TanStack Table to v8 (pending)
-- ⏳ Migrate Jest to Vitest (pending)
+- ✅ Upgrade TanStack Table to v8
+- ✅ Migrate Jest to Vitest
 
 **Deliverables:**
 - ✅ Next.js 15 + React 19
@@ -106,6 +106,8 @@ Goals:
 - ✅ slowapi untuk rate limiting
 - ✅ GitHub Actions CI/CD pipeline
 - ✅ commitlint untuk commit standards
+- ✅ TanStack Table v8
+- ✅ Vitest untuk testing
 - ⏭️ Monorepo structure dengan Turborepo (SKIPPED)
 - ⏭️ pnpm package manager (SKIPPED)
 

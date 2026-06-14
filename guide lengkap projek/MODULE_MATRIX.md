@@ -41,8 +41,8 @@ This matrix classifies each major surface for planning and implementation.
 ### Upgrades (Performance) - ✅ SEBAGIAN COMPLETED
 - ✅ **Next.js 14 → 15** → Turbopack
 - ⏭️ **TailwindCSS 3 → 4** → Performance (SKIPPED - belum stabil)
-- ⏳ **TanStack Table v8** → Latest version (pending)
-- ⏳ **Jest → Vitest** → Faster testing (pending)
+- ✅ **TanStack Table v8** → Latest version
+- ✅ **Jest → Vitest** → Faster testing
 - ⏭️ **pnpm** → Package manager (SKIPPED - migrasi kompleks)
 
 ### New Infrastructure - ✅ SEBAGIAN COMPLETED
