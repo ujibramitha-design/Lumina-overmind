@@ -12,6 +12,7 @@ from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
+from fastapi.openapi.utils import get_openapi
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
@@ -37,6 +38,82 @@ logger = logging.getLogger(__name__)
 # Setup rate limiter
 limiter = Limiter(key_func=get_remote_address)
 app.state.limiter = limiter
+
+# Custom OpenAPI schema
+def custom_openapi():
+    if app.openapi_schema:
+        return app.openapi_schema
+    
+    openapi_schema = get_openapi(
+        title="LUMINA OS Enterprise API",
+        version="2.0.0",
+        description="""
+        ## LUMINA OS Enterprise API
+
+        Enterprise-grade API for property management, lead tracking, AI orchestration, and creative workflows.
+
+        ### Authentication
+        Most endpoints require JWT authentication. Include your token in the Authorization header:
+        `Authorization: Bearer <your_jwt_token>`
+
+        ### Rate Limiting
+        API endpoints are rate-limited to prevent abuse. Default limits:
+        - Lead creation: 10 requests/minute
+        - Lead retrieval: 30 requests/minute
+
+        ### Features
+        - **Leads Management**: Create, read, update, and delete leads with project isolation
+        - **Projects**: Manage property projects with lead tracking
+        - **AI Orchestration**: J.A.R.V.I.S. AI system for intelligent operations
+        - **Workflows**: Execute and monitor automated workflows
+        - **Asset Management**: Upload, tag, and search creative assets
+        - **Analytics**: Track performance and user behavior with PostHog
+        """,
+        routes=app.routes,
+    )
+    
+    # Add security scheme
+    openapi_schema["components"]["securitySchemes"] = {
+        "BearerAuth": {
+            "type": "http",
+            "scheme": "bearer",
+            "bearerFormat": "JWT",
+            "description": "JWT authentication token"
+        }
+    }
+    
+    # Add global security requirement
+    openapi_schema["security"] = [{"BearerAuth": []}]
+    
+    # Add contact info
+    openapi_schema["info"]["contact"] = {
+        "name": "LUMINA OS Support",
+        "email": "support@lumina.os",
+        "url": "https://lumina-os.com"
+    }
+    
+    # Add license
+    openapi_schema["info"]["license"] = {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+    }
+    
+    # Add servers
+    openapi_schema["servers"] = [
+        {
+            "url": "http://localhost:8000",
+            "description": "Local development server"
+        },
+        {
+            "url": "https://api.lumina-os.com",
+            "description": "Production server"
+        }
+    ]
+    
+    app.openapi_schema = openapi_schema
+    return app.openapi_schema
+
+app.openapi = custom_openapi
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
