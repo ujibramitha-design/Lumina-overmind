@@ -62,6 +62,7 @@
     "zustand": "^4.5.7"
   },
   "devDependencies": {
+    "@axe-core/react": "^4.11.3",
     "@commitlint/cli": "^21.0.2",
     "@commitlint/config-conventional": "^21.0.2",
     "@playwright/test": "^1.60.0",
