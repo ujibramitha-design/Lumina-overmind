@@ -398,6 +398,14 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Workflows router not available: {e}")
 
+# Compliance router
+try:
+    from api.endpoints.compliance import router as compliance_router
+    app.include_router(compliance_router)
+    logger.info("✅ Compliance router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Compliance router not available: {e}")
+
 # Add license middleware - Temporarily disabled for testing
 # try:
 #     from api.middleware.license_middleware import LicenseMiddleware
