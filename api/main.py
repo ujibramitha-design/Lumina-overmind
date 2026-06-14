@@ -414,6 +414,14 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Cost monitoring router not available: {e}")
 
+# Cross-border data router
+try:
+    from api.endpoints.cross_border_data import router as cross_border_router
+    app.include_router(cross_border_router)
+    logger.info("✅ Cross-border data router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Cross-border data router not available: {e}")
+
 # Add license middleware - Temporarily disabled for testing
 # try:
 #     from api.middleware.license_middleware import LicenseMiddleware
