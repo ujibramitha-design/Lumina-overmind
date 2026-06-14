@@ -3,7 +3,7 @@
  * Mendukung multi-timezone untuk operasi Asia
  */
 
-import { format, utcToZonedTime, zonedTimeToUtc } from 'date-fns-tz'
+import { format, toZonedTime, fromZonedTime } from 'date-fns-tz'
 
 export interface TimezoneInfo {
   id: string
@@ -132,7 +132,7 @@ export function getDefaultTimezone(region: string = 'Indonesia'): string {
  * @returns Date dalam timezone target
  */
 export function convertToTimezone(date: Date, timezone: string): Date {
-  return utcToZonedTime(date, timezone)
+  return toZonedTime(date, timezone)
 }
 
 /**
@@ -142,7 +142,7 @@ export function convertToTimezone(date: Date, timezone: string): Date {
  * @returns Date dalam UTC
  */
 export function convertToUTC(date: Date, timezone: string): Date {
-  return zonedTimeToUtc(date, timezone)
+  return fromZonedTime(date, timezone)
 }
 
 /**
@@ -157,7 +157,7 @@ export function formatWithTimezone(
   timezone: string,
   formatString: string = 'yyyy-MM-dd HH:mm:ss'
 ): string {
-  const zonedDate = utcToZonedTime(date, timezone)
+  const zonedDate = toZonedTime(date, timezone)
   return format(zonedDate, formatString, { timeZone: timezone })
 }
 

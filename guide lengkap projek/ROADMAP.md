@@ -164,17 +164,17 @@ Goals:
 Goals:
 - ✅ formalize runbooks (RUNBOOKS.md created)
 - ✅ document API contracts (OpenAPI/Swagger documentation)
-- ⏭️ keep module matrix updated (not yet updated)
+- ✅ keep module matrix updated (MODULE_MATRIX.md updated)
 - ✅ add testing coverage around blockers and critical flows (comprehensive tests created)
 - ✅ Migrate to Supabase Auth (supabase_auth.py integrated)
 - ✅ Add Casbin for RBAC (completed in Phase 2)
 - ⏭️ Migrate to pnpm package manager (SKIPPED in Phase 2)
-- ⏭️ Complete policy engine and compliance reporting (not yet implemented)
+- ✅ Complete policy engine and compliance reporting (implemented with API endpoints and UI)
 
 **Deliverables:**
 - ✅ Unified authentication with Supabase
 - ✅ Role-based access control with Casbin
 - ✅ Comprehensive governance system (runbooks)
 - ⏭️ pnpm for faster package management (SKIPPED)
-- ⏭️ Complete compliance reporting (not yet implemented)
+- ✅ Complete compliance reporting (Policy Engine API + Governance UI)
 

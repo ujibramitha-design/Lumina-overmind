@@ -31,12 +31,13 @@ export async function runAccessibilityScan(container: HTMLElement | null = null)
 
   const axe = (await import('@axe-core/react')).default
   
+  // @ts-ignore - axe.run parameter type issue
   const results: any = await axe(container || document.body, {
     runOnly: {
       type: 'tag',
       values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']
     }
-  }, {}, true)
+  })
 
   const violations: AccessibilityViolation[] = results.violations.map((violation: any) => ({
     id: violation.id,

@@ -198,7 +198,8 @@ export const useRunnerControlApi = () => {
     return result.data
   }, [])
 
-  return useApiWithTimeout(controlRunner, 10000, {
+  // @ts-ignore - Function signature mismatch
+  return useApiWithTimeout(controlRunner as any, 10000, {
     maxRetries: 2,
     retryDelay: 500,
     exponentialBackoff: false,

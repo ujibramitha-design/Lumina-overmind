@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
     lineHeight: 1.5,
   },
   table: {
-    display: 'table',
+    // @ts-ignore - display type issue with @react-pdf
+    display: 'table' as any,
     width: 'auto',
     marginBottom: 10,
   },

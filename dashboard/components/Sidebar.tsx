@@ -294,10 +294,10 @@ export function Sidebar({ className, collapsed = false, onCollapse }: SidebarPro
   return (
     <>
       {/* Mobile Overlay */}
-      {isMobileOpen && (
+      {isMobileMenuOpen && (
         <div
           className="fixed inset-0 bg-black/50 z-40 xl:hidden"
-          onClick={() => setIsMobileOpen(false)}
+          onClick={() => setIsMobileMenuOpen(false)}
           aria-label="Close sidebar"
         />
       )}
@@ -307,7 +307,7 @@ export function Sidebar({ className, collapsed = false, onCollapse }: SidebarPro
         className={cn(
           'flex flex-col h-full bg-zinc-950 border-r border-zinc-800 transition-all duration-300 fixed xl:relative z-50',
           collapsed ? 'w-16' : 'w-64',
-          isMobileOpen ? 'translate-x-0' : '-translate-x-full xl:translate-x-0',
+          isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full xl:translate-x-0',
           className
         )}
       >
@@ -326,7 +326,7 @@ export function Sidebar({ className, collapsed = false, onCollapse }: SidebarPro
           size="sm"
           onClick={() => {
             onCollapse?.()
-            setIsMobileOpen(false)
+            setIsMobileMenuOpen(false)
           }}
           className={cn(
             'text-zinc-400 hover:text-emerald-500 hover:bg-zinc-900 transition-colors',
