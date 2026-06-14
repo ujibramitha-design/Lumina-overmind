@@ -11,8 +11,11 @@ from typing import List, Optional
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query
 from pydantic import BaseModel, Field
 from prisma import Prisma
+from slowapi import Limiter
+from slowapi.util import get_remote_address
 
 from core_modules.db_manager import prisma_manager
+from api.auth.casbin_config import get_enforcer, check_permission
 
 
 # Database dependency
@@ -20,6 +23,29 @@ async def get_db():
     db = await prisma_manager.get_db()
     return db
 
+
+# Rate limiter
+limiter = Limiter(key_func=get_remote_address)
+
+# Authorization dependency
+async def get_current_user_role() -> str:
+    """Get current user role from JWT token (simplified for demo)"""
+    # In production, this would extract from JWT token
+    # For now, return a default role
+    return "user"
+
+async def check_authorization(
+    object: str,
+    action: str,
+    user_role: str = Depends(get_current_user_role)
+):
+    """Check if user has permission to perform action on object"""
+    enforcer = get_enforcer()
+    if not check_permission(enforcer, user_role, object, action):
+        raise HTTPException(
+            status_code=403,
+            detail=f"User with role '{user_role}' does not have permission to {action} on {object}"
+        )
 
 router = APIRouter(prefix="/api/leads", tags=["leads"])
 
@@ -127,10 +153,12 @@ def check_duplicate_lead(db: PrismaClient, nomor_hp: str, project_id: str):
 
 # API Endpoints
 @router.post("/", response_model=LeadResponse)
+@limiter.limit("10/minute")
 async def create_lead(
     lead: LeadCreate,
     background_tasks: BackgroundTasks,
     db: PrismaClient = Depends(get_db),
+    _: None = Depends(lambda: check_authorization("leads", "write")),
 ):
     """Create new lead with mandatory project validation"""
     try:
@@ -209,6 +237,7 @@ async def create_lead(
 
 
 @router.get("/", response_model=List[LeadResponse])
+@limiter.limit("30/minute")
 async def get_leads(
     project_id: str = Query(
         ..., description="Project ID is mandatory for data isolation"
@@ -218,6 +247,7 @@ async def get_leads(
     status: Optional[str] = Query(None, pattern="^(new|contacted|qualified|closed)$"),
     search: Optional[str] = Query(None),
     db: PrismaClient = Depends(get_db),
+    _: None = Depends(lambda: check_authorization("leads", "read")),
 ):
     """Get leads with strict project isolation"""
     try:
