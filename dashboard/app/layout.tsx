@@ -5,6 +5,7 @@ import { BrandingProvider } from '@/components/BrandingProvider'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
 import { getBrandingConfig } from './config/branding'
 import { initPostHog } from '@/lib/posthog'
+import { ReactQueryProvider } from '@/lib/react-query-provider'
 import { useEffect } from 'react'
 
 // Get dynamic branding configuration
@@ -28,12 +29,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <ErrorBoundary>
       <html lang="en" suppressHydrationWarning>
         <body className="font-sans">
-          <BrandingProvider>
-            <div className="min-h-screen bg-black text-zinc-100">
-              {children}
-              <Toaster />
-            </div>
-          </BrandingProvider>
+          <ReactQueryProvider>
+            <BrandingProvider>
+              <div className="min-h-screen bg-black text-zinc-100">
+                {children}
+                <Toaster />
+              </div>
+            </BrandingProvider>
+          </ReactQueryProvider>
         </body>
       </html>
     </ErrorBoundary>
