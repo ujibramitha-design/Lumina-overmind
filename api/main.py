@@ -297,6 +297,13 @@ except ImportError as e:
     logger.warning(f"⚠️ Leads router not available: {e}")
 
 try:
+    from api.endpoints.supabase_auth import router as supabase_auth_router
+    app.include_router(supabase_auth_router, tags=["Supabase Auth"])
+    logger.info("✅ Supabase Auth router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Supabase Auth router not available: {e}")
+
+try:
     from api.endpoints.visual import router as visual_router
     app.include_router(visual_router, prefix="/api/visual", tags=["Visual"])
     logger.info("✅ Visual router included")
