@@ -20,21 +20,21 @@ Use this order for safe delivery:
 4. ✅ Add exceljs for Excel export functionality
 5. ✅ Add react-leaflet for property mapping/GIS
 
-### Phase 2: Infrastructure & Performance Upgrades (Week 3-4) - PENDING
+### Phase 2: Infrastructure & Performance Upgrades (Week 3-4) - ✅ SEBAGIAN COMPLETED
 **Priority: HIGH - Performance & DevOps**
-1. Upgrade Next.js to 15 with Turbopack
-2. Upgrade TailwindCSS to 4
-3. Add Playwright for E2E testing
-4. Add next-seo + sitemap for SEO
-5. Add PostHog for analytics
-6. Add Casbin for authorization
-7. Add slowapi for rate limiting
-8. Migrate to Turborepo for monorepo management
-9. Setup GitHub Actions for CI/CD
-10. Add commitlint for commit standards
-11. Switch to pnpm package manager
-12. Upgrade TanStack Table to v8
-13. Migrate Jest to Vitest
+1. ✅ Upgrade Next.js to 15 with Turbopack
+2. ⏭️ Upgrade TailwindCSS to 4 (SKIPPED - belum stabil)
+3. ✅ Add Playwright for E2E testing
+4. ✅ Add next-seo + sitemap for SEO
+5. ✅ Add PostHog for analytics
+6. ✅ Add Casbin for authorization
+7. ✅ Add slowapi for rate limiting
+8. ⏭️ Migrate to Turborepo for monorepo management (SKIPPED - git submodule issues)
+9. ✅ Setup GitHub Actions for CI/CD
+10. ✅ Add commitlint for commit standards
+11. ⏭️ Switch to pnpm package manager (SKIPPED - migrasi kompleks)
+12. ⏳ Upgrade TanStack Table to v8 (pending)
+13. ⏳ Migrate Jest to Vitest (pending)
 
 ### Phase 3: High-traffic Operational Pages (Week 5-6)
 1. Standardize UI shell across all pages

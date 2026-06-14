@@ -27,28 +27,28 @@ This matrix classifies each major surface for planning and implementation.
 - ✅ **dinero.js** → Financial precision
 - ✅ **exceljs** → Excel export
 - ✅ **react-leaflet** → GIS/Mapping
-- ⏳ **Playwright** → E2E testing (pending)
-- ⏳ **next-seo + sitemap** → SEO optimization (pending)
-- ⏳ **PostHog** → Analytics (pending)
-- ⏳ **Casbin** → Authorization (pending)
-- ⏳ **slowapi** → Rate limiting (pending)
+- ✅ **Playwright** → E2E testing
+- ✅ **next-seo + sitemap** → SEO optimization
+- ✅ **PostHog** → Analytics
+- ✅ **Casbin** → Authorization
+- ✅ **slowapi** → Rate limiting
 
 ### New Critical Features (To Add - Phase 0) - ✅ COMPLETED
 - ✅ **Archidep M2M Webhook Integration** → Transfer file siteplan otomatis (HIGH priority untuk proyek properti)
 - ⏭️ **DevSecOps & Code Quality Setup** → ESLint, Prettier, TypeScript, pre-commit hooks (HIGH priority untuk production) - SKIPPED due to TypeScript strict mode issues
 - ✅ **PostgreSQL Optimization Patterns** → Full-text search, JSONB indexing, batch INSERT (MEDIUM priority untuk performance)
 
-### Upgrades (Performance) - PENDING
-- ⏳ **Next.js 14 → 15** → Turbopack
-- ⏳ **TailwindCSS 3 → 4** → Performance
-- ⏳ **TanStack Table v8** → Latest version
-- ⏳ **Jest → Vitest** → Faster testing
-- ⏳ **pnpm** → Package manager
+### Upgrades (Performance) - ✅ SEBAGIAN COMPLETED
+- ✅ **Next.js 14 → 15** → Turbopack
+- ⏭️ **TailwindCSS 3 → 4** → Performance (SKIPPED - belum stabil)
+- ⏳ **TanStack Table v8** → Latest version (pending)
+- ⏳ **Jest → Vitest** → Faster testing (pending)
+- ⏭️ **pnpm** → Package manager (SKIPPED - migrasi kompleks)
 
-### New Infrastructure - PENDING
-- ⏳ **Turborepo** → Monorepo management
-- ⏳ **GitHub Actions** → CI/CD
-- ⏳ **commitlint** → Commit standards
+### New Infrastructure - ✅ SEBAGIAN COMPLETED
+- ⏭️ **Turborepo** → Monorepo management (SKIPPED - git submodule issues)
+- ✅ **GitHub Actions** → CI/CD
+- ✅ **commitlint** → Commit standards
 
 ## Frontend Modules
 
