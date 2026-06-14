@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import { CheckCircle, XCircle, RefreshCw, Eye, Edit3, Rocket, Target, Clock, DollarSign, BarChart } from 'lucide-react'
+import { CheckCircle, XCircle, RefreshCw, Eye, Edit3, Rocket, Target, Clock, DollarSign, BarChart, TrendingUp, Users, Calendar, Play, Pause } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -15,9 +15,12 @@ interface AdProposal {
   targetAudience: string
   copywriting: string
   estimasiBudget: number
-  status: 'PENDING' | 'APPROVED' | 'REJECTED'
+  status: 'PENDING' | 'APPROVED' | 'REJECTED' | 'LAUNCHED'
   createdAt: string
   updatedAt: string
+  launchedAt?: string
+  revisions?: Revision[]
+  metrics?: AdMetrics
   project?: {
     id: string
     namaProyek: string
@@ -25,6 +28,24 @@ interface AdProposal {
     lokasi: string
     hargaStart: number
   }
+}
+
+interface Revision {
+  id: string
+  instructions: string
+  createdAt: string
+  createdBy: string
+}
+
+interface AdMetrics {
+  impressions: number
+  clicks: number
+  conversions: number
+  ctr: number
+  costPerConversion: number
+  spent: number
+  startDate: string
+  endDate?: string
 }
 
 export default function AdsApprovalPage() {
@@ -42,6 +63,7 @@ export default function AdsApprovalPage() {
     pending: 0,
     approved: 0,
     rejected: 0,
+    launched: 0,
   })
 
   useEffect(() => {
@@ -63,6 +85,7 @@ export default function AdsApprovalPage() {
         pending: data.pending || 0,
         approved: data.approved || 0,
         rejected: data.rejected || 0,
+        launched: data.launched || 0,
       })
     } catch (error) {
       console.error('Error fetching proposals:', error)
@@ -89,7 +112,7 @@ export default function AdsApprovalPage() {
 
       toast({
         title: 'Success',
-        description: 'Proposal approved and launched successfully',
+        description: 'Proposal approved successfully',
       })
 
       // Refresh proposals
@@ -99,6 +122,66 @@ export default function AdsApprovalPage() {
       toast({
         title: 'Error',
         description: 'Failed to approve proposal',
+        variant: 'destructive',
+      })
+    } finally {
+      setProcessingId(null)
+    }
+  }
+
+  const handleLaunch = async (proposalId: string) => {
+    setProcessingId(proposalId)
+    try {
+      const response = await fetch(`/api/ads/proposals/${proposalId}/launch`, {
+        method: 'POST',
+      })
+
+      if (!response.ok) throw new Error('Failed to launch proposal')
+
+      await response.json()
+
+      toast({
+        title: 'Success',
+        description: 'Proposal launched successfully',
+      })
+
+      // Refresh proposals
+      await fetchProposals()
+    } catch (error) {
+      console.error('Error launching proposal:', error)
+      toast({
+        title: 'Error',
+        description: 'Failed to launch proposal',
+        variant: 'destructive',
+      })
+    } finally {
+      setProcessingId(null)
+    }
+  }
+
+  const handlePause = async (proposalId: string) => {
+    setProcessingId(proposalId)
+    try {
+      const response = await fetch(`/api/ads/proposals/${proposalId}/pause`, {
+        method: 'POST',
+      })
+
+      if (!response.ok) throw new Error('Failed to pause proposal')
+
+      await response.json()
+
+      toast({
+        title: 'Success',
+        description: 'Proposal paused successfully',
+      })
+
+      // Refresh proposals
+      await fetchProposals()
+    } catch (error) {
+      console.error('Error pausing proposal:', error)
+      toast({
+        title: 'Error',
+        description: 'Failed to pause proposal',
         variant: 'destructive',
       })
     } finally {
@@ -189,6 +272,8 @@ export default function AdsApprovalPage() {
         return 'bg-green-500/20 text-green-400 border-green-500/30'
       case 'REJECTED':
         return 'bg-red-500/20 text-red-400 border-red-500/30'
+      case 'LAUNCHED':
+        return 'bg-blue-500/20 text-blue-400 border-blue-500/30'
       default:
         return 'bg-gray-500/20 text-gray-400 border-gray-500/30'
     }
@@ -202,6 +287,8 @@ export default function AdsApprovalPage() {
         return <CheckCircle className="h-4 w-4" />
       case 'REJECTED':
         return <XCircle className="h-4 w-4" />
+      case 'LAUNCHED':
+        return <Play className="h-4 w-4" />
       default:
         return <Clock className="h-4 w-4" />
     }
@@ -243,7 +330,7 @@ export default function AdsApprovalPage() {
         </div>
 
         {/* Stats Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-8">
           <Card className="bg-slate-800/50 backdrop-blur-sm border-slate-700">
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
@@ -288,6 +375,18 @@ export default function AdsApprovalPage() {
                   <p className="text-2xl font-bold text-red-400">{stats.rejected}</p>
                 </div>
                 <XCircle className="h-8 w-8 text-red-400" />
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-slate-800/50 backdrop-blur-sm border-slate-700">
+            <CardContent className="p-6">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-gray-400 text-sm">Launched</p>
+                  <p className="text-2xl font-bold text-blue-400">{stats.launched}</p>
+                </div>
+                <Play className="h-8 w-8 text-blue-400" />
               </div>
             </CardContent>
           </Card>
@@ -570,7 +669,7 @@ export default function AdsApprovalPage() {
                   value={revisionInstructions}
                   onChange={e => setRevisionInstructions(e.target.value)}
                   placeholder="Provide specific instructions for revising this proposal..."
-                  className="w-full bg-slate-800 border-slate-600 text-white placeholder:text-gray-400 rounded-lg px-4 py-3 focus:border-emerald-500 focus:ring-emerald-500/20 focus:border-emerald-500 h-32"
+                  className="w-full bg-slate-800 border-slate-600 text-white placeholder:text-gray-400 rounded-lg px-4 py-3 focus:border-emerald-500 focus:ring-emerald-500/20 h-32"
                   rows={4}
                 />
               </div>
