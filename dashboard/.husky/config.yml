@@ -1,0 +1,15 @@
+# Husky configuration for LUMINA OS
+# Ensures code quality and security before commits
+
+# Pre-commit hook configuration
+pre-commit:
+  commands:
+    - name: lint-staged
+      run: npx lint-staged
+      stage_fixed: true
+
+# Commit message hook (optional - can be added later)
+commit-msg:
+  commands:
+    - name: check-commit-message
+      run: npx commitlint --edit $1

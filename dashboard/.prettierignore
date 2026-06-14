@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production builds
+build/
+dist/
+.next/
+out/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.log
+*.lock
+.DS_Store
+.vscode/
+.idea/
+
+# Generated files
+*.generated.ts
+*.generated.js
+*.d.ts
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Config files that should not be formatted
+.next/
+out/
+
+# Documentation
+*.md
+
+# Public assets
+public/
+static/
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Default CSS Variables - Will be overridden by branding config */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --radius: 0.5rem;
+
+    /* White-Label Branding Variables */
+    --brand-primary: #ef4444;
+    --brand-secondary: #1f2937;
+    --brand-accent: #10b981;
+    --brand-background: #000000;
+    --brand-text: #f3f4f6;
+    --app-name: 'LUMINA OS';
+    --company-name: 'Lumina Technologies';
+    --tagline: 'AI-Powered Real Estate Intelligence Platform';
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 240 10% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 240 10% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 240 10% 98%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 240 5% 96%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 240 5% 96%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142 76% 36%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Fix for browser autofill white background - Global Level */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #18181b inset !important;
+  -webkit-text-fill-color: #d4d4d8 !important;
+  transition: background-color 5000000s ease-in-out 0s !important;
+}
+
+input {
+  color-scheme: dark !important;
+}
+
+/* Custom animations for pulsing status */
+@keyframes pulse-emerald {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(52, 211, 153, 0);
+  }
+}
+
+.pulse-emerald {
+  animation: pulse-emerald 2s infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
