@@ -1,4 +1,7 @@
 const withSitemap = require('next-sitemap')
+const createNextIntlPlugin = require('next-intl/plugin')
+
+const withNextIntl = createNextIntlPlugin()
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -23,4 +26,4 @@ const nextConfig = {
   },
 }
 
-module.exports = withSitemap(nextConfig)
+module.exports = withSitemap(withNextIntl(nextConfig))

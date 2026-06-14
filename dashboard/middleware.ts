@@ -1,5 +1,14 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
+import createMiddleware from 'next-intl/middleware'
+import {locales} from './i18n'
+
+// i18n middleware
+const i18nMiddleware = createMiddleware({
+  locales,
+  defaultLocale: 'en',
+  localePrefix: 'always'
+})
 
 // Paths that don't require authentication
 const publicPaths = ['/login', '/api/auth/login', '/api/auth/login-json', '/api/auth/verify']
@@ -10,6 +19,13 @@ const adminOnlyPaths = ['/settings/classified-vault']
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
+
+  // Apply i18n middleware first
+  const i18nResponse = i18nMiddleware(request)
+  if (i18nResponse) {
+    // If i18n middleware wants to redirect, return that response
+    return i18nResponse
+  }
 
   // Allow access to public paths
   if (publicPaths.some(path => pathname.startsWith(path))) {
@@ -119,5 +135,6 @@ export const config = {
      * - login (login page)
      */
     '/((?!api/auth|_next/static|_next/image|favicon.ico|login).*)',
+    '/(id|en)/:path*',
   ],
 }
