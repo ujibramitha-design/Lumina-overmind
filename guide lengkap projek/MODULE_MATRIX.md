@@ -62,7 +62,7 @@ This matrix classifies each major surface for planning and implementation.
 | `projects` | complete | Directory and detail pages with standardized UI shell |
 | `leads` | complete | Listing and detail pages with standardized UI shell |
 | `settings` | complete | Configuration UI with standardized UI shell |
-| `jarvis` | complete | Chat interface with standardized UI shell |
+| `jarvis` | complete | Chat interface with standardized UI shell and command history |
 | `workflows` | complete | Workflow list with standardized UI shell |
 | `partner` | complete | Partner management UI with standardized UI shell |
 | `governance` | complete | Governance UI with standardized UI shell |
