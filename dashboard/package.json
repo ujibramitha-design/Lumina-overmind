@@ -23,6 +23,7 @@
     "@radix-ui/react-collapsible": "^1.1.13",
     "@radix-ui/react-scroll-area": "^1.2.10",
     "@radix-ui/react-tabs": "^1.1.13",
+    "@react-pdf/renderer": "^4.5.1",
     "@react-three/drei": "^9.88.13",
     "@react-three/fiber": "^8.15.11",
     "@tanstack/react-query": "^5.101.0",

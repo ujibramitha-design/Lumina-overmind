@@ -40,6 +40,15 @@ class SiteplanListItem(BaseModel):
 class SiteplanStatusUpdate(BaseModel):
     status: str = Field(..., regex="^(READY_FOR_VFX|RENDERING|PUBLISHED|FAILED)$")
 
+class TagUpdate(BaseModel):
+    tags: List[str]
+
+class AssetSearchRequest(BaseModel):
+    query: Optional[str] = None
+    tags: Optional[List[str]] = None
+    file_type: Optional[str] = None
+    status: Optional[str] = None
+
 # Database dependency
 def get_db():
     db = PrismaClient()
@@ -148,7 +157,8 @@ async def upload_siteplan(
             'file_hash': file_hash,
             'status': 'READY_FOR_VFX',
             'metadata': parsed_metadata,
-            'projectId': project_id
+            'projectId': project_id,
+            'tags': parsed_metadata.get('tags', []) if parsed_metadata else []
         })
         
         logger.info(f"Siteplan uploaded successfully: {project_name} ({file_type})")
@@ -466,4 +476,116 @@ async def get_import_stats(db: PrismaClient = Depends(get_db)):
         
     except Exception as e:
         logger.error(f"Failed to get import stats: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.put("/siteplans/{siteplan_id}/tags")
+async def update_siteplan_tags(
+    siteplan_id: str,
+    tag_update: TagUpdate,
+    db: PrismaClient = Depends(get_db)
+):
+    """Update tags for a siteplan"""
+    try:
+        siteplan = db.importedsiteplan.find_unique(where={'id': siteplan_id})
+        
+        if not siteplan:
+            raise HTTPException(status_code=404, detail="Siteplan not found")
+        
+        updated_siteplan = db.importedsiteplan.update(
+            where={'id': siteplan_id},
+            data={'tags': tag_update.tags}
+        )
+        
+        logger.info(f"Tags updated for siteplan {siteplan_id}: {tag_update.tags}")
+        
+        return {
+            'id': updated_siteplan.id,
+            'tags': updated_siteplan.tags,
+            'updated_at': datetime.now()
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Failed to update tags: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/siteplans/search")
+async def search_siteplans(
+    search_request: AssetSearchRequest,
+    limit: int = 50,
+    offset: int = 0,
+    db: PrismaClient = Depends(get_db)
+):
+    """Search siteplans by query, tags, file type, or status"""
+    try:
+        where_clause = {}
+        
+        # Add status filter
+        if search_request.status:
+            where_clause['status'] = search_request.status
+        
+        # Add file type filter
+        if search_request.file_type:
+            where_clause['file_type'] = search_request.file_type
+        
+        # Add tags filter
+        if search_request.tags:
+            where_clause['tags'] = {'has': search_request.tags}
+        
+        # Add text search for project name
+        if search_request.query:
+            where_clause['project_name'] = {'contains': search_request.query, 'mode': 'insensitive'}
+        
+        siteplans = db.importedsiteplan.find_many(
+            where=where_clause,
+            order={'uploadedAt': 'desc'},
+            take=limit,
+            skip=offset
+        )
+        
+        return [
+            {
+                'id': sp.id,
+                'project_name': sp.project_name,
+                'file_type': sp.file_type,
+                'file_size': sp.file_size,
+                'status': sp.status,
+                'tags': sp.tags,
+                'uploaded_at': sp.uploadedAt,
+                'processed_at': sp.processedAt,
+                'completed_at': sp.completedAt
+            }
+            for sp in siteplans
+        ]
+        
+    except Exception as e:
+        logger.error(f"Failed to search siteplans: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/tags")
+async def get_all_tags(db: PrismaClient = Depends(get_db)):
+    """Get all unique tags from siteplans"""
+    try:
+        siteplans = db.importedsiteplan.find_many()
+        
+        all_tags = set()
+        for siteplan in siteplans:
+            if siteplan.tags:
+                all_tags.update(siteplan.tags)
+        
+        tag_counts = {}
+        for siteplan in siteplans:
+            if siteplan.tags:
+                for tag in siteplan.tags:
+                    tag_counts[tag] = tag_counts.get(tag, 0) + 1
+        
+        return {
+            'tags': sorted(list(all_tags)),
+            'tag_counts': tag_counts,
+            'total_unique_tags': len(all_tags)
+        }
+        
+    except Exception as e:
+        logger.error(f"Failed to get tags: {e}")
         raise HTTPException(status_code=500, detail=str(e))
