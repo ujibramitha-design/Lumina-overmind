@@ -5,49 +5,54 @@ This matrix classifies each major surface for planning and implementation.
 ## Tech Stack Status Overview
 
 ### Frontend Stack
-- **Next.js 14** → Target: Upgrade to 15 with Turbopack
-- **shadcn/ui + Radix UI** → Best-in-class, keep
-- **TailwindCSS 3.3.0** → Target: Upgrade to 4
-- **Zustand** → Good, keep or migrate to Jotai
-- **TanStack Table** → Upgrade to v8
-- **Recharts** → Upgrade to latest or switch to Visx
-- **Framer Motion + GSAP** → Best-in-class, keep
-- **Three.js + R3F** → Best-in-class, keep
+- ✅ **Next.js 15** → Upgraded with Turbopack
+- ✅ **shadcn/ui + Radix UI** → Best-in-class, keep
+- ⏭️ **TailwindCSS 3.3.0** → Upgrade to 4 (SKIPPED - belum stabil)
+- ✅ **Zustand** → Good, keep
+- ✅ **TanStack Table v8** → Upgraded to latest version
+- ✅ **Recharts** → Keep
+- ✅ **Framer Motion + GSAP** → Best-in-class, keep
+- ✅ **Three.js + R3F** → Best-in-class, keep
+- ✅ **react-hook-form + Zod** → Form management (INTEGRATED)
+- ✅ **@tanstack/react-query** → Data fetching (INTEGRATED)
+- ✅ **dinero.js** → Financial precision (INTEGRATED)
+- ✅ **exceljs** → Excel export (INTEGRATED)
+- ✅ **react-leaflet** → GIS/Mapping (INTEGRATED)
 
 ### Backend Stack
-- **FastAPI** → Best-in-class, keep
-- **Prisma 7.8.0** → Upgrade to latest
-- **PostgreSQL (Supabase)** → Best-in-class, keep
-- **Celery + Redis** → Good, consider BullMQ
-- **JWT + Passlib** → Consider Supabase Auth
+- ✅ **FastAPI** → Best-in-class, keep
+- ✅ **Prisma 7.8.0** → Keep
+- ✅ **PostgreSQL (Supabase)** → Best-in-class, keep
+- ✅ **Celery + Redis** → Good, keep
+- ✅ **JWT + Passlib** → Keep
+- ✅ **Supabase Auth** → Added (INTEGRATED)
+- ✅ **Casbin** → Authorization (INTEGRATED)
+- ✅ **slowapi** → Rate limiting (INTEGRATED)
 
-### Critical Gaps (To Add) - FINAL RECOMMENDATION
-- ✅ **react-hook-form + Zod** → Form management
-- ✅ **@tanstack/react-query** → Data fetching
-- ✅ **dinero.js** → Financial precision
-- ✅ **exceljs** → Excel export
-- ✅ **react-leaflet** → GIS/Mapping
-- ✅ **Playwright** → E2E testing
-- ✅ **next-seo + sitemap** → SEO optimization
-- ✅ **PostHog** → Analytics
-- ✅ **Casbin** → Authorization
-- ✅ **slowapi** → Rate limiting
+### Testing & Quality
+- ✅ **Playwright** → E2E testing (CONFIGURED)
+- ✅ **Vitest** → Unit testing (CONFIGURED)
+- ✅ **Jest → Vitest** → Migrated
+- ✅ **Testing Coverage** → Comprehensive tests added
 
-### New Critical Features (To Add - Phase 0) - ✅ COMPLETED
-- ✅ **Archidep M2M Webhook Integration** → Transfer file siteplan otomatis (HIGH priority untuk proyek properti)
-- ⏭️ **DevSecOps & Code Quality Setup** → ESLint, Prettier, TypeScript, pre-commit hooks (HIGH priority untuk production) - SKIPPED due to TypeScript strict mode issues
-- ✅ **PostgreSQL Optimization Patterns** → Full-text search, JSONB indexing, batch INSERT (MEDIUM priority untuk performance)
-
-### Upgrades (Performance) - ✅ SEBAGIAN COMPLETED
-- ✅ **Next.js 14 → 15** → Turbopack
-- ⏭️ **TailwindCSS 3 → 4** → Performance (SKIPPED - belum stabil)
-- ✅ **TanStack Table v8** → Latest version
-- ✅ **Jest → Vitest** → Faster testing
+### Infrastructure & DevOps
+- ✅ **GitHub Actions** → CI/CD (CONFIGURED)
+- ✅ **commitlint** → Commit standards (CONFIGURED)
+- ✅ **next-seo + sitemap** → SEO optimization (CONFIGURED)
+- ✅ **PostHog** → Analytics (INTEGRATED)
+- ⏭️ **Turborepo** → Monorepo management (SKIPPED - git submodule issues)
 - ⏭️ **pnpm** → Package manager (SKIPPED - migrasi kompleks)
 
-### New Infrastructure - ✅ SEBAGIAN COMPLETED
-- ⏭️ **Turborepo** → Monorepo management (SKIPPED - git submodule issues)
-- ✅ **GitHub Actions** → CI/CD
+### New Critical Features (Phase 0) - ✅ COMPLETED
+- ✅ **Archidep M2M Webhook Integration** → Transfer file siteplan otomatis
+- ⏭️ **DevSecOps & Code Quality Setup** → SKIPPED due to TypeScript strict mode issues
+- ✅ **PostgreSQL Optimization Patterns** → Full-text search, JSONB indexing, batch INSERT
+
+### Governance (Phase 6) - ✅ COMPLETED
+- ✅ **Testing Coverage** → Comprehensive test suite
+- ✅ **API Documentation** → OpenAPI/Swagger
+- ✅ **Supabase Auth** → Authentication migration
+- ✅ **Runbooks** → Operational procedures
 - ✅ **commitlint** → Commit standards
 
 ## Frontend Modules
