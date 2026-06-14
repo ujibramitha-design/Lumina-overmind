@@ -10,6 +10,8 @@ passlib[bcrypt]
 cryptography
 bcrypt
 python-multipart
+casbin
+slowapi
 
 # Data and database
 supabase

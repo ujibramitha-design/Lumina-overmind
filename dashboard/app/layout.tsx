@@ -4,6 +4,8 @@ import { Toaster } from '@/components/ui/toaster'
 import { BrandingProvider } from '@/components/BrandingProvider'
 import { ErrorBoundary } from '@/components/ErrorBoundary'
 import { getBrandingConfig } from './config/branding'
+import { initPostHog } from '@/lib/posthog'
+import { useEffect } from 'react'
 
 // Get dynamic branding configuration
 const branding = getBrandingConfig()
@@ -18,6 +20,10 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    initPostHog()
+  }, [])
+
   return (
     <ErrorBoundary>
       <html lang="en" suppressHydrationWarning>
