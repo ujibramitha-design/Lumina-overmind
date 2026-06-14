@@ -9,6 +9,7 @@
 const express = require('express');
 const { getGeminiService } = require('./channels/services/geminiService');
 const { getCreatorSecurity } = require('./security/creatorMiddleware');
+const { getBrainService } = require('./intelligence/brainService');
 require('dotenv').config();
 
 class JarvisSystem {
@@ -117,12 +118,19 @@ class JarvisSystem {
     const creatorSecurity = getCreatorSecurity();
     console.log('🔐 Creator Security initialized');
     
-    // Initialize Gemini Service
+    // Initialize Brain Service (Unified AI with failover)
+    const brainService = getBrainService();
+    console.log('🧠 Brain Service initialized');
+    
+    // Initialize Gemini Service (for backward compatibility)
     const geminiService = getGeminiService();
     console.log('🧠 Gemini Service initialized');
     
     // Initialize Watcher Protocol
     this._initializeWatcherProtocol();
+    
+    // Initialize Advanced Protocols
+    this._initializeAdvancedProtocols();
   }
   
   /**
@@ -136,6 +144,47 @@ class JarvisSystem {
     });
     
     console.log('👁️ Watcher Protocol initialized');
+  }
+  
+  /**
+   * Initialize Advanced Protocols (Bunker, Hydra, Legacy)
+   */
+  _initializeAdvancedProtocols() {
+    try {
+      // Initialize IoT Bridge (Hardware)
+      const { getIoTBridge } = require('./hardware/iotBridge');
+      this.iotBridge = getIoTBridge();
+      console.log('🔌 IoT Bridge initialized');
+    } catch (error) {
+      console.warn('⚠️ IoT Bridge initialization failed:', error.message);
+    }
+    
+    try {
+      // Initialize Bounty Manager (Corporation)
+      const { getBountyManager } = require('./corporation/bountyManager');
+      this.bountyManager = getBountyManager();
+      console.log('💰 Bounty Manager initialized');
+    } catch (error) {
+      console.warn('⚠️ Bounty Manager initialization failed:', error.message);
+    }
+    
+    try {
+      // Initialize Gossip Protocol (Hydra)
+      const { getGossipProtocol } = require('./hydra/gossipProtocol');
+      this.gossipProtocol = getGossipProtocol();
+      console.log('🌐 Gossip Protocol initialized');
+    } catch (error) {
+      console.warn('⚠️ Gossip Protocol initialization failed:', error.message);
+    }
+    
+    try {
+      // Initialize Dead Man's Switch (Legacy)
+      const { getDeadMansSwitch } = require('./legacy/deadMansSwitch');
+      this.deadMansSwitch = getDeadMansSwitch();
+      console.log('💀 Dead Man\'s Switch initialized');
+    } catch (error) {
+      console.warn('⚠️ Dead Man\'s Switch initialization failed:', error.message);
+    }
   }
   
   /**
@@ -212,10 +261,32 @@ class JarvisSystem {
       console.log(`📡 Listening on port ${this.port}`);
       console.log(`🔗 Lumina API URL: ${this.luminaApiUrl}`);
       console.log(`🔐 Creator Security: Active`);
+      console.log(`🧠 Brain Service: Active`);
       console.log(`👁️ Watcher Protocol: Active`);
+      console.log(`🔌 IoT Bridge: ${this.iotBridge ? 'Active' : 'Inactive'}`);
+      console.log(`💰 Bounty Manager: ${this.bountyManager ? 'Active' : 'Inactive'}`);
+      console.log(`🌐 Gossip Protocol: ${this.gossipProtocol ? 'Active' : 'Inactive'}`);
+      console.log(`💀 Dead Man's Switch: ${this.deadMansSwitch ? 'Active' : 'Inactive'}`);
       console.log('');
       console.log('JARVIS is running in ISOLATED mode');
       console.log('Lumina crashes will NOT affect JARVIS');
+      console.log('');
+      console.log('🏗️ SYSTEM ARCHITECTURE:');
+      console.log('✅ Kerangka (Skeleton) - Documentation structure');
+      console.log('✅ Urat Saraf & Otot (Nerves & Muscles) - Core functionality');
+      console.log('✅ Jantung (Heart) - AI Intelligence Layer');
+      console.log('✅ Hati (Liver) - Data Processing');
+      console.log('✅ Paru-paru (Lungs) - Communication/Channels');
+      console.log('✅ Ginjal (Kidneys) - Security/Filtration');
+      console.log('✅ Kaki (Legs) - Infrastructure/Hydra');
+      console.log('✅ Tangan (Hands) - Tools/Utilities');
+      console.log('✅ Mata (Eyes) - Monitoring/Observation');
+      console.log('✅ Hidung (Nose) - Sensing/Input');
+      console.log('✅ Telinga (Ears) - Communication/Listening');
+      console.log('✅ Mulut (Mouth) - Output/Speaking');
+      console.log('✅ Kulit (Skin) - Security/Protection');
+      console.log('✅ Wajah (Face) - UI/Presentation');
+      console.log('✅ Otak/Kepala (Brain/Head) - Central Intelligence/Decision Making');
     });
   }
 }
