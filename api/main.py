@@ -406,6 +406,14 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Compliance router not available: {e}")
 
+# Cost monitoring router
+try:
+    from api.endpoints.cost_monitoring import router as cost_monitoring_router
+    app.include_router(cost_monitoring_router)
+    logger.info("✅ Cost monitoring router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Cost monitoring router not available: {e}")
+
 # Add license middleware - Temporarily disabled for testing
 # try:
 #     from api.middleware.license_middleware import LicenseMiddleware
