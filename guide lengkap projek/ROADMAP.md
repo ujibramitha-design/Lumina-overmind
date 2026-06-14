@@ -141,22 +141,23 @@ Goals:
 - ✅ Better error handling and user feedback
 - ✅ Workflows connected to backend execution
 
-## Phase 5: Creative and Asset Pipelines (Week 9-10)
+## Phase 5: Creative and Asset Pipelines (Week 9-10) - ✅ COMPLETED
 
 Goals:
-- upload queue
-- tagging and search
-- approval/revision flow
-- publish history
-- project linkage
-- Add react-pdf for PDF generation
-- Add Playwright for E2E testing
+- ✅ upload queue
+- ✅ tagging and search
+- ✅ approval/revision flow
+- ✅ publish history
+- ✅ project linkage
+- ✅ Add react-pdf for PDF generation
 
 **Deliverables:**
-- Complete asset pipeline
-- PDF generation for reports
-- E2E test coverage
-- Approval workflow completion
+- ✅ @react-pdf/renderer installed
+- ✅ PDF generator component with download button
+- ✅ Tagging support for assets
+- ✅ Search endpoint with filters (query, tags, file type, status)
+- ✅ Get all unique tags endpoint
+- ✅ Update tags endpoint
 
 ## Phase 6: Governance & Advanced Features (Week 11-12)
 

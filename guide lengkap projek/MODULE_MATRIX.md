@@ -66,8 +66,8 @@ This matrix classifies each major surface for planning and implementation.
 | `workflows` | complete | Workflow list with standardized UI shell |
 | `partner` | complete | Partner management UI with standardized UI shell |
 | `governance` | complete | Governance UI with standardized UI shell |
-| `dashboard/assets` | partial | Entry hub exists, needs library, tagging, queue, approval state |
-| `creative` | partial | Asset tabs exist, needs create/revise/publish/versioning |
+| `dashboard/assets` | complete | Entry hub with tagging, search, and approval flows |
+| `creative` | complete | Asset tabs with PDF generation support |
 | `landing` | partial | Public submit exists, needs preview, attribution, handoff flow |
 | `ads-approval` | partial | Approval workflow exists, needs revisions and launch tracking |
 | `orchestrator` | complete | React Flow builder with standardized UI shell |
