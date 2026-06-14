@@ -149,7 +149,7 @@ async def upload_siteplan(
                 logger.warning(f"Invalid JSON metadata provided: {metadata}")
         
         # Save to database
-        siteplan = db.importedsiteplan.create({
+        siteplan = db.siteplanasset.create({
             'project_name': project_name,
             'file_url': file_path,
             'file_type': file_type,
@@ -157,8 +157,8 @@ async def upload_siteplan(
             'file_hash': file_hash,
             'status': 'READY_FOR_VFX',
             'metadata': parsed_metadata,
-            'projectId': project_id,
-            'tags': parsed_metadata.get('tags', []) if parsed_metadata else []
+            'project_id': project_id,
+            'uploaded_by': parsed_metadata.get('uploaded_by') if parsed_metadata else None
         })
         
         logger.info(f"Siteplan uploaded successfully: {project_name} ({file_type})")
@@ -202,7 +202,7 @@ async def list_siteplans(
         if file_type:
             where_clause['file_type'] = file_type
         
-        siteplans = db.importedsiteplan.find_many(
+        siteplans = db.siteplanasset.find_many(
             where=where_clause,
             order={'uploadedAt': 'desc'},
             take=limit,
@@ -234,7 +234,7 @@ async def get_siteplan(
 ):
     """Get detailed information about a specific siteplan"""
     try:
-        siteplan = db.importedsiteplan.find_unique(where={'id': siteplan_id})
+        siteplan = db.siteplanasset.find_unique(where={'id': siteplan_id})
         
         if not siteplan:
             raise HTTPException(status_code=404, detail="Siteplan not found")
@@ -269,7 +269,7 @@ async def update_siteplan_status(
 ):
     """Update siteplan processing status"""
     try:
-        siteplan = db.importedsiteplan.find_unique(where={'id': siteplan_id})
+        siteplan = db.siteplanasset.find_unique(where={'id': siteplan_id})
         
         if not siteplan:
             raise HTTPException(status_code=404, detail="Siteplan not found")
@@ -282,7 +282,7 @@ async def update_siteplan_status(
         elif status_update.status == 'PUBLISHED' and not siteplan.completedAt:
             update_data['completedAt'] = datetime.now()
         
-        updated_siteplan = db.importedsiteplan.update(
+        updated_siteplan = db.siteplanasset.update(
             where={'id': siteplan_id},
             data=update_data
         )
@@ -309,7 +309,7 @@ async def delete_siteplan(
 ):
     """Delete a siteplan and its associated file"""
     try:
-        siteplan = db.importedsiteplan.find_unique(where={'id': siteplan_id})
+        siteplan = db.siteplanasset.find_unique(where={'id': siteplan_id})
         
         if not siteplan:
             raise HTTPException(status_code=404, detail="Siteplan not found")
@@ -320,7 +320,7 @@ async def delete_siteplan(
             logger.info(f"Deleted file: {siteplan.file_url}")
         
         # Delete from database
-        db.importedsiteplan.delete(where={'id': siteplan_id})
+        db.siteplanasset.delete(where={'id': siteplan_id})
         
         logger.info(f"Siteplan deleted: {siteplan_id}")
         
@@ -344,7 +344,7 @@ async def trigger_vfx_processing(
     to the multipass_compositor module for visual enhancement.
     """
     try:
-        siteplan = db.importedsiteplan.find_unique(where={'id': siteplan_id})
+        siteplan = db.siteplanasset.find_unique(where={'id': siteplan_id})
         
         if not siteplan:
             raise HTTPException(status_code=404, detail="Siteplan not found")
@@ -356,7 +356,7 @@ async def trigger_vfx_processing(
             )
         
         # Update status to RENDERING
-        updated_siteplan = db.importedsiteplan.update(
+        updated_siteplan = db.siteplanasset.update(
             where={'id': siteplan_id},
             data={
                 'status': 'RENDERING',
@@ -381,7 +381,7 @@ async def trigger_vfx_processing(
             # result = process_siteplan(siteplan.file_url, siteplan.metadata)
             
             # Mark as completed for demo
-            db.importedsiteplan.update(
+            db.siteplanasset.update(
                 where={'id': siteplan_id},
                 data={
                     'status': 'PUBLISHED',
@@ -391,7 +391,7 @@ async def trigger_vfx_processing(
             
         except Exception as e:
             # Mark as failed if processing fails
-            db.importedsiteplan.update(
+            db.siteplanasset.update(
                 where={'id': siteplan_id},
                 data={'status': 'FAILED'}
             )
@@ -418,7 +418,7 @@ async def download_siteplan(
 ):
     """Download a siteplan file"""
     try:
-        siteplan = db.importedsiteplan.find_unique(where={'id': siteplan_id})
+        siteplan = db.siteplanasset.find_unique(where={'id': siteplan_id})
         
         if not siteplan:
             raise HTTPException(status_code=404, detail="Siteplan not found")
@@ -447,18 +447,18 @@ async def get_import_stats(db: PrismaClient = Depends(get_db)):
         # Count by status
         status_counts = {}
         for status in ['READY_FOR_VFX', 'RENDERING', 'PUBLISHED', 'FAILED']:
-            count = db.importedsiteplan.count(where={'status': status})
+            count = db.siteplanasset.count(where={'status': status})
             status_counts[status] = count
         
         # Count by file type
         file_type_counts = {}
         for file_type in ['IMAGE', '3D_MODEL', 'PDF', 'VIDEO']:
-            count = db.importedsiteplan.count(where={'file_type': file_type})
+            count = db.siteplanasset.count(where={'file_type': file_type})
             file_type_counts[file_type] = count
         
         # Total counts
-        total_siteplans = db.importedsiteplan.count()
-        total_size = db.importedsiteplan.aggregate(
+        total_siteplans = db.siteplanasset.count()
+        total_size = db.siteplanasset.aggregate(
             _sum={'fileSize': 'sum'}
         )['_sum']['fileSize'] or 0
         
@@ -468,7 +468,7 @@ async def get_import_stats(db: PrismaClient = Depends(get_db)):
             'total_size_mb': round(total_size / (1024 * 1024), 2),
             'status_counts': status_counts,
             'file_type_counts': file_type_counts,
-            'recent_uploads': db.importedsiteplan.find_many(
+            'recent_uploads': db.siteplanasset.find_many(
                 order={'uploadedAt': 'desc'},
                 take=5
             )
@@ -486,12 +486,12 @@ async def update_siteplan_tags(
 ):
     """Update tags for a siteplan"""
     try:
-        siteplan = db.importedsiteplan.find_unique(where={'id': siteplan_id})
+        siteplan = db.siteplanasset.find_unique(where={'id': siteplan_id})
         
         if not siteplan:
             raise HTTPException(status_code=404, detail="Siteplan not found")
         
-        updated_siteplan = db.importedsiteplan.update(
+        updated_siteplan = db.siteplanasset.update(
             where={'id': siteplan_id},
             data={'tags': tag_update.tags}
         )
@@ -537,7 +537,7 @@ async def search_siteplans(
         if search_request.query:
             where_clause['project_name'] = {'contains': search_request.query, 'mode': 'insensitive'}
         
-        siteplans = db.importedsiteplan.find_many(
+        siteplans = db.siteplanasset.find_many(
             where=where_clause,
             order={'uploadedAt': 'desc'},
             take=limit,
@@ -567,7 +567,7 @@ async def search_siteplans(
 async def get_all_tags(db: PrismaClient = Depends(get_db)):
     """Get all unique tags from siteplans"""
     try:
-        siteplans = db.importedsiteplan.find_many()
+        siteplans = db.siteplanasset.find_many()
         
         all_tags = set()
         for siteplan in siteplans:
