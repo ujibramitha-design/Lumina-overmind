@@ -67,6 +67,9 @@ jarvis_state = {
     "errors": 0
 }
 
+# Command history for analytics
+command_history = []
+
 @router.post("/chat", response_model=ChatResponse)
 async def jarvis_chat(request: ChatRequest):
     """
@@ -86,13 +89,27 @@ async def jarvis_chat(request: ChatRequest):
             request.project_type
         )
         
+        # Calculate execution time
+        execution_time = (datetime.now() - start_time).total_seconds()
+        
         # Update state
         jarvis_state["last_activity"] = datetime.now().isoformat()
         jarvis_state["chat_sessions"] += 1
         jarvis_state["total_commands"] += 1
         
-        # Calculate execution time
-        execution_time = (datetime.now() - start_time).total_seconds()
+        # Add to command history
+        command_history.append({
+            "type": "chat",
+            "message": request.message,
+            "platform": request.platform,
+            "timestamp": datetime.now().isoformat(),
+            "execution_time": execution_time,
+            "success": True
+        })
+        
+        # Keep only last 1000 commands
+        if len(command_history) > 1000:
+            command_history.pop(0)
         
         # Get J.A.R.V.I.S. status
         jarvis_status = get_ai_status()
@@ -109,6 +126,18 @@ async def jarvis_chat(request: ChatRequest):
         
     except Exception as e:
         jarvis_state["errors"] += 1
+        
+        # Add failed command to history
+        command_history.append({
+            "type": "chat",
+            "message": request.message,
+            "platform": request.platform,
+            "timestamp": datetime.now().isoformat(),
+            "execution_time": 0,
+            "success": False,
+            "error": str(e)
+        })
+        
         logger.error(f"❌ J.A.R.V.I.S. Chat Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -263,18 +292,38 @@ async def jarvis_analytics():
     Get J.A.R.V.I.S. usage analytics
     """
     try:
+        # Calculate actual metrics from command history
+        if command_history:
+            successful_commands = [c for c in command_history if c.get("success", False)]
+            avg_response_time = sum(c.get("execution_time", 0) for c in successful_commands) / len(successful_commands) if successful_commands else 0
+            success_rate = (len(successful_commands) / len(command_history)) * 100
+            error_rate = 100 - success_rate
+        else:
+            avg_response_time = 0
+            success_rate = 100
+            error_rate = 0
+        
+        # Get popular commands
+        command_counts = {}
+        for cmd in command_history:
+            cmd_type = cmd.get("type", "unknown")
+            command_counts[cmd_type] = command_counts.get(cmd_type, 0) + 1
+        
+        popular_commands = sorted(
+            [{"command": k, "usage": v} for k, v in command_counts.items()],
+            key=lambda x: x["usage"],
+            reverse=True
+        )[:10]
+        
         return {
             "usage_stats": jarvis_state,
             "performance_metrics": {
-                "avg_response_time": 0.5,  # TODO: Calculate actual metrics
-                "success_rate": 98.5,
-                "error_rate": 1.5
+                "avg_response_time": round(avg_response_time, 3),
+                "success_rate": round(success_rate, 2),
+                "error_rate": round(error_rate, 2),
+                "total_commands": len(command_history)
             },
-            "popular_commands": [
-                {"command": "get_system_stats", "usage": 45},
-                {"command": "trigger_hunter_agent", "usage": 32},
-                {"command": "get_market_intelligence", "usage": 28}
-            ],
+            "popular_commands": popular_commands,
             "timestamp": datetime.now().isoformat()
         }
         
@@ -324,7 +373,7 @@ async def get_available_commands():
 # Helper functions
 async def _execute_system_command(command: str, parameters: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Execute system command via J.A.R.V.I.S.
+    Execute system command via J.A.R.V.I.S. with fallback behavior.
     """
     try:
         # Map commands to J.A.R.V.I.S. tools
@@ -356,17 +405,30 @@ async def _execute_system_command(command: str, parameters: Dict[str, Any]) -> D
         }
         
         if command in command_map:
-            result = command_map[command]()
-            return {
-                "status": "success",
-                "result": result,
-                "command": command
-            }
+            try:
+                result = command_map[command]()
+                return {
+                    "status": "success",
+                    "result": result,
+                    "command": command
+                }
+            except Exception as e:
+                # Fallback response for command execution errors
+                logger.warning(f"⚠️ Command {command} failed, using fallback: {e}")
+                return {
+                    "status": "fallback",
+                    "message": f"Command '{command}' encountered an error. Using fallback response.",
+                    "fallback_response": f"I couldn't execute {command} due to: {str(e)}. Please try again or check system status.",
+                    "command": command
+                }
         else:
+            # Fallback for unknown commands
+            logger.warning(f"⚠️ Unknown command: {command}")
             return {
-                "status": "error",
+                "status": "fallback",
                 "message": f"Unknown command: {command}",
-                "available_commands": list(command_map.keys())
+                "available_commands": list(command_map.keys()),
+                "fallback_response": f"I don't recognize the command '{command}'. Available commands are: {', '.join(command_map.keys())}"
             }
             
     except Exception as e:
@@ -374,5 +436,6 @@ async def _execute_system_command(command: str, parameters: Dict[str, Any]) -> D
         return {
             "status": "error",
             "message": str(e),
-            "command": command
+            "command": command,
+            "fallback_response": "An unexpected error occurred. Please check system logs and try again."
         }
