@@ -422,6 +422,14 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Cross-border data router not available: {e}")
 
+# Policy engine router
+try:
+    from api.endpoints.policy_engine import router as policy_engine_router
+    app.include_router(policy_engine_router)
+    logger.info("✅ Policy engine router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Policy engine router not available: {e}")
+
 # Add license middleware - Temporarily disabled for testing
 # try:
 #     from api.middleware.license_middleware import LicenseMiddleware
