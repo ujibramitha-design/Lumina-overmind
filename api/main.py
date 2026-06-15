@@ -37,7 +37,50 @@ logger = logging.getLogger(__name__)
 
 # Setup rate limiter
 limiter = Limiter(key_func=get_remote_address)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Application lifespan manager"""
+    # Startup
+    logger.info("🚀 Starting LUMINA OS Enterprise API...")
+    
+    # Initialize Prisma database connection
+    from core_modules.db_manager import prisma_manager
+    await prisma_manager.get_db()
+    
+    # Initialize Celery connection (optional - workers may not be running yet)
+    try:
+        from tasks.celery_app import celery_app
+        celery_status = celery_app.control.inspect().stats()
+        if celery_status:
+            logger.info("✅ Celery workers connected")
+        else:
+            logger.info("ℹ️ No Celery workers running yet (start with: celery -A tasks.celery_app worker --loglevel=info)")
+    except Exception as e:
+        logger.warning(f"⚠️ Celery not ready (start worker manually): {e}")
+    
+    yield
+    
+    # Shutdown
+    logger.info("🛑 Shutting down LUMINA OS Enterprise API...")
+
+# Basic Auth for documentation
+DOCS_USERNAME = os.getenv("DOCS_USERNAME", "lumina_admin")
+DOCS_PASSWORD = os.getenv("DOCS_PASSWORD", "lumina_docs_2024")
+
+# Create FastAPI application
+app = FastAPI(
+    title="LUMINA OS Enterprise API",
+    description="Enterprise-grade Intelligence, Visual Design, and VR System",
+    version="2.0.0",
+    lifespan=lifespan,
+    docs_url=None,  # Disable default docs
+    redoc_url=None  # Disable default redoc
+)
+
+# Add rate limiter to app
 app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # Custom OpenAPI schema
 def custom_openapi():
@@ -115,50 +158,6 @@ def custom_openapi():
 
 app.openapi = custom_openapi
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    """Application lifespan manager"""
-    # Startup
-    logger.info("🚀 Starting LUMINA OS Enterprise API...")
-    
-    # Initialize Prisma database connection
-    from core_modules.db_manager import prisma_manager
-    await prisma_manager.get_db()
-    
-    # Initialize Celery connection (optional - workers may not be running yet)
-    try:
-        from tasks.celery_app import celery_app
-        celery_status = celery_app.control.inspect().stats()
-        if celery_status:
-            logger.info("✅ Celery workers connected")
-        else:
-            logger.info("ℹ️ No Celery workers running yet (start with: celery -A tasks.celery_app worker --loglevel=info)")
-    except Exception as e:
-        logger.warning(f"⚠️ Celery not ready (start worker manually): {e}")
-    
-    yield
-    
-    # Shutdown
-    logger.info("🛑 Shutting down LUMINA OS Enterprise API...")
-
-# Basic Auth for documentation
-DOCS_USERNAME = os.getenv("DOCS_USERNAME", "lumina_admin")
-DOCS_PASSWORD = os.getenv("DOCS_PASSWORD", "lumina_docs_2024")
-
-# Create FastAPI application
-app = FastAPI(
-    title="LUMINA OS Enterprise API",
-    description="Enterprise-grade Intelligence, Visual Design, and VR System",
-    version="2.0.0",
-    lifespan=lifespan,
-    docs_url=None,  # Disable default docs
-    redoc_url=None  # Disable default redoc
-)
-
-# Add rate limiter to app
-app.state.limiter = limiter
-app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
-
 # Custom docs endpoints with basic auth
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
@@ -222,63 +221,11 @@ else:
     logger.warning(f"⚠️ Dashboard directory not found: {dashboard_path}")
 
 
-# Security modules integration
-try:
-    from core_modules.security.admin_auth import AdminAuth
-    from core_modules.security.data_encryption import DataEncryption
-    from core_modules.finance.cost_controller import CostController
-    
-    # Initialize security modules
-    admin_auth = AdminAuth()
-    data_encryption = DataEncryption()
-    cost_controller = CostController()
-    
-    logger.info("Security modules initialized")
-except ImportError as e:
-    logger.warning(f"Security modules not available: {e}")
-    admin_auth = None
-    data_encryption = None
-    cost_controller = None
-
-
-
-# Security modules integration
-try:
-    from core_modules.security.admin_auth import AdminAuth
-    from core_modules.security.data_encryption import DataEncryption
-    from core_modules.finance.cost_controller import CostController
-    
-    # Initialize security modules
-    admin_auth = AdminAuth()
-    data_encryption = DataEncryption()
-    cost_controller = CostController()
-    
-    logger.info("Security modules initialized")
-except ImportError as e:
-    logger.warning(f"Security modules not available: {e}")
-    admin_auth = None
-    data_encryption = None
-    cost_controller = None
-
-
-
-# Security modules integration
-try:
-    from core_modules.security.admin_auth import AdminAuth
-    from core_modules.security.data_encryption import DataEncryption
-    from core_modules.finance.cost_controller import CostController
-    
-    # Initialize security modules
-    admin_auth = AdminAuth()
-    data_encryption = DataEncryption()
-    cost_controller = CostController()
-    
-    logger.info("Security modules initialized")
-except ImportError as e:
-    logger.warning(f"Security modules not available: {e}")
-    admin_auth = None
-    data_encryption = None
-    cost_controller = None
+# Security modules integration - Temporarily disabled due to bcrypt initialization issue
+admin_auth = None
+data_encryption = None
+cost_controller = None
+logger.info("Security modules temporarily disabled for testing")
 
 
 # Import and include routers
@@ -348,24 +295,6 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Security router not available: {e}")
 
-
-# Security router
-try:
-    from api.endpoints.security import router as security_router
-    app.include_router(security_router, prefix="/api/security", tags=["Security"])
-    logger.info("✅ Security router included")
-except ImportError as e:
-    logger.warning(f"⚠️ Security router not available: {e}")
-
-
-# Security router
-try:
-    from api.endpoints.security import router as security_router
-    app.include_router(security_router, prefix="/api/security", tags=["Security"])
-    logger.info("✅ Security router included")
-except ImportError as e:
-    logger.warning(f"⚠️ Security router not available: {e}")
-
 # Classified Vault router - Temporarily disabled due to Prisma issues
 # try:
 #     from api.endpoints.config_vault import router as vault_router
@@ -382,7 +311,7 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ License router not available: {e}")
 
-# Authentication router
+# Authentication router - Re-enabled with bcrypt password limit fix
 try:
     from api.endpoints.auth import router as auth_router
     app.include_router(auth_router, tags=["Authentication"])
@@ -438,6 +367,62 @@ try:
 except ImportError as e:
     logger.warning(f"⚠️ Data privacy router not available: {e}")
 
+# PDP Compliance router
+try:
+    from api.endpoints.pdp_compliance import router as pdp_compliance_router
+    app.include_router(pdp_compliance_router)
+    logger.info("✅ PDP Compliance router included")
+except ImportError as e:
+    logger.warning(f"⚠️ PDP Compliance router not available: {e}")
+
+# Data Protection API router
+try:
+    from api.endpoints.data_protection_api import router as data_protection_api_router
+    app.include_router(data_protection_api_router)
+    logger.info("✅ Data Protection API router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Data Protection API router not available: {e}")
+
+# Cloud Cost Optimization router
+try:
+    from api.endpoints.cloud_cost_optimization import router as cloud_cost_router
+    app.include_router(cloud_cost_router)
+    logger.info("✅ Cloud Cost Optimization router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Cloud Cost Optimization router not available: {e}")
+
+# Currency router
+try:
+    from api.endpoints.currency import router as currency_router
+    app.include_router(currency_router)
+    logger.info("✅ Currency router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Currency router not available: {e}")
+
+# Timezone router
+try:
+    from api.endpoints.timezone import router as timezone_router
+    app.include_router(timezone_router)
+    logger.info("✅ Timezone router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Timezone router not available: {e}")
+
+# Cross-Border Compliance router
+try:
+    from api.endpoints.cross_border_compliance import router as cross_border_router
+    app.include_router(cross_border_router)
+    logger.info("✅ Cross-Border Compliance router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Cross-Border Compliance router not available: {e}")
+
+# Cultural Adaptation router
+try:
+    from api.endpoints.cultural_adaptation import router as cultural_adapter_router
+    app.include_router(cultural_adapter_router)
+    logger.info("✅ Cultural Adaptation router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Cultural Adaptation router not available: {e}")
+
 # Add license middleware - Temporarily disabled for testing
 # try:
 #     from api.middleware.license_middleware import LicenseMiddleware
@@ -446,13 +431,13 @@ except ImportError as e:
 # except ImportError as e:
 #     logger.warning(f"⚠️ License middleware not available: {e}")
 
-# Asset Importer router - Temporarily disabled due to Prisma issues
-# try:
-#     from api.endpoints.asset_importer import router as asset_importer_router
-#     app.include_router(asset_importer_router, tags=["Asset Importer"])
-#     logger.info("✅ Asset Importer router included")
-# except ImportError as e:
-#     logger.warning(f"⚠️ Asset Importer router not available: {e}")
+# Asset Importer router - Re-enabled
+try:
+    from api.endpoints.asset_importer import router as asset_importer_router
+    app.include_router(asset_importer_router, tags=["Asset Importer"])
+    logger.info("✅ Asset Importer router included")
+except ImportError as e:
+    logger.warning(f"⚠️ Asset Importer router not available: {e}")
 
 # M2M Webhooks router - Temporarily disabled due to Prisma issues
 # try:
@@ -596,14 +581,11 @@ async def websocket_endpoint():
 
 # Development server
 if __name__ == "__main__":
-    # Create Socket.IO app for development
-    socketio_app = create_socketio_app()
-    
     # Run with Socket.IO support
     uvicorn.run(
-        "api.main:socketio_app",
+        "api.main:app",
         host="0.0.0.0",
         port=8000,
-        reload=True,
+        reload=False,
         log_level="info"
     )

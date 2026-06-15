@@ -36,7 +36,24 @@
     "growth": "Growth",
     "partner": "Partners",
     "settings": "Settings",
-    "logout": "Logout"
+    "logout": "Logout",
+    "intelligenceHub": "Intelligence Hub",
+    "liveRadar": "Live Radar",
+    "leadsCRM": "Leads CRM",
+    "urbanForesight": "Urban Foresight",
+    "competitorIntel": "Competitor Intel",
+    "growthAds": "Growth & Ads",
+    "campaignManager": "Campaign Manager",
+    "organicSEO": "Organic SEO",
+    "retargeting": "Retargeting",
+    "partnerEcosystem": "Partner Ecosystem",
+    "brokerNetwork": "Broker Network",
+    "commissionTracker": "Commission Tracker",
+    "creativeStudio": "Creative Studio",
+    "contentGrid": "Content Grid",
+    "autoBrochure": "Auto-Brochure",
+    "templateMaster": "Template Master",
+    "classifiedVault": "Classified Vault"
   },
   "leads": {
     "title": "Leads Management",
@@ -114,5 +131,27 @@
     "theme": "Theme",
     "darkMode": "Dark Mode",
     "lightMode": "Light Mode"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "metrics": "Metrics",
+    "quickActions": "Quick Actions",
+    "alertSummary": "Alert Summary",
+    "recentActivity": "Recent Activity"
+  },
+  "assets": {
+    "title": "Assets",
+    "uploadQueue": "Upload Queue",
+    "tagging": "Tagging",
+    "search": "Search",
+    "approvalState": "Approval State",
+    "versioning": "Versioning",
+    "publishFlow": "Publish Flow"
+  },
+  "ads": {
+    "title": "Ads",
+    "approval": "Ads Approval",
+    "revisions": "Revisions",
+    "launchTracking": "Launch Tracking"
   }
 }

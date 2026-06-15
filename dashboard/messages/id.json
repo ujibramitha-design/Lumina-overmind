@@ -36,7 +36,24 @@
     "growth": "Pertumbuhan",
     "partner": "Mitra",
     "settings": "Pengaturan",
-    "logout": "Keluar"
+    "logout": "Keluar",
+    "intelligenceHub": "Pusat Intelligence",
+    "liveRadar": "Radar Langsung",
+    "leadsCRM": "Leads CRM",
+    "urbanForesight": "Urban Foresight",
+    "competitorIntel": "Intel Kompetitor",
+    "growthAds": "Pertumbuhan & Iklan",
+    "campaignManager": "Manajer Kampanye",
+    "organicSEO": "SEO Organik",
+    "retargeting": "Retargeting",
+    "partnerEcosystem": "Ekosistem Mitra",
+    "brokerNetwork": "Jaringan Broker",
+    "commissionTracker": "Pelacak Komisi",
+    "creativeStudio": "Studio Kreatif",
+    "contentGrid": "Grid Konten",
+    "autoBrochure": "Brosur Otomatis",
+    "templateMaster": "Master Template",
+    "classifiedVault": "Vault Terklasifikasi"
   },
   "leads": {
     "title": "Manajemen Leads",
@@ -114,5 +131,27 @@
     "theme": "Tema",
     "darkMode": "Mode Gelap",
     "lightMode": "Mode Terang"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "metrics": "Metrik",
+    "quickActions": "Aksi Cepat",
+    "alertSummary": "Ringkasan Peringatan",
+    "recentActivity": "Aktivitas Terbaru"
+  },
+  "assets": {
+    "title": "Aset",
+    "uploadQueue": "Antrian Upload",
+    "tagging": "Penandaan",
+    "search": "Pencarian",
+    "approvalState": "Status Persetujuan",
+    "versioning": "Versi",
+    "publishFlow": "Alur Publikasi"
+  },
+  "ads": {
+    "title": "Iklan",
+    "approval": "Persetujuan Iklan",
+    "revisions": "Revisi",
+    "launchTracking": "Pelacakan Peluncuran"
   }
 }
